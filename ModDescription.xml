@@ -1,0 +1,10 @@
+<Mod>
+	<Name>FFIX Readaptation</Name>
+	<Version>4.0-greatwizard-fixes</Version>
+	<InstallationPath>Readaptation</InstallationPath>
+	<Author>LunalescaShiva</Author>
+	<Description>Réadaptation des dialogues, menus, magies, compétences, équipements, objets etc...</Description>
+	<Category>Visual</Category>
+	<Website>https://github.com/GreatWizard/FFIX-Readaptation</Website>
+	<DownloadUrl>https://github.com/GreatWizard/FFIX-Readaptation/archive/refs/heads/master.zip</DownloadUrl>
+</Mod>
