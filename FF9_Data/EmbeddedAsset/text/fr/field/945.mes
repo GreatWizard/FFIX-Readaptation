@@ -1,0 +1,851 @@
+[STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=278,11][IMME][YADD=6][CENT=143][68C0D8][HSHD]- [FEED=2]Contrôle du Chocobo[FEED=2] -[C8C8C8][HSHD]
+[YADD=10][FEED=6][CBTN=CROSS][MOBI=260][FEED=22][XTAB=50]:[FEED=2]Entrer dans la forêt des Chocobo, etc.
+[YADD=10][FEED=6][XTAB=56]Sous certaines conditions...
+[YADD=10][FEED=6][CBTN=TRIANGLE][MOBI=290][FEED=22][XTAB=50]:[FEED=2]Accéder au Menu.
+[YADD=10][FEED=6][CBTN=SQUARE][MOBI=311][FEED=22][XTAB=50]:[FEED=2]Chercher des coffres.
+[YADD=10][FEED=6][CBTN=CIRCLE][MOBI=286][FEED=22][XTAB=50]:[FEED=2]Descendre.
+[YADD=10][FEED=6][DBTN=SELECT][MOBI=281][XTAB=50]:[FEED=2]Afficher la carte.
+[YADD=10][FEED=6][CBTN=L1][CBTN=R1][MOBI=280][XTAB=50]:[FEED=2]Contrôle de la caméra.
+[YADD=10][FEED=6][CBTN=L2][MOBI=284][FEED=22][XTAB=50]:[FEED=2]Désactiver la fonction panoramique.
+[YADD=10][FEED=6][CBTN=R2][MOBI=285][FEED=22][XTAB=50]:[FEED=2]Modifier l’angle de vue.
+[XTAB=170][ENDN][STRT=185,9][IMME][YADD=6][CENT=181][68C0D8][HSHD]- [FEED=2]Contrôle du Chocobo en vol[FEED=2] -[C8C8C8][HSHD]
+[YADD=10][FEED=6][CBTN=CROSS][MOBI=263][FEED=22][XTAB=50]:[FEED=2]Avancer.
+[YADD=10][FEED=6][CBTN=TRIANGLE][MOBI=290][FEED=22][XTAB=50]:[FEED=2]Accéder au Menu.
+[YADD=10][FEED=6][CBTN=SQUARE][MOBI=264][FEED=22][XTAB=50]:[FEED=2]Reculer.
+[YADD=10][FEED=6][CBTN=CIRCLE][MOBI=286][FEED=22][XTAB=50]:[FEED=2]Atterrir.
+[YADD=10][FEED=6][DBTN=SELECT][MOBI=281][XTAB=50]:[FEED=2]Afficher la carte.
+[YADD=10][FEED=6][CBTN=L1][CBTN=R1][MOBI=280][XTAB=50]:[FEED=2]Contrôle de la caméra.
+[YADD=10][FEED=6][CBTN=L2][MOBI=284][FEED=22][XTAB=50]:[FEED=2]Caméra fixe.
+[XTAB=170][ENDN][STRT=286,11][TAIL=UPC][NANI][NFOC][IMME][YADD=6][CENT=247]- [FEED=2]Comment jouer à [C8B040][HSHD]”Creuse ! Chocobo !”[C8C8C8][HSHD][FEED=2][FEED=2] -
+[YADD=16][CENT=141][DBTN=PAD][MOBI=262][FEED=2]:[FEED=2] Faire bouger Choco.
+[YADD=16][FEED=56][CBTN=SQUARE][MOBI=311][FEED=2]:[FEED=2] Creuser.
+[YADD=10]
+[YADD=10][FEED=4]Avec la touche [CBTN=SQUARE][MOBI=311][FEED=2] Choco évalue
+[YADD=10][FEED=4]la distance à laquelle les trésors
+[YADD=10][FEED=4]sont enterrés. Il te la fait connaître en
+[YADD=10][FEED=4]kwoassant, coubo. Ensuite, il creuse, creuse !
+[YADD=10][CENT=184]~~~~~~~~~~~~~~~~~~~~~~~
+[YADD=10][FEED=4][DBTN=SELECT][MOBI=260][FEED=2]:[FEED=2] Commencer.  [CBTN=CROSS][MOBI=269][FEED=2]:[FEED=2] Explication suivante.
+[XTAB=255][FEED=31][TIME=-1][STRT=286,11][TAIL=UPC][NANI][NFOC][IMME][YADD=6][CENT=130]- [FEED=2]Le chant de Choco[FEED=2] -
+[YADD=6][FEED=4]”Kwoa” : Il n’y a rien dans les environs.
+[YADD=6][FEED=4]”Kwoaa ?!” : Il y a quelque chose assez loin.
+[YADD=6][FEED=4]”Kwoaaa ?!” : Il y a quelque chose assez près.
+[YADD=6][FEED=4]”Kwo... Kwoaa !!” : Il a découvert quelque chose.
+[YADD=6][FEED=4]Les bonnes choses sont enterrées profondément.
+[YADD=6][FEED=4]S’il en trouve, il doit creuser jusqu’à
+[YADD=6][FEED=4]ce que [68C0D8][HSHD]la profondeur[C8C8C8][HSHD] soit égale à 0.
+[YADD=6][FEED=4]Il creuse en appuyant sur la touche [CBTN=SQUARE][MOBI=311], coubo !
+[YADD=6][CENT=184]~~~~~~~~~~~~~~~~~~~~~~~
+[YSUB=1][FEED=4][DBTN=SELECT][MOBI=260][FEED=2]:[FEED=2] Commencer.  [CBTN=CROSS][MOBI=269][FEED=2]:[FEED=2] Explication précédente.
+[XTAB=255][FEED=30][TIME=-1][STRT=259,4]GroChocobo :
+Concernant la suite de votre voyage, je vous
+recommanderais d’aller fouiller les environs
+de l’île abandonnée par la lumière.[ENDN][STRT=183,5][PCHC=2,1][IMME]GroChocobo :
+Jouer aux cartes[SPED=2]...[SPED=-1]
+Puis-je être votre adversaire ?
+[CHOO][MOVE=18,0]Bien sûr.
+[MOVE=18,0]Jamais ![ENDN][STRT=165,3]GroChocobo :
+Il y a longtemps, un voyageur
+m’a enseigné les règles.[ENDN][STRT=76,2]GroChocobo :
+Tant pis[SPED=2]...[SPED=-1][ENDN][STRT=241,2]GroChocobo :
+Il semble que vous ayez moins de 5 cartes.[ENDN][STRT=243,3]Kwo... Kwoa Kwooa Kwoaaa !
+(Utilisez du PimentAnkou là où jaillit
+l’écume permet de faire de bonnes prises.)[ENDN][STRT=128,4][PCHC=2,1][IMME]Kwoaa ?
+(On joue aux cartes ?)
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=60,2]KwoKwoa !
+(Super !)[ENDN][STRT=71,2]Kwoaaaa[SPED=2]...[SPED=-1]
+(Dommage[SPED=2]...[SPED=-1])[ENDN][STRT=141,2]Kwoooa[SPED=2]...[SPED=-1]
+(Il faut plus de cartes[SPED=2]...[SPED=-1])[ENDN][STRT=217,4]Kwoooaa, KwoKwoa !
+(En venant ici vous avez dû voir qu’en
+utilisant le PimentAnkou au pied de
+la montagne, elle s’effondrait.)[ENDN][STRT=252,3]Kwoaa, Kwoaowk Kwoaa !
+(Quoi ? Vous êtes allés partout où
+le [C8B040][HSHD]PimentAnkou[C8C8C8][HSHD] vous permettait d’accéder !)[ENDN][STRT=172,2]KwoKwoKwoaa !
+(J’ai décidé de m’installer ici.)[ENDN][STRT=164,3]KwoKwoaoaa ?
+(Il paraît que vous n’habitez
+pas ici, c’est vrai ?)[ENDN][STRT=279,3]Kwouaa Kwoaouaaaou...
+(Entre le Continent de la Brume et le Continent
+Extérieur, la mer est très écumeuse, allez voir !)[ENDN][STRT=128,4][PCHC=2,1][IMME]Kwoaa ?
+(On joue aux cartes ?)
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=60,2]KwoKwoa !
+(Super !)[ENDN][STRT=71,2]Kwoaaaa[SPED=2]...[SPED=-1]
+(Dommage[SPED=2]...[SPED=-1])[ENDN][STRT=141,2]Kwoooa[SPED=2]...[SPED=-1]
+(Il faut plus de cartes[SPED=2]...[SPED=-1])[ENDN][STRT=282,4]Kwoooa, Kwoa, Kwoaaaa, Kwoa !
+(Au nord du Continent Extérieur, il y a une île
+longue et étroite, elle est très montagneuse et on
+entend des drôles de voix qui font ”coubo” !)[ENDN][STRT=186,2]Kwoaa ! Kwo Kwo Kwoaaa Kwoa !
+(Là-bas aussi il y a des Mog ?)[ENDN][STRT=258,2]Kwoa Kwoa Kwoa Kwoa !
+(Finalement, j’ai quitté Méné, il parlait trop !)[ENDN][STRT=186,2]Kwoa Kwoaaa Kwoac !
+(Je vous conseille de rester ici.)[ENDN][STRT=243,3]Kwoaa, Kwoa Kwoaorc !
+(Il y a beaucoup d’écume entre le
+Continent Extérieur et le Continent Fermé.)[ENDN][STRT=128,4][PCHC=2,1][IMME]Kwoaa ?
+(On joue aux cartes ?)
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=60,2]KwoKwoa !
+(Super !)[ENDN][STRT=71,2]Kwoaaaa[SPED=2]...[SPED=-1]
+(Dommage[SPED=2]...[SPED=-1])[ENDN][STRT=141,2]Kwoooa[SPED=2]...[SPED=-1]
+(Il faut plus de cartes[SPED=2]...[SPED=-1])[ENDN][STRT=236,3]Kwoa Kwooa Kwoah !
+(Le glacier du Chidense, sur le
+Continent Fermé, est plein de crevasses.)[ENDN][STRT=139,2]Kwoaaa Kwoaa Kwoooa !
+(Venez par ici, vite !)[ENDN][STRT=169,3]Kwoaa Kwoooa Kwoaoa !
+(C’est toujours un plaisir de
+te revoir, tu es ici chez toi !)[ENDN][STRT=226,2]Kwoooaoaaa Kwoaaa !
+(Je savais que tu reviendrais vivre ici.)[ENDN][STRT=223,3]Kwoaaa Kwoa Kwoaoaaaac !
+(Les criques de la pointe sud du
+Continent Oublié sont pleines d’écume !)[ENDN][STRT=128,4][PCHC=2,1][IMME]Kwoaa ?
+(On joue aux cartes ?)
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=138,3]Kwoaaa Kwoïsen Kwoa ?
+(L’humain qui m’a appris,
+s’appelait[SPED=2]...[SPED=-1] Ypsen.)[ENDN][STRT=71,2]Kwoaaaa[SPED=2]...[SPED=-1]
+(Dommage[SPED=2]...[SPED=-1])[ENDN][STRT=141,2]Kwoooa[SPED=2]...[SPED=-1]
+(Il faut plus de cartes[SPED=2]...[SPED=-1])[ENDN][STRT=218,4]Kwooooa, Kwoaaaa Kwoa !
+(On dirait qu’il y a des crevasses
+dans les montagnes du Continent Oublié
+à l’est de la passe de Sirouez.)[ENDN][STRT=222,2]Kwooo, Kwooo Kwoa ?
+(Tu as encore des chose à chercher ?)[ENDN][STRT=164,2]Kwo... Kwoaoa Kwoaak ?
+(Je peux rester ici, alors ?!)[ENDN][STRT=175,3]Kwoaa Kwoooaa Kwoaaa Kwo...
+(C’est la route que tu as
+choisie, suis-la !)[ENDN][STRT=207,3]Kwooank Kwoooank Kwouaank[SPED=2]...[SPED=-1]
+(Au nord-est de la grotte de Kwane,
+la mer est très agitée[SPED=2]...[SPED=-1])[ENDN][STRT=142,4][PCHC=2,1][IMME]Kwoanrt[SPED=2]...[SPED=-1]?
+(Tu joues aux cartes[SPED=2]...[SPED=-1]?)
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=64,2]Kwoo[SPED=2]...[SPED=-1]
+(On joue[SPED=2]...[SPED=-1])[ENDN][STRT=36,2]Kwo[SPED=2]...[SPED=-1]
+(Ha[SPED=2]...[SPED=-1])[ENDN][STRT=124,2]Kwoaaa[SPED=2]...[SPED=-1]
+(T’en as pas assez[SPED=2]...[SPED=-1])[ENDN][STRT=250,4]Kwoank Kwoaaank Kwoankyon
+(Il y aurait aussi des crevasses
+dans les montagnes à l’ouest de
+la passe de Sirouez sur le Continent Oublié.)[ENDN][STRT=144,3]Kwooank Kwoank Kwoooo
+(Si ça ne brille pas, c’est
+plus difficile à trouver.)[ENDN][STRT=246,3]Kwoannnnk
+(Dehors, il y a plein de guerres, j’ai peur[SPED=2]...[SPED=-1]
+Allez vite régler vos affaires !)[ENDN][STRT=148,3]Kwoaanl Kwooaa...
+(Restons ici et nous
+aurons une vie tranquille.)[ENDN][STRT=140,2]Kwoaaank Kwoooooaaa !
+(On n’est pas bien ici ?)[ENDN][STRT=217,4]Kwoooaaaa Kwoa Kwoooo !
+(Il existe 6 [68C0D8][HSHD]Pièces de Chocographe[C8C8C8][HSHD]
+donnant les positions de [68C0D8][HSHD]l’ombre[C8C8C8][HSHD] qui
+révèle l’île flottant haut dans le ciel.)[ENDN][STRT=199,4]Kwoakou Kwoaaa Kwoooaaa Kwoa !
+(Grâce au [C8B040][HSHD]PimentAnkou[C8C8C8][HSHD],
+on trouve souvent des trésors
+enterrés depuis très longtemps.)[ENDN][STRT=172,3]Kwoaaa Kwoa kwoa kwoakou ?
+(Tu as encore beaucoup
+de choses à faire ?)[ENDN][STRT=210,3]Kwoaa Kwooooa Kwoa Kwoaaa !
+(Oublie le monde extérieur,
+viens vivre paisiblement avec nous !)[ENDN][STRT=215,3]Kwouaaa Kwoaaa Kwoa !
+(En fait, je ne suis jamais parti
+d’ici, j’aimerais bien voyager un peu.)[ENDN][STRT=227,3]Kwaaaaa Kwoaoo Kwoaaac[SPED=2]...[SPED=-1]
+(5000 ans avant le Grand Changement,
+le paradis des Chocobo existait déjà[SPED=2]...[SPED=-1])[ENDN][STRT=209,3][WDTH=0,120,14,0,-1]Kwooaaa Kwoaa Kwoaaa[SPED=2]...[SPED=-1]
+(Nous adorons les [ITEM=0][C8B040][HSHD]s[C8C8C8][HSHD] !
+Nous en mangeons depuis toujours[SPED=2]...[SPED=-1])[ENDN][STRT=190,5][PCHC=2,1][WDTH=0,190,14,0,-1][IMME]Kwoooaak Kwoaaa Kwoaa
+(Je peux vous donner autant de [ITEM=0][C8B040][HSHD]s[C8C8C8][HSHD]
+que vous pourrez en porter !)
+[CHOO][MOVE=18,0]Merci beaucoup.
+[MOVE=18,0]C’est pas la peine.[ENDN][STRT=171,2]Kwoaaaak Kwoaaa !
+(Vous en avez suffisamment...)[ENDN][STRT=232,4]Kwoaaaak KwoaaaKwoooak Kwoaaa !
+(Le piquant du [C8B040][HSHD]PimentAnkou[C8C8C8][HSHD]
+est la source de notre vie !
+Il faut que vous en mangiez, vous aussi !)[ENDN][STRT=217,4]Kwooak Kwoaaa Kwoooa Kwo ?
+(Ca va aller, vraiment ?
+On ne trouve pas de
+[C8B040][HSHD]PimentAnkou[C8C8C8][HSHD] aussi facilement, dehors.)[ENDN][STRT=134,2]Kwoaaa Kwoa Kwooo[SPED=2]...[SPED=-1]?
+(Et c’est amusant[SPED=2]...[SPED=-1]?)[ENDN][STRT=242,4]Kwoooaaaaa Kwooooa Kwooaaak[SPED=2]...[SPED=-1]
+(Si vous voulez visitez toutes les plages
+du monde, il faut appuyer sur la touche [CBTN=CIRCLE][MOBI=343],
+sinon ça n’a pas de sens[SPED=2]...[SPED=-1])[ENDN][STRT=198,3]Quand vous avez fini de fouiller
+une plage, n’oubliez pas d’appuyer
+sur la touche [CBTN=CIRCLE][MOBI=343] ![ENDN][STRT=169,4][OFFT=0,-96,160]Méné :
+J’ai enfin trouvé, coubo !
+En partant vers le sud-ouest,
+on arrive à l’archipel Salbeij.[ENDN][STRT=153,4][OFFT=0,-96,160]Méné :
+On y entre par un gué dans
+la baie de l’île Pamel.
+Regarde sur la [68C0D8][HSHD]Carte[C8C8C8][HSHD].[ENDN][STRT=268,5][OFFT=0,-96,160]Méné :
+La baie ressemble à cette forêt.
+C’est un lieu calme et reposant baignée
+d’une douce lumière. Et si ce qu’on dit est vrai,
+on y trouve des Chocographes.[ENDN][STRT=263,4]GroChocobo :
+Choco !
+Tu as enfin découvert tous les trésors,
+il est temps pour toi de venir vivre avec nous.[ENDN][STRT=59,1]Kwoaaaa ![ENDN][STRT=125,3][OFFT=0,-333,0]Méné :
+Et surtout, ne va
+pas m’oublier, coubo ![ENDN][STRT=214,3][OFFT=0,-333,0]Méné :
+Comment est-ce que tu pourrais vivre
+sans moi ? Dorénavant, je reste ici ![ENDN][STRT=71,1]Encore toi[SPED=2]...[SPED=-1][ENDN][STRT=221,3]GroChocobo :
+Combien de fois faudra-t-il te dire que
+seuls les Chocobo peuvent vivre ici ?[ENDN][STRT=111,2]GroChocobo :
+Tu dois y renoncer.[ENDN][STRT=180,2][OFFT=0,-333,0]Méné :
+Mais Choco est perdu sans moi ![ENDN][STRT=142,3]GroChocobo :
+Il n’y a pas d’exception
+qui tienne, désolé petit...[ENDN][STRT=79,1][TAIL=UPLF][OFFT=0,-333,0]Méné, coubo ![ENDN][STRT=100,2][ZDNE] :
+On a pas le choix.[ENDN][STRT=161,3][ZDNE] :
+C’est le monde des Chocobo.
+Il faut t’y faire Méné.[ENDN][STRT=180,3][ZDNE] :
+Tu pourras encore venir le voir
+de temps en temps, non ?[ENDN][STRT=267,2]GroChocobo :
+Je suis désolé, mais même ça ce sera difficile[SPED=2]...[SPED=-1][ENDN][STRT=195,5]GroChocobo :
+Vous avez pu entrer ici parce que
+Choco était avec vous, mais la
+prochaine fois l’entrée vous
+restera interdite.[ENDN][STRT=57,2][TAIL=UPLF][OFFT=0,-333,0]Méné :
+Sacoubo ![ENDN][STRT=191,2]GroChocobo :
+En échange, je vous donne ceci...[ENDN][STRT=195,3]GroChocobo :
+[SPED=2]...[SPED=-1]Mais je vois que vous ne pouvez
+pas avoir plus de cartes, tant pis.[ENDN][STRT=171,4]GroChocobo :
+Si l’envie vous en prenait,
+revenez me voir quand vous
+aurez suffisamment de cartes.[ENDN][STRT=144,3]GroChocobo :
+Choco, il est temps de
+dire au revoir à tes amis.[ENDN][STRT=36,1]Kwooo[ENDN][STRT=187,2][OFFT=0,-333,0]Méné :
+C’est vraiment ce que tu veux[SPED=2]...[SPED=-1]?[ENDN][STRT=34,1]Kwo[SPED=2]...[SPED=-1][ENDN][STRT=71,2][TAIL=UPLF][OFFT=0,-333,0]Méné :
+D’accoubo[SPED=2]...[SPED=-1][ENDN][STRT=80,2][TAIL=UPLF][OFFT=0,-333,0]Méné :
+Je m’en vais[SPED=2]...[SPED=-1][ENDN][STRT=127,2][TAIL=UPLF][OFFT=0,-333,0]Méné :
+Porte-toi bien, coubo.[ENDN][STRT=36,1]Kwooo[ENDN][STRT=42,2][TAIL=UPLF][OFFT=0,-333,0]Méné :
+Adieu...[ENDN][STRT=46,1][OFFT=0,-333,0]Coubo[SPED=2]...[SPED=-1][TIME=90][STRT=130,2][ZDNE] :
+Et comment on rentre ?[ENDN][STRT=176,3][WDTH=0,140,16,-1]Méné :
+Comme on est venu, en volant[SPED=2]...[SPED=-1]
+[WAIT=25]Comment tu vas faire, [ZDNE] ?![ENDN][STRT=195,3][ZDNE] :
+Hum[SPED=2]...[SPED=-1] Je suis pas si lourd que ça !
+Je compte sur toi Méné ![ENDN][STRT=126,3]Méné :
+Hum...
+C’était pas prévu ça ![ENDN][STRT=146,2][OFFT=0,-333,0]Méné :
+J’ai pas le choix, coubo...[TIME=60][STRT=198,2][OFFT=0,-333,0]Méné :
+Accroche-toi à mes pattes, coubo.[ENDN][STRT=85,1][OFFT=0,-313,0]Coubbbboooo ![TIME=60][STRT=42,1][TAIL=LOL]Ca va ?[TIME=45][STRT=82,1][OFFT=0,-313,0]Gouuuuboooo ![TIME=60][STRT=22,1][TAIL=LOL]Ah ![TIME=45][STRT=65,1][OFFT=0,-313,0]GOUBOOOO ![TIME=60][STRT=23,1][TAIL=LOL]Hé ![TIME=45][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=12,1][NFOC][CENT=12][SPED=2]...[SPED=-1][TIME=-1][STRT=196,2][ZDNE] :
+C’est pire que ce que je pensais...[ENDN][STRT=38,1]Kwoa ![TIME=45][STRT=37,3][WDTH=0,8,16,-1][ZDNE] :
+Hein ?
+Méné ![ENDN][STRT=158,3][ZDNE] :
+Ce qu’on vient d’entendre[SPED=2]...[SPED=-1]
+C’était pas Choco ?[ENDN][STRT=38,1]Kwoa ![TIME=55][STRT=174,3]Méné :
+C’est plein de Chocobo par ici,
+c’en est sûrement un autre ![ENDN][STRT=64,1]Kwo Kwoa ![TIME=90][STRT=43,1]Choco ![ENDN][STRT=43,1][NFOC]Choco ![TIME=-1][STRT=38,1]Kwoa ![ENDN][STRT=184,2]Méné :
+Je savais bien que tu viendrais ![ENDN][STRT=172,2]Méné :
+T’es vraiment perdu sans moi ![ENDN][STRT=142,3][ZDNE] :
+Je crois que c’est toi qui
+es perdu sans lui, Méné.[ENDN][STRT=38,1]Kwoa ![ENDN][STRT=205,2]Méné :
+Pour l’instant, on rentre à la forêt ![ENDN][STRT=38,1]Kwoa ![ENDN][STRT=256,2][ZDNE] :
+T’es sûr de pas regretter ton choix, Choco ?[ENDN][STRT=67,1]KwoaKwoa ![ENDN][STRT=123,3][ZDNE] :
+Au moins, je rentrerai
+sans problème ![ENDN][STRT=0,1][ENDN][STRT=38,1]Kwoa ![ENDN][STRT=43,1][NFOC]Coubo ![TIME=-1][STRT=135,3]GroChocobo :
+J’aurais dû te le donner
+plus tôt. Prends-le ![ENDN][STRT=237,2]GroChocobo :
+Rares sont ceux qui refusent le paradis[SPED=2]...[SPED=-1][ENDN][STRT=154,3]GroChocono :
+Mais tu as le droit de vivre
+comme tu l’entends.[ENDN][STRT=112,1]Encore une chose...[ENDN][STRT=214,4]GroChocobo :
+Si vous parcourez le monde,
+ne vous occupez pas des monstres et
+allez explorer les différentes plages.[ENDN][STRT=121,4]GroChocobo :
+Quand vous les aurez
+toutes visitées, vous
+connaîtrez la paix.[ENDN][STRT=171,5]Méné :
+Et puis on trouvera peut-être
+des cartes par hasard, alors
+il faudra faire attention à
+ne pas en avoir trop.[ENDN][STRT=224,4]GroChocobo :
+Les cartes que vous avez abandonnées
+au cours de vos chasses aux trésors
+sont toutes ici.[ENDN][STRT=154,3]GroChocobo :
+Vous pouvez les reprendre
+si vous le désirez.[ENDN][STRT=175,11][PCHM=9,8][WDTH=1,63,14,0,-1,2,64,14,1,-1,3,65,14,2,-1,4,66,14,3,-1,5,67,14,4,-1,6,68,14,5,-1,7,69,14,6,-1,8,70,14,7,-1][IMME]GroChocobo :
+Prenez celles qu’il vous plaira.
+[CHOO][MOVE=18,0]Carte : [ITEM=0][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=1][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=2][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=3][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=4][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=5][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=6][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=7][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]C’est pas la peine.[ENDN][STRT=175,9][PCHM=7,6][WDTH=1,63,14,0,-1,2,64,14,1,-1,3,65,14,2,-1,4,66,14,3,-1,5,67,14,4,-1,6,68,14,5,-1][IMME]GroChocobo :
+Prenez celles qu’il vous plaira.
+[CHOO][MOVE=18,0]Carte : [ITEM=0][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=1][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=2][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=3][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=4][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte : [ITEM=5][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]C’est pas la peine.[ENDN][STRT=226,3]GroChocobo :
+Si vous perdez de nouvelles cartes
+n’hésitez pas à revenir en chercher ici.[ENDN][STRT=111,3][TAIL=DEFT][WDTH=0,111,14,0,-1][IMME]
+[MOVE=18,0]Carte obtenue : [ITEM=0][C8B040][HSHD][C8C8C8][HSHD]
+[ENDN][STRT=38,1]Kwoa ![ENDN][STRT=43,1]Coubo ![ENDN][STRT=271,3]Méné :
+Moi, c’est [68C0D8][HSHD]Méné[C8C8C8][HSHD], le maître de cette forêt !
+Et lui, c’est mon partenaire, [68C0D8][HSHD]Choco[C8C8C8][HSHD] le Chocobo ![ENDN][STRT=45,2]Choco :
+Kwoaa ![ENDN][STRT=62,2]Choco :
+Kwoaaa !!![ENDN][STRT=78,2]Méné :
+Et ici, c’est[SPED=2]...[SPED=-1][ENDN][STRT=147,3]Méné :
+Il faut dire que c’est rare
+qu’on ait de la visite ![ENDN][STRT=126,3][ZDNE] :
+En fait, je me baladais
+plus qu’autre chose.[ENDN][STRT=90,3][ZDNE] :
+En fait on doit
+aller à Lindblum.[ENDN][STRT=167,3][ZDNE] :
+Vous avez pas vu une jolie
+fille avec les cheveux longs ?[ENDN][STRT=135,3]Méné :
+Hummm... J’en ai vu une,
+mais elle était pas jolie.[ENDN][STRT=132,2][ZDNE] :
+Elle est pas venue ici[SPED=2]...[SPED=-1][ENDN][STRT=241,3][ZDNE] :
+Peut-être qu’elle veut aller à Bloumécia[SPED=2]...[SPED=-1]
+C’est pas le moment de faire des détours ![ENDN][STRT=116,2][ZDNE] :
+Où elle est partie[SPED=2]...[SPED=-1]?[ENDN][STRT=110,3][ZDNE] :
+C’est pas le moment
+de traîner ![ENDN][STRT=119,2]Méné :
+Vous êtes pressés ?![ENDN][STRT=25,1]Oui ![ENDN][STRT=174,3][ZDNE] :
+Je voulais aller dans
+les marais au nord de Lindblum.[ENDN][STRT=203,3]Méné :
+C’est pas du tout par ici !
+Cette forêt est à l’est de Lindblum ![ENDN][STRT=107,3][ZDNE] :
+Je dois aller dans
+pas mal d’endroits.[ENDN][STRT=95,3][ZDNE] :
+J’ai pas mal
+de trucs à faire.[ENDN][STRT=162,3]Méné :
+Allez-y avec Choco, coubo !
+Vous éviterez les monstres ![ENDN][STRT=97,2]Méné :
+Viens ici, Choco ![ENDN][STRT=212,3]Méné :
+Quand un Chocobo a choisi un maître,
+il le suit toute sa vie ![ENDN][STRT=147,4]Méné :
+Mais la première fois que
+quelqu’un a essayé de le
+monter, Choco s’est enfui.[ENDN][STRT=211,4]Méné :
+Normalement, quand un Chocobo a
+un maître c’est pour la vie, mais
+Choco s’est échappé de chez le sien.[ENDN][STRT=184,3]Méné :
+Je l’ai aidé à s’évader et depuis
+on se cache dans cette forêt.[ENDN][STRT=135,4]Méné :
+J’ai aidé Choco à partir
+de chez son maître et
+depuis on se cache ici.[ENDN][STRT=143,2][ZDNE] :
+Il a pas l’air de m’aimer[SPED=2]...[SPED=-1][ENDN][STRT=129,4]Méné :
+Pas du tout coubo !
+Si c’était le cas,
+il aurait déjà disparu ![ENDN][STRT=121,2]Méné :
+Viens par ici, Choco ![ENDN][STRT=52,2]Choco :
+Kwoaaa ![ENDN][STRT=134,2]Méné :
+Allez, à vous de jouer ![ENDN][STRT=182,4][WDTH=0,113,14,0,-1]Méné :
+Tenez, prenez ce [C8B040][HSHD][ITEM=0][C8C8C8][HSHD] !
+Vous pouvez l’utiliser en dehors
+de la forêt pour appeler Choco.[ENDN][STRT=264,4][WDTH=0,193,14,0,-1]Méné :
+Il y a des [68C0D8][HSHD]traces de pattes de Chocobo[C8C8C8][HSHD] à côté
+de cette forêt. Si vous utilisez le [C8B040][HSHD][ITEM=0][C8C8C8][HSHD]
+là-bas, Choco vous rejoindra ![ENDN][STRT=165,5]Méné :
+Choco vous a à la bonne,
+si vous l’appelez, il viendra !
+Vous chercheriez pas
+des trésors avec moi ?[ENDN][STRT=190,3]Méné :
+Appelez-le et revenez me voir,
+je vous donnerai plus de détails ![ENDN][STRT=234,4][WDTH=0,156,14,0,-1]Méné :
+Il faut utiliser le [ITEM=0] au-dessus
+des [68C0D8][HSHD]traces de Chocobo[C8C8C8][HSHD] !
+On les voit mieux avec une vue aérienne ![ENDN][STRT=240,3]Méné :
+Vous en avez pas[SPED=2]...[SPED=-1]?
+Je peux vous en donner encore un, coubo.[ENDN][STRT=236,4]Méné :
+Quand vous aurez appelé Choco, essayez
+de lui parler, il vous attendra jusqu’à
+ce que vous puissiez le faire.[ENDN][STRT=167,4]Méné :
+Bonjour !
+Je pensais que vous vous
+entendriez bien avec Choco ![ENDN][STRT=47,3]Méné :
+Choco !
+Ca va ?![ENDN][STRT=162,5][PCHC=3,2][WDTH=2,59,14,0,-1][IMME]Méné :
+Qu’est-ce que vous voulez ?
+[CHOO][MOVE=18,0]Parle-moi des trésors !
+[MOVE=18,0]Des [ITEM=0][C8B040][HSHD]s[C8C8C8][HSHD] !
+[MOVE=18,0]Rien.[ENDN][STRT=162,5][PCHC=3,2][WDTH=2,59,14,0,-1][IMME]Méné :
+Qu’est-ce que vous voulez ?
+[CHOO][MOVE=18,0]Creuser avec Choco !
+[MOVE=18,0]Des [ITEM=0][C8B040][HSHD]s[C8C8C8][HSHD] !
+[MOVE=18,0]Rien.[ENDN][STRT=162,6][PCHC=4,3][WDTH=2,59,14,0,-1,3,144,64,2,-1][IMME]Méné :
+Qu’est-ce que vous voulez ?
+[CHOO][MOVE=18,0]Creuser avec Choco !
+[MOVE=18,0]Des [ITEM=0][C8B040][HSHD]s[C8C8C8][HSHD] !
+[MOVE=18,0]Vérifier mon score [78C840][HSHD]([NUMB=2])[C8C8C8][HSHD].
+[MOVE=18,0]Rien.[ENDN][STRT=162,7][PCHC=5,4][WDTH=3,60,14,0,-1,4,145,64,2,-1][IMME]Méné :
+Qu’est-ce que vous voulez ?
+[CHOO][MOVE=18,0]Creuser avec Choco !
+[MOVE=18,0]Parler à Choco !
+[MOVE=18,0]Des [ITEM=0][C8B040][HSHD]s[C8C8C8][HSHD] !
+[MOVE=18,0]Vérifier mon score [78C840][HSHD]([NUMB=2])[C8C8C8][HSHD].
+[MOVE=18,0]Rien.[ENDN][STRT=122,5][PCHC=2,1][WDTH=0,122,64,1,-1,0,61,64,7,-1][IMME]Méné :
+C’est [C8B040][HSHD][NUMB=1] gils[C8C8C8][HSHD] par essai !
+(Bourse : [NUMB=7])
+[CHOO][MOVE=18,0]D’accord !
+[MOVE=18,0]J’ai pas le temps ![ENDN][STRT=181,7][PCHC=2,1][WDTH=0,122,64,1,-1][IMME]Méné :
+Choco dit qu’il peut pas trouver
+plus de Chocographes[SPED=2]...[SPED=-1]
+C’est [C8B040][HSHD][NUMB=1] gils[C8C8C8][HSHD] par essai !
+(Bourse : [NUMB=7])
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]J’ai pas le temps.[ENDN][STRT=168,7][PCHC=2,1][WDTH=0,122,64,1,-1][IMME]Méné :
+Il dit qu’il a déjà trouvé
+tous les Chocographes d’ici[SPED=2]...[SPED=-1]
+C’est [C8B040][HSHD][NUMB=1] gils[C8C8C8][HSHD] par essai !
+(Bourse : [NUMB=7])
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]J’ai pas le temps.[ENDN][STRT=151,6][PCHC=2,1][WDTH=0,122,64,1,-1][IMME]Méné :
+Amusez-vous bien, coubo !
+C’est [C8B040][HSHD][NUMB=1] gils[C8C8C8][HSHD] par essai !
+(Bourse : [NUMB=7])
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]J’ai pas le temps.[ENDN][STRT=135,3]Méné :
+Choco dit qu’il trouvera
+plus de Chocographes.[ENDN][STRT=190,3]Méné :
+Choco dit que vous avez
+déjà tous les Chocographes d’ici.[ENDN][STRT=207,5]Méné :
+Quoi d’autre[SPED=2]...[SPED=-1]?
+Par exemple, vous pourriez
+aller visiter les [68C0D8][HSHD]Baies[C8C8C8][HSHD] ou chercher
+des trésors avec les Chocographes.[ENDN][STRT=207,5]Méné :
+Quoi d’autre[SPED=2]...[SPED=-1]?
+Par exemple, vous pourriez
+aller visiter la [68C0D8][HSHD]Forêt[C8C8C8][HSHD] ou chercher
+des trésors avec les Chocographes.[ENDN][STRT=194,5]Méné :
+Quoi d’autre[SPED=2]...[SPED=-1]?
+Par exemple, vous pourriez aller
+dans d’autres endroits en utilisant
+le [C8B040][HSHD]PimentAnkou[C8C8C8][HSHD].[ENDN][STRT=185,3]Méné :
+Maintenant vous devriez pouvoir
+aller dans un paradis inconnu ![ENDN][STRT=243,3]Méné :
+Je pense que Choco veut y aller, lui aussi !
+La clé, c’est du [C8B040][HSHD]PimentAnkou[C8C8C8][HSHD] !![ENDN][STRT=70,2]Méné :
+A mon avis[SPED=2]...[SPED=-1][ENDN][STRT=149,9][PCHC=2,1][IMME]Méné :
+Score maximum (Forêt)
+[78C840][HSHD][NUMB=2][C8C8C8][HSHD]
+Tentatives (Forêt) / Total
+[78C840][HSHD][NUMB=3][C8C8C8][HSHD] / [NUMB=5]
+Score actuel :
+[78C840][HSHD][NUMB=4][C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Echanger mes points.
+[MOVE=18,0]Rien faire.[ENDN][STRT=141,9][PCHC=2,1][IMME]Méné :
+Score maximum (Baie)
+[78C840][HSHD][NUMB=2][C8C8C8][HSHD]
+Tentatives (Baie) / Total
+[78C840][HSHD][NUMB=3][C8C8C8][HSHD] / [NUMB=5]
+Score actuel :
+[78C840][HSHD][NUMB=4][C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Echanger mes points.
+[MOVE=18,0]Rien faire.[ENDN][STRT=191,9][PCHC=2,1][IMME]Méné :
+Score maximum (Jardin volant)
+[78C840][HSHD][NUMB=2][C8C8C8][HSHD]
+Tentatives (Jardin volant) / Total
+[78C840][HSHD][NUMB=3][C8C8C8][HSHD] / [NUMB=5]
+Score actuel :
+[78C840][HSHD][NUMB=4][C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Echanger mes points.
+[MOVE=18,0]Rien faire.[ENDN][STRT=149,9][PCHC=2,1][IMME]Méné :
+Score maximum (Forêt)
+[78C840][HSHD][NUMB=2][C8C8C8][HSHD]
+Tentatives (Forêt) / Total
+[78C840][HSHD][NUMB=3][C8C8C8][HSHD] / [NUMB=5]
+Score actuel : [C8B040][HSHD]★[C8C8C8][HSHD]
+[78C840][HSHD][NUMB=4][C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Echanger mes points.
+[MOVE=18,0]Rien faire.[ENDN][STRT=141,9][PCHC=2,1][IMME]Méné :
+Score maximum (Baie)
+[78C840][HSHD][NUMB=2][C8C8C8][HSHD]
+Tentatives (Baie) / Total
+[78C840][HSHD][NUMB=3][C8C8C8][HSHD] / [NUMB=5]
+Score actuel : [C8B040][HSHD]★[C8C8C8][HSHD]
+[78C840][HSHD][NUMB=4][C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Echanger mes points.
+[MOVE=18,0]Rien faire.[ENDN][STRT=191,9][PCHC=2,1][IMME]Méné :
+Score maximum (Jardin volant)
+[78C840][HSHD][NUMB=2][C8C8C8][HSHD]
+Tentatives (Jardin volant) / Total
+[78C840][HSHD][NUMB=3][C8C8C8][HSHD] / [NUMB=5]
+Score actuel : [C8B040][HSHD]★[C8C8C8][HSHD]
+[78C840][HSHD][NUMB=4][C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Echanger mes points.
+[MOVE=18,0]Rien faire.[ENDN][STRT=174,12][PCHC=9,8][IMME]Méné :
+Qu’est-ce que je vous donne ?
+Score actuel : [FEED=2][78C840][HSHD][NUMB=4][C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Robe des Anges[XTAB=127]10 000
+[MOVE=18,0]Bague protectrice[XTAB=134]8 500
+[MOVE=18,0]Angel Moon[XTAB=134]3 500
+[MOVE=18,0]Carte Vigilant[XTAB=134]1 800
+[MOVE=18,0]Ether[XTAB=144]450
+[MOVE=18,0]Gemme[XTAB=144]250
+[MOVE=18,0]Plume de Phénix[XTAB=144]150
+[MOVE=18,0]ChocoLégume[XTAB=151]10
+[MOVE=18,0]Rien du tout.[TIME=-1][STRT=207,3][WDTH=0,184,64,0,-1]Méné :
+Je vous les échange contre des gils.
+Je vous donne 1 point pour [C8B040][HSHD][NUMB=0] gils[C8C8C8][HSHD].[ENDN][STRT=97,3][ZDNE] :
+Je crois bien que
+j’ai pas assez[SPED=2]...[SPED=-1][ENDN][STRT=117,3]Méné :
+Allez, je vous
+en donne un, coubo ![ENDN][STRT=174,2]Méné :
+Vous en avez déjà beaucoubo.[ENDN][STRT=163,5][MPOS=70,40][WDTH=0,155,64,0,64,5,-1][IMME] 1 pour [C8B040][HSHD][NUMB=0] gils[C8C8C8][HSHD] (Possession : [NUMB=5])
+[NUMB=6][NUMB=7]
+[DBTN=UP][MOBI=276][DBTN=DOWN][MOBI=275] : Modifier la quantité
+[DBTN=LEFT][MOBI=267][DBTN=RIGHT][MOBI=269] : Dizaines-Unités
+[CBTN=CROSS][MOBI=260] : Confirmer[MOVE=18,0][CBTN=CIRCLE][MOBI=261] : Annuler[SIGL=1][TIME=-1][STRT=0,1][MPOS=70,54][NANI][WDTH=0,0,64,6,-1][IMME][B880E0][HSHD][NUMB=6][TIME=-1][STRT=0,1][MPOS=77,54][NANI][WDTH=0,0,64,7,-1][IMME][B880E0][HSHD][NUMB=7][TIME=-1][STRT=123,1][MPOS=90,54][NANI][WDTH=0,123,64,3,-1][NFOC][IMME]([NUMB=3] gils)[MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][TIME=-1][STRT=51,1][MPOS=70,119][WDTH=0,51,64,4,-1][NFOC][IMME]Bourse : [NUMB=4][TIME=-1][STRT=110,1][WDTH=0,110,14,0,64,2,-1][CENT=110,14,0,64,2][MOVE=18,0]Obtenu : [ITEM=0] X [NUMB=2] ![MOVE=18,0][ENDN][STRT=235,4][WDTH=0,171,14,0,-1]Méné :
+On peut rien faire sans Choco.
+Il faut l’appeler en utilisant le [ITEM=0]
+au-dessus des traces à côté de la forêt.[ENDN][STRT=117,3]Méné :
+Vous en avez trouvé
+autant ?! Bravo ![ENDN][STRT=167,4]Méné :
+Si vous en trouvez plus,
+je vais être fauché !
+Il faut que je vive, moi aussi ![ENDN][STRT=225,3]Méné :
+Ca, c’est une prime exceptionnelle !
+Je voudrais que vous vous arrêtiez là ![ENDN][STRT=106,1]Je vous explique...[ENDN][STRT=172,3]Méné :
+Choco a le pouvoir de trouver
+les trésors enterrés, coubo ![ENDN][STRT=210,3]Méné :
+Mais je peux pas monter sur son dos,
+alors je voudrais que vous m’aidiez.[ENDN][STRT=194,3][WDTH=0,194,64,1,-1][IMME]Méné :
+C’est [NUMB=1] gils par tentative et ce que
+vous trouvez est à vous, coubo.[ENDN][STRT=95,4][PCHC=2,1][WDTH=0,95,64,1,-1,2,117,-1][IMME]Méné :
+Vous avez [C8B040][HSHD][NUMB=1] gils[C8C8C8][HSHD] ?
+[CHOO][MOVE=18,0]Voilà !
+[MOVE=18,0]C’est trop cher ![ENDN][STRT=92,2]Méné :
+Bonne décision ![ENDN][STRT=240,3]Méné :
+Vous avez même pas [NUMB=1] gils ?![WAIT=10]
+Mais je voulais travailler avec vous, moi[SPED=2]...[SPED=-1][ENDN][STRT=126,2]Méné :
+Je te fais une remise ![ENDN][STRT=144,4]Méné :
+Je veux pas vous forcer.
+Revenez me voir, si vous
+changez d’avis.[ENDN][STRT=199,5][PCHC=2,1][WDTH=0,137,64,1,-1][IMME]Méné :
+Je vous loue les services de Choco
+à [C8B040][HSHD][NUMB=1] gils[C8C8C8][HSHD] la minute, coubo !
+[CHOO][MOVE=18,0]J’essaye tout de suite !
+[MOVE=18,0]J’essayerai plus tard.[ENDN][STRT=214,4][WDTH=0,132,14,0,-1]Méné :
+Si vous emmenez Choco, vous pourrez
+essayer son pouvoir en utilisant 1
+[C8B040][HSHD][ITEM=0][C8C8C8][HSHD] au-dessus des traces.[ENDN][STRT=121,3]Méné :
+C’est à vous
+de jouer maintenant ![ENDN][STRT=207,2]Méné :
+C’est un service que je vous rends ![ENDN][STRT=247,4]Méné :
+A chaque fois que vous trouvez quelque
+chose, vous gagnez des points. Il faut
+en accumuler beaucoup pour les échanger ![ENDN][STRT=94,1][NANI][MPOS=5,30][WDTH=0,94,64,7,-1][NFOC][IMME][78C840][HSHD]Découverte(s) : [NUMB=7][TIME=-1][STRT=94,1][NANI][MPOS=5,54][NFOC][IMME]Profondeur : [MOVE=18,0][TIME=-1][STRT=0,1][NANI][MPOS=78,54][WDTH=0,0,64,6,-1][NFOC][IMME][NUMB=6][TIME=-1][STRT=52,1]Terminé ![ENDN][STRT=41,1][TAIL=UPLF][NANI][IMME]Kwoa...[TIME=15][STRT=29,1][TAIL=UPLF][NANI][IMME]Kwoa[TIME=15][STRT=51,1][TAIL=UPLF][NANI][IMME]Kwoaa ?![TIME=15][STRT=58,1][TAIL=UPLF][NANI][IMME]Kwoaaa ?![TIME=15][STRT=88,1][TAIL=UPLF][NANI][IMME]Kwo... Kwoaa !![TIME=30][STRT=41,1][TAIL=UPLF][NANI][IMME]Kwoa...[TIME=10][STRT=29,1][TAIL=UPLF][NANI][IMME]Kwoa[TIME=10][STRT=51,1][TAIL=UPLF][NANI][IMME]Kwoaa ?![TIME=10][STRT=58,1][TAIL=UPLF][NANI][IMME]Kwoaaa ?![TIME=10][STRT=41,1][TAIL=UPLF][NANI][IMME]Kwoa...[TIME=7][STRT=29,1][TAIL=UPLF][NANI][IMME]Kwoa[TIME=7][STRT=51,1][TAIL=UPLF][NANI][IMME]Kwoaa ?![TIME=7][STRT=58,1][TAIL=UPLF][NANI][IMME]Kwoaaa ?![TIME=7][STRT=41,1][TAIL=UPLF][NANI][IMME]Kwoa...[TIME=4][STRT=29,1][TAIL=UPLF][NANI][IMME]Kwoa[TIME=4][STRT=51,1][TAIL=UPLF][NANI][IMME]Kwoaa ?![TIME=4][STRT=58,1][TAIL=UPLF][NANI][IMME]Kwoaaa ?![TIME=4][STRT=41,1][TAIL=UPLF][NANI][IMME]Kwoa...[TIME=3][STRT=29,1][TAIL=UPLF][NANI][IMME]Kwoa[TIME=3][STRT=51,1][TAIL=UPLF][NANI][IMME]Kwoaa ?![TIME=3][STRT=58,1][TAIL=UPLF][NANI][IMME]Kwoaaa ?![TIME=3][STRT=97,1][NANI][WDTH=0,97,14,0,-1][IMME][CENT=97,14,0][MOVE=18,0]Trouvé : [ITEM=0] ![MOVE=18,0][TIME=-1][STRT=130,1][NANI][WDTH=0,130,64,0,-1][IMME][CENT=130,64,0][MOVE=18,0]Trouvé : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0][TIME=-1][STRT=178,1][NANI][IMME][CENT=178][MOVE=18,0]Trouvé : [C8B040][HSHD]Pierre Gravée[C8C8C8][HSHD] ![MOVE=18,0][TIME=-1][STRT=171,1][NANI][IMME][CENT=171][MOVE=18,0]Trouvé : [C8B040][HSHD]Chocographe[C8C8C8][HSHD] ![MOVE=18,0][TIME=-1][STRT=224,1][NANI][IMME][CENT=224][MOVE=18,0]Trouvé : [C8B040][HSHD]Pièce de Chocographe[C8C8C8][HSHD] ![MOVE=18,0][TIME=-1][STRT=189,2][NANI][WDTH=0,88,14,0,-1][IMME][CENT=88,14,0][MOVE=18,0]Trouvé : [ITEM=0][MOVE=18,0]
+[CENT=189][MOVE=18,0]Impossible d’en avoir plus ![MOVE=18,0][TIME=-1][STRT=190,1][NANI][IMME]Impossible d’avoir plus de [C8B040][HSHD]Carte[C8C8C8][HSHD] ![TIME=-1][STRT=129,1][WDTH=0,129,64,4,-1]Ca vous fait [78C840][HSHD][NUMB=4] point(s)[C8C8C8][HSHD] ![TIME=-1][STRT=118,2][WDTH=0,118,64,5,-1,0,100,64,4,-1]Moins de [NUMB=5] secondes !
+[78C840][HSHD][NUMB=4] point(s)[C8C8C8][HSHD] en plus ![TIME=-1][STRT=100,2][WDTH=0,100,64,4,-1]Prime spéciale !
+[78C840][HSHD][NUMB=4] point(s)[C8C8C8][HSHD] en plus ![TIME=-1][STRT=129,2][WDTH=0,129,64,3,-1,0,100,64,4,-1]Plus de [NUMB=3] découvertes !
+[78C840][HSHD][NUMB=4] point(s)[C8C8C8][HSHD] en plus ![TIME=-1][STRT=112,2]Méné :
+C’est fantascoubo ![ENDN][STRT=147,3][OFFT=0,-384,0][WDTH=0,147,64,7,-1]Méné :
+A partir de [NUMB=7] découvertes,
+vous avez plus de temps ![ENDN][STRT=211,3][OFFT=0,-384,0]Méné :
+A partir de la prochaine découverte,
+vos points sont [68C0D8][HSHD]doublés[C8C8C8][HSHD] ![ENDN][STRT=109,3][OFFT=0,-384,0][WDTH=0,109,64,2,-1]Méné :
+[NUMB=2] secondes en plus !
+Tenez bon ![ENDN][STRT=183,4][WDTH=0,183,64,3,-1,0,145,64,2,-1][CENT=183,64,3][MOVE=18,0][C8B040][HSHD]A partir de [NUMB=3] découvertes,[MOVE=18,0]
+[CENT=183][MOVE=18,0]vous avez plus de temps ![MOVE=18,0]
+[C8C8C8][HSHD][CENT=177][MOVE=18,0]Les points sont doublés ![MOVE=18,0]
+[CENT=145,64,2][MOVE=18,0][NUMB=2] secondes en plus ![MOVE=18,0][ENDN][STRT=96,2][WDTH=0,96,64,7,-1,0,87,64,0,64,4,-1][IMME]Découverte No [NUMB=7] :
+[C8B040][HSHD][NUMB=0] gils : [78C840][HSHD][NUMB=4] point(s).[ENDN][STRT=96,2][WDTH=0,96,64,7,-1,0,64,14,0,64,4,-1][IMME]Découverte No [NUMB=7] :
+[ITEM=0] : [78C840][HSHD][NUMB=4] point(s).[ENDN][STRT=145,2][WDTH=0,96,64,7,-1,0,145,64,4,-1][IMME]Découverte No [NUMB=7] :
+[C8B040][HSHD]Pierre Gravée[C8C8C8][HSHD] : [78C840][HSHD][NUMB=4] point(s).[ENDN][STRT=138,2][WDTH=0,96,64,7,-1,0,138,64,4,-1][IMME]Découverte No [NUMB=7] :
+[C8B040][HSHD]Chocographe[C8C8C8][HSHD] : [78C840][HSHD][NUMB=4] point(s).[ENDN][STRT=191,2][WDTH=0,191,64,4,-1][IMME]Découverte No [NUMB=7] :
+[C8B040][HSHD]Pièce de Chocographe[C8C8C8][HSHD] : [78C840][HSHD][NUMB=4] point(s).[ENDN][STRT=202,3][WDTH=0,202,14,0,-1][IMME]Découverte No [NUMB=7] :
+[ITEM=0], que vous ne pouvez pas prendre :
+[78C840][HSHD][NUMB=4] point(s).[ENDN][STRT=230,3][IMME]Découverte No [NUMB=7] :
+[C8B040][HSHD]Carte[C8C8C8][HSHD] que vous ne pouvez pas prendre :
+[78C840][HSHD][NUMB=4] point(s).[ENDN][STRT=148,1][WDTH=0,148,64,4,-1][IMME][B880E0][HSHD]Prime de temps[78C840][HSHD] : [NUMB=4] point(s).[ENDN][STRT=147,2][WDTH=0,147,64,7,-1,0,89,64,2,-1][IMME]Nombre de découvertes : [NUMB=7]
+[78C840][HSHD]Total : [NUMB=2] point(s)[ENDN][STRT=147,3][WDTH=0,147,64,7,-1,0,89,64,2,-1][IMME]Nombre de découvertes : [NUMB=7]
+[78C840][HSHD]Total : [NUMB=2] point(s)[C8C8C8][HSHD]
+[C8B040][HSHD]Niv. Bec + [NUMB=4] ![ENDN][STRT=174,2]Le bec de Choco est plus dur !
+[C8B040][HSHD]Niv. Bec : [NUMB=4] ![ENDN][STRT=0,1][NANI][WDTH=0,0,64,5,-1][NFOC][IMME][CENT=0][NUMB=5][TIME=15][STRT=186,2][ZDNE] :
+C’est quoi cette [C8B040][HSHD]Pierre Gravée[C8C8C8][HSHD] ?[ENDN][STRT=71,2]Méné :
+Faites voir ![ENDN][STRT=151,3]Méné :
+On dirait la représentation
+d’un endroit, coubo[SPED=2]...[SPED=-1][ENDN][STRT=164,3]Méné :
+C’est sûrement l’emplacement
+d’un trésor oublié, coubo ![ENDN][STRT=216,4]Méné :
+Et si vous alliez le chercher
+avec Choco, coubo ?
+Je ne vous ferai pas payer, bien sûr ![ENDN][STRT=268,6]Méné :
+Quand vous montez Choco à l’extérieur
+de la forêt, vous pouvez choisir une pierre
+gravée à trouver en appuyant sur la touche [CBTN=TRIANGLE][MOBI=290]
+et vous pouvez creuser en appuyant
+sur la touche [CBTN=SQUARE][MOBI=311].[ENDN][STRT=216,4]Méné :
+J’ai une idée, coubo !
+Et si on appelait cette pierre gravée,
+un [68C0D8][HSHD]Chocographe[C8C8C8][HSHD] ![ENDN][STRT=114,2][ZDNE] :
+Un Chocographe[SPED=2]...[SPED=-1]?![ENDN][STRT=203,3]Méné :
+Il y a longtemps que j’ai l’impression
+que Choco cherche quelque chose.[ENDN][STRT=141,3]Méné :
+Il y a sûrement plein
+de trésors à découvrir ![ENDN][STRT=224,3]Méné :
+Si vous n’êtes pas sur Choco, vous
+ne pouvez pas choisir de Chocographe.[ENDN][STRT=133,3][WDTH=0,133,14,0,-1]Méné :
+S’il est trop loin,
+vous pouvez utiliser 1 [ITEM=0].[ENDN][STRT=232,2][ZDNE] :
+C’est quoi cette [C8B040][HSHD]Pièce de Chocographe[C8C8C8][HSHD] ?[ENDN][STRT=71,2]Méné :
+Faites voir ![ENDN][STRT=186,2]Méné :
+C’est un éclat de Chocographe[SPED=2]...[SPED=-1][ENDN][STRT=276,5]Méné :
+Tiens ? Il y a quelque chose de gravé derrière[SPED=2]...[SPED=-1]
+C’est prescoubo effacé, on peut pas lire...
+Je vais le mettre dans vos [68C0D8][HSHD]Trésors[C8C8C8][HSHD],
+vous pourrez l’étudier tout seul après.[ENDN][STRT=228,3]Méné :
+En réunissant toutes les pièces, on doit
+obtenir un Chocographe complet, coubo.[ENDN][STRT=129,3][OFFT=0,-96,160]Méné :
+C’est qui ce Chocobo ?
+Où est Choco ?!![ENDN][STRT=130,3][ZDNE] :
+J’ai pas tout compris,
+mais c’est bien Choco ![ENDN][STRT=172,3][OFFT=0,-96,160]Méné :
+Vraiment[SPED=2]...[SPED=-1] coubo ? Comment[SPED=2]...[SPED=-1][WAIT=10]
+Bon sang, mais c’est bien sûr ![ENDN][STRT=174,3][OFFT=0,-96,160]Méné :
+La légende disait vrai, coubo !
+En fait on cherche le paradis ![ENDN][STRT=277,3][OFFT=0,-96,160]Méné :
+La légende dit : ”Les Chocobo élus évolueront et
+conduiront leur cavalier au paradis”, coubo ![ENDN][STRT=208,3][OFFT=0,-96,160]Méné :
+Vu ce qui lui est arrivé, il va évoluer
+jusqu’à ce qu’il trouve le paradis ![ENDN][STRT=254,3][OFFT=0,-96,160]Méné :
+Oh ! Maintenant il est flamboyant !
+Flamboie, Choco, creuse et flamboie, coubo ![ENDN][STRT=95,3][OFFT=0,-96,160]Méné :
+Qu’est-ce que[SPED=2]...[SPED=-1]
+Il a l’air malade ![ENDN][STRT=48,2]Choco :
+Kwoaa[SPED=2]...[SPED=-1][ENDN][STRT=110,3][OFFT=0,-96,160]Méné :
+Je t’ai vexé ?
+Excuse-moi, coubo.[ENDN][STRT=170,3][OFFT=0,-96,160]Méné :
+Quelle que soit ta couleur,
+tu seras toujours mon Choco ![ENDN][STRT=199,4][OFFT=0,-96,160]Méné :
+T’as encore changé de couleur ?!
+Félicitations !
+Moi aussi j’ai de bonnes nouvelles ![ENDN][STRT=258,3]Méné :
+Je ne pensais pas que tu volerais comme moi !
+Tu as dû vraiment t’entraîner ![ENDN][STRT=36,1]Mais[SPED=2]...[SPED=-1][ENDN][STRT=100,2][ZDNE] :
+Méné est pas là[SPED=2]...[SPED=-1][ENDN][STRT=155,3][OFFT=0,-96,160]Méné :
+Vous êtes là ?
+J’étais parti faire un tour ![ENDN][STRT=158,2][OFFT=0,-96,160]Méné :
+J’étais parti faire un tour[SPED=2]...[SPED=-1][ENDN][STRT=75,2][WDTH=0,8,16,-1][ZDNE] :
+T’es allé où ?[ENDN][STRT=89,2][ZDNE] :
+Et t’es allé où ?[ENDN][STRT=106,2][OFFT=0,-96,160]Méné :
+Ah oui, c’est vrai ![ENDN][STRT=229,3][OFFT=0,-96,160]Méné :
+J’ai traversé l’océan vers le sud-ouest,
+jusqu’à l’archipel Salbeij ![ENDN][STRT=176,4][OFFT=0,-96,160]Méné :
+Et là-bas on peut entrer
+dans la baie de l’île de Pamel !
+Regardez la [68C0D8][HSHD]Carte[C8C8C8][HSHD], coubo ![ENDN][STRT=194,6][OFFT=0,-96,160]Méné :
+La baie est comme cette forêt.
+C’est un endroit agréable et
+la lumière y est douce.
+Si on ne m’a pas menti,
+il doit y avoir des Chocographes ![ENDN][STRT=156,2][ZDNE] :
+C’est quoi ce [C8B040][HSHD]PimentAnkou[C8C8C8][HSHD] ?[ENDN][STRT=71,2]Méné :
+Faites voir ![ENDN][STRT=259,5]Méné :
+Hum[SPED=2]...[SPED=-1]
+C’est assez épicé pour vous tuer
+d’un seul coup ! Il paraît qu’il y a
+très longtemps on s’en servait pour cuisiner ![ENDN][STRT=188,3]Méné :
+Mais maintenant avec la ”Brume”,
+on en trouve presque plus[SPED=2]...[SPED=-1][ENDN][STRT=177,3]Méné :
+Ca peut peut-être vous servir,
+prenez-le, coubo ![ENDN][STRT=162,3]Méné :
+Mais, vous avez toutes
+les [C8B040][HSHD]Pièces de Chocographe[C8C8C8][HSHD] ![ENDN][STRT=146,3]Méné :
+Ca doit donner
+un Chocographe complet ![ENDN][STRT=199,5]Méné :
+J’aimerais bien savoir ce qui est
+écrit derrière, mais pour le moment
+allons à la chasse aux trésors,
+coubo ![ENDN][STRT=167,3]Méné :
+J’ai découvert quelque chose
+sur le [C8B040][HSHD]PimentAnkou[C8C8C8][HSHD],coubo ![ENDN][STRT=210,4][OFFT=0,-96,160]Méné :
+Vous l’avez peut-être remarqué mais
+quand Choco mange du [C8B040][HSHD]PimentAnkou[C8C8C8][HSHD]
+il devient très fort, coubo.[ENDN][STRT=188,3][OFFT=0,-96,160]Méné :
+Avec son pouvoir, on doit
+pouvoir aller au paradis, coubo ![ENDN][STRT=242,5][OFFT=0,-96,160]Méné :
+Ce paradis est un endroit merveilleux, mais
+[68C0D8][HSHD]il est sur aucune carte[C8C8C8][HSHD], coubo !
+Je suis sûr de pouvoir le trouver, coubo !
+Aidez-moi ![ENDN][STRT=187,2][ZDNE] :
+Méné ? Qu’est-ce que tu fais là ?[ENDN][STRT=101,3][ZDNE] :
+Dis-moi plutôt
+ce que tu fais là ![ENDN][STRT=221,3]Méné :
+J’ai fait des recherches sur la légende
+et je suis arrivé ici, coubo ![ENDN][STRT=214,4]Méné :
+Un endroit calme et baigné de la même
+lumière que la forêt ! Il y a sûrement
+des Chocographes, coubo ![ENDN][STRT=208,3]Méné :
+Choco est mon partenaire, coubo !
+C’est moi qui décide de ce qu’il fait ![ENDN][STRT=222,3]Méné :
+On veut aller au paradis tous les deux !
+Il faut creuser un peu ici aussi, coubo ![ENDN][STRT=244,3]Méné :
+D’après ce que j’ai vu, le fond de l’eau est
+[68C0D8][HSHD]plus dur que le sol de la forêt[C8C8C8][HSHD], coubo ![ENDN][STRT=217,3][ZDNE] :
+On pourra fouiller que les hauts fonds,
+Choco a peur quand il a pas pied[SPED=2]...[SPED=-1][ENDN][STRT=190,4]Méné :
+C’est un peu petit pour une
+fouille[SPED=2]...[SPED=-1][WAIT=10] Allez, je divise
+[68C0D8][HSHD]la durée et le prix par 2[C8C8C8][HSHD], coubo ![ENDN][STRT=95,2]Choco :
+Kwo... Kwoaaa !![ENDN][STRT=114,5][PCHM=3,2][WDTH=0,114,64,4,-1,1,150,-1,2,208,-1][IMME]Choco :
+Kwoaaa ! [C8B040][HSHD]Niv. Bec : [NUMB=4][C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Voir les Chocographes.
+[MOVE=18,0]Voir les commandes à l’extérieur.
+[MOVE=18,0]Annuler.[ENDN][STRT=123,5][PCHM=3,2][WDTH=0,123,64,4,-1,1,150,-1,2,208,-1][IMME]Choco :
+Kwoaaa ! [C8B040][HSHD]Niv. Bec : [NUMB=4]★[C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Voir les Chocographes.
+[MOVE=18,0]Voir les commandes à l’extérieur.
+[MOVE=18,0]Annuler.[ENDN][STRT=52,4][PCHC=2,1][WDTH=1,207,-1,2,65,-1][IMME]Choco :
+Kwoaaa !
+[CHOO][MOVE=18,0]Voir les commandes à l’extérieur.
+[MOVE=18,0]Annuler.[ENDN][STRT=114,6][PCHM=4,3][WDTH=0,114,64,4,-1,1,150,-1,3,209,-1][IMME]Choco :
+Kwoaaa ! [C8B040][HSHD]Niv. Bec : [NUMB=4][C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Voir les Chocographes.
+[MOVE=18,0]Ouvrir le menu.
+[MOVE=18,0]Voir les commandes à l’extérieur.
+[MOVE=18,0]Annuler.[ENDN][STRT=123,6][PCHM=4,3][WDTH=0,123,64,4,-1,1,150,-1,3,209,-1][IMME]Choco :
+Kwoaaa ! [C8B040][HSHD]Niv. Bec : [NUMB=4]★[C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Voir les Chocographes.
+[MOVE=18,0]Ouvrir le menu.
+[MOVE=18,0]Voir les commandes à l’extérieur.
+[MOVE=18,0]Annuler.[ENDN][STRT=184,3]Méné :
+Vous avez vu ?
+On dirait une île volante, coubo.[ENDN][STRT=240,5]Méné :
+Ca changera peut-être de place
+quand on redescendra, coubo.
+Si on veut revenir, il faudra regarder
+la carte en appuyant sur la touche [DBTN=SELECT][MOBI=281].[ENDN][STRT=232,3]Méné :
+La surface a l’air d’être assez dure.
+Vraiment mystérieux cet endroit, coubo ![ENDN][STRT=156,3][ZDNE] :
+Moi, c’est toi que je trouve
+assez mystérieux[SPED=2]...[SPED=-1][ENDN][STRT=179,5][PCHC=2,1][IMME][ZDNE] :
+Tiens[SPED=2]...[SPED=-1]
+On dirait une butte d’Invokeurs.
+[CHOO][MOVE=18,0]Regarder ça de plus près.
+[MOVE=18,0]Faire autre chose.[ENDN][STRT=102,1]Attendez, coubo ![ENDN][STRT=134,3][OFFT=0,-128,128]Méné :
+Il y a quelque chose
+de bizarre ici, coubo !![ENDN][STRT=62,1]Ca craint ?[ENDN][STRT=214,2][OFFT=0,-128,128]Méné :
+J’ai jamais ressenti ça avant, coubo ![ENDN][STRT=245,3][OFFT=0,-128,128]Méné :
+C’est pas de ce monde[SPED=2]...[SPED=-1]
+Mais c’est pas un fantôme non plus, coubo ![ENDN][STRT=153,3][OFFT=0,-128,128]Méné :
+Comment dire[SPED=2]...[SPED=-1]?
+Ca vient d’ailleurs, coubo ![ENDN][STRT=52,4][PCHC=2,1][WDTH=0,8,16,-1,1,220,-1,2,178,-1][IMME][ZDNE] :
+Je vois[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Regarder quand même de plus près.
+[MOVE=18,0]Tout arrêter tout de suite ![ENDN][STRT=197,6][OFFT=0,-128,128][PCHC=4,3][IMME]Méné :
+On ferait mieux d’arrêter, coubo[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Réorganiser l’équipe.
+[MOVE=18,0]Accéder au menu.
+[MOVE=18,0]On est prêt !
+[MOVE=18,0]Tout arrêter ![ENDN][STRT=183,2][OFFT=0,-128,128]Méné :
+Je crois que c’est mieux, coubo.[ENDN][STRT=100,1]Vraiment, coubo ?[ENDN][STRT=127,4][PCHC=2,1][WDTH=1,151,-1][IMME][ZDNE] :
+Qu’est-ce qu’on fait[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Regarder de plus près.
+[MOVE=18,0]Ne rien faire.[ENDN][STRT=191,6][OFFT=0,-128,128][PCHC=4,3][IMME]Méné :
+Je sais pas ce qui va se passer[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Réorganiser l’équipe.
+[MOVE=18,0]Accéder au menu.
+[MOVE=18,0]On est prêt !
+[MOVE=18,0]Tout arrêter ![ENDN][STRT=234,3][OFFT=0,-128,128]Méné :
+Tu es plus fort que tu en as l’air, coubo !
+Je suis impressionné, coubo ![ENDN][STRT=259,3][OFFT=0,-128,128]Méné :
+J’ai déjà ressenti ça en jouant aux cartes !
+Je vais vous donner quelques tuyaux, coubo ![ENDN][STRT=165,3][OFFT=0,-128,128]Méné :
+Si vous avez trop de cartes,
+laissez-en ici, coubo ![ENDN][STRT=109,2][OFFT=0,-128,128]Méné :
+Encore une chose ![ENDN][STRT=164,5][PCHC=2,1][IMME][ZDNE] :
+On redescend ou t’as encore
+quelque chose à faire[SPED=2]...[SPED=-1]?
+[CHOO][MOVE=18,0]On reste.
+[MOVE=18,0]On redescend.[ENDN][STRT=204,2][OFFT=0,-320,0][TAIL=UPLF]Ceux qui viennent ici[SPED=2]...[SPED=-1]
+cherchent leur pays natal ou un ami.[ENDN][STRT=160,3][OFFT=0,-320,0][TAIL=UPLF]Choco[SPED=2]...[SPED=-1]
+Tu veux vivre tranquillement
+avec les autres Chocobo.[ENDN][STRT=106,1][OFFT=0,-320,0][TAIL=UPLF]Ce n’est pas ça[SPED=2]...[SPED=-1]?[ENDN][STRT=161,2][OFFT=0,-320,0][TAIL=UPLF]Nostalgique[SPED=2]...[SPED=-1]
+Nous attendons ton retour[SPED=2]...[SPED=-1][ENDN][STRT=159,2][OFFT=0,-320,0][TAIL=UPLF]Choco, reçois
+le pouvoir des hauts fonds ![ENDN][STRT=205,2][OFFT=0,-320,0][TAIL=UPLF]Tu peux aller sur les bancs de sable
+en passant par [68C0D8][HSHD]les plages[C8C8C8][HSHD].[ENDN][STRT=207,3][OFFT=0,-320,0][TAIL=UPLF]Il te reste du chemin à parcourir,
+mais tu viens de faire un grand pas !
+Nous t’attendons[SPED=2]...[SPED=-1]![ENDN][STRT=211,2][OFFT=0,-320,0][TAIL=UPLF]Choco, reçois le pouvoir d’escalader
+les montagnes les plus abruptes ![ENDN][STRT=164,3][OFFT=0,-320,0][TAIL=UPLF]Que ta marche vers ton pays
+natal soit régulière !
+Nous t’attendons[SPED=2]...[SPED=-1][ENDN][STRT=194,2][OFFT=0,-320,0][TAIL=UPLF]Choco, reçois le pouvoir de nager
+dans les mers les plus profondes ![ENDN][STRT=233,2][OFFT=0,-320,0][TAIL=UPLF]Tu es arrivé jusqu’ici, tes efforts seront
+bientôt récompensés. Nous t’attendons[SPED=2]...[SPED=-1][ENDN][STRT=141,2][OFFT=0,-320,0][TAIL=UPLF]Choco, reçois le pouvoir
+de voler dans les cieux ![ENDN][STRT=224,3][OFFT=0,-320,0][TAIL=UPLF]Tu peux t’envoler à partir de [68C0D8][HSHD]la forêt[C8C8C8][HSHD] !
+Tu peux te poser dans [68C0D8][HSHD]la forêt[C8C8C8][HSHD] !
+Essaye ![ENDN][STRT=246,2][OFFT=0,-320,0][TAIL=UPLF]Tu as reçu tous les pouvoirs.
+Nous t’attendons dans notre terre natale[SPED=2]...[SPED=-1][ENDN][STRT=121,3][PCHC=2,1][IMME]Admirer le paysage[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Avec plaisir.
+[MOVE=18,0]Surtout pas ![ENDN][STRT=124,2][TAIL=LOR][NANI][NFOC][IMME][DBTN=PAD][MOBI=262] : Déplacer l’écran.
+[CBTN=CIRCLE][MOBI=261] : Annuler.[TIME=-1][STRT=168,2]Méné :
+C’est ça le paradis[SPED=2]...[SPED=-1] coubo ?[ENDN][STRT=158,2][ZDNE] :
+Méné ?! Depuis quand tu...?![ENDN][STRT=241,3]Méné :
+J’avais l’impression que vous alliez
+le trouver, alors je vous ai suivis, coubo ![ENDN][STRT=174,3]Méné :
+Où tu vas, coubo ?!
+On a encore rien fait, coubo !![ENDN][STRT=88,2]Méné :
+Ingrat, coubo[SPED=2]...[SPED=-1][ENDN][STRT=212,1]Te voilà enfin, Choco le nostalgique[SPED=2]...[SPED=-1][ENDN][STRT=171,2]On m’appelle GroChocobo.
+Je suis le maître de ces lieux.[ENDN][STRT=159,4]GroChocobo :
+Tu voulais venir sans l’aide
+de quiconque[SPED=2]...[SPED=-1] Mais tu es
+redevable envers ces gens.[ENDN][STRT=212,3]GroChocobo :
+Je ferai en sorte qu’ils comprennent
+mes paroles pendant leur séjour ici[SPED=2]...[SPED=-1][ENDN][STRT=45,1]Kwoaa ![ENDN][STRT=135,2]GroChocobo :
+Compagnons de Choco[SPED=2]...[SPED=-1][ENDN][STRT=146,4]GroChocobo :
+Choco va rester ici
+et vivre parmi nous.
+Vous devez lui dire adieu.[ENDN][STRT=82,1]Kwo... Kwoa ?![ENDN][STRT=146,3][TAIL=UPRF]Méné :
+Je m’appelle Méné !
+Je veux vivre ici, coubo ![ENDN][STRT=68,1]Petit être[SPED=2]...[SPED=-1][ENDN][STRT=44,1]Coubo ?[ENDN][STRT=101,3]GroChocobo :
+Seuls les Chocobo
+peuvent vivre ici.[ENDN][STRT=56,1]Mais, je[SPED=2]...[SPED=-1][ENDN][STRT=145,2]GroChocobo :
+Il n’y a pas d’exception[SPED=2]...[SPED=-1][ENDN][STRT=46,1]Choco[SPED=2]...[SPED=-1][ENDN][STRT=157,2]GroChocobo :
+Avez-vous fini vos adieux ?[ENDN][STRT=160,4][TAIL=UPRF]Méné :
+Pas encobou !
+Choco a encore des trésors
+à découvrir, coubo ![ENDN][STRT=194,3]GroChocobo :
+Choco, voulais-tu des amis ?
+Te reste-t-il des choses à faire ?[ENDN][STRT=48,1]Kwoaa[SPED=2]...[SPED=-1][ENDN][STRT=183,3]GroChocobo :
+Alors va les finir et prépare-toi
+à la vie que tu auras ici.[ENDN][STRT=108,2]Méné :
+Je rentre, coubo[SPED=2]...[SPED=-1][ENDN][STRT=173,2]GroChocobo :
+Je vais te confier une chose[SPED=2]...[SPED=-1][ENDN][STRT=219,4]GroChocobo :
+Le monde est encore plein de trésors
+à découvrir, mais pour ce faire, il faut
+avoir des pouvoirs particuliers.[ENDN][STRT=219,4]GroChocobo :
+Si tu as pu venir jusqu’ici,
+tu auras certainement compris que ces
+pouvoirs sont liés au [C8B040][HSHD]PimentAnkou[C8C8C8][HSHD][SPED=2]...[SPED=-1][ENDN][STRT=167,4]GroChocobo :
+Attaque le roc de ton bec !
+Nage dans les océans infinis !
+Elance-toi dans les cieux ![ENDN][STRT=177,3]GroChocobo :
+Grâce à ces pouvoirs, ta route
+sera parsemée de trésors.[ENDN][STRT=114,3]GroChocobo :
+Nous attendrons ton
+retour parmi nous[SPED=2]...[SPED=-1][ENDN][STRT=163,3]Méné :
+Je t’attends au même endroit
+que d’habitude, coubo ![ENDN]

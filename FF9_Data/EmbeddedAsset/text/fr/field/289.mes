@@ -1,0 +1,750 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1,1,177,-1,2,203,-1,0,173,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Prince de la corde à sauter
+[MOVE=18,0]On dit que la princesse Grenat...
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment de lire.[TIME=-1][STRT=227,5][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,227,6,1,-1][IMME][TEXT=0,0] :
+Tout à l’heure, j’ai reçu une lettre de [TEXT=0,1] !
+Si on allait la lire ensemble ?
+[CHOO][MOVE=18,0]Bonne idée !
+[MOVE=18,0]Sans intérêt.[ENDN][STRT=62,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,1,106,-1,2,182,-1][IMME][TEXT=0,0] :
+Tu es sûr ?
+[CHOO][MOVE=18,0]Je viens la lire.
+[MOVE=18,0]Ca m’intéresse vraiment pas.[ENDN][STRT=227,12][WDTH=0,77,6,1,6,0,-1,0,165,64,7,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+J’ai entendu dire qu’un garçon
+avait sauté à la corde [NUMB=7] fois !
+C’est incroyable !
+Peu de gens seraient capables d’établir
+un tel record !
+Peux-tu sauter [NUMB=7] fois ?
+Moi, je peux sauter que [NUMB=6] fois
+tout au plus...
+[ENDN][STRT=256,4][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+C’est super !
+Au fait ! Si tu sautes bien plusieurs fois,
+tu gagneras quelque chose de très précieux.[ENDN][STRT=204,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,204,6,1,-1][TEXT=0,0] :
+Je viens de recevoir une lettre de [TEXT=0,1].
+Veux-tu que je te la montre ?[ENDN][STRT=250,12][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Mais c’est quoi ce tumulte ?
+En ce moment, il y a plein de soldats
+dans les rues.
+
+Le bruit court que la princesse Grenat
+est revenue à Alexandrie, tu le savais ?
+Elle avait fait une fugue, mais elle
+avait toujours confiance en la reine Branet.
+[ENDN][STRT=254,12][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Mais c’est quoi ce tumulte ?
+En ce moment, il y a plein de soldats
+dans les rues.
+
+Le bruit court que la princesse Grenat
+est revenue à Alexandrie, tu le savais ?
+Elle avait fait une fugue, parcecoubo
+elle n’avait plus confiance en la reine Branet
+[ENDN][STRT=200,5][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+A quoi la Reine et la Princesse
+pensent-elles ?
+Bah, je ne comprends rien à ce que
+pensent les gens du château[SPED=2]...[SPED=-1][ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=172,2][TAIL=LORF]Markus :
+C’est vraiment Alexandrie ici ?[ENDN][STRT=137,3][STNR] :
+Tu ne le vois pas !
+C’est pourtant évident ![ENDN][STRT=179,2][TAIL=LORF]Markus :
+Je veux dire... Par où on sort ?[ENDN][STRT=62,2][WDTH=0,8,19,-1][STNR] :
+Hum... Ca[SPED=2]...[SPED=-1][ENDN][STRT=43,2][WDTH=0,8,19,-1][STNR] :
+Par là ![ENDN][STRT=194,2][STNR] :
+Vite, Princesse, dépêchons-nous ![ENDN][STRT=68,2][WDTH=0,8,18,-1,0,68,19,-1][DGGR] :
+Attendez, [STNR] ![ENDN][STRT=149,2][DGGR] :
+Je reconnais cet endroit ![ENDN][STRT=157,2][DGGR] :
+Maître Totto m’en a parlé ![ENDN][STRT=223,3][DGGR] :
+Les anciens rois d’Alexandrie l’avaient
+construit pour empêcher les invasions ![ENDN][STRT=127,3][DGGR] :
+Je suis sûre qu’il avait
+parlé d’autre chose[SPED=2]...[SPED=-1][ENDN][STRT=226,3][STNR] :
+Princesse ! Vous aurez tout le temps de
+nous raconter ces histoires plus tard ![ENDN][STRT=203,4][STNR] :
+Il ne faut pas rester trop longtemps
+dans un endroit aussi humide,
+c’est mauvais pour la santé ![ENDN][STRT=165,3][TAIL=LORF]Markus :
+C’est vrai ! Je veux dire...
+on doit aller délivrer Frank ![ENDN][STRT=229,2][DGGR] :
+Vous avez raison, allons à son secours ![ENDN][STRT=66,2][WDTH=0,8,18,-1,0,66,19,-1][DGGR] :
+En avant, [STNR] ![ENDN][STRT=62,2][WDTH=0,8,18,-1,0,62,19,-1][DGGR] :
+En avant [STNR] ![ENDN][STRT=190,2][STNR] :
+Qu’est-ce que t’as encore fait ?![ENDN][STRT=190,3][TAIL=LORF]Markus :
+J’ai rien fait ! Je veux dire,
+arrêtez de m’accuser comme ça ![ENDN][STRT=196,2][STNR] :
+Vraiment ? Tu n’as touché à rien ?![ENDN][STRT=123,2][TAIL=LORF]Markus :
+Vous me croyez pas ?[ENDN][STRT=152,3][TAIL=LORF]Markus :
+Et voilà, on discute et
+maintenant, on est coincé ![ENDN][STRT=59,2][WDTH=0,8,19,-1][STNR] :
+Bon sang ![ENDN][STRT=125,2]Pile :
+Nous vous avons eus ![ENDN][STRT=141,2]Face :
+Voilà une bien belle vue ![ENDN][STRT=65,2][WDTH=0,8,19,-1][STNR] :
+Pile, Face ![ENDN][STRT=202,3][WDTH=0,132,19,-1][STNR] :
+C’est moi, [STNR], le capitaine
+des Brutos ! Nous sommes revenus ![ENDN][STRT=177,2][STNR] :
+Ouvrez ce truc immédiatement ![ENDN][STRT=228,2]Face :
+Nous n’avons pas de raisons de le faire.[ENDN][STRT=241,2]Pile :
+Je dirais même qu’il va falloir vous y faire.[ENDN][STRT=29,1]Pile ![ENDN][STRT=37,1]Face ![ENDN][STRT=182,3][DGGR] :
+Je suis revenue à Alexandrie
+pour parler à la Reine, ma mère.[ENDN][STRT=250,2][DGGR] :
+Cessez vos farces et conduisez-moi à elle ![ENDN][STRT=196,3]Pile :
+Même si vous n’en aviez pas envie,
+vous auriez vu la reine Branet ![ENDN][STRT=207,3]Face :
+C’est la reine Branet qui a ordonné :
+Capturez la princesse Grenat ![ENDN][STRT=61,1][TAIL=UPLF][IMME]Comment ?![INCS][TIME=-1][STRT=39,1][TAIL=UPRF][IMME]Quoi ?![INCS][TIME=-1][STRT=170,1][TAIL=LORF][IMME]Qu’est-ce que ça veut dire ?![INCS][TIME=-1][STRT=139,3][TAIL=UPLF][STNR] :
+Raaah ! M’enfermer, moi,
+dans un endroit pareil ![ENDN][STRT=189,2][TAIL=UPLF][STNR] :
+Pile ! Face ! Vous me le paierez ![ENDN][STRT=110,2][TAIL=LORF]Markus :
+Vous m’ennuyez là ![ENDN][STRT=254,2][TAIL=UPLF][STNR] :
+N’oublie pas que c’est toi qui nous as suivis ![ENDN][STRT=196,3][TAIL=LORF]Markus :
+Je veux dire, ça doit être terrible
+d’être trahi par la reine Branet...[ENDN][STRT=197,2][TAIL=UPLF][STNR] :
+Il s’agit sûrement d’un malentendu ![ENDN][STRT=180,3][TAIL=UPLF][STNR] :
+Sa Majesté ne trahirait pas
+l’un des ses fidèles serviteurs ![ENDN][STRT=201,2][TAIL=LORF]Markus :
+Et vous croyez vraiment ce que vous dites ?[ENDN][STRT=161,3][TAIL=LORF]Markus :
+On ne sait même pas comment
+elle a reçu la Princesse[SPED=2]...[SPED=-1][ENDN][STRT=78,2][TAIL=UPLF][WDTH=0,8,19,-1][STNR] :
+Raaaaaaaah ![ENDN][STRT=135,3][TAIL=UPLF][STNR] :
+Princesse ! Tenez bon !
+Je viens vous sauver ![ENDN][STRT=191,2][DGGR] :
+Mère daignera-t-elle m’écouter ?[ENDN][STRT=162,3][DGGR] :
+Pourquoi
+a-t-elle attaqué Bloumécia ?[ENDN][STRT=166,3][DGGR] :
+Est-elle contrariée
+d’avoir dû me faire arrêter ?[ENDN][STRT=154,3][DGGR] :
+C’est un peu compliqué mais
+je dois tout lui expliquer[SPED=2]...[SPED=-1][ENDN][STRT=133,3][DGGR] :
+Au fait, depuis quand
+Mère a-t-elle changé[SPED=2]...[SPED=-1][ENDN][STRT=213,3][DGGR] :
+N’est-ce pas depuis mon anniversaire
+l’an dernier ?[ENDN][STRT=236,3][DGGR] :
+Ce jour-là[SPED=2]...[SPED=-1] Il y avait cet homme
+que je n’avais encore jamais rencontré[SPED=2]...[SPED=-1][ENDN][STRT=166,2][DGGR] :
+Y a-t-il un rapport avec lui ?[ENDN][STRT=209,3][DGGR] :
+En tout cas, je suis sûre que c’est là
+qu’elle a commencé à changer[SPED=2]...[SPED=-1][ENDN][STRT=191,3][DGGR] :
+Et peu de temps après,
+Maître Totto a quitté Alexandrie.[ENDN][STRT=182,2][DGGR] :
+Depuis ce jour-là[SPED=2]...[SPED=-1] Pourquoi[SPED=2]...[SPED=-1]?[ENDN][STRT=140,2][TAIL=UPLF]Pile :
+Sa Majesté te demande ![ENDN][STRT=175,2][TAIL=UPLF]Face :
+Nous allons te conduire à elle ![ENDN][STRT=61,2][WDTH=0,8,18,-1][DGGR] :
+Comment ?![ENDN][STRT=182,3][DGGR] :
+Vous n’êtes que des bouffons !
+Je vous interdis de me tutoyer ![ENDN][STRT=92,2][TAIL=UPLF][SPED=255]Pile :
+Ne discute pas ![ENDN][STRT=225,3][TAIL=UPLF][SPED=255]Face :
+Quand nous disons que nous t’emmenons,
+nous t’emmenons ![ENDN][STRT=152,2][DGGR] :
+[C8C8C8][HSHD](Dans une telle situation[SPED=2]...[SPED=-1])[ENDN][STRT=164,2][DGGR] :
+Fermez-la, bande d’abrutis ![ENDN][STRT=127,3][TAIL=UPLF]Pile :
+Qu’est-ce qu’elle dit ?
+Je ne comprends pas.[ENDN][STRT=156,2][TAIL=UPLF]Face :
+C’est difficile à expliquer...[ENDN][STRT=176,3][TAIL=UPLF][NFOC]Pile :
+Toujours est-il que Sa Majesté
+nous attend ![INCS][TIME=-1][STRT=176,3][TAIL=LOLF][OFFT=-50,500,0][NFOC]Face :
+Toujours est-il que Sa Majesté
+nous attend ![INCS][TIME=-1][STRT=64,2]Pile :
+Viens vite ![ENDN][STRT=236,2]Face :
+Il ne faut pas faire attendre Sa Majesté ![ENDN][STRT=40,1][TAIL=UPRF]Mère[SPED=2]...[SPED=-1][ENDN][STRT=47,2][TAIL=UPLF]Branet :
+Grenat ![ENDN][STRT=234,3][TAIL=UPLF]Branet :
+Où étais-tu partie ?!
+J’étais si inquiète ! Je n’en dormais plus ![ENDN][STRT=173,2][TAIL=UPLF]Branet :
+Approche-toi, que je te voie ![ENDN][STRT=121,3][DGGR] :
+Mère, j’aimerais vous
+poser une question[SPED=2]...[SPED=-1][ENDN][STRT=206,3][TAIL=UPLF]Branet :
+Laquelle ? Tu es si mignonne,
+je répondrai à toutes tes questions.[ENDN][STRT=181,3][TAIL=UPRF][DGGR] :
+On dit[SPED=2]...[SPED=-1] que vous avez
+détruit Bloumécia, est-ce vrai ?[ENDN][STRT=140,3][TAIL=UPLF]Branet :
+C’est donc ça que
+tu voulais me demander ?[ENDN][STRT=145,2][TAIL=UPLF]Branet :
+Mais, c’est faux, Grenat ![ENDN][STRT=195,3][TAIL=UPLF]Branet :
+Ce sont les rats de Bloumécia
+qui ont voulu détruire Alexandrie ![ENDN][STRT=195,3][TAIL=UPLF]Branet :
+Je ne pouvais pas les laisser détruire
+notre beau pays aussi facilement ![ENDN][STRT=225,2][TAIL=UPLF]Branet :
+Alors nous avons attaqué les premiers ![ENDN][STRT=178,2][TAIL=UPRF][DGGR] :
+C’est là ce que je dois croire ?[ENDN][STRT=99,2][TAIL=UPLF]Branet :
+Bien évidemment ![ENDN][STRT=191,4][TAIL=UPLF][PCHC=2,1][IMME][SPED=255]Branet :
+Tu ne croirais donc pas ta mère ?
+[CHOO][MOVE=18,0]Je vous crois.
+[MOVE=18,0]Vous mentez ![ENDN][STRT=174,3][TAIL=UPRF][DGGR] :
+Pardonnez-moi de vous avoir
+importunée avec ces histoires.[ENDN][STRT=253,3][TAIL=UPLF]Branet :
+Oh ! Elle a compris !
+Je suis contente d’avoir une fille aussi intelligente ![ENDN][STRT=241,2][TAIL=UPRF][DGGR] :
+Je ne peux pas croire une chose pareille ![ENDN][STRT=185,3][TAIL=UPLF]Branet :
+Et pourquoi donc ?
+Tu oses dire que ta mère ment ?![ENDN][STRT=197,3][TAIL=UPLF]Kuja :
+Pardonnez-moi, mais
+puis-je prendre part à ce drame ?[ENDN][STRT=62,2][TAIL=UPRF][WDTH=0,8,18,-1][DGGR] :
+Ce drame ?[ENDN][STRT=207,2][TAIL=UPLF]Kuja :
+Oui, la belle histoire qui se joue ici[SPED=2]...[SPED=-1][ENDN][STRT=186,2][TAIL=UPLF]Kuja :
+Celle qui parle de l’amour déçu[SPED=2]...[SPED=-1][ENDN][STRT=177,3][TAIL=UPLF]Kuja :
+...d’un prince au blanc destrier
+pour une belle princesse[SPED=2]...[SPED=-1][ENDN][STRT=231,4][TAIL=UPLF]Kuja :
+La beauté de la princesse se trouve
+voilée par le chagrin et la belle s’endort
+pour 100 ans[SPED=2]...[SPED=-1][ENDN][STRT=151,2][TAIL=UPRF][DGGR] :
+Je[SPED=2]...[SPED=-1] Je vous ai déjà vu[SPED=2]...[SPED=-1]?[ENDN][STRT=115,3][TAIL=UPLF]Kuja :
+Notre rencontre est
+un fait du destin.[ENDN][STRT=162,2][TAIL=UPLF]Kuja :
+Mon bel oisillon, viens à moi ![ENDN][STRT=235,2][TAIL=UPRF]Kuja :
+Je t’emmènerai dans le monde des rêves ![ENDN][STRT=165,3][TAIL=UPRF]Kuja :
+Je le savais, elle est si belle,
+quand elle dort.[ENDN][STRT=134,2][TAIL=UPLF]Branet :
+Tss ! Petite effrontée ![ENDN][STRT=70,2][TAIL=UPLF]Branet :
+Pile ! Face ![ENDN][STRT=211,3][TAIL=UPLF]Branet :
+Préparez ce qu’il faut
+pour prendre les Chimères à Grenat ![ENDN][STRT=103,3]Pile :
+Princesse, enfin,
+vous avez 16 ans.[ENDN][STRT=173,3]Face :
+Princesse, enfin, nous pouvons
+vous retirer vos Chimères.[ENDN][STRT=76,2]Pile :
+Commençons ![ENDN][STRT=76,2]Face :
+Commençons ![ENDN][STRT=159,2][TAIL=UPLF][NFOC][SPED=32]Pile :
+Chimères à la vie éternelle ![TIME=60][STRT=174,2][TAIL=LORF][OFFT=0,100,0][NFOC][SPED=32]Face :
+Chimères à la force éternelle ![TIME=60][STRT=162,3][TAIL=UPLF][NFOC][SPED=32]Pile :
+Sortez, ici, de votre sommeil
+de seize années ![TIME=60][STRT=192,3][TAIL=LORF][OFFT=0,100,0][NFOC][SPED=32]Face :
+Sortez, ici, de votre enfermement
+de seize années ![TIME=60][STRT=99,2][TAIL=UPLF][NFOC][SPED=32]Pile :
+De votre gloire...[TIME=40][STRT=120,2][TAIL=LORF][OFFT=0,100,0][NFOC][SPED=32]Face :
+De votre libération...[TIME=40][STRT=110,2][TAIL=UPLF][NFOC][SPED=32]Pile :
+L’heure est venue ![TIME=40][STRT=117,2][TAIL=LORF][OFFT=0,100,0][NFOC][SPED=32]Face :
+Le moment est venu ![TIME=40][STRT=78,2][TAIL=UPLF][NFOC][SPED=32]Pile :
+Viens à nous ![TIME=60][STRT=205,2][TAIL=LORF][OFFT=0,100,0][NFOC][SPED=32]Face :
+Odin, esprit guerrier des ténèbres ![TIME=60][STRT=193,3][SPED=32]Pile :
+Princesse,
+nous ne vous voulons pas de mal...[ENDN][STRT=71,2]Face :
+C’est pour...[ENDN][STRT=125,2][TAIL=UPLF][STNR] :
+Il faut qu’on s’évade ![ENDN][STRT=111,2][TAIL=LORF]Markus :
+Vous êtes sérieux ?[ENDN][STRT=83,3][TAIL=UPLF][STNR] :
+On ne peut pas
+rester là ![ENDN][STRT=172,2][TAIL=LORF]Markus :
+Je veux dire, ça me va, mais[SPED=2]...[SPED=-1][ENDN][STRT=124,2][TAIL=UPRF][IMME]Appuyez sur [DBTN=LEFT][MOBI=267] ou [DBTN=RIGHT][MOBI=269]
+pour faire balancier ![TIME=-1][STRT=96,1][TAIL=UPRF][IMME]Appuyez sur [DBTN=RIGHT] [MOBI=269]![TIME=-1][STRT=96,1][TAIL=UPLF][IMME]Appuyez sur [DBTN=LEFT] [MOBI=267]![TIME=-1][STRT=120,1][TAIL=UPRF][IMME]Continuez comme ça ![TIME=-1][STRT=106,1][TAIL=UPRF][IMME]Dans l’autre sens ![TIME=-1][STRT=118,2][STNR] :
+J’arrive, Princesse ![ENDN][STRT=68,1]PRINCESSE ![ENDN][STRT=201,3]Markus :
+Je veux dire, je pars pour la Forêt
+Maudite m’occuper de Frank.[ENDN][STRT=118,2][STNR] :
+Raaah ! Quel ingrat ![ENDN][STRT=166,1]Hein ? Qu’est-ce que c’est ?![ENDN][STRT=136,3][STNR] :
+Vaurien ! Qu’est-ce que
+tu viens faire ici ?![ENDN][STRT=147,3][WDTH=0,82,19,-1][ZDNE] :
+Oh, ce vieux [STNR] !
+On est bien à Alexandrie ?[ENDN][STRT=170,3][STNR] :
+Grompf, je n’ai pas le temps
+de répondre à tes questions ![ENDN][STRT=190,3][STNR] :
+Je dois sortir d’ici au plus vite
+pour aller secourir la Princesse ![ENDN][STRT=187,3][ZDNE] :
+N'en dis pas plus !
+Allez, on va la sauver ![ENDN][STRT=134,3][STNR] :
+Il n’en fait qu’à sa tête,
+comme d’habitude ![ENDN][STRT=176,3][WDTH=0,176,18,-1][ZDNE] :
+Bon papi, tu viens ou tu veux
+qu’ils aient le temps de tuer [DGGR] ?![ENDN][STRT=130,3][STNR] :
+Tuer la Princesse !
+Ne dis pas de bêtises ![ENDN][STRT=143,2][VIVI] :
+C’est vrai, Grand-père[SPED=2]...[SPED=-1][ENDN][STRT=187,3][VIVI] :
+Quand la reine Branet reviendra,
+ils tueront la princesse[SPED=2]...[SPED=-1]![ENDN][STRT=94,2][VIVI] :
+Je l’ai entendu[SPED=2]...[SPED=-1][ENDN][STRT=168,2][WDTH=0,168,17,-1][STNR] :
+Est-ce bien vrai, monsieur [VIVI] ?![ENDN][STRT=196,3][WDTH=0,147,18,-1][ZDNE] :
+OUI ! On a plus qu’une demi-heure !
+Allez, il faut retrouver [DGGR] !![ENDN][STRT=136,2][TAIL=UPLF][ZDNE] :
+Eh ! Mais c’est Markus ![ENDN][STRT=123,2][TAIL=UPRF]Markus :
+Je m’occupe de tout ![ENDN][STRT=40,2][TAIL=UPRF][WDTH=0,8,16,-1][ZDNE] :
+Merci ![ENDN][STRT=235,3][TAIL=UPRF]Markus :
+Je veux dire... Je vais à la Forêt Maudite
+m’occuper de Frank ![ENDN][STRT=170,3][TAIL=UPLF][WDTH=0,138,18,-1][ZDNE] :
+Je te fais confiance pour ça !
+Nous, on s’occupe de [DGGR] !![ENDN][STRT=119,2][TAIL=UPLF]Soldat d’Alexandrie :
+Ouvrez cette grille ![ENDN][STRT=120,2][TAIL=UPRF]Soldat d’Alexandrie :
+Laissez-nous sortir ![ENDN][STRT=185,2][TAIL=UPL]Toghebon (Brutos No 5) :
+Euh... Je m’habille ! Je m’habille ![ENDN][STRT=224,3][TAIL=UPL]Toghebon (Brutos No 5) :
+La chambre de la Reine ?
+C’est en haut de cet escalier à gauche.[ENDN][STRT=174,3][TAIL=UPL]Melgenheim (Brutos No 9) :
+La chambre de la Reine ?
+C’est à droite en sortant d’ici.[ENDN][STRT=225,4][TAIL=UPL]Lauda (Brutos No 4) :
+J’ai lu, dans un vieux grimoire,
+que [68C0D8][HSHD]les flammes mauves[C8C8C8][HSHD] de la chambre
+de la Reine cachaient un grand secret ![ENDN][STRT=230,2]Bibliothécaire :
+La reine Branet collectionne les perles ?[ENDN][STRT=242,3]Bibliothécaire :
+Les perles ? D’après de vieux documents,
+se sont les morceaux d’une grosse perle[SPED=2]...[SPED=-1][ENDN][STRT=266,5]Bibliothécaire :
+Aujourd’hui, les perles et les morceaux
+de perle, représentent la même chose.
+Question d’appellation : avant, ils constituaient
+une grande perle.[ENDN][STRT=271,4]Bibliothécaire :
+Il y a longtemps, les perles ont été brisées
+et leurs morceaux ont été confiés à Alexandrie,
+Lindblum et Clayra[SPED=2]...[SPED=-1][ENDN][STRT=271,5][TAIL=LORF]Bibliothécaire :
+Nous venons de découvrir un vieux manuscrit
+sur ce château. Il parle de cette [68C0D8][HSHD]lumière mauve[C8C8C8][HSHD],
+mais nous n’avons pas encore très bien compris
+ce qu’il en dit.[ENDN][STRT=241,4]Bibliothécaire :
+Personne ne nous a prévenu, mais il semble
+qu’un passage secret part de [68C0D8][HSHD]la chambre
+de la reine[C8C8C8][HSHD].[ENDN][STRT=259,3]Bloutch (Brutos No 2) :
+La Princesse ? Elle doit être dans sa chambre
+ou dans celle de la Reine, non ?[ENDN][STRT=154,2]Kohel (Brutos No 3) :
+La Princesse est revenue ?[ENDN][STRT=180,3][TAIL=UPL]Cuisinier :
+Sa Majesté adore
+les beignets de chauve-souris ![ENDN][STRT=261,2][TAIL=UPL]Commis :
+La chambre de Sa Majesté est au 2ème étage.[ENDN][STRT=111,3][TAIL=UPL]Commis :
+C’est très fin.
+Ca grille très bien ![ENDN][STRT=110,3][TAIL=UPL]Plongeur :
+La Princesse adore
+le flan aux pêches.[ENDN][STRT=201,3]Weimar (Brutos No 7) :
+Quoi ?! On en veut à la Princesse ?!
+Mais[SPED=2]...[SPED=-1][WAIT=20] Non ! Je... Enfin[SPED=2]...![SPED=-1][ENDN][STRT=205,3]Weimar (Brutos No 7) :
+Il me semble avoir entendu Pile et
+Face dans [68C0D8][HSHD] la chambre de la Reine[C8C8C8][HSHD][SPED=2]...[SPED=-1][ENDN][STRT=148,3]Bayroyd (Brutos No 6) :
+Non, non, La Rose Rouge
+n’est pas encore rentrée.[ENDN][STRT=66,3][WDTH=0,8,16,-1,0,12,18,-1][ZDNE] :
+[DGGR][SPED=2]...[SPED=-1]
+Où es-tu...?[ENDN][STRT=204,2][ZDNE] :
+C’est bizarre cette lumière mauve[SPED=2]...[SPED=-1][ENDN][STRT=190,4][PCHC=2,1][IMME][ZDNE] :
+Vraiment étrange ce chandelier[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Je le bouge pour voir.
+[MOVE=18,0]Je fais rien.[ENDN][STRT=104,2][ZDNE] :
+Qu’est-ce que[SPED=2]...[SPED=-1]?![ENDN][STRT=123,2][TAIL=UPLF]Pile :
+Que faites-vous ici ?![ENDN][STRT=222,3][TAIL=UPRF]Face :
+Il faut toujours que l’on nous dérange !
+Nous ne vous le pardonnerons pas ![ENDN][STRT=159,3][TAIL=UPLF]Pile :
+Aaaaaah !
+Nous nous en souviendrons ![ENDN][STRT=190,3][TAIL=UPRF]Face :
+De toute façon, nous n’avons plus
+besoin de la princesse Grenat ![ENDN][STRT=150,2][TAIL=UPLF][NFOC]Pile :
+Ca fait du bien de le dire ![INCS][TIME=-1][STRT=150,2][TAIL=LORF][NFOC]Face :
+Ca fait du bien de le dire ![INCS][TIME=-1][STRT=89,2][WDTH=0,89,18,-1][ZDNE] :
+Il faut sauver [DGGR] ![ENDN][STRT=101,2][TAIL=UPLF][OFFT=0,100,0][ZDNE] :
+Eh ! Réveille-toi ![ENDN][STRT=9,2][TAIL=UPLF][OFFT=0,100,0][WDTH=0,8,16,-1,0,9,18,-1][ZDNE] :
+[DGGR] ![ENDN][STRT=66,2][TAIL=UPLF][OFFT=0,100,0][WDTH=0,8,16,-1][ZDNE] :
+On est là[SPED=2]...[SPED=-1]![ENDN][STRT=75,2][TAIL=UPLF][WDTH=0,8,17,-1][VIVI] :
+M... M’zelle[SPED=2]...[SPED=-1][ENDN][STRT=85,2][TAIL=UPRF][OFFT=250,100,0][STNR] :
+Princeeeesse ![ENDN][STRT=128,2][TAIL=UPRF][OFFT=250,100,0][STNR] :
+J’ai failli à ma mission ![ENDN][STRT=156,2][TAIL=UPRF][OFFT=-200,100,0][STNR] :
+Princesse, pardonnez-moi ![ENDN][STRT=219,2][TAIL=UPRF][OFFT=0,80,0][STNR] :
+Je ne suis pas digne d’être chevalier ![ENDN][STRT=212,2][TAIL=UPRF][OFFT=0,80,0][STNR] :
+Non ! Je ne suis pas digne d’être né ![ENDN][STRT=160,2][TAIL=UPLF][FRYA] :
+Elle n’est pas encore morte.[ENDN][STRT=80,2][TAIL=UPLF][OFFT=0,100,0][ZDNE] :
+Oui[SPED=2]...[SPED=-1] Je sais ![ENDN][STRT=169,3][TAIL=UPLF][OFFT=0,100,0][ZDNE] :
+[FRYA],
+il faut sortir d’ici en vitesse ![ENDN][STRT=181,2][TAIL=UPLF][OFFT=0,100,0][WDTH=0,181,18,-1][ZDNE] :
+[DGGR], tu vas aller mieux, tu vas voir.[ENDN][STRT=36,1][IMME][CENT=36]Amitié.[ENDN][STRT=202,2][TAIL=UPLF][FRYA] :
+On dirait que personne ne nous suit.[ENDN][STRT=61,2][TAIL=UPRF][WDTH=0,8,19,-1][STNR] :
+Pourquoi[SPED=2]...[SPED=-1][ENDN][STRT=155,3][TAIL=UPRF][STNR] :
+Sa Majesté a-t-elle fait ça
+à la Princesse[SPED=2]...[SPED=-1]?[ENDN][STRT=206,4][TAIL=UPRF][WDTH=0,144,19,-1][STNR] :
+Moi, [STNR], je donnerais ma vie
+pour défendre ma chère, très chère
+Princesse[SPED=2]...[SPED=-1][ENDN][STRT=135,3][TAIL=UPRF][STNR] :
+Ca devrait être pareil
+pour Sa Majesté, non ?![ENDN][STRT=151,3][TAIL=UPLF][ZDNE] :
+Tu sais [STNR],
+je te comprends très bien.[ENDN][STRT=47,2][TAIL=UPRF][WDTH=0,8,17,-1,0,47,16,-1][VIVI] :
+Euh... [ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=132,3][TAIL=UPRF][VIVI] :
+M’zelle [DGGR]
+va continuer à dormir ?[ENDN][STRT=130,3][TAIL=UPLF][ZDNE] :
+Mais non !
+Elle est juste fatiguée.[ENDN][STRT=170,3][TAIL=UPLF][ZDNE] :
+On va la laisser se reposer un
+peu, d’accord ?[ENDN][STRT=35,2][TAIL=UPLF][WDTH=0,8,16,-1][ZDNE] :
+Merci.[ENDN][STRT=155,3][TAIL=UPRF][ZDNE] :
+Si j’étais resté avec elle,
+il ne lui serait rien arrivé[SPED=2]...[SPED=-1][ENDN][STRT=99,2][TAIL=UPRF][WDTH=0,99,18,-1][ZDNE] :
+Je suis désolé, [DGGR][SPED=2]...[SPED=-1][ENDN][STRT=151,2][TAIL=LORF][STNR] :
+Qu’est-ce qu’il t’arrive[SPED=2]...[SPED=-1]?[ENDN][STRT=173,3][TAIL=LORF][STNR] :
+Ca ne te ressemble pas ce que
+tu es en train de dire.[ENDN][STRT=166,3][TAIL=LORF][NFOC][STNR] :
+Avant, dans un moment pareil,
+tu t’en serais pris à moi...[INCS][TIME=-1][STRT=89,2][TAIL=UPLF][NFOC][ZDNE] :
+C’est pas vrai ![INCS][TIME=-1][STRT=180,3][TAIL=UPLF][ZDNE] :
+Pour la première fois de ma vie,
+j’ai compris que...[ENDN][STRT=198,3][TAIL=UPLF][ZDNE] :
+Si la colère et la haine sont trop
+grandes, on oublie ses sentiments ![ENDN][STRT=175,2][TAIL=UPLF][ZDNE] :
+On peut même plus en pleurer[SPED=2]...[SPED=-1][ENDN][STRT=12,2][TAIL=LORF][WDTH=0,8,19,-1,0,12,16,-1][STNR] :
+[ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=63,2][TAIL=UPLF][NFOC]Pile :
+Ils sont là ![INCS][TIME=-1][STRT=63,2][TAIL=UPRF][NFOC]Face :
+Ils sont là ![INCS][TIME=-1][STRT=75,2][TAIL=UPLF][NFOC]Pile :
+Ce sont eux ![INCS][TIME=-1][STRT=75,2][TAIL=UPRF][NFOC]Face :
+Ce sont eux ![INCS][TIME=-1][STRT=129,2][WDTH=0,129,19,-1]Béatrix :
+[STNR], il y avait longtemps...[ENDN][STRT=213,2]Béatrix :
+Qu’as-tu fait pendant tout ce temps ?[ENDN][STRT=172,3]Béatrix :
+Ne me dis pas que tu t’es
+acoquiné avec ces barbares ![ENDN][STRT=138,3][TAIL=UPLF][ZDNE] :
+Quoi ?! C’est nous que
+tu traites de barbares ![ENDN][STRT=167,3]Béatrix :
+Tu n’as toujours pas compris,
+à ce que je vois...[ENDN][STRT=153,3]Béatrix :
+Vous êtes bien trop faibles
+pour espérer me vaincre.[ENDN][STRT=95,2][TAIL=UPLF][OFFT=0,200,0][ZDNE] :
+Attends un peu[SPED=2]...[SPED=-1][ENDN][STRT=165,3][TAIL=UPLF][OFFT=0,200,0][ZDNE] :
+Tu es générale de l’armée
+d’Alexandrie, c’est bien ça[SPED=2]...[SPED=-1][ENDN][STRT=141,3][TAIL=UPLF][ZDNE] :
+C’est quoi, pour toi,
+ta mission de générale ?![ENDN][STRT=180,3][TAIL=UPLF][WDTH=0,180,18,-1][ZDNE] :
+Tu devrais protéger [DGGR], pardon...
+la princesse Grenat, non ?![ENDN][STRT=135,3][TAIL=UPLF][ZDNE] :
+D’après toi, qui est
+évanouie sur ce trône ?[ENDN][STRT=41,2]Béatrix :
+Mais[SPED=2]...[SPED=-1][ENDN][STRT=111,2]Béatrix :
+C’est la Princesse ![TIME=30][STRT=52,2][TAIL=UPLF]Béatrix :
+Je vois[SPED=2]...[SPED=-1][ENDN][STRT=112,3][TAIL=UPLF]Béatrix :
+Sa Majesté a donc
+essayé de la tuer[SPED=2]...[SPED=-1][ENDN][STRT=58,2][WDTH=0,8,19,-1][STNR] :
+QUÔÔÂÂ ?![ENDN][STRT=126,3][STNR] :
+Sa Majesté aurait fait
+une chose pareille[SPED=2]...[SPED=-1]?![ENDN][STRT=99,3][TAIL=UPLF][WDTH=0,84,19,-1]Béatrix :
+[STNR], je n’ai qu’une
+chose à te dire[SPED=2]...[SPED=-1][ENDN][STRT=150,3][TAIL=UPLF]Béatrix :
+J’ai hésité trop longtemps,
+mais c’est fini[SPED=2]...[SPED=-1][ENDN][STRT=141,3][TAIL=UPLF]Béatrix :
+Je dois reconnaître
+que je me suis trompée[SPED=2]...[SPED=-1][ENDN][STRT=154,3][WDTH=0,87,19,-1][ZDNE] :
+Ca m’ennuie de le dire, mais
+elle a raison, [STNR] ![ENDN][STRT=246,3][TAIL=UPLF]Béatrix :
+Je pense que mon crime à l’égard du peuple
+de Bloumécia est impardonnable[SPED=2]...[SPED=-1][ENDN][STRT=256,3][FRYA] :
+Evidemment !
+Je ne saurais te pardonner aussi facilement ![ENDN][STRT=177,3][TAIL=LORF][WDTH=0,177,18,-1][FRYA] :
+Mais pour le moment,
+j’aimerais sauver [DGGR] avant tout[SPED=2]...[SPED=-1][ENDN][STRT=12,2][TAIL=UPLF][WDTH=0,8,16,-1,0,12,20,-1][ZDNE] :
+[FRYA][SPED=2]...[SPED=-1][ENDN][STRT=194,2][TAIL=LORF][FRYA] :
+Il va falloir prouver ton courage ![ENDN][STRT=174,3][TAIL=LORF][FRYA] :
+Pouvons-nous compter sur toi
+pour sauver cette jeune fille ?[ENDN][STRT=131,3][TAIL=UPRF]Béatrix :
+Je ne sais jusqu’où
+va mon courage[SPED=2]...[SPED=-1][ENDN][STRT=146,3][TAIL=UPRF]Béatrix :
+Mais je ferai tout ce que
+je peux pour vous aider ![ENDN][STRT=139,3][TAIL=UPRF]Béatrix :
+Princesse,
+laissez-moi vous aider...[ENDN][STRT=176,3][TAIL=UPLF]Face :
+Le sortilège de Seigneur Kuja
+ne disparaîtra pas aussi facilement ![ENDN][STRT=105,3][TAIL=UPRF]Pile :
+Ce que vous faites
+est inutile ![ENDN][STRT=61,2][TAIL=UPLF][WDTH=0,8,18,-1][DGGR] :
+Hu[SPED=2]...[SPED=-1] Hum[SPED=2]...[SPED=-1][ENDN][STRT=161,3][TAIL=UPRF]Béatrix :
+Princesse,
+comment vous sentez-vous ?[ENDN][STRT=106,3][TAIL=UPLF][DGGR] :
+J’ai mal à la tête[SPED=2]...[SPED=-1]
+Je[SPED=2]...[SPED=-1] Que[SPED=2]...[SPED=-1]?[ENDN][STRT=118,3][WDTH=0,67,18,-1,0,118,16,-1][ZDNE] :
+[DGGR] ! C’est moi,
+[ZDNE] ! Tu me reconnais ?![ENDN][STRT=52,1][TAIL=UPRF][WDTH=0,52,18,-1][NFOC][IMME]M’zelle [DGGR] ![INCS][TIME=-1][STRT=64,1][TAIL=LORF][NFOC][IMME]Princesse ![INCS][TIME=-1][STRT=127,1][TAIL=UPLF][IMME]Oh, vous êtes tous là ![ENDN][STRT=146,1][IMME]Qu’est-ce qui se passe ?![ENDN][STRT=125,2][TAIL=UPLF][NFOC]Pile :
+Ces gens ont enlevé...[INCS][TIME=-1][STRT=132,2][TAIL=LOLF][NFOC]Face :
+...la princesse Grenat ![INCS][TIME=-1][STRT=52,2]Branet :
+Je vois[SPED=2]...[SPED=-1][ENDN][STRT=122,3][TAIL=UPRF]Branet :
+Vous lui avez retiré
+toutes ses Chimères ?[ENDN][STRT=186,2][TAIL=UPLF][NFOC]Pile :
+Nous les avons toutes enlevées ![INCS][TIME=-1][STRT=186,2][TAIL=LOLF][NFOC]Face :
+Nous les avons toutes enlevées ![INCS][TIME=-1][STRT=153,3][TAIL=UPRF]Branet :
+Alors, arrêtez Grenat et
+mettez-la dans un cachot ![ENDN][STRT=83,2][TAIL=UPLF][NFOC]Pile :
+A vos ordres ![INCS][TIME=-1][STRT=83,2][TAIL=LOLF][NFOC]Face :
+A vos ordres ![INCS][TIME=-1][STRT=111,2][TAIL=UPRF]Béatrix :
+Retirez cet ordre ![ENDN][STRT=98,3][TAIL=UPLF]Branet :
+Ohoh[SPED=2]...[SPED=-1]!
+On me contredit ?[ENDN][STRT=180,3][TAIL=UPRF]Béatrix :
+Votre Majesté, j’ai pour mission
+de protéger la Princesse[SPED=2]...[SPED=-1][ENDN][STRT=173,3][TAIL=UPRF]Béatrix :
+C’est pourquoi je ne laisserai
+personne s’en prendre à elle ![ENDN][STRT=123,3][TAIL=UPRF]Béatrix :
+Je m’occupe de tout !
+Fuyez ![ENDN][STRT=91,3][TAIL=UPLF][WDTH=0,91,16,-1][FRYA] :
+Je reste !
+[ZDNE] ! Partez, vite ![ENDN][STRT=269,4][TAIL=UPLF]Branet :
+Il n’y a pas deux minutes,
+vous étiez ennemies et maintenant,
+vous êtes complices, comme c’est intéressant[SPED=2]...[SPED=-1][ENDN][STRT=226,3][TAIL=UPLF]Branet :
+Pile ! Face ! Ils m’ont vraiment énervée.
+Massacrez-les sans pitié ![ENDN][STRT=37,1][TAIL=UPLF]Mère ![ENDN][STRT=116,2][TAIL=UPLF][NFOC]Pile :
+Mets-les en pièces ![INCS][TIME=-1][STRT=116,2][TAIL=LOLF][NFOC]Face :
+Mets-les en pièces ![INCS][TIME=-1][STRT=94,2][TAIL=UPLF][WDTH=0,94,20,-1][ZDNE] :
+[FRYA] ! Couvre-nous ![ENDN][STRT=92,2][TAIL=UPRF][FRYA] :
+Compte sur moi ![ENDN][STRT=99,2][TAIL=UPL][WDTH=0,99,18,-1][ZDNE] :
+Allez, [DGGR] ! On y va ![ENDN][STRT=64,2][TAIL=UPLF][WDTH=0,8,19,-1][STNR] :
+Princesse ![TIME=30][STRT=101,2][TAIL=UPRF][ZDNE] :
+Des Mages Noirs ![ENDN][STRT=167,2][TAIL=UPRF][ZDNE] :
+Bon sang ! On est encerclés ![ENDN][STRT=35,1][TAIL=UPLF]Tuer ![TIME=30][STRT=35,1][TAIL=UPLF]Tuer ![TIME=30][STRT=35,1][TAIL=UPLF]Tuer ![TIME=30][STRT=84,2][TAIL=LORF][WDTH=0,84,19,-1][ZDNE] :
+Et [STNR], où il est ?![ENDN][STRT=155,3][TAIL=LORF][ZDNE] :
+Allez mon vieux !
+Dépêche-toi ! On t’attend ![ENDN][STRT=64,3][TAIL=UPLF][WDTH=0,8,19,-1][STNR] :
+Puis-je
+rester ici ?[ENDN][STRT=91,3][TAIL=LORF][ZDNE] :
+Bah,
+pourquoi faire ?[ENDN][STRT=227,3][TAIL=UPLF][STNR] :
+Béatrix s’est révoltée contre Sa Majesté
+à qui elle avait juré fidélité[SPED=2]...[SPED=-1][ENDN][STRT=175,4][TAIL=UPLF][WDTH=0,114,20,-1][STNR] :
+Et bien qu’elle ait tué ses amis,
+dame [FRYA] combat à ses côtés
+pour protéger la Princesse[SPED=2]...[SPED=-1][ENDN][STRT=173,3][TAIL=UPLF][STNR] :
+Et vu la colère de Sa Majesté,
+elle les tuera toutes les deux ![ENDN][STRT=188,3][TAIL=UPLF][STNR] :
+[ZDNE],
+j’ai une requête à te présenter ![ENDN][STRT=142,2][TAIL=LORF][ZDNE] :
+Holà, ça s’arrange pas[SPED=2]...[SPED=-1][ENDN][STRT=192,3][TAIL=UPLF][STNR] :
+Conduis la Princesse, saine et
+sauve, jusque chez Maître Totto.[ENDN][STRT=199,3][TAIL=UPLF][STNR] :
+Il saura comment sauver Alexandrie
+et y ramener la paix[SPED=2]...[SPED=-1][ENDN][STRT=162,3][TAIL=LORF][ZDNE] :
+Pas de problème !
+Tu peux me faire confiance ![ENDN][STRT=187,2][TAIL=LORF][VIVI] :
+Moi aussi, je ferai de mon mieux ![ENDN][STRT=179,3][TAIL=UPLF][WDTH=0,118,16,17,-1][STNR] :
+Monsieur [ZDNE], Monsieur [VIVI],
+j’ai entière confiance en vous ![ENDN][STRT=102,2][TAIL=UPLF][STNR] :
+Princesse, adieu ![ENDN][STRT=12,2][TAIL=UPRF][WDTH=0,8,18,-1,0,12,19,-1][DGGR] :
+[STNR][SPED=2]...[SPED=-1][ENDN][STRT=120,2][TAIL=UPRF][DGGR] :
+Ils font ça pour moi[SPED=2]...[SPED=-1][ENDN][STRT=82,2][TAIL=LORF][WDTH=0,82,18,-1][ZDNE] :
+Exactement, [DGGR] ![ENDN][STRT=118,3][TAIL=LORF][ZDNE] :
+Ils font ça pour toi[SPED=2]...[SPED=-1]
+et pour Alexandrie[SPED=2]...[SPED=-1][ENDN][STRT=100,3][TAIL=LORF][ZDNE] :
+Et ils vivent
+pour eux-mêmes ![ENDN][STRT=116,3][TAIL=LORF][ZDNE] :
+C’est pour ça qu’on
+peut pas rester ici ![ENDN][STRT=112,3][TAIL=LORF][ZDNE] :
+Pour ça que tu
+dois pas mourir ici ![ENDN][STRT=83,2][TAIL=LORF][ZDNE] :
+Tu dois vivre ![ENDN][STRT=81,2][TAIL=UPLF][DGGR] :
+Mais, moi, je[SPED=2]...[SPED=-1][ENDN][STRT=191,2][TAIL=LORF][ZDNE] :
+C’est pas le moment de réfléchir ![ENDN][STRT=93,2][TAIL=LORF][ZDNE] :
+Allez, on fonce ![ENDN][STRT=22,1][TAIL=UPLF]Ah ![TIME=20][STRT=147,2][TAIL=UPLF][FRYA] :
+Ca va, vous y arriverez ?[ENDN][STRT=64,3][TAIL=UPRF]Béatrix :
+Il m’en faut
+plus pour[SPED=2]...[SPED=-1][ENDN][STRT=85,2][TAIL=UPLF][FRYA] :
+Il était temps[SPED=2]...[SPED=-1][ENDN][STRT=187,2][TAIL=UPRF]Béatrix :
+Il est trop tôt pour se relâcher ![ENDN][STRT=47,1][TAIL=UPLF][NFOC]Béatrix !![TIME=20][STRT=14,1][TAIL=UPLF][WDTH=0,14,20,-1][NFOC][FRYA] !![TIME=20][STRT=41,2][TAIL=UPRF][WDTH=0,15,19,-1]Béatrix :
+[STNR] ?![ENDN][STRT=129,3][TAIL=UPLF][WDTH=0,65,19,-1][STNR] :
+Adelbert [STNR][SPED=2]...[SPED=-1]
+Capitaine des Brutos[SPED=2]...[SPED=-1][ENDN][STRT=177,3][TAIL=UPLF][STNR] :
+Je viens prêter main forte
+à vos deux admirables personnes ![ENDN][STRT=166,2][TAIL=UPLF][FRYA] :
+Plus tard, les présentations ![ENDN][STRT=93,3][ZDNE] :
+Pour l’instant
+on court, point ![ENDN][STRT=109,3][WDTH=0,95,18,-1][ZDNE] :
+Je dois emmener [DGGR]
+hors d’Alexandrie ![ENDN][STRT=156,4][WDTH=0,76,20,19,-1][ZDNE] :
+On doit partir d’Alexandrie,
+on le doit à [FRYA], [STNR]
+et Béatrix ![ENDN][STRT=93,3][ZDNE] :
+Pour l’instant
+on court, point ![ENDN][STRT=79,2][WDTH=0,8,16,-1][IMME][ZDNE] :
+On est piégé ![ENDN][STRT=169,2]Pile :
+Nous vous avons encore eus ![ENDN][STRT=183,2]Face :
+La vue est toujours aussi belle ![ENDN][STRT=191,2][ZDNE] :
+Venez vous battre, sales lâches ![ENDN][STRT=168,2]Face :
+C’est là notre façon de faire.[ENDN][STRT=178,2]Pile :
+Vous ne nous dérangerez plus ![ENDN][STRT=187,1][IMME]Ca marche pas à tous les coups ![ENDN][STRT=180,2][IMME]Désolé de t’avoir fait attendre,
+[ZDNE] ![ENDN][STRT=42,1][IMME]Frank ![ENDN][STRT=210,3][OFFT=-100,-300,0][TAIL=UPRF]Frank :
+Et quand j’ai su ce qui se passait,
+on a rappliqué aussi vite qu’on a pu ![ENDN][STRT=78,3][WDTH=0,8,16,-1][ZDNE] :
+Vous êtes vraiment
+des types bien ![ENDN][STRT=124,3]Markus :
+L’arrêt de la Gorgone
+est juste à côté.[ENDN][STRT=101,2][DGGR] :
+Frank[SPED=2]...[SPED=-1] Markus[SPED=2]...[SPED=-1][ENDN][STRT=25,2][WDTH=0,8,18,-1][DGGR] :
+Je[SPED=2]...[SPED=-1][ENDN][STRT=165,3][OFFT=-100,-300,0][TAIL=UPRF]Frank :
+Plus tard les remerciements !
+Pour l’instant, partez, vite ![ENDN][STRT=213,2][OFFT=-100,-300,0][TAIL=UPRF]Frank :
+Vous n’avez pas beaucoup de temps ![ENDN][STRT=157,2][ZDNE] :
+Je te revaudrai ça, Frank ![ENDN][STRT=86,2][ZDNE] :
+Allez, on y va ![ENDN][STRT=165,4][PCHC=2,1][IMME]Quelqu’un est venu discuter !
+
+[CHOO][MOVE=18,0]L’écouter.
+[MOVE=18,0]L’ignorer.[ENDN][STRT=155,5][PCHC=2,1][IMME]Si tu as suffisamment
+confiance en toi, bats-toi !
+
+[CHOO][MOVE=18,0]Même pas peur !
+[MOVE=18,0]Je suis pacifiste ![ENDN][STRT=180,1]Voilà quelqu’un de prometteur[SPED=2]...[SPED=-1][ENDN][STRT=92,1]Concentre-toi[SPED=2]...[SPED=-1][ENDN][STRT=175,2]Dagga, Steiner et Markus
+sont capturés par Pile et Face[ENDN][STRT=155,2]Steiner et Markus
+en prison.[PAGE]Rencontre Dagga et Branet[ENDN][STRT=222,2][STNR] :
+Princesse ! Je cours à votre secours ![ENDN][STRT=132,3][DGGR] :
+Je ne peux comprendre
+vos agissements ![ENDN][STRT=115,3]Pile :
+Nous n’avons rien
+contre la princesse.[ENDN][STRT=178,2][B880E0][HSHD]Sorti du cachot,
+retrouve Djidane et les autres.[ENDN][STRT=117,1][B880E0][HSHD]Sauvetage de Dagga[ENDN][STRT=154,1][B880E0][HSHD]Combat contre Pile et Face[ENDN][STRT=178,1][B880E0][HSHD]SPS : Hypnose brillante de Kuja[ENDN][STRT=207,1][B880E0][HSHD]SPS : Sort de résurrection de Béatrix[ENDN][STRT=65,1][B880E0][HSHD]BTL : Béatrix[ENDN][STRT=109,1][B880E0][HSHD]BTL : Bandersnatch[ENDN][STRT=181,1][ENDN]

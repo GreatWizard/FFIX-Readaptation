@@ -1,0 +1,206 @@
+[STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=253,8][NFOC][SPED=4]Nous n’avons pu empêcher le départ de l’Ifa.
+[WAIT=10]
+La fusion des deux planètes a détruit
+[WAIT=10]
+de nombreuses villes et nombreux sont ceux
+[WAIT=40]
+qui n’y ont pas survécu...
+[INCS][TIME=-1][STRT=177,4][NFOC][SPED=4]Kuja...[WAIT=40] Je ne peux pas dire que
+[WAIT=5]
+ce que tu as fait était bien...
+[INCS][TIME=-1][STRT=109,6][NFOC][SPED=4]Mais...[WAIT=20]
+
+tu nous as au moins
+[WAIT=5]
+appris à espérer...
+[INCS][TIME=-1][STRT=224,6][NFOC][SPED=4]Et même si nous avons été créés pour
+
+de mauvaises raisons,[WAIT=10] nous sommes
+
+passés outre et avons défié le destin...
+[INCS][TIME=-1][STRT=177,6][NFOC][SPED=4]Nous n’avons pas voulu oublier.[WAIT=40]
+
+Est-ce surprenant ?[WAIT=80]
+
+Nous voulons croire...
+[INCS][TIME=-1][STRT=195,4][NFOC][SPED=4]Nous sommes sûrs d’une chose...[WAIT=60]
+
+Nous faisons partie[WAIT=10] de ce monde...
+[INCS][TIME=-1][STRT=169,1][NFOC][SPED=4][CENT=169]A présent,[WAIT=20] le temps a passé...[INCS][TIME=-1][STRT=129,1][TAIL=LOC][IMME]C’est ça Alexandrie...?[TIME=70][STRT=182,1][TAIL=LOC][IMME]Reste pas au milieu de la rue ![TIME=70][STRT=61,1][TAIL=LOC][IMME]Comment ?![TIME=60][STRT=74,1][TAIL=LOC][WDTH=0,74,17,-1][IMME][VIVI]... C’est toi ?[TIME=60][STRT=15,1][TAIL=LOC][WDTH=0,15,17,-1][IMME][VIVI] ?![TIME=50][STRT=167,1][TAIL=LOC][IMME]Comment tu connais ce nom...?[TIME=60][STRT=39,1][TAIL=LOC][IMME]Quoi ?![TIME=50][STRT=179,1][TAIL=LOC][IMME]C’est moi ! Puck ! Tu m'as oublié ?![TIME=70][STRT=39,1][TAIL=LOC][IMME]Puck...[TIME=50][STRT=50,1][TAIL=LOC][IMME]Puck...?![TIME=70][STRT=144,1][TAIL=LOC][IMME]Le prince de Bloumécia ?![TIME=70][STRT=166,1][TAIL=LOC][IMME]Qu’est-ce que tu racontes ?![TIME=60][STRT=162,1][TAIL=LOC][WDTH=0,162,17,-1][IMME]Si t’es pas [VIVI], qui t’es alors ?![TIME=80][STRT=30,1][TAIL=LOC][IMME]Moi...[TIME=60][STRT=91,1][TAIL=LOC][IMME]Je suis son fils ![TIME=70][STRT=97,1][TAIL=LOC][IMME][IMME]Ah ! Aaaaaaaah ![TIME=50][STRT=89,1][TAIL=LOC][WDTH=0,89,17,-1][IMME][IMME]Il y a plein de [VIVI] ![TIME=50][STRT=237,5][WDTH=0,193,16,-1][NFOC][SPED=4][CENT=193,16]Tous les jours, [WAIT=10]nous parlons de [ZDNE]...
+[WAIT=20]
+[CENT=184]Il est très important pour nous...
+[WAIT=40]
+[CENT=237]Il nous a enseigné l’importance de la vie...[INCS][TIME=-1][STRT=125,1][TAIL=LOC][WDTH=0,125,20,-1][IMME]Il faut qu’on y aille, [FRYA]...[TIME=80][STRT=247,1][TAIL=LOC][IMME]J’ai hâte de revoir les autres à Alexandrie.[TIME=100][STRT=229,1][TAIL=LOC][IMME]Reposons-nous un peu avant de partir...[TIME=70][STRT=179,1][TAIL=LOC][IMME]Ce pays revivra-t-il un jour...?[TIME=100][STRT=240,1][TAIL=LOC][IMME]Avec vous, le temps n’a plus d’importance.[TIME=100][STRT=166,1][TAIL=LOC][WDTH=0,166,20,-1][IMME]Il en est de même pour moi, [FRYA]...[TIME=60][STRT=267,1][TAIL=LOC][IMME]Maître Fratley... Merci d’être encore en vie...[TIME=120][STRT=274,1][TAIL=LOC][IMME]Nous pouvons encore retrouver nos souvenirs...[TIME=120][STRT=225,5][NFOC][SPED=4][CENT=212]Vivre n’est pas[WAIT=20] vivre éternellement...
+[WAIT=40]
+[CENT=176]C’est ce que tu nous as appris.[WAIT=60]
+[WAIT=5]
+[CENT=225]L’intérêt de la vie est dans l’entraide...[INCS][TIME=-1][STRT=256,1][TAIL=LOC][IMME]Il est temps pour moi de quitter cet endroit...[TIME=90][STRT=277,1][TAIL=LOC][IMME]Mes souvenirs reposeront avec ma fidèle épée...[TIME=120][STRT=143,1][TAIL=LOC][IMME]Ma mission est terminée...[TIME=110][STRT=106,1][TAIL=LOC][IMME]Adieu Alexandrie...[TIME=90][STRT=293,5][NFOC][SPED=4][CENT=293]Les séparations ne sont pas toujours malheureuses.
+[WAIT=30]
+[CENT=239]Même éloignés, les coeurs se rencontrent.
+[WAIT=40]
+[CENT=209]C’est bien ce que tu nous as appris ?[INCS][TIME=-1][STRT=40,1][TAIL=LOC][IMME]Salut...[TIME=60][STRT=253,1][TAIL=LOC][IMME]Tu as changé d’avis ? Tu vas à Alexandrie ?![TIME=100][STRT=97,1][TAIL=LOC][IMME]Tu ne viens pas ?[TIME=90][STRT=99,1][TAIL=LOC][IMME]Mais si, bien sûr ![TIME=50][STRT=103,1][TAIL=LOC][IMME]Hé ! Attends-moi ![TIME=60][STRT=209,5][NFOC][SPED=4][CENT=128]Pourquoi suis-je né...?
+[WAIT=20]
+[CENT=167]Pourquoi ai-je voulu vivre...?
+[WAIT=40]
+[CENT=209]Tu m’as apporté les réponses, merci.[INCS][TIME=-1][STRT=276,1][TAIL=LOC][IMME]La cuisine est pas qu’une histoire de goût, miam ![TIME=100][STRT=212,1][TAIL=LOC][IMME]Il faut aussi y mettre du coeur, miam ![TIME=100][STRT=202,1][TAIL=LOC][IMME]Surtout quand c’est pour des amis ![TIME=100][STRT=221,5][NFOC][SPED=4][CENT=142]Il est difficile de ne faire
+[WAIT=10]
+[CENT=127]que ce que l’on veut...
+[WAIT=40]
+[CENT=221]Vous...[WAIT=20] Vous étiez tous si merveilleux...[INCS][TIME=-1][STRT=118,1][TAIL=LOC][IMME]Plus vite ! Plus vite ![TIME=50][STRT=253,1][TAIL=LOC][IMME]Plus vite ! On va rater le début de la pièce ![TIME=90][STRT=200,1][TAIL=LOC][IMME]Hahaha ! Ne sois pas si impatiente ![TIME=60][STRT=241,1][TAIL=LOC][IMME]Nous aurons vite rattrapé l’aérothéâtre...[TIME=60][STRT=178,1][TAIL=LOC][IMME]...avec mon nouvel Hildegarde ![TIME=60][STRT=34,1][TAIL=LOC][IMME]Quoi ?[TIME=40][STRT=262,1][TAIL=LOC][IMME]T’en étais fier du nouvel aérothéâtre, vieux...[TIME=90][STRT=49,1][TAIL=LOC][IMME]Haheum ![TIME=30][STRT=74,1][TAIL=LOC][IMME]Hein, papa ?![TIME=60][STRT=163,1][TAIL=LOC][WDTH=0,163,22,-1][IMME][EIKO]... Qu’est-ce que tu as dit ?![TIME=50][STRT=266,1][TAIL=LOC][IMME]Vous vouliez que nous devenions ses parents...[TIME=100][STRT=186,1][TAIL=LOC][IMME]Papa ! Maman ! Dépêchez-vous ![TIME=60][STRT=148,1][TAIL=LOC][IMME]Redis-le encore une fois ![TIME=90][STRT=295,7][NFOC][SPED=4][CENT=235]Que dois-je faire quand je me sens seul ?
+[WAIT=20]
+[CENT=295]C’est la seule chose que tu ne m’aies pas enseignée.
+[WAIT=50]
+[CENT=199]Peut-être suis-je le seul à pouvoir
+[WAIT=20]
+[CENT=157]trouver la bonne réponse...[INCS][TIME=-1][STRT=98,1][TAIL=LOC][IMME]Béatrix ! Attends ![TIME=60][STRT=53,1][TAIL=LOC][IMME]Tu pars ?[TIME=60][STRT=170,1][TAIL=LOC][IMME]Ne me demande pas pourquoi ![TIME=80][STRT=205,1][TAIL=LOC][IMME]Ce n’est pas ce que je te demande ![TIME=80][STRT=36,1][TAIL=LOC][IMME]Mais...[TIME=60][STRT=25,1][TAIL=LOC][IMME]Je...[TIME=60][STRT=215,1][TAIL=LOC][IMME]Je ne veux pas te perdre à nouveau ![TIME=80][STRT=12,1][TAIL=LOC][WDTH=0,12,19,-1][IMME][STNR]...[TIME=60][STRT=227,1][TAIL=LOC][IMME]Je veux protéger Sa Majesté avec toi ![TIME=120][STRT=299,5][NFOC][SPED=4][CENT=276]Je suis[WAIT=20] très heureux[WAIT=10] de vous avoir rencontrés...[WAIT=40]
+
+[CENT=299]J’aurais voulu vivre d’autres aventures avec vous...[WAIT=60]
+
+[CENT=227]Mais[WAIT=40] le moment est venu[WAIT=70] de nous quitter.[INCS][TIME=-1][STRT=131,1][TAIL=LOC][IMME]Nous arrivons bientôt ![TIME=70][STRT=163,1][TAIL=LOC][IMME]Alexandrie... Ca fait un bail ![TIME=70][STRT=272,1][TAIL=LOC][IMME]Je veux dire, cette fois il va falloir bien jouer ![TIME=70][STRT=130,1][TAIL=LOC][IMME]Je ferai de mon mieux ![TIME=50][STRT=189,1][TAIL=LOC][IMME]Moi aussi, ze ferai de mon mieux ![TIME=50][STRT=168,5][NFOC][SPED=4]Merci...
+[WAIT=40]
+[MOVE=18,0][MOVE=18,0][MOVE=18,0]à vous tous...
+[WAIT=40]
+[MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0]A[WAIT=4]d[WAIT=4]i[WAIT=6]e[WAIT=8]u[WAIT=8]...[WAIT=8][MOVE=18,0][INCS][TIME=-1][STRT=175,1][NFOC][SPED=4][CENT=175][SPED=2]Je pars[WAIT=60] rejoindre les étoiles...[INCS][TIME=-1][STRT=195,1][TAIL=LOC][IMME]L’aérothéâtre va bientôt atterrir.[TIME=90][STRT=95,1][TAIL=LOC][IMME]Je me souviens...[TIME=90][STRT=153,1][TAIL=LOC][IMME]Je vais revoir tout le monde...[TIME=120][STRT=36,1][TAIL=LOC][IMME]Mais...[TIME=90][STRT=221,1][TAIL=LOC][IMME]Plus rien ne sera jamais comme avant...[TIME=140][STRT=164,1][TAIL=LOC][IMME]Je dois arrêter de pleurer...[TIME=140][STRT=151,1][TAIL=LOC][IMME]Je dois être courageuse...[TIME=140][STRT=144,1][TAIL=UPRF][IMME]Très chers spectateurs ![TIME=50][STRT=249,2][TAIL=UPRF][IMME]La pièce que nous allons jouer devant vous,
+nous vient d’un très lointain passé...[TIME=100][STRT=266,3][TAIL=UPRF][IMME]L’héroïne de cette histoire, la princesse
+Cordélia, et son amant Markus sont sur le point
+d’être séparés...[TIME=100][STRT=267,3][TAIL=UPRF][IMME]La princesse décide alors de fuir le château
+familial, mais elle est ramenée devant son père,
+le roi Lear.[TIME=100][STRT=270,2][TAIL=UPRF][IMME]La pièce de ce soir commence alors que Markus
+et Cordélia décident de s’enfuir ensemble.[TIME=100][STRT=164,2][TAIL=UPRF][WDTH=0,141,19,-1][IMME]Et à présent, Votre Majesté,
+Dame Béatrix, Capitaine [STNR]...[TIME=100][STRT=265,3][TAIL=UPRF][IMME]...noble assistance et vous qui nous regardez
+du haut des toits, je vous demande d’applaudir
+bien fort ![TIME=100][STRT=82,1][TAIL=UPRF][IMME]Sire Markus ?![TIME=30][STRT=145,4][TAIL=UPRF][IMME]Cordélia :
+Je brûlais de vous voir...
+Quand vous n’êtes pas là,
+je ne vis plus ![TIME=70][STRT=243,3][TAIL=UPLF][IMME]Markus :
+Princesse... Une pauvre créature telle que
+moi ne saurait vous apporter le bonheur...[TIME=85][STRT=221,2][TAIL=UPRF][IMME]Cordélia :
+Ne m’appelez plus jamais ”Princesse” ![TIME=60][STRT=173,3][TAIL=UPRF][IMME]Cordélia :
+Markus, m’aimez-vous
+parce que je vais être reine ?[TIME=115][STRT=172,2][TAIL=UPRF][IMME]Cordélia :
+Il n’en est rien, n’est-ce pas ?[TIME=70][STRT=236,3][TAIL=UPRF][IMME]Cordélia :
+Quand une reine se marie,
+elle n’est rien de plus qu’une marionnette.[TIME=100][STRT=189,3][TAIL=UPRF][IMME]Cordélia :
+Les marionnettes rient-elles ?
+Les marionnettes pleurent-elles ?[TIME=70][STRT=189,3][TAIL=UPRF][IMME]Cordélia :
+Je veux être une personne simple
+capable de rire et de pleurer ![TIME=90][STRT=207,3][TAIL=UPRF][IMME]Cordélia :
+Je ne veux pas être de ceux qui
+vivent constamment sous un masque ![TIME=100][STRT=111,3][TAIL=UPLF][IMME]Markus :
+Vous y avez
+donc tant réfléchi ![TIME=80][STRT=223,3][TAIL=UPLF][IMME]Markus :
+Si vous acceptez de ne pas être reine,
+je vous envelopperai de mon amour ![TIME=125][STRT=217,2][TAIL=UPLF][IMME]Markus :
+Je ne veux plus être séparé de vous ![TIME=110][STRT=194,2]Markus :
+Laissez-moi devenir votre moitié ![TIME=100][STRT=227,3][TAIL=UPLF][IMME]Markus :
+C’est cela !
+Dès demain, prenons le premier bateau ![TIME=60][STRT=208,2][TAIL=UPRF][IMME]Cordélia :
+Oui ! Emmenez-moi où vous voudrez ![TIME=75][STRT=238,3][TAIL=UPLF][IMME]Markus :
+Oui, partons !
+Ni la pluie, ni le vent ne nous retiendront ![TIME=60][STRT=160,3][TAIL=UPRF][IMME]Cordélia :
+Pourquoi notre amour doit-il
+être si doux et si amer...[TIME=100][STRT=144,3][TAIL=UPRF][IMME]Cordélia :
+Je ne demande qu’à vivre
+avec celui que j’aime...[TIME=120][STRT=169,3][TAIL=UPLF][IMME]Frank :
+Si je n’interviens pas,
+une nouvelle guerre éclatera.[TIME=60][STRT=157,3][TAIL=UPLF][IMME]Frank :
+Je suis désolé, mais je ne
+peux vous laisser ensemble.[TIME=60][STRT=173,3][TAIL=UPLF][IMME]Frank :
+Princesse, vous allez devoir
+disparaître quelques instants.[TIME=139][STRT=120,2][TAIL=UPRF][IMME]Frank :
+C’est vous Cordélia ?[TIME=65][STRT=59,2][TAIL=UPLF][IMME]Cordélia :
+Oui, mais...[TIME=65][STRT=146,2][TAIL=UPRF][IMME]Frank :
+Vous connaissez Markus ?[TIME=65][STRT=122,2][TAIL=UPLF][IMME]Cordélia :
+Que lui est-il arrivé ?[TIME=65][STRT=51,1][TAIL=UPRF][IMME]Et bien...[TIME=30][STRT=40,1][TAIL=UPLF][IMME]Outch ![TIME=30][STRT=98,3][TAIL=UPLF][IMME]Roi Lear :
+Cordélia, ma fille,
+où es-tu partie ?[TIME=60][STRT=160,3][TAIL=UPLF][IMME]Roi Lear :
+Oh ! Frank !
+Saurais-tu où est Cordélia ?[TIME=55][STRT=186,2][TAIL=UPRF][IMME]Frank :
+Ne vous inquiétez pas pour elle ![TIME=50][STRT=211,3][TAIL=UPRF][IMME]Frank :
+Je vous ai dit qu’elle épouserait
+le prince Schneider, rassurez-vous ![TIME=65][STRT=150,3][TAIL=UPLF][IMME]Roi Lear :
+Que je me rassure alors
+que Cordélia n’est pas là ![TIME=60][STRT=103,3][TAIL=UPLF][IMME]Roi Lear :
+Ou alors...
+Tu m’aurais trahi ![TIME=55][STRT=158,3][TAIL=UPRF][IMME]Frank :
+Qu’est-ce que vous dites ?!
+Je n’ai trahi que Markus ![TIME=55][STRT=168,2][TAIL=UPLF][IMME]Roi Lear :
+Justement, tu as trahi un ami ![TIME=60][STRT=169,3][TAIL=UPLF][IMME]Roi Lear :
+Pourquoi ne me
+trahirais-tu pas à mon tour ?![TIME=55][STRT=89,2][TAIL=UPRF][IMME]Frank :
+Attendez ! Je...[TIME=45][STRT=139,3][TAIL=UPRF][IMME]Frank :
+Je ne voulais que la paix
+entre nos deux royaumes...[TIME=70][STRT=120,2][TAIL=UPRF][IMME]Senero :
+Le traître est mort ![TIME=50][STRT=117,2][TAIL=UPLF][IMME]Benero :
+Quel funeste destin ![TIME=50][STRT=188,2][TAIL=UPLF][IMME]Roi Lear :
+Retrouvez Cordélia au plus vite ![TIME=80][STRT=161,4][TAIL=UPLF][IMME]Roi Lear :
+Cordélia !
+Pourquoi ignores-tu les
+sentiments de tes parents ?![TIME=80][STRT=83,2][TAIL=UPRF][IMME]Senero :
+A vos ordres ![TIME=40][STRT=83,2][TAIL=UPLF][NFOC][IMME]Benero :
+A vos ordres ![TIME=40][STRT=250,2][TAIL=UPLF][IMME]Markus :
+L’heure de notre rendez-vous est passée...[TIME=70][STRT=147,2][TAIL=UPLF][IMME]Markus :
+Cordélia ne viendra pas...[TIME=70][STRT=115,2][TAIL=UPLF][IMME]Markus :
+L’aube est proche...[TIME=65][STRT=224,2][TAIL=UPRF][IMME]Cina :
+Celle que vous attendez n’est pas là...?[TIME=50][STRT=189,2][TAIL=UPRF][IMME]Cina :
+Nous allons bientôt devoir partir.[TIME=50][STRT=238,3][TAIL=UPRF][IMME]Cina :
+Peut-être que la paix régnera si vous
+embarquez seul, c’est ce qu’a dit Frank...[TIME=100][STRT=120,2][TAIL=UPRF][IMME]Cina :
+Qu’allez-vous faire ?[TIME=60][STRT=138,3][TAIL=UPLF][IMME]Markus :
+Elle m’a dit qu’elle ne
+pouvait vivre sans moi...[TIME=100][STRT=181,3][TAIL=UPLF][IMME]Markus :
+Mais si pour ce faire il faut
+la guerre, beaucoup mourront...[TIME=100][STRT=168,3][TAIL=UPLF][IMME]Markus :
+Le ciel s’éclaircit à l’est...
+Le soleil ne nous bénira pas...[TIME=100][STRT=259,3][TAIL=UPLF][IMME]Markus :
+Nous ne sommes pas comme ces oiseaux,
+nous ne pouvons pas nous envoler librement...[TIME=100][STRT=182,3][TAIL=UPRF][IMME]Cina :
+Markus...
+Nous ne pouvons plus attendre ![TIME=60][STRT=83,1][TAIL=UPRF][IMME]Nous partons ![TIME=40][STRT=114,2][TAIL=UPLF][IMME]Markus :
+M’aurait-elle trahi ?[TIME=70][STRT=191,2][TAIL=UPLF][IMME]Markus :
+Non, Cordélia n’aurait jamais pu...[TIME=70][STRT=129,2][TAIL=UPLF][IMME]Markus :
+J’ai confiance en elle ![TIME=60][STRT=174,2][TAIL=UPLF][IMME]Markus :
+Ainsi ma prière sera exaucée ![TIME=80][STRT=195,3][TAIL=UPLF][IMME]Markus :
+Puisque le soleil ne nous bénit pas,
+je m’adresserai aux deux lunes ![TIME=80][STRT=145,3][TAIL=UPLF][IMME]Markus :
+Oh ! Splendeurs lunaires !
+Entendez ma prière ![TIME=-1][STRT=210,3][TAIL=UPLF][IMME][ZDNE] :
+Laissez-moi retrouver ma bien-aimée
+...[DGGR] !![TIME=60][STRT=14,1][TAIL=UPRF][OFFT=10,-100,0][WDTH=0,14,16,-1][IMME][ZDNE] !![TIME=69][STRT=17,1]FIN[ENDN][STRT=18,2][TAIL=LOR][WDTH=0,18,64,6,-1,0,18,64,7,-1][ENDN]

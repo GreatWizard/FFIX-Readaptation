@@ -1,0 +1,648 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Chapeau pointu
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=144,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,94,6,1,-1][TEXT=0,0] :
+Merci de m’avoir apporté
+cette lettre de [TEXT=0,1].[ENDN][STRT=227,12][WDTH=0,77,6,1,6,0,-1,0,64,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+C’est affreux ! Des monstres sont venus
+détruire la ville. Ils portaient tous
+un chapeau pointu !
+Je ne comprends pas !
+Mais quel est leur but ?!
+
+Attention [TEXT=0,0] !
+Il te faudrait déménager tout de suite !
+[ENDN][STRT=231,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce qui se passe à Bloumécia ?
+Viendront-ils aussi attaquer cette ville ?
+J’ai peur de rester ici, coubo !![ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Les Tantalas
+[MOVE=18,0]Mauvais pressentiment
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=133,2][TAIL=UPR][WDTH=0,8,6,0,-1,0,133,16,-1][TEXT=0,0] :
+Je porte une lettre à [ZDNE] ![ENDN][STRT=247,15][WDTH=0,77,6,1,16,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][ZDNE][C8C8C8][HSHD]
+
+
+Je me prépare à monter un café-théâtre,
+mais pour l’instant, il n’y a pas assez
+de comédiens pour jouer une pièce.
+
+Tu n’as pas quelqu’un à me présenter ?
+Si les Tantalas étaient à Alexandrie,
+ils m’aideraient...
+
+Mais j’ai peut-être trop confiance en eux ?
+Leurs sales têtes seraient vraiment
+utilisables sur scène...
+[ENDN][STRT=197,5][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Elle cherche un comédien ?
+A vrai dire, je rêve de devenir
+comédien[SPED=2]...[SPED=-1]
+Mais je n’ai pas confiance en moi[SPED=2]...[SPED=-1][ENDN][STRT=140,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,140,6,1,-1][TEXT=0,0] :
+Je porte une lettre de [TEXT=0,1] !
+Lisons-la maintenant ![ENDN][STRT=240,13][WDTH=0,77,6,1,6,0,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Depuis que la tempête de sable a cessé,
+il y a de plus en plus de gens qui
+montent à Clayra.
+Qu’est-ce qui va arriver ?
+J’ai un mauvais pressentiment...
+
+Cette ville sera-t-elle
+ravagée comme Bloumécia ?
+Y a-t-il quelqu’un qui puisse nous sauver ?
+[ENDN][STRT=231,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis très énervé !
+Je dois me dépêcher de faire
+mes bagages pour partir avec Steelskin.[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1,1,170,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Un Mog costaud : Steelskin
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=131,4][TAIL=UPR][WDTH=0,8,6,0,-1,0,89,6,1,-1][TEXT=0,0] :
+Une lettre de [TEXT=0,1] ?
+Ca faisait longtemps !
+On va la lire ensemble ![ENDN][STRT=242,14][WDTH=0,77,6,1,6,0,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Quand tu recevras cette lettre,
+Clayra n’existera peut-être plus ici-bas...
+Je suis avec Steelskin et il me dit :
+
+”Pour moi qui me suis déjà sorti
+de tas de problèmes, deux ou trois accidents
+de ce genre ne me font guère peur”.
+
+Mais si plus de trois accidents lui arrivaient,
+comment pourrait-il s’en sortir ?
+[ENDN][STRT=149,4][TAIL=UPR][WDTH=0,8,6,0,-1,0,138,6,1,-1][TEXT=0,0] :
+Ce bruit d’enfer, c’était[SPED=2]...[SPED=-1]
+Est-ce que [TEXT=0,1] et Steelskin
+s’en sont bien sortis[SPED=2]...[SPED=-1]?[ENDN][STRT=161,3]Steelskin :
+Quoi ?!
+Qu’est-ce qui s’est passé ?![ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=129,5][IMME]
+A droite : Auberge[MOVE=18,0]
+A gauche : Fontaine[MOVE=18,0]
+
+[ENDN][STRT=138,5][IMME]
+L’eau purifie le corps et
+le sable purifie l’esprit.
+
+[ENDN][STRT=165,3][ZDNE] :
+Eh ! Vous sentez ça ?
+Ca donne pas vraiment faim[SPED=2]...[SPED=-1][ENDN][STRT=255,4][FRYA] :
+Cette odeur me rappelle de bons souvenirs...
+C’est exactement celle de la soupe...
+...de ma grand-mère[SPED=2]...[SPED=-1][ENDN][STRT=144,5][IMME]
+A droite : Belvédère
+Tout droit : Grand Temple
+
+[ENDN][STRT=128,6][IMME]
+En haut : Grand Temple
+A gauche : Eoliennes
+En bas : Auberge
+
+[ENDN][STRT=166,6][IMME]
+∈∋∈[MOVE=18,0]Shamrock-Inn[MOVE=18,0]∋∈∋
+
+Le rendez-vous des pèlerins
+
+[ENDN][STRT=111,4][IMME]
+A gauche : Fontaine
+
+[ENDN][STRT=132,2][WDTH=0,112,20,-1]Kildéa, prêtre du bois :
+Dame [FRYA], je présume ?[ENDN][STRT=120,2][TAIL=UPLF][FRYA] :
+C’est bien moi, mais...[ENDN][STRT=148,2][TAIL=UPLF]Satoléa, prêtre du sable :
+Nous vous attendions.[ENDN][STRT=173,2][TAIL=UPLF][FRYA] :
+Comment me connaissez-vous ?[ENDN][STRT=240,3]Kildéa, prêtre du bois :
+Le souverain de Bloumécia nous a demandé
+de vous attendre et de vous accueillir.[ENDN][STRT=150,3][TAIL=UPLF][FRYA] :
+Le Roi est-il sain et sauf ?
+Conduisez-moi jusqu’à lui ![ENDN][STRT=148,2][TAIL=UPLF]Satoléa, prêtre du sable :
+Ce sera un honneur.[ENDN][STRT=113,3][FRYA] :
+[ZDNE],
+je vais voir le Roi...[ENDN][STRT=120,3][FRYA] :
+...profitez-en pour
+vous reposer un peu.[ENDN][STRT=56,2][WDTH=0,8,16,-1][ZDNE] :
+D’accord.[ENDN][STRT=148,2][TAIL=UPLF]Satoléa, prêtre du sable :
+Par ici, je vous prie.[ENDN][STRT=158,5][PCHC=2,1][IMME]Kildéa, prêtre du bois :
+Souhaitez-vous que je vous
+fasse visiter la ville ?
+[CHOO][MOVE=18,0]S’il te plaît.
+[MOVE=18,0]Non merci.[ENDN][STRT=132,3]Kildéa, prêtre du bois :
+Vraiment...[WAIT=20]
+Quel dommage...[ENDN][STRT=132,2]Kildéa, prêtre du bois :
+Quel dommage...[ENDN][STRT=159,3]Kildéa, prêtre du bois :
+Il y a si longtemps que nous
+n’avons pas eu de visiteurs.[ENDN][STRT=190,3]Kildéa, prêtre du bois :
+Derrière moi, se trouve le nid
+d’un monstre appelé ”Fourmilion”.[ENDN][STRT=208,4]Kildéa, prêtre du bois :
+Il est assez calme et peu dangereux,
+mais il est préférable
+de ne pas s’en approcher.[ENDN][STRT=105,3][ZDNE] :
+Elle a l’air bizarre
+cette ville[SPED=2]...[SPED=-1][ENDN][STRT=140,2][WDTH=0,140,17,-1][ZDNE] :
+Viens, [VIVI], on va la visiter ![ENDN][STRT=95,3][WDTH=0,54,17,21,-1][ZDNE] :
+[VIVI], [QUIN], venez,
+on va la visiter ![ENDN][STRT=89,2][TAIL=UPLF][VIVI] :
+Hum, d’accord ![ENDN][STRT=147,3][TAIL=UPLF][QUIN] :
+Moi, je vais chercher
+des bonnes choses, miam ![ENDN][STRT=150,3][VIVI] :
+Je vais quand même
+lui demander de me guider.[ENDN][STRT=138,3][VIVI] :
+Je vais lui demander
+de me remontrer la ville.[ENDN][STRT=188,3][QUIN] :
+J’ai l’impression qu’il y a
+plein de bonnes choses ici, miam ![ENDN][STRT=132,3][IMME]Kildéa, prêtre du bois :
+Si vous voulez bien
+me suivre.[ENDN][STRT=127,3][TAIL=UPLF][QUIN] :
+Je vais chercher
+à manger toute seule ![ENDN][STRT=132,2][IMME]Kildéa, prêtre du bois :
+La visite se termine ici.[ENDN][STRT=40,2][WDTH=0,8,16,-1][ZDNE] :
+Merci ![ENDN][STRT=102,2][QUIN] :
+Des champignons ![ENDN][STRT=173,3][QUIN] :
+J’ai jamais vu des champignons
+comme ça, miam ![ENDN][STRT=116,2][QUIN] :
+On peut les manger ?[ENDN][STRT=145,2]Kildéa, prêtre du bois :
+Voici nos réserves d’eau.[ENDN][STRT=182,4]Kildéa, prêtre du bois :
+Je vous dirai plus tard comment
+nous faisons pour avoir de l’eau
+à cette altitude.[ENDN][STRT=132,2]Kildéa, prêtre du bois :
+Par ici, je vous prie.[ENDN][STRT=192,3]Cléa, prêtresse de la lune :
+C’est la magie qui crée la tempête
+de sable qui nous protège.[ENDN][STRT=216,4]Cléa, prêtresse de la lune :
+Nous jouons de la harpe incrustée
+de pierres magiques et exécutons
+des danses sacrées pour l’entretenir.[ENDN][STRT=216,3]Dean, soldat de Bloumécia :
+Je me demande si ceux qui sont restés
+à Bloumécia sont toujours vivants[SPED=2]...[SPED=-1][ENDN][STRT=156,3]Guyd, soldat de Bloumécia :
+On est pas nombreux à être
+arrivé jusqu’ici[SPED=2]...[SPED=-1][ENDN][STRT=22,1][IMME]Ah ![ENDN][STRT=170,1][IMME]Un monstre à chapeau pointu ![ENDN][STRT=189,2]Rally, habitante de Bloumécia :
+Ne[WAIT=20] vous approchez pas de nous ![ENDN][STRT=147,3]Dan, soldat de Bloumécia :
+Je le savais, t’es
+venu nous assassiner ![ENDN][STRT=132,3]Kildéa, prêtre du bois :
+Voici l’endroit le plus
+animé de notre ville.[ENDN][STRT=138,3]Kildéa, prêtre du bois :
+Bien qu’aujourd’hui il n’y
+ait que peu de monde[SPED=2]...[SPED=-1][ENDN][STRT=132,2]Kildéa, prêtre du bois :
+Par ici, je vous prie.[ENDN][STRT=212,4]Dan, soldat de Bloumécia :
+On s’est rencontré à Bloumécia, non ?
+Si tu as besoin de quelque chose,
+n’hésite pas ![ENDN][STRT=162,3][WDTH=0,162,17,-1]Dan, soldat de Bloumécia :
+Quand j’y pense, ce [VIVI] n’a pas
+vraiment l’air d’un assassin.[ENDN][STRT=158,2]Dan, soldat de Bloumécia :
+J’en ai peut-être trop dit[SPED=2]...[SPED=-1][ENDN][STRT=167,2]Dan, soldat de Bloumécia :
+Tu m’achètes quelque chose ?[ENDN][STRT=150,3]Cab, gosse de Bloumécia :
+C’est la première fois
+que je sors de Bloumécia ![ENDN][STRT=197,3]Cob, gosse de Bloumécia :
+La tempête fait beaucoup de bruit,
+ça m’énerve ![ENDN][STRT=216,3]Cab, gosse de Bloumécia :
+Le garçon de tout à l’heure ressemble
+pas aux monstres à chapeau pointu ![ENDN][STRT=239,4]Cob, gosse de Bloumécia :
+Je crois que le garçon de tout à l’heure...
+C’est pas un ami des monstres
+à chapeau pointu ![ENDN][STRT=184,3]Rally, habitante de Bloumécia :
+On ne rentrera peut-être jamais
+chez nous[SPED=2]...[SPED=-1][ENDN][STRT=222,4][PCHC=2,1][IMME]Dan, soldat de Bloumécia :
+Tu veux jouer aux cartes, maintenant ?
+[CHOO][MOVE=18,0]Exactement !
+[MOVE=18,0]Pas du tout ![ENDN][STRT=170,2]Dan, soldat de Bloumécia :
+Tu n’as pas assez de cartes ![ENDN][STRT=172,4][PCHC=2,1][IMME]Rally, habitante de Bloumécia :
+Je connais les règles, mais...
+[CHOO][MOVE=18,0]J’insiste !
+[MOVE=18,0]Tant pis...[ENDN][STRT=242,2]Rally, habitante de Bloumécia :
+Je crois que tu n’as pas assez de cartes ![ENDN][STRT=154,4][PCHC=2,1][IMME]Cab, gosse de Bloumécia :
+J’adore jouer aux cartes !
+[CHOO][MOVE=18,0]On fait une partie ?
+[MOVE=18,0]Pas moi ![ENDN][STRT=146,2]Cab, gosse de Bloumécia :
+Il faut 5 cartes ![ENDN][STRT=183,4][PCHC=2,1][IMME]Cob, gosse de Bloumécia :
+Je suis un champion aux cartes !
+[CHOO][MOVE=18,0]On joue !
+[MOVE=18,0]Pas moi ![ENDN][STRT=146,2]Cob, gosse de Bloumécia :
+Il te faut 5 cartes ![ENDN][STRT=147,3]Dan, soldat de Bloumécia :
+Pourquoi avez-vous
+attaqué Bloumécia ?![ENDN][STRT=68,1][IMME]Pourriture ![ENDN][STRT=63,1][IMME]Sale type ![ENDN][STRT=55,1][IMME]Méchant ![ENDN][STRT=157,3]Donégan, prêtre de la nuit :
+Allons, allons,
+calmez-vous, voyons...[ENDN][STRT=147,3]Dan, soldat de Bloumécia :
+C’est l’un de ceux qui
+ont attaqué Bloumécia ![ENDN][STRT=52,2][WDTH=0,8,17,-1][VIVI] :
+Mais non, je...[ENDN][STRT=185,5][PCHC=2,1][WDTH=0,185,64,0,-1][IMME]Donégan, prêtre de la nuit :
+Nos chambres sont à [NUMB=0] gils la nuit.
+En désirez-vous une ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=157,3]Donégan, prêtre de la nuit :
+Je suis désolé, mais[SPED=2]...[SPED=-1]
+Ce n’est pas suffisant.[ENDN][STRT=121,2][VIVI] :
+J’ai rien fait de mal[SPED=2]...[SPED=-1][ENDN][STRT=217,3]Kildéa, prêtre du bois :
+C’est grâce à ces éoliennes que notre
+ville connaît la bénédiction de l’eau.[ENDN][STRT=231,3]Kildéa, prêtre du bois :
+Elles fonctionnent grâce à la tempête et
+font monter l’eau de la surface jusqu’ici.[ENDN][STRT=204,3]Kildéa, prêtre du bois :
+A présent, laissez-moi vous montrer
+notre belvédère.[ENDN][STRT=105,1]Il y a absolument...[ENDN][STRT=134,3][QUIN] :
+... y'a rien à manger
+dans cette ville, miam !![ENDN][STRT=252,2][QUIN] :
+A Alexandrie, il y a les ”Délices de la Reine”, miam ![ENDN][STRT=193,3][QUIN] :
+A la Porte Sud,
+ils ont la tarte au maroilles, miam ![ENDN][STRT=43,1][NFOC][IMME]Aaaah ![TIME=10][STRT=133,3]Kildéa, prêtre du bois :
+Ce belvédère est notre
+lieu de méditation.[ENDN][STRT=221,4]Kildéa, prêtre du bois :
+Nous venons y regarder notre tempête
+protectrice et lui adresser
+nos prières.[ENDN][STRT=145,3]Kildéa, prêtre du bois :
+Pour finir, dirigeons-nous
+vers le Grand Temple.[ENDN][STRT=173,3]Sharon, prêtresse des fleurs :
+Vous n’êtes pas de
+Bloumécia, n’est-ce pas ?[ENDN][STRT=232,3]Shanon, prêtresse de l’eau :
+C’est la première fois que
+nous rencontrons des gens de Bloumécia.[ENDN][STRT=216,3]Sharon, prêtresse des fleurs :
+Etes-vous des compagnons de cette
+étrange personne portant un tablier ?[ENDN][STRT=161,3]Shanon, prêtresse de l’eau :
+Son langage m’est inconnu,
+d’où vient-elle ?[ENDN][STRT=220,3]Kildéa, prêtre du bois :
+Voici le Grand Temple, résidence du
+Grand Prêtre qui nous apporte la sérénité.[ENDN][STRT=180,3]Kildéa, prêtre du bois :
+C’est ici que le roi de Bloumécia
+reçoit Dame [FRYA].[ENDN][STRT=212,5]Kildéa, prêtre du bois :
+C’est aussi dans le Grand Temple
+qu’est gardée la harpe incrustée
+de pierres magiques, dont la magie
+engendre notre tempête protectrice.[ENDN][STRT=126,1]La visite est terminée.[ENDN][STRT=200,2][FRYA] :
+Cela fait longtemps, votre Majesté.[ENDN][STRT=131,2]Roi de Bloumécia :
+Ah, [FRYA], bienvenue.[ENDN][STRT=208,2]Roi de Bloumécia :
+Le Grand Prêtre et moi vous attendions.[ENDN][STRT=144,2]Grand Prêtre de Clayra :
+Dame [FRYA][SPED=2]...[SPED=-1][ENDN][STRT=227,3]Grand Prêtre de Clayra :
+Il semblerait que ce conflit ne concerne
+plus seulement Bloumécia.[ENDN][STRT=170,2][FRYA] :
+Je comprends, votre Sainteté.[ENDN][STRT=75,2][FRYA] :
+Cependant[SPED=2]...[SPED=-1][ENDN][STRT=163,3][FRYA] :
+J’ai peur que ma force seule
+ne suffise pas.[ENDN][STRT=245,2]Roi de Bloumécia :
+[FRYA]...[WAIT=20] Je sais que je vous ai abandonné.[ENDN][STRT=256,2]Roi de Bloumécia :
+Je dois m’excuser pour avoir fui l’autre jour.[ENDN][STRT=168,2]Roi de Bloumécia :
+Pouvez-vous me pardonner ?[ENDN][STRT=137,2]Roi de Bloumécia :
+Non ! Bien sûr que non ![ENDN][STRT=212,3]Roi de Bloumécia :
+Mais le destin du peuple de Bloumécia
+ne tient désormais plus qu’à un fil.[ENDN][STRT=188,3]Satoléa, prêtre du sable :
+Il y a bientôt 100 ans que
+nous n’avons pas eu de visiteurs.[ENDN][STRT=162,3]Nina, prêtresse des étoiles :
+Si cela vous intéresse,
+j’ai là quelques objets[SPED=2]...[SPED=-1][ENDN][STRT=69,1][IMME]Venez vite ![TIME=20][STRT=157,3]Donégan, prêtre de la nuit :
+Que se passe-t-il ?
+Pourquoi cette agitation ?[ENDN][STRT=147,3]Dan, soldat de Bloumécia :
+Le Fourmilion s’est
+emparé d’un enfant ![ENDN][STRT=191,3]Donégan, prêtre de la nuit :
+Le Fourmilion a fait ça ?!
+Pourtant il est calme d’habitude...[ENDN][STRT=149,3]Dan, soldat de Bloumécia :
+Il faut faire quelque chose
+pour calmer ce monstre ![ENDN][STRT=157,2]Donégan, prêtre de la nuit :
+C’est embêtant...[ENDN][STRT=167,3]Donégan, prêtre de la nuit :
+Je vais avertir
+le Grand Prêtre au plus vite ![ENDN][STRT=157,3]Donégan, prêtre de la nuit :
+Je vais avertir
+le Grand Prêtre ![ENDN][STRT=147,3]Dan, soldat de Bloumécia :
+Hé ! Attendez !
+On n’a pas le...[ENDN][STRT=228,3]Dan, soldat de Bloumécia :
+C’est pas vrai !
+Ce qu’ils peuvent perdre leur temps ici ![ENDN][STRT=151,3]Dan, soldat de Bloumécia :
+Toi là-bas, si tu es assez
+courageux, viens m’aider ![ENDN][STRT=85,2][TAIL=UPLF][QUIN] :
+J’aiiiiii faiiiiim...[ENDN][STRT=130,3][TAIL=UPLF][QUIN] :
+Le tourbillon ressemble
+à de la glace[SPED=2]...[SPED=-1][ENDN][STRT=143,2][TAIL=UPLF][WDTH=0,143,21,-1][IMME][ZDNE] :
+[QUIN], qu’est-ce que tu fais ?![ENDN][STRT=176,1][TAIL=UPRF][NFOC][IMME]J’ai la tête qui touuuuuuurne...![TIME=70][STRT=185,2][TAIL=UPLF][IMME][ZDNE] :
+T’es vraiment soûlante des fois ![ENDN][STRT=149,3]Dan, soldat de Bloumécia :
+Le Fourmilion s’est emparé
+de l’enfant par ici ![ENDN][STRT=147,2]Dan, soldat de Bloumécia :
+Pas par là ![ENDN][STRT=161,2][TAIL=LOLF][ZDNE] :
+C’est donc lui le Fourmilion ?[ENDN][STRT=108,2][TAIL=UPRF][OFFT=-700,-300,0]Puck :
+Auuu Secouuuuurs ![ENDN][STRT=43,2][TAIL=UPRF][WDTH=0,8,17,-1][VIVI] :
+Ooooh ![ENDN][STRT=62,3][TAIL=UPLF][WDTH=0,8,16,-1][ZDNE] :
+Calme-toi !
+On arrive ![ENDN][STRT=134,2][TAIL=LOLF][WDTH=0,134,16,-1][FRYA] :
+[ZDNE], comment va l’enfant ?![ENDN][STRT=41,2][TAIL=UPLF][WDTH=0,8,16,-1][ZDNE] :
+Ca va ![ENDN][STRT=147,2][TAIL=UPRF][OFFT=-700,-300,0]Puck :
+Noooon ! Ca va paaaaas ![ENDN][STRT=74,2][TAIL=LOLF][WDTH=0,8,20,-1][FRYA] :
+Cette voix ?![ENDN][STRT=176,2][FRYA] :
+On dirait celle du prince Puck ![ENDN][STRT=115,2][TAIL=UPRF][OFFT=-700,-300,0][WDTH=0,115,20,-1]Puck :
+[FRYA] ! Ca fait un baiiiiiil ![ENDN][STRT=128,1][TAIL=UPRF][OFFT=0,-500,0]GROOAOAAAAAAOAOAR ![TIME=20][STRT=57,1][TAIL=UPRF][OFFT=-700,-300,0]Aaaaaah ![TIME=10][STRT=30,1][TAIL=UPLF][IMME]Aïe ![TIME=10][STRT=43,2][TAIL=UPLF][IMME]Puck :
+Abruti ![TIME=20][STRT=128,1][TAIL=UPRF][OFFT=0,-500,0][IMME]GROOAOAAAAAAOAOAR ![TIME=20][STRT=88,1][IMME]Il vient par ici ![TIME=20][STRT=164,2][TAIL=UPRF][FRYA] :
+Comment allez-vous, Prince ?[ENDN][STRT=166,3][TAIL=UPLF][WDTH=0,123,20,-1]Puck :
+Salut [FRYA], ça fait un bout
+de temps qu’on s’est pas vu ![ENDN][STRT=183,4][TAIL=UPRF][FRYA] :
+Où étiez-vous ? On m’a dit que
+vous aviez disparu de Bloumécia
+depuis bien longtemps...[ENDN][STRT=188,2][TAIL=UPLF]Puck :
+Ca fait pas si longtemps que ça...[ENDN][STRT=156,3][TAIL=UPRF][FRYA] :
+Le Roi est au Grand Temple,
+allons le rejoindre ![ENDN][STRT=113,2][TAIL=UPLF]Puck :
+Le paternel est là...[ENDN][STRT=156,3][TAIL=UPLF]Puck :
+C’est pas la peine, dis-lui
+que je le salue, ça suffira ![ENDN][STRT=37,1][TAIL=UPLF][IMME]Salut ![TIME=15][STRT=50,1][TAIL=UPRF]Prince !![TIME=15][STRT=135,2][TAIL=UPLF][WDTH=0,135,17,-1]Puck :
+Salut [VIVI] ! A la prochaine ![ENDN][STRT=94,3][TAIL=UPRF][WDTH=0,75,17,-1][QUIN] :
+Quel sale gamin !
+Je préfère [VIVI] ![ENDN][STRT=125,2][TAIL=UPRF][VIVI] :
+C’est mon premier ami.[ENDN][STRT=97,2][TAIL=UPRF][VIVI] :
+Je vais avec lui ![ENDN][STRT=120,2]Roi de Bloumécia :
+Ainsi, Puck était ici...[ENDN][STRT=192,2][FRYA] :
+Il est toujours le même garnement.[ENDN][STRT=127,3]Roi de Bloumécia :
+Il y a longtemps
+que je ne l’ai pas vu...[ENDN][STRT=244,3][FRYA] :
+J’ai entendu dire qu’il avait disparu un mois
+après mon départ, cela va faire 5 ans.[ENDN][STRT=236,3]Roi de Bloumécia :
+Mais l’un comme l’autre vous êtes revenus
+alors que j’avais besoin de vous...[ENDN][STRT=172,2]Roi de Bloumécia :
+Je vous en suis reconnaissant.[ENDN][STRT=234,4]Grand Prêtre de Clayra :
+Dame [FRYA], nous allons procéder
+à la cérémonie ancestrale visant
+à renforcer la tempête qui nous protége.[ENDN][STRT=184,4]Grand Prêtre de Clayra :
+En renforçant la tempête,
+nous découragerons nos ennemis
+et ils rentreront chez eux.[ENDN][STRT=227,4]Grand Prêtre de Clayra :
+Afin de la rendre encore plus puissante,
+j’aimerais lui insuffler votre pouvoir
+de Chevalier Dragon[SPED=2]...[SPED=-1][ENDN][STRT=235,4][FRYA] :
+Cette cérémonie vient du temps
+où Bloumécia et Clayra ne faisaient qu’un,
+n’est-ce pas ? Je suis d’accord.[ENDN][STRT=153,3][WDTH=0,84,16,-1][FRYA] :
+[ZDNE], je n’ai pas su
+protéger Bloumécia, mais[SPED=2]...[SPED=-1][ENDN][STRT=178,3][FRYA] :
+Je ne laisserai pas Branet aller
+plus avant dans ses desseins ![ENDN][STRT=84,2][WDTH=0,84,20,-1][ZDNE] :
+T’as changé [FRYA]...[ENDN][STRT=238,3][ZDNE] :
+Quand je t’ai rencontrée la première fois,
+je te pensais pas aussi forte ![ENDN][STRT=231,4][FRYA] :
+Maître Fratley voulait que la paix règne
+à Bloumécia et je n’ai pas pu réaliser
+son souhait[SPED=2]...[SPED=-1][ENDN][STRT=209,3][FRYA] :
+Tout ce que je peux faire à présent,
+c’est protéger Clayra...[ENDN][STRT=162,3][ZDNE] :
+Et en la protégeant
+tu te protègeras toi-même...[ENDN][STRT=109,2][FRYA] :
+Je me protégerai...[ENDN][STRT=155,2]Cléa, prêtresse de la lune :
+Les cordes ont cassé[SPED=2]...[SPED=-1][ENDN][STRT=155,2]Cléa, prêtresse de la lune :
+C’est un mauvais présage[SPED=2]...[SPED=-1][ENDN][STRT=151,3][WDTH=0,146,20,-1,0,125,16,-1]Willan, prêtre des arbres :
+Dame [FRYA] a laissé un message
+pour vous, Monsieur [ZDNE] :[ENDN][STRT=181,2][WDTH=0,154,16,-1]”[ZDNE] ! Cela risque d’être long,
+allez m’attendre à l’auberge !”[FEED=4][ENDN][STRT=151,2]Willan, prêtre des arbres :
+C’est tout[SPED=2]...[SPED=-1][ENDN][STRT=140,3]Myulâhn, prêtre du ciel :
+Je n’ai pas l’autorisation
+de vous laisser passer.[ENDN][STRT=151,3]Willan, prêtre des arbres :
+Que s’est-il passé
+avec le Fourmilion ?![ENDN][STRT=138,2]Myulâhn, prêtre du ciel :
+Il a attrapé un enfant ?[ENDN][STRT=230,3]Eirin, prêtresse du vent :
+Le peuple de Bloumécia et
+celui de Clayra sont deux peuples danseurs.[ENDN][STRT=250,4]Eirin, prêtresse du vent :
+Mais nous avons su garder nos traditions
+et la magie de nos danses est plus puissante
+que celle des leurs.[ENDN][STRT=222,3]Mirdyn, prêtre du soleil :
+Il y a longtemps, le peuple de Bloumécia
+et celui de Clayra ne faisaient qu’un.[ENDN][STRT=211,4]Mirdyn, prêtre du soleil :
+Mais pour éviter un conflit
+avec le peuple guerrier de Bloumécia
+nous nous sommes réfugiés ici.[ENDN][STRT=175,4]Jil, soldat de Bloumécia :
+C’est pas évident de discuter
+avec les gars d’ici, mais ils ont
+l’air sympa, dans l’ensemble.[ENDN][STRT=190,3]Lauréna, habitante de Bloumécia :
+En nous laissant entrer ici,
+ils nous ont sauvé la vie ![ENDN][STRT=122,1][PCHM=16,15][WDTH=2,138,-1,5,196,-1][IMME]Choisissez une scène.
+[CHOO][MOVE=18,0]Me rejetez pas !
+[MOVE=18,0]Il y a rien à manger !
+[MOVE=18,0]Mais non, je...
+[MOVE=18,0]Des champignons !
+[MOVE=18,0]Clayra, la ville du Grand Arbre
+[MOVE=18,0]ATE-05
+[MOVE=18,0]ATE-06
+[MOVE=18,0]ATE-07
+[MOVE=18,0]ATE-08
+[MOVE=18,0]ATE-09
+[MOVE=18,0]ATE-10
+[MOVE=18,0]ATE-11
+[MOVE=18,0]ATE-12
+[MOVE=18,0]ATE-13
+[MOVE=18,0]ATE-14
+[MOVE=18,0]Annuler.[ENDN][STRT=96,1][IMME][CENT=96]Me rejetez pas ![ENDN][STRT=118,1][IMME][CENT=118]Il y a rien à manger ![ENDN][STRT=52,1][IMME][CENT=52]Mais non, je...[ENDN][STRT=102,1][IMME][CENT=102]Des champignons ![ENDN][STRT=173,1][IMME][CENT=173]Clayra, la ville du Grand Arbre[ENDN][STRT=25,1]Je...[ENDN][STRT=181,3]Ce soir, pour la première fois
+depuis longtemps, on va pouvoir
+voir les ”Tantalas”.[ENDN][STRT=105,1]C’est merveilleux ![ENDN][STRT=109,1]Tu y vas toi aussi ?[ENDN][STRT=0,1][TAIL=UPL][WDTH=0,0,64,0,-1][IMME][NUMB=0][TIME=-1][STRT=145,1][TAIL=LOR][B880E0][HSHD]MUSIC : Jouer de la harpe[ENDN][STRT=211,1][B880E0][HSHD]FMV 019 : La tempête s’est arrêtée ![ENDN][STRT=147,1][C8B040][HSHD]Appuyez sur la touche [C8C8C8][HSHD][DBTN=CIRCLE][MOBI=260][C8B040][HSHD].[ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=200,2][FRYA] :
+Cela fait longtemps, votre Majesté.[ENDN][STRT=131,2]Roi de Bloumécia :
+Ah, [FRYA], bienvenue.[ENDN][STRT=208,2]Roi de Bloumécia :
+Le Grand Prêtre et moi vous attendions.[ENDN][STRT=144,2]Grand Prêtre de Clayra :
+Dame [FRYA][SPED=2]...[SPED=-1][ENDN][STRT=227,3]Grand Prêtre de Clayra :
+Il semblerait que ce conflit ne concerne
+plus seulement Bloumécia.[ENDN][STRT=170,2][FRYA] :
+Je comprends, votre Sainteté.[ENDN][STRT=75,2][FRYA] :
+Cependant[SPED=2]...[SPED=-1][ENDN][STRT=163,3][FRYA] :
+J’ai peur que ma force seule
+ne suffise pas.[ENDN][STRT=245,2]Roi de Bloumécia :
+[FRYA]...[WAIT=20] Je sais que je vous ai abandonné.[ENDN][STRT=256,2]Roi de Bloumécia :
+Je dois m’excuser pour avoir fui l’autre jour.[ENDN][STRT=168,2]Roi de Bloumécia :
+Pouvez-vous me pardonner ?[ENDN][STRT=137,2]Roi de Bloumécia :
+Non ! Bien sûr que non ![ENDN][STRT=212,3]Roi de Bloumécia :
+Mais le destin du peuple de Bloumécia
+ne tient désormais plus qu’à un fil.[ENDN]

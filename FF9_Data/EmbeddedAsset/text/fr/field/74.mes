@@ -1,0 +1,1026 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Lettre 00
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Sens unique
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=231,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,140,6,1,-1][TEXT=0,0] :
+Une lettre de [TEXT=0,1] pour moi ?
+Je suis désolée de te l’avoir fait porter.[ENDN][STRT=239,15][WDTH=0,77,6,1,6,0,-1,0,239,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Chaque fois que je regarde Marie,
+la serveuse qui travaille à temps partiel,
+son sourire triste me serre le coeur...
+Parce que j’y vois un amour malheureux.
+
+[TEXT=0,0], as-tu déjà été amoureuse de quelqu’un ?
+Moi, je ne comprends pas encore vraiment
+le sens du mot ”amour”.
+Alors que j’ai le coeur serré
+devant les amours malheureux des autres,
+si je tombais amoureux d’une Mog,
+combien devrais-je en souffrir ?[ENDN][STRT=254,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Moi, je ne tomberai amoureuse de personne !
+Je m’en fiche de l’amour, je m’en fiche[SPED=2]...[SPED=-1][ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=95,2][DGGR] :
+Merci infiniment ![ENDN][STRT=102,2]Conducteur :
+Soyez prudente[SPED=2]...[SPED=-1][ENDN][STRT=213,3]Conducteur :
+Mais vous avez encore du temps
+avant l’arrivée du train d'Alexandrie.[ENDN][STRT=109,2][DGGR] :
+Quand arrive-t-il ?[ENDN][STRT=93,3]Conducteur :
+Quand je repars
+pour Boden[SPED=2]...[SPED=-1][ENDN][STRT=174,3]Conducteur :
+Il faut à peu près autant de
+temps que pour venir jusqu’ici.[ENDN][STRT=145,3]Conducteur :
+Il y a une salle d’attente
+par là-bas, profitez-en ![ENDN][STRT=40,2][WDTH=0,8,18,-1][DGGR] :
+Merci ![ENDN][STRT=97,2][WDTH=0,97,19,-1][DGGR] :
+Qu’avez-vous, [STNR] ?[ENDN][STRT=67,2][WDTH=0,8,19,-1][STNR] :
+Princesse[SPED=2]...[SPED=-1][ENDN][STRT=165,2][DGGR] :
+Je vous ai demandé d’arrêter de[SPED=2]...[SPED=-1][ENDN][STRT=173,3][STNR] :
+C’est le royaume d’Alexandrie.
+Nous sommes rentrés ![ENDN][STRT=47,2][WDTH=0,8,18,-1][DGGR] :
+Quoi[SPED=2]...[SPED=-1]?![ENDN][STRT=88,2][DGGR] :
+On est rentré[SPED=2]...[SPED=-1][ENDN][STRT=156,3][DGGR] :
+Mais[SPED=2]...[SPED=-1]
+Je ne vois pas le château...[ENDN][STRT=127,4][STNR] :
+Vous savez Princesse,
+le royaume ne se limite
+pas au château[SPED=2]...[SPED=-1][ENDN][STRT=161,3][DGGR] :
+Ah[SPED=2]...[SPED=-1] Je le sais bien !
+Ne vous moquez pas de moi ![ENDN][STRT=105,2][STNR] :
+Je[WAIT=3] n’oserais pas[SPED=2]...[SPED=-1][ENDN][STRT=65,3][WDTH=0,8,18,-1][DGGR] :
+Très bien[SPED=2]...[SPED=-1]
+Allons-y.[ENDN][STRT=236,5][PCHC=2,1][IMME]Passionné de train :
+Bienvenue à la gare du sommet !
+Vous savez comment marchent les trains ?
+[CHOO][MOVE=18,0]Bien sûr !
+[MOVE=18,0]Pas du tout ![ENDN][STRT=193,3]Passionné de train :
+Tant mieux, on gagnera du temps !
+Vous pouvez attendre là-bas ![ENDN][STRT=172,5][TAIL=UPRF]Passionné de train :
+C’est embêtant ça !
+Le chemin de fer, ou Belkmehr,
+a 8 ans ! Il symbolise l’amitié
+entre Lindblum et Alexandrie ![ENDN][STRT=231,6][TAIL=UPRF]Passionné de train :
+Il fonctionne à l’énergie ”Brumique”
+mise au point à Lindblum et il tracte
+deux trains, quand l’un est en haut, l’autre
+est en bas et tout cela fonctionne grâce
+à la gravité.[ENDN][STRT=168,2]Conducteur :
+Ce train retourne à Lindblum ![ENDN][STRT=194,3]Marie l’apprentie :
+C’est plus calme ici[SPED=2]...[SPED=-1] Il y a trop
+d’hommes dans la salle d’attente[SPED=2]...[SPED=-1][ENDN][STRT=173,3]Marie l’apprentie :
+J’aurais bien aimé rester avec
+lui, mais je dois travailler[SPED=2]...[SPED=-1][ENDN][STRT=141,3]Marie l’apprentie :
+Ah ! Excusez-moi, je n’ai
+pas de cartes sur moi ![ENDN][STRT=175,1][TAIL=LOLF]Vous êtes à la gare du sommet.[ENDN][STRT=158,2][TAIL=UPRF][DGGR] :
+C’est ça la salle d’attente ?[ENDN][STRT=215,3][TAIL=UPLF][STNR] :
+Tâchons de recueillir des informations
+en attendant le train pour Alexandrie.[ENDN][STRT=174,3][STNR] :
+Regardons la carte pour savoir 
+exactement où nous sommes.[ENDN][STRT=224,3]Employé :
+Le train d'Alexandrie ne va pas tarder.
+Veuillez patienter, s’il vous plaît.[ENDN][STRT=124,2][DGGR] :
+Qu’est-ce que c’est ?[ENDN][STRT=216,2]Employé :
+C’est le train de Lindblum qui démarre.[ENDN][STRT=180,1][TAIL=UPRF][OFFT=-500,255,4000]Attendez-moi ! Ze dois monter ![ENDN][STRT=120,3][DGGR] :
+Tiens ? Cette voix me
+dit quelque chose[SPED=2]...[SPED=-1][ENDN][STRT=229,4][TAIL=LOLF][PCHC=2,1][IMME]Cuistot :
+Bienvenue, qu’est-ce que je vous sers ?
+[CHOO][MOVE=18,0]Comment vont les affaires ?
+[MOVE=18,0]Quelle est votre spécialité ?[ENDN][STRT=116,3][TAIL=LOLF]Cuistot :
+A vrai dire, elles
+marchent trop bien ![ENDN][STRT=131,3][TAIL=LOLF]Cuistot :
+Je vous conseille notre
+tarte au maroilles ![ENDN][STRT=230,4][TAIL=LOLF]Cuistot :
+La tarte au maroilles de la Porte Sud,
+entière, c’est le soleil qui vous sourit,
+découpée, c’est le paradis en bouche ![ENDN][STRT=270,3][TAIL=LOLF]Cuistot :
+La Porte Sud : un pont entre les mondes !
+Sa tarte au maroilles : un pont entre les goûts ![ENDN][STRT=170,4][TAIL=LOLF][PCHC=2,1][IMME]Cuistot :
+C’est pour jouer aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=246,2][TAIL=LOLF][IMME]Cuistot :
+On peut pas jouer avec moins de 5 cartes ![ENDN][STRT=175,1][OFFT=630,0,-50][TAIL=LOLF]Vous êtes à la gare du sommet.[ENDN][STRT=31,2][WDTH=0,8,18,-1][DGGR] :
+Ah[SPED=2]...[SPED=-1]?[ENDN][STRT=151,3]Cina :
+On l’a raté !
+Qu’est-ce qu’on va faire ?[ENDN][STRT=112,2]Markus :
+J’en sais rien, moi[SPED=2]...[SPED=-1][ENDN][STRT=224,4][TAIL=UPLF]Markus :
+Je veux dire, t’aurais pas voulu
+regarder le paysage en mangeant de la
+tarte au maroilles, on en serait pas là ![ENDN][STRT=131,2]Cina :
+On va être en retard[SPED=2]...[SPED=-1][ENDN][STRT=207,3]Markus :
+On y peut rien[SPED=2]...[SPED=-1]
+Tu voulais pas que le chef le sache ![ENDN][STRT=169,2]Cina :
+Merci ! Tu m’aides beaucoup ![ENDN][STRT=205,3]Cina :
+Puisque c’est ça, ze vais reprendre
+une tarte au maroilles ![ENDN][STRT=76,2]Markus :
+Ben voyons[SPED=2]...[SPED=-1][ENDN][STRT=63,1][TAIL=UPLF][OFFT=-100,0,-100]Brigands !![ENDN][STRT=12,1][CENT=12]??[ENDN][STRT=185,3][STNR] :
+Vous cherchez encore à enlever
+la Princesse ! Avouez-le ![ENDN][STRT=165,2]Cina :
+C’est qui ce type à ressort ?[ENDN][STRT=226,2][STNR] :
+Ne me dites pas que vous m'avez oublié ?![ENDN][STRT=141,3][TAIL=UPLF]Markus :
+Tu t'en souviens plus ?
+C’est le chef des Brutos.[ENDN][STRT=205,3]Cina :
+Ah ! Si ze me souviens !
+Le cevalier qui zoue comme un pied ![ENDN][STRT=149,3][STNR] :
+Grrrr[SPED=2]...[SPED=-1]
+Surveillez votre langage ![ENDN][STRT=190,3][DGGR] :
+Vous êtes Markus, n’est-ce pas ?
+Que faites-vous ici ?[ENDN][STRT=269,3]Markus :
+Mais, c’est la Princesse ?!
+Je veux dire, c’est à moi de vous le demander ![ENDN][STRT=107,3]Markus :
+On est sorti de la
+Forêt Maudite et[SPED=2]...[SPED=-1][ENDN][STRT=175,3][STNR] :
+Princesse ! Vous ne devez pas
+parler à des individus pareils ![ENDN][STRT=118,3][DGGR] :
+Vous êtes[SPED=2]...[SPED=-1] Cina ?
+Que faites-vous ici ?[ENDN][STRT=243,3]Cina :
+Hein[SPED=2]...[SPED=-1] Pour une surprise !
+Qu’est-ce que vous faites-là, princesse ?![ENDN][STRT=121,3]Cina :
+On est sorti de
+la Forêt Maudite et[SPED=2]...[SPED=-1][ENDN][STRT=67,2][WDTH=0,8,19,-1][STNR] :
+Princesse[SPED=2]...[SPED=-1][ENDN][STRT=79,3][WDTH=0,8,18,-1,0,9,19,-1][DGGR] :
+[STNR] !
+Taisez-vous ![ENDN][STRT=61,2][WDTH=0,8,19,-1][STNR] :
+Pour[WAIT=3]quoi[SPED=2]...[SPED=-1][ENDN][STRT=187,3][DGGR] :
+Vous voudriez que je ne parle
+pas à des amis que je retrouve ?[ENDN][STRT=87,2][STNR] :
+Des amis, ces[SPED=2]...[SPED=-1][ENDN][STRT=62,2][WDTH=0,8,18,-1,0,62,19,-1][DGGR] :
+Adelbert [STNR] ![ENDN][STRT=83,1]A vos ordres ![ENDN][STRT=104,2]Cina :
+Elle est en colère.[ENDN][STRT=230,2]Markus :
+Il faut pas faire pleurer les chevaliers...[ENDN][STRT=138,3]Employé :
+Le train pour Alexandrie
+entre en gare ![ENDN][STRT=55,2]Cina :
+Il arrive ![ENDN][STRT=95,3][TAIL=LOLF]Markus :
+Eh ! Tu dois
+aller à Lindblum toi ![ENDN][STRT=166,3]Cina :
+Ze[WAIT=3] sais bien !
+Mais toi tu vas à Alessandrie ![ENDN][STRT=135,2][TAIL=LOLF]Markus :
+Enfin[SPED=2]...[SPED=-1] Je vais à Tréno.[ENDN][STRT=168,2]Cina :
+Ze t’accompagne sur le quai ![ENDN][STRT=124,2][DGGR] :
+Markus va à Tréno[SPED=2]...[SPED=-1]?[ENDN][STRT=63,2][WDTH=0,8,18,-1,0,63,19,-1][DGGR] :
+[STNR], allons-y ![ENDN][STRT=116,3][DGGR] :
+[STNR] ?
+Seriez-vous fâché ?[ENDN][STRT=185,3][STNR] :
+Non, pas du tout !
+Vous aviez parfaitement raison ![ENDN][STRT=265,3]Commerçant :
+Au-delà des frontières, c’est un autre monde !
+Pensez à vous équiper ![ENDN][STRT=218,3]Mécanicien :
+Venir réparer les voies aussi loin dans
+la montagne, c’est vraiment épuisant ![ENDN][STRT=212,3]Mécanicien :
+Les portes ne sont pas que des
+gares, les aéronefs y passent aussi ![ENDN][STRT=215,3]Mécanicien :
+Mais maintenant qu’elles sont fermées,
+on ne peut plus passer au-dessus ![ENDN][STRT=138,4][PCHC=2,1][IMME]Mécanicien :
+Vous jouez aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=155,3]Mécanicien :
+Il faut 5 cartes pour jouer,
+mademoiselle[SPED=2]...[SPED=-1][ENDN][STRT=129,2][TAIL=LORF]Cina :
+Sois prudent, surtout ![ENDN][STRT=140,3]Markus :
+T’inquiète pas !
+Je ramènerai le frangin ![ENDN][STRT=75,2][TAIL=LORF][WDTH=0,8,18,-1][DGGR] :
+Le frangin[SPED=2]...[SPED=-1]?[ENDN][STRT=97,3][DGGR] :
+Pourquoi Markus
+va-t-il à Tréno ?[ENDN][STRT=197,3]Cina :
+Vous y allez aussi, Princesse ?
+Markus a un travail à faire là-bas.[ENDN][STRT=85,2][DGGR] :
+C’est à dire[SPED=2]...[SPED=-1]?[ENDN][STRT=203,3][TAIL=UPRF]Conducteur :
+Le train pour Alexandrie va partir !
+Attention au départ ![ENDN][STRT=141,2]Cina :
+Vite, Princesse, montez ![ENDN][STRT=146,2][STNR] :
+Vite, Princesse, montons ![ENDN][STRT=190,2]Employé :
+Le train d’Alexandrie est arrivé ![ENDN][STRT=120,2]Conducteur :
+Attention au départ ![ENDN][STRT=171,3][DGGR] :
+Markus[SPED=2]...[SPED=-1]
+Pourquoi allez-vous à Tréno ?[ENDN][STRT=136,2][TAIL=LOLF][OFFT=0,150,0]Markus :
+Pour sauver le frangin ![ENDN][STRT=121,2][DGGR] :
+Qui est ”le frangin” ?[ENDN][STRT=175,3][TAIL=LOLF][OFFT=0,150,0]Markus :
+Je veux dire, quand je parle
+du frangin, je parle de Frank ![ENDN][STRT=237,3][TAIL=LOLF][OFFT=0,150,0]Markus :
+Vous l’avez oublié ?!
+Il a été pétrifié dans la ”Forêt Maudite” ![ENDN][STRT=146,3][TAIL=LOLF][OFFT=0,150,0]Markus :
+On a cherché un moyen de
+le tirer de là[SPED=2]...[SPED=-1][ENDN][STRT=201,3][TAIL=LOLF][OFFT=0,150,0][WDTH=0,136,14,0,-1]Markus :
+Il paraît qu’à Tréno, ils ont ce qu’il
+faut, ça s’appelle une [ITEM=0] ![ENDN][STRT=49,2][WDTH=0,8,18,-1][DGGR] :
+Et Cina ?[ENDN][STRT=155,3][TAIL=LOLF][OFFT=0,150,0]Markus :
+Il retourne à Lindblum
+pour prévenir les Tantalas.[ENDN][STRT=52,2][WDTH=0,8,18,-1][DGGR] :
+Je vois[SPED=2]...[SPED=-1][ENDN][STRT=166,3][TAIL=LOLF][OFFT=0,150,0]Markus :
+Je veux dire, c’est à moi
+de vous poser des questions.[ENDN][STRT=74,2][WDTH=0,8,18,-1][DGGR] :
+Comment ça ?[ENDN][STRT=49,2][TAIL=LOLF][OFFT=0,150,0][WDTH=0,49,16,-1]Markus :
+Où est [ZDNE] ?[ENDN][STRT=221,2][DGGR] :
+Nous nous sommes séparés à Lindblum[SPED=2]...[SPED=-1][ENDN][STRT=195,3][TAIL=LOLF][OFFT=0,150,0]Markus :
+Je vois, vous êtes du genre, merci
+pour tout et adieu ! C’est ça ?[ENDN][STRT=196,4][TAIL=UPRF][DGGR] :
+Mais non, pas du tout !
+Vous me traitez tous comme une
+enfant, ça commence à bien faire ![ENDN][STRT=146,2][DGGR] :
+Je ne sais pas où il est[SPED=2]...[SPED=-1]![ENDN][STRT=140,3][TAIL=LOLF][OFFT=0,150,0]Markus :
+Je vois[SPED=2]...[SPED=-1] Je veux dire,
+moi non plus, je sais pas.[ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=182,3][STNR] :
+Je ne dis rien !
+Je ne fais qu’obéir aux ordres ![ENDN][STRT=210,2]Conducteur :
+Nous ne sommes pas encore arrivés ![ENDN][STRT=183,3][TAIL=UPRF][DGGR] :
+Markus[SPED=2]...[SPED=-1]
+Ne pourrais-je pas vous aider ?[ENDN][STRT=91,2][TAIL=LOLF][OFFT=0,150,0]Markus :
+Pourquoi faire ?[ENDN][STRT=145,4][TAIL=UPRF][WDTH=0,83,14,0,-1][DGGR] :
+Je me sens responsable[SPED=2]...[SPED=-1]
+Je pourrais vous aider à
+trouver une [ITEM=0][SPED=2]...[SPED=-1][ENDN][STRT=208,3][TAIL=LOLF][OFFT=0,150,0]Markus :
+C’est pas la peine[SPED=2]...[SPED=-1]
+Je veux dire, j’y arriverai tout seul.[ENDN][STRT=174,2][TAIL=UPRF][DGGR] :
+Mais plus on est nombreux et[SPED=2]...[SPED=-1][ENDN][STRT=115,1][TAIL=UPLF][NFOC]Que se passe-t-il ?![TIME=45][STRT=115,3][TAIL=UPLF]Conducteur :
+Sûrement une panne.
+Je vais voir ![ENDN][STRT=55,1]Aaaaah !![ENDN][STRT=198,3][TAIL=UPLF]Conducteur :
+Aah un monstre ! Il y a un monstre avec
+un chapeau pointu sur les rails ![ENDN][STRT=213,2][DGGR] :
+Un monstre avec un chapeau pointu ?![ENDN][STRT=185,2][TAIL=LOLF][OFFT=0,150,0]Markus :
+Qu’est-ce qui se passe encore ?[ENDN][STRT=112,3]Marie l’apprentie :
+Je ferais tout
+pour l’encourager ![ENDN][STRT=141,2][TAIL=UPRF]Markus :
+Qu’est-ce qui se passe ?[ENDN][STRT=10,1][CENT=10]!![ENDN][STRT=125,3]Valseur III :
+MiCion[SPED=2]...[SPED=-1] capTuré[SPED=2]...[SPED=-1]
+PrInceSse[SPED=2]...[SPED=-1] viVantE[SPED=2]...[SPED=-1][ENDN][STRT=149,3][DGGR] :
+C’est celui que nous avons
+vu sur l’aérocargo[SPED=2]...[SPED=-1][ENDN][STRT=143,3][STNR] :
+Monstre ! Cette fois,
+tu ne m’échapperas pas ![ENDN][STRT=68,2][WDTH=0,8,18,-1,0,68,19,-1][DGGR] :
+[STNR], attendez ![ENDN][STRT=184,3][DGGR] :
+J’ai une question à vous poser !
+Pourquoi me poursuivez-vous[SPED=2]...[SPED=-1]?[ENDN][STRT=152,3][STNR] :
+Princesse !
+Il est dangereux, reculez ![ENDN][STRT=110,3]Markus :
+C’est pas la peine !
+Il comprend rien ![ENDN][STRT=32,2][WDTH=0,8,18,-1][DGGR] :
+Non[SPED=2]...[SPED=-1][ENDN][STRT=101,2]Valseur III :
+EfAcé[SPED=2]...[SPED=-1] jéNeuRs ![ENDN][STRT=67,3][TAIL=UPRF][WDTH=0,8,18,-1][DGGR] :
+Pourquoi[SPED=2]...[SPED=-1]?
+Comment[SPED=2]...[SPED=-1]?[ENDN][STRT=99,3][TAIL=UPRF][DGGR] :
+Comment a-t-il pu
+devenir ainsi[SPED=2]...[SPED=-1][ENDN][STRT=67,2][WDTH=0,8,19,-1][STNR] :
+Princesse[SPED=2]...[SPED=-1][ENDN][STRT=223,3]Markus :
+Je veux dire qu’il paraît que Bloumécia
+a été attaquée par des Mages Noirs[SPED=2]...[SPED=-1][ENDN][STRT=51,2][TAIL=UPRF][WDTH=0,8,18,-1][DGGR] :
+Je sais[SPED=2]...[SPED=-1][ENDN][STRT=207,3]Markus :
+Des trucs comme celui qu’on vient de
+voir ont assassiné les habitants[SPED=2]...[SPED=-1][ENDN][STRT=12,1][TAIL=UPRF][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=182,2][STNR] :
+Qui a osé attaquer Bloumécia[SPED=2]...[SPED=-1]?[ENDN][STRT=138,2]Markus :
+T’en sais vraiment rien ?[ENDN][STRT=169,2][STNR] :
+Qu’est-ce que tu veux dire ?![ENDN][STRT=136,3][TAIL=UPRF][WDTH=0,68,19,-1][DGGR] :
+[STNR], ça suffit[SPED=2]...[SPED=-1]
+Je sais déjà tout cela[SPED=2]...[SPED=-1][ENDN][STRT=65,2][WDTH=0,8,19,-1][STNR] :
+Princesse ?[ENDN][STRT=199,2][TAIL=UPRF][DGGR] :
+Nous serons bientôt à Alexandrie[SPED=2]...[SPED=-1][ENDN][STRT=136,3][TAIL=UPRF][DGGR] :
+Nous irons au château[SPED=2]...[SPED=-1]
+Et je verrai Mère[SPED=2]...[SPED=-1][ENDN][STRT=161,2][TAIL=UPRF][DGGR] :
+Elle m’expliquera sûrement[SPED=2]...[SPED=-1][ENDN][STRT=173,2][OFFT=0,80,0][TAIL=UPLF][DGGR] :
+Nous devrions bientôt arriver.[ENDN][STRT=227,3][OFFT=0,80,0][TAIL=UPLF]Markus :
+Je veux dire, vous saviez qu’Alexandrie
+avait envahi Bloumécia[SPED=2]...[SPED=-1]?[ENDN][STRT=92,3][OFFT=0,80,0][TAIL=UPLF][WDTH=0,92,19,-1][DGGR] :
+Bien sûr !
+Je ne suis pas [STNR] ![ENDN][STRT=106,3][OFFT=0,80,0][TAIL=UPLF]Markus :
+Je veux dire[SPED=2]...[SPED=-1]
+Vous avez changé.[ENDN][STRT=136,3][OFFT=0,80,0][TAIL=UPLF][DGGR] :
+Moi ? Vous voulez
+parler de mon langage ?[ENDN][STRT=82,2][OFFT=0,80,0][TAIL=UPLF]Markus :
+Pas seulement.[ENDN][STRT=179,3][OFFT=0,80,0][TAIL=UPLF][DGGR] :
+C’est vrai[SPED=2]...[SPED=-1]
+Il m’est arrivé tant de choses[SPED=2]...[SPED=-1][ENDN][STRT=121,2][TAIL=UPLF][DGGR] :
+Au fait ! J’y pense[SPED=2]...[SPED=-1]![ENDN][STRT=141,2][OFFT=0,80,0][TAIL=UPLF]Markus :
+Qu’est-ce qui se passe ?[ENDN][STRT=165,3][TAIL=UPLF][DGGR] :
+Je sais me défendre maintenant,
+je ne vous dérangerai plus ![ENDN][STRT=74,2][OFFT=0,80,0][TAIL=UPLF]Markus :
+Comment ça ?[ENDN][STRT=252,3][TAIL=UPLF][DGGR] :
+Pour sauver Frank !
+C’est bien pour ça que vous allez à Tréno ?![ENDN][STRT=199,3][OFFT=0,80,0][TAIL=UPLF]Markus :
+J’ai pas le choix[SPED=2]...[SPED=-1]
+Même si je refuse, vous viendrez[SPED=2]...[SPED=-1][ENDN][STRT=198,3][TAIL=UPLF][DGGR] :
+C’est décidé !
+Nous vous accompagnons à Tréno ![ENDN][STRT=214,2][TAIL=UPLF][DGGR] :
+Je me demande comment est la ville[SPED=2]...[SPED=-1]?[ENDN][STRT=208,3][OFFT=0,80,0][TAIL=UPLF]Markus :
+[C8C8C8][HSHD](Finalement[SPED=2]...[SPED=-1] Ca reste une
+fille comme une autre[SPED=2]...[SPED=-1])[ENDN][STRT=99,2]Conducteur :
+Soyez prudente ![ENDN][STRT=249,3]Conducteur :
+Il y a une fourche plus haut, la route de
+droite va à Tréno et celle de gauche à Dali.[ENDN][STRT=180,3]Conducteur :
+Ne montez pas, nous retournons
+à la gare du sommet.[ENDN][STRT=220,3]Conducteur :
+Par faute d’absence de ”Brume”
+les trains sont arrêtés pour le moment.[ENDN][STRT=105,2]Marie l’apprentie :
+Bienvenue ![ENDN][STRT=178,4][PCHC=2,1][IMME]Marie l’apprentie :
+Vous voulez jouer aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=168,3]Marie l’apprentie :
+Je ne suis pas très forte mais
+je veux bien faire une partie.[ENDN][STRT=113,3]Marie l’apprentie :
+Tant pis, ce sera
+pour une autre fois.[ENDN][STRT=165,3]Marie l’apprentie :
+Il faut au moins
+5 cartes pour pouvoir jouer.[ENDN][STRT=130,4]Jeff l’apprenti :
+Euh[SPED=2]...[SPED=-1] Bonjour !
+Je[SPED=2]...[SPED=-1] Euh[SPED=2]...[SPED=-1]
+Comment on dit déjà[SPED=2]...[SPED=-1]?[ENDN][STRT=120,2][TAIL=LOLF]Vous êtes à
+la gare d’Alexandrie.[ENDN][STRT=221,4][MOVE=18,0][MOVE=18,0][SPED=64]
+[MOVE=18,0][MOVE=18,0][MOVE=18,0][B880E0][HSHD]Quincaillerie Véga[MOVE=18,0][MOVE=18,0][C8C8C8][HSHD]
+[MOVE=18,0]Tout pour réussir votre ascension !
+[MOVE=18,0][MOVE=18,0][ENDN][STRT=168,7][MOVE=18,0][MOVE=18,0][SPED=64]
+[MOVE=18,0][MOVE=18,0][MOVE=18,0][B880E0][HSHD]Véga & Altaïr
+[MOVE=18,0][MOVE=18,0][MOVE=18,0]Quincaillerie[MOVE=18,0][MOVE=18,0][C8C8C8][HSHD]
+[MOVE=18,0][MOVE=18,0][MOVE=18,0]
+[MOVE=18,0]Les plus hauts objets pour
+[MOVE=18,0]réussir votre ascension !
+[MOVE=18,0][MOVE=18,0][ENDN][STRT=263,4][MOVE=18,0][MOVE=18,0]
+[MOVE=18,0][MOVE=18,0]Tréno →
+[MOVE=18,0]Les voyages nocturnes sont dangereux.[MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=191,4][MOVE=18,0][MOVE=18,0]
+[MOVE=18,0][MOVE=18,0]Dali ↑
+[MOVE=18,0]Respectez les plantations ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=287,8][SPED=64]”Notre amitié sera à jamais célébrée.”
+[MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0]Cid Fabre VIII
+
+[CENT=168][MOVE=18,0]Onzième Roi de Lindblum[MOVE=18,0]
+
+[CENT=281][MOVE=18,0]Le Belkmehr est le fruit d’une collaboration[MOVE=18,0]
+[CENT=280][MOVE=18,0]entre Alexandrie et Lindblum pour célébrer[MOVE=18,0]
+[CENT=287][MOVE=18,0]20 ans d’entente parfaite entre ces deux pays.[MOVE=18,0][ENDN][STRT=190,3]Garde :
+Hé ! Il faut que le pont-levis
+soit baissé pour pouvoir passer ![ENDN][STRT=96,2][WDTH=0,96,14,0,-1]Garde :
+Vous avez un [ITEM=0][SPED=2]...[SPED=-1]?[ENDN][STRT=111,2]Garde :
+C’est bon, allez-y ![ENDN][STRT=121,2][TAIL=LOLF]Garde :
+Hé ! Laissez passer ![ENDN][STRT=99,2]Garde :
+Soyez prudente ![ENDN][STRT=151,3]Garde :
+Une fois de l’autre côté,
+Tréno n’est plus très loin ![ENDN][STRT=186,3]Garde :
+Depuis que la ”Brume” a disparu,
+les trains ne fonctionnent plus.[ENDN][STRT=267,4][PCHC=2,1][IMME]Garde :
+Oh, vous allez à Tréno pour jouer aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=282,3]Garde :
+Vous ne savez même pas combien de cartes il faut
+pour jouer ? Vous aller être la risée de la ville ![ENDN][STRT=48,1][OFFT=0,350,0][MOVE=18,0][SPED=2]...[SPED=-1][MOVE=18,0][ENDN][STRT=120,2][OFFT=0,350,0]Cina :
+Ze l’ai encore raté[SPED=2]...[SPED=-1][ENDN][STRT=202,3][OFFT=0,350,0]Cina :
+Ca fait combien de fois maintenant ?
+Le zour se lève dézà[SPED=2]...[SPED=-1][ENDN][STRT=150,3][OFFT=0,100,0]Cina :
+C’est pas de ma faute !
+C’est à cause des tartes ![ENDN][STRT=115,3]Cina :
+Z’ai manzé trop de
+tartes au maroilles ![ENDN][STRT=169,3]Cina :
+A quelle heure est le prossain
+train pour Lindblum[SPED=2]...[SPED=-1]?[ENDN][STRT=146,3]Cina :
+Ce bruit[SPED=2]...[SPED=-1]
+C’est celui pour Alexandrie[SPED=2]...[SPED=-1][ENDN][STRT=166,3]Cina :
+Ce coup-là, ze reste ici pour
+être sûr de pas le rater ![ENDN][STRT=198,1][FLIM][SPED=4]Qu’est-ce que tu fais là, fainéant ![ENDN][STRT=108,2]Cina :
+Z’attends le train ![ENDN][STRT=126,1][FLIM][SPED=4]Tu tires au flanc, oui ![ENDN][STRT=142,3]Cina :
+Pas du tout, ze manze
+des tartes au maroilles[SPED=2]...[SPED=-1][ENDN][STRT=176,2]Cina :
+Et puis, tu me saoules à la fin[SPED=2]...[SPED=-1][ENDN][STRT=73,1][MOVE=18,0]AAAH ![MOVE=18,0][ENDN][STRT=197,3][TAIL=UPRF]Bach :
+Markus n’a pas voulu me répondre,
+j’ai trouvé ça louche[SPED=2]...[SPED=-1][ENDN][STRT=249,3][TAIL=UPRF]Bach :
+C’est donc ça[SPED=2]...[SPED=-1] Tu as ignoré mes ordres
+pour venir manger des tartes au maroilles[SPED=2]...[SPED=-1][ENDN][STRT=90,3]Cina :
+Excusez-moi !
+Ze voulais pas ![ENDN][STRT=103,2][TAIL=UPRF]Bach :
+Tu vas le payer !![ENDN][STRT=188,3][TAIL=UPRF]Bach :
+Qui désobéit au chef, subira[SPED=2]...[SPED=-1]
+la Super Tornade Tantalasienne ![ENDN][STRT=50,3]Cina :
+Pas ça[SPED=2]...[SPED=-1]
+Non[SPED=2]...[SPED=-1][ENDN][STRT=71,1][TAIL=LOLF][NFOC]PITIÉÉÉÉÉÉ ![TIME=60][STRT=85,2][TAIL=UPRF]Bach :
+Ne bouge pas ![ENDN][STRT=62,1]Yaaaaah !![ENDN][STRT=85,1]AAAAAAaaaah ![TIME=60][STRT=160,1][B880E0][HSHD]SE : Ecoute le bruit du vent.[TIME=-1][STRT=232,3][STNR] :
+[C8C8C8][HSHD](Dès que nous aurons passé cette porte,
+nous serons enfin à Alexandrie[SPED=2]...[SPED=-1])[ENDN][STRT=199,3][STNR] :
+[C8C8C8][HSHD](Je ne dois pas avoir l’air suspect,
+je fais ça pour la Princesse !)[ENDN][STRT=124,3][TAIL=UPRF]Petit garde :
+Eh toi ! Ton visage
+ne m’est pas inconnu ![ENDN][STRT=96,3][TAIL=UPLF]Grand garde :
+Qu’est-ce que tu
+viens faire ici ?[ENDN][STRT=237,3][TAIL=LORF][STNR] :
+J’ai vu qu’on cherchait des ouvriers pour
+réparer la Porte Sud, alors je suis venu ![ENDN][STRT=204,3][TAIL=LORF][STNR] :
+Comme on m’a dit que je serais logé,
+j’ai juste pris le strict nécessaire.[ENDN][STRT=83,2][TAIL=UPLF]Grand garde :
+C’est très bien ça ![ENDN][STRT=150,4][TAIL=UPLF]Grand garde :
+On est en travaux
+depuis l’accident, mais
+ça avance pas beaucoup ![ENDN][STRT=133,3][TAIL=UPRF]Petit garde :
+On doit fouiller ton sac,
+ce sont les ordres[SPED=2]...[SPED=-1][ENDN][STRT=12,1][TAIL=LORF][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=195,3][TAIL=UPRF]Petit garde :
+Tu peux reculer de quelques pas ?
+Ca fait aussi partie de la procédure.[ENDN][STRT=167,3][TAIL=UPLF]Grand garde :
+Ici, ça sera très bien ![SIGL=1]
+Désolé, mais on a des ordres.[ENDN][STRT=127,3]Grand garde :
+On peut discuter un
+peu pendant ce temps.[ENDN][STRT=123,3][TAIL=LOLF][STNR] :
+[C8C8C8][HSHD](Hum... Je ne peux
+vraiment rien faire[SPED=2]...[SPED=-1])[ENDN][STRT=124,2][TAIL=LORF]C’est dur[SPED=2]...[SPED=-1]
+Qu’est-ce que c’est ?[ENDN][STRT=262,5][TAIL=UPLF]Grand garde :
+On doit aider les autorités[SPED=2]...[SPED=-1]
+Ils recherchent une jeune fille accompagnée
+d’un homme d’âge moyen. Tu les aurais pas vus
+par hasard ?[ENDN][STRT=62,1][TAIL=LORF]C’est quoi ?[ENDN][STRT=127,4][TAIL=UPLF]Grand garde :
+La fille serait la plus
+belle princesse qu’ait
+jamais eue Alexandrie.[ENDN][STRT=221,4][TAIL=UPLF]Grand garde :
+Mais c’est la fille de Branet, pas vrai ?
+J’ai du mal à croire qu’avec la mère
+qu’elle a, la fille puisse être belle ![SIGL=1][ENDN][STRT=28,1][TAIL=UPRF]Ah ?![ENDN][STRT=104,1][TAIL=UPRF]Qu’est-ce que...?![ENDN][STRT=171,3][TAIL=UPRF]Petit garde :
+Qu’est-ce que c’est que ça ?!
+Ca[SPED=2]...[SPED=-1] Ca[SPED=2]...[SPED=-1][ENDN][STRT=223,3][TAIL=UPRF]Petit garde :
+Ca empeste ! C’est pourri, ou c’est du
+poison ?! Qu’est-ce que tu prépares ?![ENDN][STRT=120,2][TAIL=UPLF][STNR] :
+J’ai rien de pourri[SPED=2]...[SPED=-1]![ENDN][STRT=218,2][TAIL=UPRF]Grand garde :
+C’est juste ces trucs que tu détestes ![ENDN][STRT=184,3][TAIL=UPRF]Grand garde :
+C’est des ChocoLégumes séchés,
+ils adorent ça à Lindblum.[ENDN][STRT=104,3][TAIL=UPRF]Grand garde :
+J’en avais encore
+jamais vu autant[SPED=2]...[SPED=-1][ENDN][STRT=203,3][TAIL=UPLF][STNR] :
+J’adore ça ! Je ne peux pas passer
+une journée sans en manger ![ENDN][STRT=172,4][TAIL=UPLF]Grand garde :
+C’est bon, tu peux y aller[SPED=2]...[SPED=-1]
+Tous ceux qui aiment ça disent
+la même chose ![ENDN][STRT=107,2][TAIL=UPRF][STNR] :
+A vos[SPED=2]...[SPED=-1] Kof ! Kof ![ENDN][STRT=90,3][TAIL=UPRF][STNR] :
+Merci de me
+laisser passer ![ENDN][STRT=125,3]Grand garde :
+C’est de plus en plus
+dangereux, pas vrai ?[ENDN][STRT=170,2]Petit garde :
+Tu veux parler de Bloumécia ?[ENDN][STRT=158,4]Petit garde :
+Il paraît qu’ils ont été
+attaqués par des inconnus
+avec des chapeaux pointus.[ENDN][STRT=127,3]Petit garde :
+On a pas eu de chance
+en étant affecté ici[SPED=2]...[SPED=-1][ENDN][STRT=140,4]Grand garde :
+Tu crois ?
+Moi, j’aime pas la guerre
+et puis j’ai une femme[SPED=2]...[SPED=-1][ENDN][STRT=163,4]Grand garde :
+J’y repense, le type de tout
+à l’heure, il t’a pas paru
+suspect avec son gros sac ?[ENDN][STRT=73,3]Petit garde :
+Bah non[SPED=2]...[SPED=-1]
+Pourquoi ?[ENDN][STRT=124,3]Grand garde :
+Pourtant, tu l’as
+bien questionné, non ?[ENDN][STRT=146,3]Petit garde :
+Je fais toujours ça !
+Tu le sais bien, pourtant ![ENDN][STRT=257,4]Petit garde :
+Je vais te dire un truc :
+un type qui aime les légumes secs ne peut pas
+être méchant, moi aussi j’aime ça d’habitude.[ENDN][STRT=167,4]Petit garde :
+Il y a que ceux qui puent que
+je peux vraiment pas manger.
+Je l’envie ce gars-là ![ENDN][STRT=82,3]Grand garde :
+T’es compliqué
+comme mec[SPED=2]...[SPED=-1][ENDN][STRT=121,4]Petit garde :
+Je sais[SPED=2]...[SPED=-1]
+C’est pour ça que
+je monte la garde ici.[ENDN][STRT=176,3][STNR] :
+[C8C8C8][HSHD](Nous sommes passés, le plan
+de la Princesse était parfait !)[ENDN][STRT=174,3][TAIL=LORF][STNR] :
+[C8C8C8][HSHD](Maintenant[SPED=2]...[SPED=-1]
+Il me faut un endroit discret[SPED=2]...[SPED=-1])[ENDN][STRT=208,2][TAIL=LORF][STNR] :
+[C8C8C8][HSHD](Ce passage devrait faire l’affaire.)[ENDN][STRT=178,3][TAIL=LORF][STNR] :
+[C8C8C8][HSHD](Mais cette femme et cet homme
+risquent de nous voir.)[ENDN][STRT=243,3][TAIL=UPRF][STNR] :
+[C8C8C8][HSHD](Ce serait très bien ici, mais cette
+femme et cet homme risquent de nous voir.)[ENDN][STRT=167,2][STNR] :
+[C8C8C8][HSHD](Il ne reste plus que l’homme.)[ENDN][STRT=195,3][STNR] :
+[C8C8C8][HSHD](Maintenant, si je pouvais éloigner
+cette femme[SPED=2]...[SPED=-1])[ENDN][STRT=150,2][STNR] :
+[C8C8C8][HSHD](Il n’y a plus de gêneurs !)[ENDN][STRT=154,2][STNR] :
+Je ne pourrai pas monter[SPED=2]...[SPED=-1][ENDN][STRT=206,4]Hans l’ouvrier :
+Le monde est vraiment bizarre[SPED=2]...[SPED=-1]
+Il paraît qu’on a vu des fantômes et
+maintenant, on détruit la Porte Sud ![ENDN][STRT=202,4]Hans l’ouvrier :
+Il paraît que c’est un vaisseau fou
+qui a tout fait exploser et qu’après
+il est allé au château[SPED=2]...[SPED=-1][ENDN][STRT=184,2]Hans l’ouvrier :
+Le monde est vraiment bizarre[SPED=2]...[SPED=-1][ENDN][STRT=174,3]Ouvrier :
+La porte n’est pas très solide,
+elle peut céder à tout moment.[ENDN][STRT=230,4]Ouvrier :
+Il faudrait la prolonger jusque sous
+la ”Brume”, mais comme plus personne ne
+l’utilise autant la laisser comme ça, non ?[ENDN][STRT=243,3]Ouvrier :
+Je vais me contenter de lui rendre
+son apparence, ça me prendra bien deux mois.[ENDN][STRT=40,1]Kssss ![ENDN][STRT=53,2]Agagaga,
+kssss ![ENDN][STRT=34,2]Ough,
+ksss ![ENDN][STRT=234,5][PCHC=2,1][IMME][STNR] :
+[C8C8C8][HSHD](C’est à cause de toi que nous
+n’avons pas pu entrer par cette porte !)
+[CHOO][MOVE=18,0]Le tuer.
+[MOVE=18,0]L’épargner.[ENDN][STRT=14,1][B880E0][HSHD]SE[TIME=30][STRT=123,3][STNR] :
+[C8C8C8][HSHD](Non ! Je ne dois pas
+me faire remarquer !)[ENDN][STRT=203,3][STNR] :
+[C8C8C8][HSHD](Je dois être un excellent chevalier
+au service de la Princesse !)[ENDN][STRT=207,4]Jeff le fainéant :
+Haaa[SPED=2]...[SPED=-1]
+Les affaires ne marchaient pas trop
+bien, alors j’ai revendu ma boutique.[ENDN][STRT=253,3]Jeff le fainéant :
+Avant ça s’appelait ”Altaïr” mais maintenant
+ils ne vendent plus rien de magique[SPED=2]...[SPED=-1][ENDN][STRT=178,4]Jeff le fainéant :
+C’est dommage, je leur aurais
+bien laissé les marchandises
+en même temps que le magasin[SPED=2]...[SPED=-1][ENDN][STRT=181,2]Jeff le fainéant :
+Qu’est-ce qu’elle est bavarde ![ENDN][STRT=160,2]Jeff le fainéant :
+Je voudrais être tout seul[SPED=2]...[SPED=-1][ENDN][STRT=211,3]Marie l’apprentie :
+Qu’est-ce que je pourrais faire pour
+l’aider, son magasin a été détruit[SPED=2]...[SPED=-1][ENDN][STRT=105,5][PCHC=2,1][IMME]Marie l’apprentie :
+Je n’étais pas là,
+je ne savais pas[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]L’encourager.
+[MOVE=18,0]Ne rien dire.[ENDN][STRT=235,3][STNR] :
+Si vous passez votre temps à regretter
+votre retard, vous ne ferez jamais rien ![ENDN][STRT=243,5][STNR] :
+Enfin, ce que je veux dire c’est que vous
+n’êtes pas venue jusqu’ici pour rester là
+à le regarder. Vous pouvez sûrement faire
+quelque chose pour lui ![ENDN][STRT=165,3]Marie l’apprentie :
+Vous avez raison !
+J’ai pas de raison d’hésiter ![ENDN][STRT=40,1]Merci ![ENDN][STRT=213,7]Marie l’apprentie :
+J’aimais beaucoup ta boutique pour[SPED=2]...[SPED=-1]
+[WAIT=10]son atmosphère,
+[WAIT=10]son exposition,
+[WAIT=10]son enseigne aussi,
+[WAIT=10]et surtout pour son nom...
+[WAIT=10]Enfin, je l’aimais vraiment beaucoup[SPED=2]...[SPED=-1][ENDN][STRT=126,3]Marie l’apprentie :
+Elle était adorable
+à tout points de vue[SPED=2]...[SPED=-1][ENDN][STRT=175,4]Marie l’apprentie :
+En fait[SPED=2]...[SPED=-1] C’est la première fois
+que j’ose lui parler.
+J’aurais dû le faire plus tôt ![ENDN][STRT=127,3]Jeune-homme sérieux :
+2 modèles 3
+et[SPED=2]...[SPED=-1][ENDN][STRT=200,5][PCHC=2,1][IMME]Jeune-homme sérieux :
+A votre sac, j’en déduis que vous
+venez travailler ici, n’est-ce pas ?
+[CHOO][MOVE=18,0]Répondre.
+[MOVE=18,0]Se taire.[ENDN][STRT=125,2][STNR] :
+C’est exactement ça ![ENDN][STRT=217,3]Jeune-homme sérieux :
+Soyez le bienvenu !
+Moi-même, je suis arrivé il y a cinq mois ![ENDN][STRT=204,3]Jeune-homme sérieux :
+Je suis le mécanicien de la porte
+de Boden et lui, c’est mon assistant.[SIGL=1][ENDN][STRT=196,3]Mécanicien :
+J’ai un contrat de six mois et le mois
+prochain, je rentre au château.[ENDN][STRT=186,4]Mécanicien :
+Là-bas je devrais travailler
+sur un projet d’aéronef
+capable de voler sans ”Brume” ![ENDN][STRT=262,5]Mécanicien :
+On ne sait pas ce qu’il y a à l’extérieur
+du Continent de la ”Brume”, mais si on y va
+en aéronef, il peut bien y avoir des sauvages,
+c’est pas un problème ![ENDN][STRT=264,3]Mécanicien :
+Le roi Cid va élargir les capacités
+des aéronefs, c’est vraiment un grand homme ![ENDN][STRT=87,3]Mécanicien :
+Excusez-moi,
+je parle trop[SPED=2]...[SPED=-1][ENDN][STRT=212,3]Mécanicien :
+J’ai très envie de rentrer, mais
+tant que je suis là je dois travailler ![ENDN][STRT=193,2][STNR] :
+Je dois vous dire quelque chose...[ENDN][STRT=176,4]Mécanicien :
+Comment[SPED=2]...[SPED=-1]?!
+Il ne veut pas réparer la porte
+qui va sous la ”Brume” ?[ENDN][STRT=176,3]Mécanicien :
+Il croit que je ne vais rien
+dire parce que je suis jeune ?![ENDN][STRT=80,2][TAIL=UPRF]Mécanicien :
+Excusez-moi ![TIME=30][STRT=179,4]Mécanicien :
+C’est vrai que je suis jeune
+et que je manque d’expérience,
+mais ce n’est pas une raison ![ENDN][STRT=73,3]Petit garde :
+Hé !
+Attends ![ENDN][STRT=138,3]Petit garde :
+C’est la procédure[SPED=2]...[SPED=-1]
+Viens par ici, deux minutes ![ENDN][STRT=79,2]Petit garde :
+Dépêche-toi ![ENDN][STRT=73,2]Petit garde :
+Reste là ![TIME=45][STRT=112,3][TAIL=LOLF]Petit garde :
+Ne bouge pas avant
+que je te le dise ![ENDN][STRT=190,2][TAIL=LOLF]Petit garde :
+Surtout pas de gestes brusques ![ENDN][STRT=22,1][TAIL=LOLF]Pfff[ENDN][STRT=155,3][TAIL=LOLF]Petit garde :
+Voilà,[WAIT=10] pour aller au sommet,
+il faut un [C8B040][HSHD]laissez-passer[C8C8C8][HSHD].[ENDN][STRT=168,4]Petit garde :
+Je te le pose là.
+Ramasse-le quand je me serai
+suffisamment éloigné ![SIGL=1][ENDN][STRT=157,3][TAIL=LOLF]Petit garde :
+Ton sac pue vraiment trop,
+je te le pose là, d’accord ?[ENDN][STRT=183,1][CENT=183][MOVE=18,0]Obtenu : [C8B040][HSHD]Laissez-passer[C8C8C8][HSHD] ![MOVE=18,0][ENDN][STRT=63,1]Kof ! Kof[SPED=2]...[SPED=-1][ENDN][STRT=256,3][STNR] :
+”Cesse tes plaisanteries ! Il n’y aurait pas
+situation plus malheureuse de par le monde !”[ENDN][STRT=103,3][DGGR] :
+[STNR][SPED=2]...[SPED=-1]
+La voie est libre ?[ENDN][STRT=25,1]Oui ![ENDN][STRT=142,3][DGGR] :
+Très bien[SPED=2]...[SPED=-1]
+Surveillez les alentours ![ENDN][STRT=31,1]Vite ![ENDN][STRT=144,3][DGGR] :
+Ah ! Quel plaisir de sentir
+le vent sur mon visage ![ENDN][STRT=164,3][DGGR] :
+Quelle odeur ! J’ai bien cru
+que ma tête allait exploser[SPED=2]...[SPED=-1][ENDN][STRT=163,3][DGGR] :
+[C8C8C8][HSHD](Il monte toujours la garde[SPED=2]...[SPED=-1]
+Changeons-nous vite !)[ENDN][STRT=61,1][NFOC]Vite, vite ![TIME=-1][STRT=35,4][TAIL=LORF][OFFT=20,80,0][PCHC=2,1][WDTH=0,8,19,-1,1,195,-1,2,151,-1][IMME][STNR] :
+Bien[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Regarder toujours de ce côté.
+[MOVE=18,0]Surveiller l’autre côté.[ENDN][STRT=32,1]Hum[SPED=2]...[SPED=-1][ENDN][STRT=56,2][WDTH=0,8,18,-1][DGGR] :
+[C8C8C8][HSHD](Aaaah[SPED=2]...[SPED=-1])[ENDN][STRT=148,2][DGGR] :
+[C8C8C8][HSHD](Ne vous retournez pas !)[ENDN][STRT=65,2][TAIL=UPRF][WDTH=0,8,18,-1,0,65,19,-1][DGGR] :
+C’est bon, [STNR].[ENDN][STRT=72,2][WDTH=0,8,19,-1][STNR] :
+Princesse[SPED=2]...[SPED=-1]![TIME=-1][STRT=9,1][TAIL=LORF][OFFT=0,80,0][WDTH=0,9,19,-1][STNR] ![ENDN][STRT=70,3][WDTH=0,8,19,-1,0,70,18,-1][STNR] :
+Hein[SPED=2]...[SPED=-1]?
+Ah ! Mademoiselle [DGGR][SPED=2]...[SPED=-1][ENDN][STRT=177,4][TAIL=UPRF][DGGR] :
+Appelez-moi ainsi et ne soyez
+pas trop poli avec moi tant que
+nous ne serons pas à [68C0D8][HSHD]Tréno[C8C8C8][HSHD] ![ENDN][STRT=231,4][TAIL=UPLF][STNR] :
+Très bien[SPED=2]...[SPED=-1]
+Je ferai attention jusqu’à ce que nous
+ayons atteint [68C0D8][HSHD]Tréno[C8C8C8][HSHD] et de là, le château.[ENDN][STRT=116,2][TAIL=UPRF][DGGR] :
+Très bien, allons-y ![ENDN][STRT=37,1]Aah[SPED=2]...[SPED=-1]![ENDN][STRT=133,3][DGGR] :
+Alexandrie est de
+l’autre côté, c’est ça ?[ENDN][STRT=89,3][WDTH=0,89,16,-1][DGGR] :
+J’ai pu arriver
+jusqu’ici sans [ZDNE] ![ENDN][STRT=156,3][WDTH=0,126,20,-1][STNR] :
+Nous aurions dû partir pour
+Bloumécia avec Dame [FRYA].[ENDN][STRT=117,3][DGGR] :
+Je ne souhaite pas[SPED=2]...[SPED=-1]
+qu’il me cherche[SPED=2]...[SPED=-1][ENDN][STRT=112,4][STNR] :
+HAHAHAHAHA !
+Nous voilà débarrassé
+de ce brigand ![ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=53,1]Bonjour ![TIME=30][STRT=83,1]Vous désirez ?[TIME=30][STRT=96,1]Je vous en prie ![ENDN][STRT=119,4][PCHC=2,1][IMME]Conducteur :
+Vous voulez monter ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=104,3]Conducteur :
+Puis-je voir votre
+[C8B040][HSHD]Laissez-passer[C8C8C8][HSHD] ?[ENDN][STRT=112,3]Conducteur :
+Vous avez le temps,
+profitez-en ![ENDN][STRT=36,1]Voilà ![ENDN][STRT=10,1][CENT=10]!![ENDN][STRT=119,3][DGGR] :
+Je[SPED=2]...[SPED=-1]
+Je vais le chercher ![ENDN][STRT=72,2]Conducteur :
+Je vois[SPED=2]...[SPED=-1][ENDN][STRT=216,5][PCHC=2,1][IMME]Conducteur :
+Il y a peu de passagers, nous pouvons
+partir quand vous le désirez.
+[CHOO][MOVE=18,0]Partir maintenant.
+[MOVE=18,0]Attendre un peu.[ENDN][STRT=124,3]Conducteur :
+Très bien,
+montez, nous partons.[ENDN][STRT=180,2]Conducteur :
+Asseyez-vous où vous voulez[SPED=2]...[SPED=-1][ENDN][STRT=139,3][DGGR] :
+Nous allons pouvoir aller
+au sommet avec ça[SPED=2]...[SPED=-1]?[ENDN][STRT=186,2][DGGR] :
+Je préfère ne pas y retourner[SPED=2]...[SPED=-1][ENDN][STRT=223,3]Ouvrier :
+La Porte Sud est gigantesque.
+Elle est aussi grande qu’une montagne ![ENDN][STRT=198,3]Ouvrier :
+Si vous voulez voir où on est,
+allez regarder le panneau là-bas ![ENDN][STRT=235,3]Ouvrier :
+Le Belkmehr[SPED=2]...[SPED=-1] C’est l’autre nom du chemin
+de fer. Il est impressionnant, pas vrai ?[ENDN][STRT=171,1][TAIL=UPLF]Vous êtes à la gare de Boden.[ENDN][STRT=176,3][MPOS=8,148][PCHC=2,1][IMME]Voulez-vous des explications ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=44,2][MPOS=8,148][WDTH=0,8,19,-1,0,44,18,-1][STNR] :
+Mademoiselle[SPED=2]...[SPED=-1] [DGGR][ENDN][STRT=114,3][MPOS=8,148][STNR] :
+Nous avons passé
+la porte de Boden...[ENDN][STRT=153,3][MPOS=8,148][STNR] :
+...et nous sommes à la gare
+de Boden, à Lindblum.[ENDN][STRT=106,4][MPOS=8,148][STNR] :
+La Porte Sud est
+sur le territoire
+de Lindblum, mais[SPED=2]...[SPED=-1][ENDN][STRT=111,4][MPOS=8,148][STNR] :
+Les Aerbs marquent
+la frontière avec
+Alexandrie.[ENDN][STRT=116,3][MPOS=8,148][STNR] :
+Nous devons aller
+à la porte de Tréno.[ENDN][STRT=119,4][MPOS=8,148][STNR] :
+Et de là, nous serons
+rapidement à [68C0D8][HSHD]Tréno,
+la ville des nobles[C8C8C8][HSHD].[ENDN][STRT=172,3]Conducteur :
+Le wagon est vide,
+asseyez-vous où vous voulez.[ENDN][STRT=173,2][STNR] :
+Où voulez-vous vous asseoir ?[ENDN][STRT=199,2][STNR] :
+Les places de droite sont au soleil.[ENDN][STRT=149,3][STNR] :
+Vous devez être fatiguée,
+asseyez-vous vite ![ENDN][STRT=107,2][TAIL=UPLF][DGGR] :
+Asseyons-nous là ![ENDN][STRT=191,3][OFFT=0,80,0]Conducteur :
+Nous n’allons pas tarder à partir,
+veuillez patienter un instant.[ENDN][STRT=105,2][TAIL=UPLF]Marie l’apprentie :
+Attendez-moi ![ENDN][STRT=105,3]Marie l’apprentie :
+Han ! Han[SPED=2]...[SPED=-1]
+Je l’ai eu...[ENDN][STRT=14,1][B880E0][HSHD]SE[TIME=45][STRT=116,3][TAIL=UPLF]Marie l’apprentie :
+Oh ! Merci encore
+pour tout à l’heure ![ENDN][STRT=186,2][TAIL=UPRF][STNR] :
+Non, c’est moi qui vous remercie.[ENDN][STRT=6,1][TAIL=UPLF][CENT=6]?[ENDN][STRT=120,2]Conducteur :
+Attention au départ ![ENDN][STRT=150,3]Conducteur :
+Nous vous attendons,
+ne revenez pas trop tard.[ENDN][STRT=167,2]Conducteur :
+La gare du sommet, terminus ![ENDN][STRT=177,3][OFFT=-128,128,0][TAIL=LOLF][STNR] :
+[C8C8C8][HSHD](La Princesse croit les rumeurs
+qui courent sur Sa Majesté[SPED=2]...[SPED=-1])[ENDN][STRT=233,4][OFFT=-128,128,0][TAIL=LOLF][STNR] :
+[C8C8C8][HSHD](Sa Majesté ne peut vouloir la guerre,
+la Princesse se fait des idées.
+Elle a raison de rentrer pour discuter...)[ENDN][STRT=225,4][OFFT=-128,128,0][TAIL=LOLF][STNR] :
+[C8C8C8][HSHD](Non[SPED=2]...[SPED=-1] Ma mission est de ramener
+la Princesse au château saine et sauve,
+je ne dois penser à rien d’autre !)[ENDN][STRT=163,2][TAIL=UPLF][DGGR] :
+Je me sens un peu fatiguée[SPED=2]...[SPED=-1][ENDN][STRT=147,4][OFFT=0,160,-20][TAIL=LORF][STNR] :
+C’est tout à fait naturel...
+La route a été très dure
+depuis Lindblum.[ENDN][STRT=196,3][OFFT=0,160,-20][TAIL=LORF][STNR] :
+Nous avons combattu des monstres
+et votre magie blanche nous a sauvés ![ENDN][STRT=247,3][OFFT=0,160,-20][TAIL=LORF][STNR] :
+Dans la forêt des Chocobo, vous avez su
+vous montrer ferme avec cet insolent Mog ![ENDN][STRT=162,3][OFFT=0,160,-20][TAIL=LORF][STNR] :
+Et cette fabuleuse sensation
+en arrivant à la Porte Sud ![ENDN][STRT=107,3][OFFT=0,160,-20][TAIL=LORF][STNR] :
+Et votre plan avec
+les légumes secs ![ENDN][STRT=130,3][OFFT=0,160,-20][TAIL=LORF][STNR] :
+Vous avez été
+magnifique, Princesse ![ENDN][STRT=135,3][OFFT=-192,144,0][TAIL=LORF][DGGR] :
+[STNR],
+ne m’appelez pas ainsi ![ENDN][STRT=136,2][OFFT=-192,144,0][TAIL=LORF][DGGR] :
+Ne m’appelez pas ainsi ![ENDN][STRT=109,2][OFFT=0,160,-20][TAIL=LORF][STNR] :
+Ah ! Excusez-moi...[ENDN][STRT=179,4][OFFT=-192,144,0][TAIL=LORF][WDTH=0,123,16,-1][DGGR] :
+Moi aussi, je me trompe souvent
+depuis que [ZDNE] m’a dit de
+faire attention à mon langage[SPED=2]...[SPED=-1][ENDN][STRT=97,2][OFFT=0,160,-20][TAIL=LORF][STNR] :
+C’est un rustre[SPED=2]...[SPED=-1][ENDN][STRT=188,3][OFFT=0,160,-20][TAIL=LORF][STNR] :
+Enfin[SPED=2]...[SPED=-1]
+Je ne nie pas ses qualités, mais[SPED=2]...[SPED=-1][ENDN][STRT=136,4][OFFT=0,160,-20][TAIL=LORF][WDTH=0,86,18,-1][STNR] :
+[SPED=2]...[SPED=-1]il est définitivement
+trop familier avec vous,
+Princ... Mademoiselle [DGGR] ![ENDN][STRT=119,3][OFFT=0,160,-20][TAIL=LORF][STNR] :
+Nous avons bien fait
+de nous en séparer ![ENDN][STRT=175,3][OFFT=0,160,-20][TAIL=LORF][STNR] :
+D’après le conducteur,
+nous serons bientôt au sommet.[ENDN][STRT=41,2][OFFT=0,160,-20][TAIL=LORF][WDTH=0,8,19,-1][STNR] :
+Princ[SPED=2]...[SPED=-1][ENDN][STRT=77,2][OFFT=0,160,-20][TAIL=LORF][WDTH=0,8,19,-1,0,77,18,-1][STNR] :
+Euh[SPED=2]...[SPED=-1] Mademoiselle [DGGR] ?[ENDN][STRT=92,2][OFFT=0,160,-20][TAIL=LORF][STNR] :
+Dormez-vous[SPED=2]...[SPED=-1]?[ENDN][STRT=231,4][OFFT=-192,144,0][TAIL=LORF][WDTH=0,193,16,-1][DGGR] :
+C’est [ZDNE] qui m’a dit comment tromper
+les gardes, s’il y a moins de gens qu’ils
+n’en cherchent, ils ne font pas attention.[ENDN][STRT=124,6][PCHM=4,3][WDTH=1,132,-1,2,158,-1,3,142,-1][IMME]Garde :
+Qu’est-ce que c’est ?
+[CHOO][MOVE=18,0]Je voudrais passer.
+[MOVE=18,0]Je voudrais me reposer.
+[MOVE=18,0]Je voudrais discuter.
+[MOVE=18,0]Excusez-moi...[ENDN][STRT=145,3]Garde :
+Il faut un [C8B040][HSHD]Laissez-passer[C8C8C8][HSHD],
+sinon on ne passe pas ![ENDN][STRT=188,4]Garde :
+Quand les travaux ont commencé,
+ils cherchaient du monde, mais
+c’est plus le cas en ce moment.[ENDN][STRT=125,5][PCHC=2,1][IMME]Garde :
+Vous pouvez attendre
+que Véga arrive ?
+[CHOO][MOVE=18,0]Tout à fait.
+[MOVE=18,0]Sûrement pas ![ENDN][STRT=60,2]Garde :
+Attendez ![ENDN][STRT=197,4]Garde :
+La Porte Sud marque la frontière
+entre Alexandrie et Lindblum, c’est
+un poste frontière à double sens ![ENDN][STRT=216,4]Garde :
+Il faut qu’il y ait de la ”Brume” pour
+que les aéronefs puissent voler, alors
+ils ne volent jamais très haut ![ENDN][STRT=200,4]Garde :
+Toujours est-il que
+la Porte Sud est un poste frontière
+pour les gens et les aéronefs ![ENDN][STRT=101,3]Garde :
+T’es jamais monté
+dans un aéronef ?[ENDN][STRT=229,4]Garde :
+On vient tout juste de réparer la porte,
+mais comme elle fonctionne à la ”Brume”,
+elle marche déjà plus ![ENDN][STRT=54,1]On y va...[ENDN][STRT=159,3]Garde :
+La porte des aéronefs
+n’est toujours pas réparée.[ENDN][STRT=153,3]Garde :
+Ils embauchent du monde,
+ils vont bientôt la réparer.[ENDN][STRT=125,2]Garde :
+Elle ne va pas tarder.[ENDN][STRT=193,4]Marie l’apprentie :
+Bonjour !
+Je m’appelle Marie, je suis
+apprentie à la quincaillerie Véga ![ENDN][STRT=105,6][PCHC=3,2][WDTH=1,145,-1,2,120,-1,3,113,-1][IMME]Marie l’apprentie :
+Je suis en retard,
+excusez-moi !
+[CHOO][MOVE=18,0]La laisser se reposer.
+[MOVE=18,0]Faire des achats.
+[MOVE=18,0]Une autre fois...[ENDN][STRT=105,4][PCHC=2,1][WDTH=0,65,64,0,-1][IMME]Marie l’apprentie :
+C’est [NUMB=0] gils !
+[CHOO][MOVE=18,0]Se reposer.
+[MOVE=18,0]Continuer.[ENDN][STRT=191,3]Marie l’apprentie :
+Mais...
+Vous n’avez pas assez d’argent ![ENDN][STRT=154,3]Garde :
+Par là c’est Dali,
+Tréno est de l’autre côté ![ENDN][STRT=216,4][PCHC=2,1][IMME]Garde :
+C’est pour quoi ? Vous voulez passer ?
+[CHOO][MOVE=18,0]Oui, c’est ça !
+[MOVE=18,0]Pas du tout ![ENDN][STRT=184,3]Garde :
+Vous avez un [C8B040][HSHD]Laissez-passer[C8C8C8][HSHD][SPED=2]...[SPED=-1]?
+C’est bon, je vous ouvre ![ENDN][STRT=189,3]Garde :
+Dépêchez-vous,
+que je puisse refermer la porte ![ENDN][STRT=194,3][TAIL=UPLF]Grand garde :
+Oh, mais c’est un [C8B040][HSHD]Laissez-passer[C8C8C8][HSHD] !
+Excusez-nous, allez-y ![ENDN][STRT=253,2][TAIL=UPLF]Grand garde :
+Le Belkmehr ne fonctionne pas en ce moment.[ENDN][STRT=178,4][TAIL=UPLF]Grand garde :
+Il y a plus de ”Brume” et
+comme il a un moteur d’aéronef,
+il ne peut plus fonctionner ![ENDN][STRT=128,3][TAIL=UPLF]Grand garde :
+Au moins,
+la porte est réparée ![ENDN][STRT=166,3][TAIL=UPRF]Petit garde :
+Il faut le vouloir pour
+venir dans un endroit pareil ![ENDN][STRT=194,3]Mécanicien :
+Depuis qu’il n’y a plus de ”Brume”,
+les trains ne roulent plus.[ENDN][STRT=202,4]Mécanicien :
+Je n’ai plus rien à faire, mais comme
+il n’y a plus d’aéronef, je ne peux
+même pas rentrer à Lindblum.[ENDN][STRT=198,4]Mécanicien :
+Tous les jours, je prie pour que
+le roi Cid mette son nouvel aéronef
+au point le plus vite possible.[ENDN][STRT=173,3]Hans l’ouvrier :
+On a réparé la porte, mais elle
+fonctionne toujours pas[SPED=2]...[SPED=-1][ENDN][STRT=182,3][TAIL=UPR][OFFT=-32,64,0]Ouvrier :
+Haaaaaaa !
+Ca fait du bien un peu de soleil ![ENDN][STRT=25,1][TAIL=UPR][OFFT=-32,64,0]Ksss[ENDN][STRT=195,4]Conducteur :
+Je suis désolé mais le Belkmehr
+ne fonctionne plus, comme tous
+les appareils à ”Brume” d’ailleurs.[ENDN][STRT=221,4]Conducteur :
+Je pensais que ce serait bien que
+la ”Brume” disparaisse, mais finalement
+ce n’est pas aussi bien que ça.[ENDN]

@@ -1,0 +1,948 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=108,4][TBLE=4,8,16,34,55,] Têtard
+Grenouille (mâle)
+Grenouille (femelle)
+Grenouille dorée[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Il est où celui-là ?
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Veux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]J’ai pas le temps.[ENDN][STRT=233,15][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Salut, tu vas bien ?
+
+Il me semble que la reine Branet
+tente de faire quelque chose de mal.
+C’est terrible !
+Attention Tipo !
+
+Au fait, aujourd’hui j’ai vu un garçon
+avec un chapeau pointu.
+Et puis son habit était vraiment unicoubo.
+Il n’est peut-être pas d’ici.
+[ENDN][STRT=105,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,89,6,1,-1][TEXT=0,0] :
+Une lettre de [TEXT=0,1] ?
+Merci beaucoubo ![ENDN][STRT=225,11][WDTH=0,77,6,1,6,0,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+J’ai compris enfin !
+La Mog-poste va marcher de nouveau
+grâce à ça !
+Je pense que tu sais ce que c’est !
+Où peut-on en trouver ?
+
+S’il y en avait, la Mog-poste revivrait !
+[ENDN][STRT=206,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+De quoi il parle exactement, coubo ?[ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=176,2][IMME]Salut !
+Je m’appelle [68C0D8][HSHD]Méné[C8C8C8][HSHD] ![PAGE][IMME]J’ai parcouru le monde en long,
+en large et en travers.[ENDN][STRT=176,2][IMME]J’ai combattu des monstres
+grands comme des montagnes...[ENDN][STRT=154,2][IMME]J’ai rencontré les quelques
+Chocobo encore vivants...[ENDN][STRT=237,2][IMME]J’ai cherché des trésors dans d’étranges
+donjons dont on ne peut pas ressortir...[ENDN][STRT=164,3][IMME]Waaaah !
+Rien qu’en y repensant,
+j’en frissonne ![PAGE][IMME]Tout ça pour dire,
+qu’il n’y a rien que
+j’ignore dans ce bas monde ![ENDN][STRT=234,3][IMME]Si vous ne comprenez pas quelque chose,
+n’hésitez pas à venir me demander
+des explications.[ENDN][STRT=142,2]Hein ?
+Oh, c’est encore vous...?[ENDN][STRT=229,12][PCHM=11,10][IMME]De quoi voulez-vous que je vous parle ?
+[CHOO][MOVE=18,0]De l’Aide.[PNEW=0]
+[MOVE=18,0]Des combats.[PNEW=1]
+[MOVE=18,0]Des Compétences.[PNEW=2]
+[MOVE=18,0]De la Transe.[PNEW=3]
+[MOVE=18,0]Des symboles au-dessus de soi.[PNEW=4]
+[MOVE=18,0]Des Mog-sauvegardes.[PNEW=5]
+[MOVE=18,0]De l’Etat.[PNEW=6]
+[MOVE=18,0]Des Eléments.[PNEW=7]
+[MOVE=18,0]Du jeu de cartes.[PNEW=8]
+[MOVE=18,0]Des forgerons.[PNEW=9]
+[MOVE=18,0]De rien de spécial.[XTAB=190][ENDN][STRT=255,2][IMME]L’[68C0D8][HSHD]Etat[C8C8C8][HSHD], c’est l’ensemble des caractéristiques
+d’un personnage à un moment donné.[ENDN][STRT=153,4][IMME]Il y a de bons Etats et
+de mauvais Etats, alors
+faites bien attention
+à ce que je vais vous dire.[ENDN][STRT=196,3][IMME]On va commencer par les mauvais !
+D’abord, ceux qui disparaissent
+à la fin des combats.[ENDN][STRT=265,14][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=157][68C0D8][HSHD]- [FEED=2]Handicaps passagers 1[FEED=2] -[C8C8C8][HSHD]
+[FEED=2][YADD=10][ICON=147][YSUB=2][FEED=8][68C0D8][HSHD]Confusion[C8C8C8][HSHD][XTAB=82]rend la cible incontrôlable la
+[YADD=8][XTAB=82]faisant attaquer indifféremment
+[YADD=8][XTAB=82]des ennemis ou des alliés.
+[FEED=2][YADD=10][ICON=146][YSUB=2][FEED=8][68C0D8][HSHD]Furie[C8C8C8][HSHD][XTAB=82]augmente la force de la cible en
+[YADD=8][XTAB=82]la rendant incontrôlable et ne la
+[YADD=8][XTAB=82]faisant plus qu’attaquer
+[YADD=8][XTAB=82]inlassablement.
+[FEED=2][YADD=10][ICON=145][YSUB=2][FEED=8][68C0D8][HSHD]Stop[C8C8C8][HSHD][XTAB=82]arrête le temps et la cible.
+[FEED=2][YADD=10][ICON=144][YSUB=2][FEED=8][68C0D8][HSHD]Poison[C8C8C8][HSHD][XTAB=82]réduit les PV petit à petit.
+[FEED=2][YADD=10][ICON=139][YSUB=2][FEED=8][68C0D8][HSHD]Somni[C8C8C8][HSHD][XTAB=82]réduit la vitesse de la cible
+[YADD=8][XTAB=82]et de sa jauge ATB.
+[XTAB=224][PAGE][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=157][68C0D8][HSHD]- [FEED=2]Handicaps passagers 2[FEED=2] -[C8C8C8][HSHD]
+[FEED=2][YADD=10][ICON=143][YSUB=2][FEED=8][68C0D8][HSHD]Morphée[C8C8C8][HSHD][XTAB=80]endort la cible.
+[FEED=2][YADD=10][ICON=141][YSUB=2][FEED=8][68C0D8][HSHD]Chaleur[C8C8C8][HSHD][XTAB=80]brûle gravement la cible.
+[YADD=8][XTAB=80]Peut provoquer un [68C0D8][HSHD]KO[C8C8C8][HSHD].
+[FEED=2][YADD=10][ICON=140][YSUB=2][FEED=8][68C0D8][HSHD]Gel[C8C8C8][HSHD][XTAB=80]congèle la cible.
+[YADD=8][XTAB=80]Dans cet Etat, toute attaque
+[YADD=8][XTAB=80]physique entraîne un [68C0D8][HSHD]KO[C8C8C8][HSHD].
+[FEED=2][YADD=10][ICON=142][YSUB=2][FEED=8][68C0D8][HSHD]Mini[C8C8C8][HSHD][XTAB=80]réduit la cible ainsi que
+[YADD=8][XTAB=80]sa puissance d’attaque
+[YADD=8][XTAB=80]et ses défenses.
+[XTAB=224][ENDN][STRT=243,2][IMME]Et maintenant, les handicaps qui
+ne disparaissent pas à la fin des combats ![ENDN][STRT=196,2][IMME]Vous avez intérêt à vérifier dans
+le menu que vous ne les avez pas ![ENDN][STRT=272,14][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=162][68C0D8][HSHD]- [FEED=2]Handicaps permanents 1[FEED=2] -[C8C8C8][HSHD]
+[YADD=10][ICON=154][YSUB=2][FEED=8][68C0D8][HSHD]Fossile[C8C8C8][HSHD][XTAB=98]fige la cible instantanément.
+[YADD=10][ICON=153][YSUB=2][FEED=8][68C0D8][HSHD]Toxique[C8C8C8][HSHD][XTAB=98]réduit les PV et les PM petit
+[YADD=8][XTAB=98]à petit et fige la cible à la
+[YADD=8][XTAB=98]manière d’un poison puissant.
+[YADD=10][ICON=152][YSUB=2][FEED=8][68C0D8][HSHD]Psychobrume[C8C8C8][HSHD][XTAB=98]bloque la croissance de la
+[YADD=8][XTAB=98]cible l’empêchant de gagner
+[YADD=8][XTAB=98]EXP et CP en cas de victoire.
+[YADD=10][ICON=151][YSUB=2][FEED=8][68C0D8][HSHD]Mutisme[C8C8C8][HSHD][XTAB=98]interdit l’utilisation de la magie
+[YADD=8][XTAB=98]et des Chimères en empêchant
+[YADD=8][XTAB=98]de prononcer les sortilèges et
+[YADD=8][XTAB=98]les invokations.
+[XTAB=224][PAGE][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=162][68C0D8][HSHD]- [FEED=2]Handicaps permanents 2[FEED=2] -[C8C8C8][HSHD]
+[YADD=10][ICON=150][YSUB=2][FEED=8][68C0D8][HSHD]Obscurité[C8C8C8][HSHD][XTAB=90]réduit le champ de vision et
+[YADD=8][XTAB=90]rend les attaques physiques
+[YADD=8][XTAB=90]incertaines.
+[YADD=10][ICON=149][YSUB=2][FEED=8][68C0D8][HSHD]Embrouilles[C8C8C8][HSHD][XTAB=90]transforme la cible en
+[YADD=8][XTAB=90]porte-poisse partageant
+[YADD=8][XTAB=90]les dégâts qu’elle subit
+[YADD=8][XTAB=90]avec ses compagnons.
+[YADD=10][ICON=148][YSUB=2][FEED=8][68C0D8][HSHD]Zombie[C8C8C8][HSHD][XTAB=90]transforme les tentatives
+[YADD=8][XTAB=90]de régénération en sources
+[YADD=8][XTAB=90]de dégâts.
+[XTAB=224][ENDN][STRT=218,2][IMME]Et maintenant les Etats qui peuvent
+vous permettre de gagner un combat ![ENDN][STRT=286,14][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=96][68C0D8][HSHD]- [FEED=2]Avantages 1[FEED=2] -[C8C8C8][HSHD]
+[YADD=10][ICON=131][YSUB=2][FEED=8][68C0D8][HSHD]Auréole[C8C8C8][HSHD][XTAB=82]annule automatiquement
+[YADD=8][XTAB=82]un [68C0D8][HSHD]KO[C8C8C8][HSHD] en cours de combats.
+[YADD=10][ICON=138][YSUB=2][FEED=8][68C0D8][HSHD]Récup[C8C8C8][HSHD][XTAB=82]rétablit les PV de la cible
+[YADD=8][XTAB=82]petit à petit.
+[YADD=10][ICON=137][YSUB=2][FEED=8][68C0D8][HSHD]Célérité[C8C8C8][HSHD][XTAB=82]augmente la vitesse
+[YADD=8][XTAB=82]de la cible et de sa jauge ATB.
+[YADD=10][ICON=136][YSUB=2][FEED=8][68C0D8][HSHD]Lévitation[C8C8C8][HSHD][XTAB=82]fait léviter la cible annulant
+[YADD=8][XTAB=82]les effets des attaques
+[YADD=8][XTAB=82]élémentaires [68C0D8][HSHD]Terre[C8C8C8][HSHD].
+[XTAB=224][PAGE][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=96][68C0D8][HSHD]- [FEED=2]Avantages 2[FEED=2] -[C8C8C8][HSHD]
+[YADD=10][ICON=135][YSUB=2][FEED=8][68C0D8][HSHD]Barrière[C8C8C8][HSHD][XTAB=86]réduit les effets des attaques
+[YADD=8][XTAB=86]magiques.
+[YADD=10][ICON=134][YSUB=2][FEED=8][68C0D8][HSHD]Bouclier[C8C8C8][HSHD][XTAB=86]annule les effets
+[YADD=8][XTAB=86]des attaques physiques.
+[YADD=10][ICON=133][YSUB=2][FEED=8][68C0D8][HSHD]Invisibilité[C8C8C8][HSHD][XTAB=86]fait disparaître la cible et annule
+[YADD=8][XTAB=86]les dégâts des attaques physiques.
+[YADD=8][XTAB=86]En cas d’attaque magique,
+[YADD=8][XTAB=86]la cible réapparaît.
+[YADD=10][ICON=132][YSUB=2][FEED=8][68C0D8][HSHD]Reflet[C8C8C8][HSHD][XTAB=86]renvoie les attaques magiques.
+[YADD=8][XTAB=86]Est toutefois perméable
+[YADD=8][XTAB=86]à certaines d’entre elles.
+[XTAB=224][ENDN][STRT=169,2]En plus de ceux-là il y a aussi
+[68C0D8][HSHD]Châtiment[C8C8C8][HSHD] et [68C0D8][HSHD]Pétrification[C8C8C8][HSHD].[ENDN][STRT=225,4]Attention !
+Si vous êtes tous touchés par [68C0D8][HSHD]KO[C8C8C8][HSHD], [68C0D8][HSHD]Stop[C8C8C8][HSHD],
+[68C0D8][HSHD]Fossile[C8C8C8][HSHD] ou [68C0D8][HSHD]Toxique[C8C8C8][HSHD], vous courrez
+à la catastrophe ![ENDN][STRT=205,4][IMME]Si à la fin d’un combat, l’un de vous
+se trouve sous l’influence de
+[68C0D8][HSHD]KO[C8C8C8][HSHD], [68C0D8][HSHD]Fossile[C8C8C8][HSHD], [68C0D8][HSHD]Psychobrume[C8C8C8][HSHD] ou [68C0D8][HSHD]Zombie[C8C8C8][HSHD],
+il ne recevra ni EXP, ni CP ![ENDN][STRT=252,3][IMME]Les [68C0D8][HSHD]éléments[C8C8C8][HSHD] sont les huit énergies naturelles.
+Il y a le [68C0D8][HSHD]Feu[C8C8C8][HSHD], la [68C0D8][HSHD]Glace[C8C8C8][HSHD], le [68C0D8][HSHD]Tonnerre[C8C8C8][HSHD], la [68C0D8][HSHD]Terre[C8C8C8][HSHD],
+l’[68C0D8][HSHD]Eau[C8C8C8][HSHD], le [68C0D8][HSHD]Vent[C8C8C8][HSHD], la [68C0D8][HSHD]Lumière[C8C8C8][HSHD] et les [68C0D8][HSHD]Ténèbres[C8C8C8][HSHD].[ENDN][STRT=265,3][IMME]Bien utilisées, les attaques et les défenses
+élémentaires peuvent être de très bons atouts
+lors d’un combat...[ENDN][STRT=234,2][IMME]Mais il faut se méfier, parce que
+vos adversaires savent aussi les utiliser.[ENDN][STRT=257,3][IMME]Ce qu’il faut, c’est les utiliser à bon escient !
+Je vais vous expliquer les caractéristiques
+de chacune d’elles, alors écoutez bien ![ENDN][STRT=265,12][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=85][68C0D8][HSHD]- [FEED=2]Elements 1[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][FEED=4][68C0D8][HSHD]Feu[C8C8C8][HSHD][XTAB=65]est efficace contre les créatures
+[YADD=8][XTAB=65]de la Glace et les morts-vivants.
+[YADD=8][FEED=4][68C0D8][HSHD]Glace[C8C8C8][HSHD][XTAB=65]est efficace contre les créatures
+[YADD=8][XTAB=65]du Feu, les dragons, les insectes
+[YADD=8][XTAB=65]et les géants.
+[YADD=8][FEED=4][68C0D8][HSHD]Tonnerre[C8C8C8][HSHD][XTAB=65]est efficace contre les créatures
+[YADD=8][XTAB=65]apparentées à l’Eau.
+[YADD=8][FEED=4][68C0D8][HSHD]Terre[C8C8C8][HSHD][XTAB=65]est totalement inefficace
+[YADD=8][XTAB=65]contre les créatures volantes.
+[XTAB=224][PAGE][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=85][68C0D8][HSHD]- [FEED=2]Elements 2[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][FEED=4][68C0D8][HSHD]Eau[C8C8C8][HSHD][XTAB=65]est efficace contre les créatures
+[YADD=8][XTAB=65]du Feu.
+[YADD=8][FEED=4][68C0D8][HSHD]Vent[C8C8C8][HSHD][XTAB=65]est efficace contre les créatures
+[YADD=8][XTAB=65]volantes.
+[YADD=8][FEED=4][68C0D8][HSHD]Lumière[C8C8C8][HSHD][XTAB=65]est efficace contre les créatures
+[YADD=8][XTAB=65]des Ténèbres et les morts-vivants.
+[YADD=8][FEED=4][68C0D8][HSHD]Ténèbres[C8C8C8][HSHD][XTAB=65]est efficace contre les créatures
+[YADD=8][XTAB=65]de Lumière.
+[XTAB=224][ENDN][STRT=221,4][IMME]Quand une créature ne dépend d’aucun
+Elément, on dit qu’elle est [68C0D8][HSHD]Neutre[C8C8C8][HSHD].
+Une telle créature est insensible
+aux attaques élémentaires.[ENDN][STRT=217,3][IMME]C’est bon, vous vous en souviendrez ?
+Si vous savez utiliser les éléments,
+vous serez invincible ![ENDN][STRT=242,1][IMME]On va commencer par les bases du combat.[ENDN][STRT=281,9][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=131][68C0D8][HSHD]- [FEED=2]Bases du combat 1[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][FEED=4][CBTN=CROSS][MOBI=318][XTAB=58]Confirmer
+[YADD=8][FEED=4][CBTN=CIRCLE][MOBI=261][XTAB=58]Annuler
+[YADD=8][FEED=4][CBTN=TRIANGLE][MOBI=336][XTAB=58]Passer à un autre personnage
+[YADD=8][XTAB=58]dont la jauge ATB est pleine.
+[YADD=8][FEED=4][CBTN=SQUARE][MOBI=330][XTAB=58]Masquer le menu en la maintenant appuyée.
+[XTAB=224][PAGE][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=131][68C0D8][HSHD]- [FEED=2]Bases du combat 2[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][FEED=4][CBTN=L1][CBTN=R1][MOBI=303][XTAB=48]Passer d’une attaque simple
+[YADD=8][XTAB=48]à une attaque générale.
+[YADD=8][FEED=4][DBTN=START][MOBI=304][XTAB=48]Pause.
+[YADD=8][FEED=4][DBTN=SELECT][MOBI=279][XTAB=48]Afficher/Masquer l’Aide.
+[XTAB=224][ENDN][STRT=213,1][IMME]Maintenant, on passe à la [68C0D8][HSHD]jauge ATB[C8C8C8][HSHD] ![ENDN][STRT=209,3][IMME]ATB, ça veut dire [68C0D8][HSHD]Active Time Battle[C8C8C8][HSHD].
+Ce système vise à montrer
+le temps qui passe.[ENDN][STRT=245,2][IMME]Dans la rubrique [68C0D8][HSHD]Config.[C8C8C8][HSHD] du menu,
+vous pouvez choisir entre [68C0D8][HSHD]Actif[C8C8C8][HSHD] et [68C0D8][HSHD]Attente[C8C8C8][HSHD].[ENDN][STRT=270,7][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=154][68C0D8][HSHD]- [FEED=2]Modes de la jauge ATB[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][FEED=4][68C0D8][HSHD]Actif[C8C8C8][HSHD][XTAB=60]Quelles que soient les circonstances,
+[YADD=8][XTAB=60]le temps s’écoule de façon uniforme.
+[YADD=8][FEED=4][68C0D8][HSHD]Attente[C8C8C8][HSHD][XTAB=60]Le temps s’arrête pendant que
+[YADD=8][XTAB=60]vous choisissez magies et objets.
+[XTAB=224][ENDN][STRT=245,3][IMME]Je pense que le mode [68C0D8][HSHD]Attente[C8C8C8][HSHD] convient bien
+pour les débutants et que le mode [68C0D8][HSHD]Actif[C8C8C8][HSHD]
+convient mieux aux combattants confirmés.[ENDN][STRT=185,2][IMME]Ensuite, il faut que je vous parle
+des [68C0D8][HSHD]Chiffres[C8C8C8][HSHD]...[ENDN][STRT=253,2][IMME]Quand les PV et les PM sont modifiés pendant
+un combat, des chiffres apparaissent.[ENDN][STRT=232,2][IMME]Attention, la couleur des chiffres change
+en fonction de leur signification ![ENDN][STRT=264,9][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=71][68C0D8][HSHD]- [FEED=2]Chiffres[FEED=2] -[C8C8C8][HSHD]
+[YADD=10][FEED=4][ICON=173][FEED=1][ICON=173][FEED=1][ICON=173][FEED=1][ICON=173][XTAB=60][YSUB=2]Modification des PV
+[YADD=8][XTAB=60]Les PV perdus sont en blanc.
+[YADD=8][XTAB=60][78C840][HSHD]Les PV récupérés sont en vert.[C8C8C8][HSHD]
+[YADD=10][FEED=4][ICON=173][FEED=1][ICON=173][FEED=1][ICON=173][FEED=1][ICON=173][YSUB=2][YADD=5][FEED=1][ICON=163][YSUB=5][XTAB=60]Modification des PM
+[YADD=8][XTAB=60]Les PM perdus sont en blanc.
+[YADD=8][XTAB=60][78C840][HSHD]Les PM récupérés sont en vert.[C8C8C8][HSHD]
+[XTAB=224][PAGE][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=65][68C0D8][HSHD]- [FEED=2]Dégâts[FEED=2] -[C8C8C8][HSHD]
+[YADD=10][FEED=4][ICON=159][YSUB=2] :[XTAB=72]l’attaque a échoué.
+[YADD=10][FEED=4][ICON=179][YSUB=2] :[XTAB=72]les dégâts infligés sont plus
+[YADD=8][XTAB=72]importants que d’habitude.
+[YADD=10][FEED=4][ICON=160][YSUB=2] :[XTAB=72]le coup porté est fatal.
+[YADD=10][FEED=4][ICON=161][YSUB=2] :[XTAB=72]la modification d’état ou l’attaque
+[YADD=8][XTAB=72]élémentaire est inefficace.
+[XTAB=224][ENDN][STRT=144,1][IMME]Et pour finir, la [68C0D8][HSHD]Position[C8C8C8][HSHD] ![ENDN][STRT=230,3][IMME]La Position détermine [68C0D8][HSHD]la place de chacun
+dans le groupe[C8C8C8][HSHD] et si un personnage est
+[68C0D8][HSHD]En Avant[C8C8C8][HSHD] ou [68C0D8][HSHD]En Arrière[C8C8C8][HSHD].[ENDN][STRT=278,4][IMME]La place de chacun dans le groupe n’a qu’un rôle
+visuel, mais le fait d’être ”En Avant” ou
+”En Arrière” a une grande importance
+dans les combats.[ENDN][STRT=257,11][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=148][68C0D8][HSHD]- [FEED=2]En Avant / En Arrière[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][FEED=4][68C0D8][HSHD]En Avant[C8C8C8][HSHD] :
+[YADD=8][XTAB=46][68C0D8][HSHD]Attaquer[C8C8C8][HSHD] inflige des dégâts
+[YADD=8][XTAB=46]plus importants mais les dégâts reçus
+[YADD=8][XTAB=46]le sont aussi.
+[YADD=8][FEED=4][68C0D8][HSHD]En Arrière[C8C8C8][HSHD] :
+[YADD=8][XTAB=46][68C0D8][HSHD]Attaquer[C8C8C8][HSHD] inflige des dégâts
+[YADD=8][XTAB=46]moins importants et les dégâts reçus
+[YADD=8][XTAB=46]le sont aussi.
+[XTAB=224][ENDN][STRT=252,2][IMME]Cette option se règle à partir de la fonction
+[68C0D8][HSHD]Position[C8C8C8][HSHD] du menu principal.[ENDN][STRT=207,2][IMME]On peut aussi la modifier en cours
+de combat grâce à l’option [68C0D8][HSHD]Changer[C8C8C8][HSHD].[ENDN][STRT=238,3][IMME]Le fait d’être ”En Avant” ou ”En Arrière”
+n’influe pas sur l’efficacité des attaques
+magiques et des armes à longue portée.[ENDN][STRT=175,2][IMME]La formation doit être modifiée
+en fonction de la situation...[ENDN][STRT=155,3][IMME]Alors ?
+Vous avez compris comment
+se déroule un combat ?[ENDN][STRT=203,2][IMME]La [68C0D8][HSHD]Transe[C8C8C8][HSHD], c’est une transformation
+qui a lieu en cours de combat.[ENDN][STRT=242,2][IMME]Quand vous êtes en Transe, vous êtes plus
+fort et au maximum de vos capacités ![ENDN][STRT=191,2][IMME]Les Commandes sont modifiées et
+les attaques sont plus puissantes.[ENDN][STRT=245,2][IMME]Vous êtes transformé au point que vos amis
+ne vous reconnaissent presque plus ![ENDN][STRT=145,2][IMME]Je vais essayer de vous
+expliquer ça simplement...[ENDN][STRT=268,11][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=115][68C0D8][HSHD]- [FEED=2]Avant la Transe[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][FEED=4]1[XTAB=20][68C0D8][HSHD]Le pouvoir de la Transe[C8C8C8][HSHD] augmente
+[YADD=8][XTAB=20]avec les dégâts causés par un ennemi.
+[YADD=8][FEED=4]2[XTAB=20]Les dégâts infligés par un allié n’ont aucune
+[YADD=8][XTAB=20]influence sur le pouvoir de la Transe.
+[YADD=8][FEED=4]3[XTAB=20][68C0D8][HSHD]Zombie[C8C8C8][HSHD] annule toute accumulation
+[YADD=8][XTAB=20]de pouvoir de la Transe.
+[YADD=8][FEED=4]4[XTAB=20]Le personnage entre en Transe
+[YADD=8][XTAB=20]dès que la jauge est pleine !
+[XTAB=224][PAGE][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=136][68C0D8][HSHD]- [FEED=2]Sortie de la Transe[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][FEED=4](Sortie 1)[XTAB=64]A la fin de chaque combat,
+[YADD=8][XTAB=64]le pouvoir de la Transe revient à 0.
+[YADD=8][FEED=4](Sortie 2)[XTAB=64]Le pouvoir de la Transe disparaît.
+[YADD=10][XTAB=64]([D06050][HSHD]Chaque action effectuée en Transe
+[YADD=10][XTAB=65]diminue le pouvoir de la Transe.[C8C8C8][HSHD])
+[XTAB=224][ENDN][STRT=211,2][IMME]Les attaques ennemies sont chargées
+de haine et de ressentiments...[ENDN][STRT=204,2][IMME]La Transe naît de la transformation
+de l’énergie du combat ![ENDN][STRT=175,3][IMME]C’est pour ça que les attaques
+d’un allié ne déclenchent pas
+la Transe.[ENDN][STRT=200,3][IMME]On dit qu’il existe des Compétences
+permettant d’entrer en Transe plus
+facilement.[ENDN][STRT=258,4][IMME]La jauge mesurant la Transe est appelée
+[68C0D8][HSHD]Jauge de Transe[C8C8C8][HSHD].
+Vous pouvez voir son avancée pendant
+les combats ou dans la rubrique [68C0D8][HSHD]Etat[C8C8C8][HSHD] du menu.[ENDN][STRT=125,3][IMME]Ah, j’oubliais...
+Tout le monde ne peut
+pas entrer en Transe.[ENDN][STRT=112,3][IMME]Comment dire ?
+Il y a que les ”élus”
+qui le peuvent...[ENDN][STRT=208,2][IMME]En fait, j’en ai juste entendu parler,
+mais je ne l’ai jamais vue moi-même...[ENDN][STRT=196,2][IMME]Les [68C0D8][HSHD]Compétences[C8C8C8][HSHD] sont
+les capacités secrètes de chacun.[ENDN][STRT=178,2][IMME]Leur utilisation à bon escient
+est la clé de tous les combats ![ENDN][STRT=171,3][IMME]Il y a autant de Compétences
+que d’étoiles au firmament.
+On les classe en deux catégories.[ENDN][STRT=259,13][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=183][68C0D8][HSHD]- [FEED=2]Catégories de Compétences[FEED=2] -[C8C8C8][HSHD]
+[YADD=9][FEED=2][ICON=188][YSUB=1]Compétence ([68C0D8][HSHD]Compétences de combat[C8C8C8][HSHD])
+[YADD=8][XTAB=30]Techniques et Magies utilisables pendant
+[YADD=8][XTAB=30]et en dehors des combats.
+[YADD=8][XTAB=30]Elles consomment des [68C0D8][HSHD]PM[C8C8C8][HSHD].
+[YADD=9][FEED=2][ICON=189][YSUB=1]Compétence ([68C0D8][HSHD]Compétences de soutien[C8C8C8][HSHD])
+[YADD=8][XTAB=30]Compétences faisant appel à une force
+[YADD=8][XTAB=30]invisible et pouvant vous sauver lors
+[YADD=8][XTAB=30]d’un combat.
+[YADD=8][XTAB=30]Elles sont inutilisables sans
+[YADD=8][XTAB=30][68C0D8][HSHD]le pouvoir des Magikolithes[C8C8C8][HSHD].
+[XTAB=224][ENDN][STRT=269,3][IMME]Les [68C0D8][HSHD]PM[C8C8C8][HSHD] représentent le pouvoir indispensable
+pour utiliser la magie et certaines techniques.
+Ils augmentent avec le niveau des personnages.[ENDN][STRT=237,4][IMME][68C0D8][HSHD]Le pouvoir des Magikolithes[C8C8C8][HSHD] est une force
+étrange nécessaire aux Compétences
+de soutien. Lui aussi augmente avec
+le niveau des personnages.[ENDN][STRT=184,3][IMME]Les niveaux actuels et maximums
+du pouvoir des Magikolithes sont
+visibles dans le menu.[ENDN][STRT=287,9][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=206][68C0D8][HSHD]- [FEED=2]Voir le pouvoir des Magikolithes[FEED=2] -[C8C8C8][HSHD]
+[XTAB=24][YADD=8]Reste (Diminue à chaque Compétence
+[XTAB=19][YADD=4][ICON=20][XTAB=19][YSUB=5][ICON=20][YADD=8][XTAB=120]de soutien [68C0D8][HSHD]activée[C8C8C8][HSHD]).
+[XTAB=4][YADD=3][ICON=193][FEED=1][YADD=1][ICON=173][ICON=173][ICON=174][ICON=173][ICON=173]
+[XTAB=39][YSUB=1][ICON=19][XTAB=39][YADD=4][ICON=19]
+[XTAB=39][YSUB=0]Maximum
+[XTAB=48][YSUB=2](Augmente avec le niveau du personnage).
+[XTAB=224][ENDN][STRT=244,4][IMME]Pour insuffler du pouvoir des Magikolithes
+dans une Compétence de soutien, il suffit
+d’utiliser la fonction [68C0D8][HSHD]Activer[C8C8C8][HSHD] de la rubrique
+[68C0D8][HSHD]Comp.[C8C8C8][HSHD]...[ENDN][STRT=198,4][IMME]Si vous choisissez une Compétence
+non-sélectionnée, elle est activée.
+Si vous en choisissez une déjà
+sélectionnée, elle est désactivée.[ENDN][STRT=270,3][IMME]Dès qu’une nouvelle Compétence de soutien
+est activée, le pouvoir des Magikolithes affiché
+dans la page du menu est aussitôt modifié.[ENDN][STRT=235,5][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=235][MOVE=18,0][MOVE=18,0][68C0D8][HSHD]- [FEED=2]Voir les Compétences activées[FEED=2] -[C8C8C8][HSHD]
+[YADD=9][FEED=10][ICON=244][YSUB=1]Compétence[XTAB=100] Désactivée
+[YADD=9][FEED=10][ICON=189][YSUB=1]Compétence[XTAB=100] Activée
+[XTAB=224][ENDN][STRT=158,2][IMME]Maintenant, voyons comment
+apprendre une Compétence.[ENDN][STRT=174,2][IMME]Les Compétences s’apprennent
+grâce à l’équipement.[ENDN][STRT=249,3][IMME]Chaque objet porte en lui les sentiments
+des matériaux dont il est constitué, lesquels
+attirent vos aptitudes les plus secrètes.[ENDN][STRT=279,2][IMME]Dès que vous êtes en phase avec ces sentiments,
+vos aptitudes s’épanouissent comme des fleurs.[ENDN][STRT=238,4][IMME]Pour voir quelle Compétence vous pouvez
+apprendre avec un objet, il suffit d’aller
+dans la rubrique [68C0D8][HSHD]Equip.[C8C8C8][HSHD] du menu et
+de regarder les objets que vous portez ![ENDN][STRT=196,2][IMME]Vous ne pouvez pas apprendre les
+Compétences affichées en gris...[ENDN][STRT=224,7][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=147][68C0D8][HSHD][FEED=2]Compétences accessibles[FEED=2][C8C8C8][HSHD]
+[YADD=9][FEED=2][ICON=188][YSUB=1]Compétence[XTAB=92]Accessible
+[YADD=9][FEED=2][ICON=189][YSUB=1]Compétence[XTAB=92]Accessible
+[YADD=9][FEED=2][ICON=190][YSUB=1][909090][HSHD]Compétence[C8C8C8][HSHD][XTAB=92]Inaccessible
+[YADD=9][FEED=2][ICON=191][YSUB=1][909090][HSHD]Compétence[C8C8C8][HSHD][XTAB=92]Inaccessible
+[XTAB=224][ENDN][STRT=245,2][IMME]Vous pouvez utiliser une Compétence tant
+que vous portez l’objet qui lui correspond.[ENDN][STRT=234,3][IMME]Pour utiliser une Compétence sans porter
+l’objet lui correspondant, il faut gagner
+des [68C0D8][HSHD]CP[C8C8C8][HSHD] en combattant.[ENDN][STRT=252,11][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=77][68C0D8][HSHD]- [FEED=2]Jauge CP[FEED=2] -[C8C8C8][HSHD]
+[YADD=9][FEED=2][ICON=188][YSUB=1]Compétence[YADD=1][XTAB=89][ICON=254][XTAB=98][ICON=192]
+[YADD=9][FEED=2][ICON=189][YSUB=1]Compétence[YADD=1][XTAB=89][ICON=254][XTAB=98][ICON=192]
+[YADD=8][XTAB=30]CP suffisants.
+[YADD=8][XTAB=30]Utilisable sans l’objet correspondant.
+[YADD=9][FEED=2][ICON=188][YSUB=1]Compétence[YADD=1][XTAB=89][ICON=255][YSUB=1][XTAB=98][ICON=39][XTAB=103][ICON=34][XTAB=108][ICON=45][XTAB=111][ICON=35][XTAB=115][ICON=34][XTAB=120][ICON=34][YSUB=2][YADD=1]
+[YADD=9][FEED=2][ICON=189][YSUB=1]Compétence[YADD=1][XTAB=89][ICON=255][YSUB=1][XTAB=98][ICON=39][XTAB=103][ICON=34][XTAB=108][ICON=45][XTAB=111][ICON=35][XTAB=115][ICON=34][XTAB=120][ICON=34][YSUB=2][YADD=1]
+[YADD=8][XTAB=30]CP insuffisants.
+[YADD=8][XTAB=30]Inutilisable sans l’objet correspondant.
+[XTAB=224][ENDN][STRT=259,3][IMME]En appuyant sur la touche [CBTN=CROSS][MOBI=318] sous la rubrique
+[68C0D8][HSHD]Etat[C8C8C8][HSHD] du menu, vous pouvez voir la liste
+des Compétences que vous avez apprises.[ENDN][STRT=275,3][IMME]Le nombre de CP nécessaires varie en fonction
+des Compétences. A vous de trouver la meilleure
+façon de les apprendre ![ENDN][STRT=127,1][IMME]J’ai des amis partout ![ENDN][STRT=202,3][IMME]Si vous avez un problème, n’hésitez
+pas à aller les voir, ils pourront
+sûrement vous aider ![ENDN][STRT=179,2][IMME]Je vais vous dire ce
+qu’ils peuvent faire pour vous ![ENDN][STRT=245,11][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=151][68C0D8][HSHD]- [FEED=2]Les Mog-sauvegardes[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][FEED=4][68C0D8][HSHD]Sauvegarder[C8C8C8][HSHD] [XTAB=90]Enregistre votre aventure.
+[YADD=8][FEED=4][68C0D8][HSHD]Tente[C8C8C8][HSHD] [XTAB=90]Utilise une ”[ICON=118][FEED=2]Tente”.
+[YADD=8][FEED=4][XTAB=90]Régénère les PV et les PM
+[YADD=8][FEED=4][XTAB=90]de votre équipe et soigne
+[YADD=8][FEED=4][XTAB=90]certains handicaps.
+[YADD=8][FEED=4][68C0D8][HSHD]Mog-poste[C8C8C8][HSHD] [XTAB=90]Vous confie une lettre ou
+[YADD=8][FEED=4][XTAB=90]vous demande une lettre
+[YADD=8][FEED=4][XTAB=90]qu’on vous a confiée.
+[XTAB=224][ENDN][STRT=204,1][IMME]C’est principalement ce qu’ils font...[ENDN][STRT=207,3][IMME]Il y a des endroits où on ne peut pas
+sauvegarder ou utiliser les Tentes...
+Ca dépend des Mog.[ENDN][STRT=175,3][IMME]Quand vous êtes sur la carte,
+vous pouvez appeler [68C0D8][HSHD]Moguo[C8C8C8][HSHD] en
+appuyant sur la touche[FEED=2][CBTN=SQUARE][MOBI=282][FEED=2].[ENDN][STRT=168,3][IMME]Mais attention, sa patience a
+des limites, alors ne l’appelez
+pas trop souvent pour rien ![ENDN][STRT=236,3][IMME]A chaque fois que [ICON=1] apparaît
+dans le menu, vous pouvez avoir de l’aide
+en appuyant sur la touche [DBTN=SELECT][MOBI=279].[ENDN][STRT=224,2][IMME]Et si vous appuyez sur la touche [DBTN=SELECT][MOBI=279]
+encore une fois, on s’en va ![ENDN][STRT=137,2][IMME]Comme vous le voyez,
+on est pas mal occupé...[ENDN][STRT=281,2][IMME]Quand on part à l’aventure, on se trouve souvent
+face à l’inconnu, pas vrai...?[ENDN][STRT=173,2][IMME]Dans ces moments-là, une [68C0D8][HSHD]bulle[C8C8C8][HSHD]
+apparaît au-dessus de vous.[ENDN][STRT=212,2][IMME]Si vous appuyez sur la touche [CBTN=CROSS][MOBI=260],
+vous pouvez faire des découvertes ![ENDN][STRT=213,2][IMME]Si vous n’avez encore jamais essayé,
+tentez le coup la prochaine fois ![ENDN][STRT=182,2][IMME]On a beau savoir où on est,
+il y a des fois où on est perdu...[ENDN][STRT=281,3][IMME]Alors quand on en est à se dire ”où je suis, là ?”,
+si on avait un icone [68C0D8][HSHD]ICI[C8C8C8][HSHD] pour nous le dire,
+ce serait bien, non ?[ENDN][STRT=216,2][IMME]Bref, si vous savez plus où vous êtes,
+appuyez sur la touche [DBTN=SELECT][MOBI=279]...[ENDN][STRT=216,3][IMME]Au bout d’un moment l’icone disparaît,
+mais il réapparaît à chaque fois que
+vous appuyez sur la touche [DBTN=SELECT][MOBI=279].[ENDN][STRT=210,3][IMME]Et pour finir vous pouvez choisir
+de la faire apparaître ou non depuis
+la rubrique [68C0D8][HSHD]Config.[C8C8C8][HSHD] du menu.[ENDN][STRT=168,2][IMME]Ici, le [68C0D8][HSHD]jeu de cartes[C8C8C8][HSHD] s’appelle
+le [68C0D8][HSHD]Tetra Master[C8C8C8][HSHD].[ENDN][STRT=173,3][IMME]Vous le savez peut-être déjà,
+mais il y a même des gens qui
+en ont fait une religion.[ENDN][STRT=204,3][IMME]On ne peut pas deviner qui joue
+au Tetra Master juste en regardant
+les gens, il faut le leur demander.[ENDN][STRT=174,4][IMME]Il y a bien quelques personnes
+qui n’aiment pas jouer mais...
+Si on vous propose une partie,
+il ne faut pas refuser ![ENDN][STRT=243,2][IMME]Pour défier quelqu’un, il suffit de lui parler
+en appuyant sur la touche [CBTN=SQUARE][MOBI=310] ![ENDN][STRT=216,2][IMME]Si la personne n’a pas envie de jouer,
+elle ne parlera pas du jeu de cartes.[ENDN][STRT=165,2][IMME]Maintenant, on va rapidement
+voir les règles...[ENDN][STRT=269,8][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=192][68C0D8][HSHD]- [FEED=2]Les règles du Tetra Master 1[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][XTAB=20]Avant tout, il faut choisir les 5 cartes
+[YADD=8][XTAB=20]que vous allez utiliser pour jouer.
+[XTAB=224][PAGE][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=192][68C0D8][HSHD]- [FEED=2]Les règles du Tetra Master 2[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][XTAB=18]La partie commence !
+[YADD=8][XTAB=18]Quand vous posez une carte sur le tapis,
+[YADD=8][XTAB=18]toutes les cartes de l’adversaire faisant
+[YADD=8][XTAB=18]face à l’un de ses triangles peuvent devenir
+[YADD=8][XTAB=18]les vôtres.
+[XTAB=224][PAGE][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=192][68C0D8][HSHD]- [FEED=2]Les règles du Tetra Master 3[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][XTAB=20]Si un triangle d’une de vos cartes
+[YADD=8][XTAB=20]est en face de celui de l’une
+[YADD=8][XTAB=20]des cartes de votre adversaire,
+[YADD=8][XTAB=20]il y a bataille !
+[XTAB=224][ENDN][STRT=163,3][IMME][68C0D8][HSHD]Si vous gagnez,[C8C8C8][HSHD] la carte
+de votre adversaire devient
+l’une des vôtres ![ENDN][STRT=161,2][IMME][68C0D8][HSHD]Si vous perdez,[C8C8C8][HSHD] votre carte
+passe à l’adversaire.[ENDN][STRT=275,7][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=192][68C0D8][HSHD]- [FEED=2]Les règles du Tetra Master 4[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][XTAB=20]S’il y a plus d’une possibilité de bataille,
+[YADD=8][XTAB=20]vous pouvez choisir la carte de l’adversaire
+[YADD=8][XTAB=20]qui participera à la première bataille.
+[XTAB=224][PAGE][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=192][68C0D8][HSHD]- [FEED=2]Les règles du Tetra Master 5[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][XTAB=20]Quand vous avez posé toutes vos
+[YADD=8][XTAB=20]cartes, la partie est terminée !
+[YADD=8][XTAB=20]Le vainqueur est celui qui a le
+[YADD=8][XTAB=20]plus de cartes sur le tapis !
+[XTAB=224][PAGE][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=192][68C0D8][HSHD]- [FEED=2]Les règles du Tetra Master 6[FEED=2] -[C8C8C8][HSHD]
+[YADD=8][XTAB=20]Si vous gagnez, vous prenez une carte
+[YADD=8][XTAB=20]à votre adversaire.
+[YADD=8][XTAB=20]Si vous perdez, votre adversaire
+[YADD=8][XTAB=20]vous prend une carte.
+[XTAB=224][ENDN][STRT=165,3][IMME]Ce n’est qu’un petit aperçu
+des règles, vous apprendrez
+les autres en jouant ![ENDN][STRT=269,4][IMME]En plus des [68C0D8][HSHD]Boutiques[C8C8C8][HSHD] où vous pouvez acheter
+ou vendre des objets, il y en a où vous pouvez
+faire fabriquer de nouveaux objets à partir de
+ceux que vous possédez, ce sont les [68C0D8][HSHD]Forges[C8C8C8][HSHD].[ENDN][STRT=172,3][IMME]Là-bas il vous faut [68C0D8][HSHD]2 objets[C8C8C8][HSHD]
+pour en fabriquer un troisième
+et de [68C0D8][HSHD]l’argent[C8C8C8][HSHD] pour l’acheter.[ENDN][STRT=232,2][IMME]L’objet fabriqué dépend des 2 objets de
+départ et de la somme que vous donnez.[ENDN][STRT=113,2][IMME]Je vais vous donner
+des exemples...[ENDN][STRT=224,11][YADD=24][ICON=29][XTAB=0][YSUB=8][ICON=28][YSUB=16][XTAB=0][ICON=27]
+[CENT=38][68C0D8][HSHD][FEED=2]Forge[FEED=2][C8C8C8][HSHD]
+[YADD=8][FEED=4][ICON=94][FEED=2]Organix
+[YADD=8][XTAB=20](Objet No 1) :[XTAB=120][ICON=93][FEED=2]Dague Magik
+[YADD=8][XTAB=20](Objet No 2) :[XTAB=120][ICON=93][FEED=2]Dague Magik
+[YADD=8][XTAB=20](Frais de forge) :[XTAB=120] 700 gils
+[YADD=8][FEED=4][ICON=595][FEED=2]Bottes du désert
+[YADD=8][XTAB=20](Objet No 1) :[XTAB=120][ICON=107][FEED=2]Cuireau
+[YADD=8][XTAB=20](Objet No 2) :[XTAB=120][ICON=110][FEED=2]Cuir
+[YADD=8][XTAB=20](Frais de forge) :[XTAB=120] 300 gils
+[XTAB=224][ENDN][STRT=212,3][IMME]Si vous n’êtes jamais allé dans
+une forge, allez donc voir celle
+de Lindblum, ne serait-ce qu’une fois.[ENDN][STRT=144,3][IMME]A propos des forges...
+Je vais vous dire quelque
+chose d’important ![ENDN][STRT=232,3][IMME]Il paraît qu’il y a très longtemps,
+il y avait un forgeron exceptionnel
+qu’on appelait [68C0D8][HSHD]le forgeron des illusions[C8C8C8][HSHD]...[ENDN][STRT=106,4][IMME]Où est-il ?
+Que fait-il ?
+Qui est-il ?
+C’est un mystère...[ENDN][STRT=157,3][TAIL=LORF]Mogmi :
+Mogoo ! Je veux apprendre
+plein de choses ![ENDN][STRT=151,3]Mogoo :
+Très bien, je t’enseignerai
+ce que tu voudras ![ENDN][STRT=214,3]Mogoo :
+Nous ne sommes pas seuls aujourd’hui,
+je vais devoir être brillant ![ENDN][STRT=154,3]Mogoo :
+Aujourd’hui encore, je vais
+devoir être brillant ![ENDN][STRT=132,3]Mogoo :
+Aujourd’hui, nous allons
+parler des [68C0D8][HSHD]Forges[C8C8C8][HSHD] ![ENDN][STRT=211,3]Mogmi :
+Mogoo !
+T’es une vraie encyclopédie, coubo ![ENDN][STRT=135,2]Mogoo :
+Héhé ! C’est comme ça ![ENDN][STRT=175,5][PCHC=3,2][IMME] Mogoo :
+Que vous voulez-vous savoir ?
+[CHOO][MOVE=18,0]Plein de choses !
+[MOVE=18,0]Où je dois aller !
+[MOVE=18,0]Rien du tout ![ENDN][STRT=222,1][NANI][TAIL=UPR][NFOC][IMME]Appuyez sur la touche [CBTN=CIRCLE][MOBI=261] pour annuler.[TIME=-1][STRT=260,2]Si vous posez ce genre de question aux gens,
+vous ne serez jamais un aventurier ![ENDN][STRT=230,3]Allez dans l’Atlas, appuyez sur la touche
+[DBTN=SELECT][MOBI=283] pour ouvrir la grande carte
+et regardez-la bien ![ENDN][STRT=251,3]Les endroits où vous êtes déjà allé et ceux
+où vous devez aller (si vous les connaissez)
+sont marqués d’un point blanc.[ENDN][STRT=277,3]Quand vous êtes dans un aéronef, si vous placez
+le curseur sur ce point et que vous appuyez
+sur la touche [CBTN=CROSS][MOBI=305], alors...[ENDN][STRT=189,2]...vous rejoignez l’endroit
+correspondant automatiquement ![ENDN][STRT=228,4]Si vous voulez plus de renseignement
+sur le pilotage des aéronefs,
+ouvrez la plus grande carte et appuyez
+sur la touche [CBTN=TRIANGLE][MOBI=279] ![ENDN][STRT=205,2]Hé, si vous voulez aller à [68C0D8][HSHD]Bloumécia[C8C8C8][HSHD],
+vous devez aller plus au nord ![ENDN][STRT=210,3]Quand vous êtes sur l’Atlas, appuyez
+sur la touche [DBTN=SELECT][MOBI=283] pour vérifier
+votre direction sur la carte ![ENDN][STRT=255,2]Vous devez traverser la [68C0D8][HSHD]Caverne de Guismar[C8C8C8][HSHD]
+alors soyez prudents ![ENDN][STRT=248,2]Quoi ? Vous voulez aller à [68C0D8][HSHD]Clayra[C8C8C8][HSHD] ?
+C’était pas la peine de revenir ici pour ça ![ENDN][STRT=273,3]Clayra est à l’ouest de Bloumécia !
+Quand vous êtes sur l’Atlas, appuyez
+sur la touche [DBTN=SELECT][MOBI=283] et regardez bien la carte ![ENDN][STRT=181,2]Oh ! Vous allez sur le
+[68C0D8][HSHD]Continent Extérieur[C8C8C8][HSHD], comme ça ?[ENDN][STRT=269,2]Il y a bien un chemin pour le [68C0D8][HSHD]Continent Extérieur[C8C8C8][HSHD]
+qui part de ces marais, mais pour tout dire[SPED=2]...[SPED=-1][ENDN][STRT=182,2]Je sais ! Vous devriez en
+parler aux Kwe qui habitent ici ![ENDN][STRT=187,3]Vu qu’ils ne pensent qu’à manger,
+peut-être qu’ils ne savent rien
+du tout.[ENDN][STRT=243,3]Vous semblez avoir trouvé la
+route pour le Continent Extérieur !
+C’est la [68C0D8][HSHD]Route des Fossiles[C8C8C8][HSHD], n’est-ce pas ?[ENDN][STRT=247,4]Il paraît qu’il y a plein de mécanismes
+compliqués là-bas, mais c’est la seule route
+pour passer d’un continent à l’autre,
+alors bon courage et tenez bon ![ENDN][STRT=233,3]Il paraît que la [68C0D8][HSHD]Route des Fossiles[C8C8C8][HSHD]
+est à sens unique[SPED=2]...[SPED=-1]
+Vous ne pourrez peut-être pas revenir ![ENDN][STRT=238,3]Quoi ? C’est la première fois
+que vous venez sur le Continent Extérieur
+et vous ne savez pas où aller ?[ENDN][STRT=280,2]Pour venir ici, vous avez dû passer par une
+vallée avec une espèce de pont au-dessus, non ?[ENDN][STRT=123,2]Vous devriez aller
+voir de quoi il s’agit ![ENDN][STRT=131,2]Vous cherchez la forêt
+des Mages Noirs[SPED=2]...[SPED=-1][ENDN][STRT=210,4]Ca ne va pas être facile[SPED=2]...[SPED=-1] Sortez du
+marais et dirigez-vous vers le sud,
+vous devriez voir une forêt coincée
+entre la falaise et les montagnes.[ENDN][STRT=230,3]On l’appelle la forêt de Magdalena,
+mais vous pourrez le vérifier en ouvrant
+le menu quand vous y serez.[ENDN][STRT=141,3]Tout au fond de la forêt,
+il y a une zone étrange,
+allez y faire un tour ![ENDN][STRT=265,4]Tout ce que je sais, c’est que c’est
+tellement loin dans la forêt,
+”que même les chouettes n’y vont pas”[SPED=2]...[SPED=-1]
+Méfiez-vous, vous risquez de vous y perdre[SPED=2]...[SPED=-1][ENDN][STRT=226,3]Ils sont tellement imprévisibles que vous
+les trouverez peut-être plus facilement
+que prévu.[ENDN][STRT=172,2]Vous voulez aller sur
+la ”Terre sacrée” des Nains ?[ENDN][STRT=200,2]Il faut prendre le chemin qui
+part de la Passe de Condéa, mais[SPED=2]...[SPED=-1][ENDN][STRT=233,3]...c’est vraiment un endroit spécial
+pour les Nains, il vaudrait mieux leur
+demander ce qu’il faut faire pour y aller.[ENDN][STRT=230,2]Le palais de Kuja est dans le Désert de
+Quiera à l’est du Continent Extérieur.[ENDN][STRT=188,3]Il y a 4 endroits où
+débouchent des sables mouvants,
+l’un d’eux en est l’entrée.[ENDN][STRT=194,3]Le Continent est coupé en 2 par
+une chaîne de montagnes, vous ne
+pourrez pas y aller à pied ![ENDN][STRT=124,2]J’ai l’impression que
+ça va être très dur[SPED=2]...[SPED=-1][ENDN][STRT=206,2]On vous a à peu près expliqué
+où vous deviez aller, n’est-ce pas ?[ENDN][STRT=204,3]Une fois sur l’Atlas, ouvrez la carte
+en appuyant sur la touche [DBTN=SELECT][MOBI=283]
+et cherchez [68C0D8][HSHD]Euyevair[C8C8C8][HSHD].[ENDN][STRT=215,4]Vous risquez de rencontrer beaucoup
+d’ennemis en chemin, mais il y en a
+qui peuvent vous aider à rejoindre
+votre destination ![ENDN][STRT=135,3]Ca risque d’être
+très dur, essayez
+de revenir en aéronef ![ENDN][STRT=120,2]Hum[SPED=2]...[SPED=-1] 4 points[SPED=2]...[SPED=-1]
+Non, je ne vois pas[SPED=2]...[SPED=-1][ENDN][STRT=209,3]Mais si vous êtes en aéronef,
+vous devriez demander à l’équipage,
+ils savent beaucoup de choses.[ENDN][STRT=166,3]Kwe :
+Mon disciple est parti ?
+Alexandrie il y a six mois, miam.[ENDN][STRT=111,2]Kwe :
+Qu’est-il devenu[SPED=2]...[SPED=-1]?[ENDN][STRT=199,3]Kwe :
+Mon disciple n’a pas encore trouvé
+la voie de la nourriture, miam.[ENDN][STRT=104,3]Kwe :
+Trouvera-t-il
+un jour, la voie[SPED=2]...[SPED=-1]?[ENDN][STRT=243,3]Kwe :
+Nous autres Kwe adorons les grenouilles,
+en manger nous redonne des forces, miam ![ENDN][STRT=219,3][WDTH=0,179,21,-1]Kwell :
+[QUIN] aussi devrait partir en voyage
+pour étudier la voie de la nourriture[SPED=2]...[SPED=-1][ENDN][STRT=171,3]Kwell :
+[QUIN] a un peu grandi
+en attrapant des grenouilles ?[ENDN][STRT=147,2]Kwe :
+T’as une grenouille, miam ![ENDN][STRT=170,3]Kwe :
+Elle a l’air bonne, miam !
+J’adore les grenouilles, miam ![ENDN][STRT=73,2][WDTH=0,8,16,-1][ZDNE] :
+T’es qui toi ?[ENDN][STRT=81,2]Kwe :
+Je m’appelle[SPED=2]...[SPED=-1][ENDN][STRT=100,3][WDTH=0,50,21,-1][ZDNE] :
+[QUIN], tu veux
+cette grenouille ?[ENDN][STRT=139,2][QUIN] :
+Oh oui, je la veux, miam ![ENDN][STRT=125,2][ZDNE] :
+Tiens, je te la donne ![ENDN][STRT=67,2][WDTH=0,8,21,-1][QUIN] :
+Je l’ai eue ![ENDN][STRT=150,2][QUIN] :
+Elle est à moi, maintenant ![ENDN][STRT=144,4]Kwell :
+[QUIN] !
+Tu ne dois pas prendre
+les grenouilles des gens ![ENDN][STRT=225,4][TAIL=UPRF]Kwell :
+[QUIN] !
+Tu ne pourras pas trouver la voie de la
+nourriture avec les grenouilles d’ici ![ENDN][STRT=185,3][TAIL=UPLF][QUIN] :
+Mais, maître, il y a rien de mieux
+que les grenouilles d’ici, miam ![ENDN][STRT=168,3][TAIL=UPLF][QUIN] :
+J’en ai jamais trouvé
+d’aussi bonnes ailleurs, miam ![ENDN][STRT=212,4][TAIL=UPRF]Kwell :
+Halala !
+Si tu te contentes de ces grenouilles,
+tu ne trouveras jamais la voie, miam ![ENDN][STRT=202,3][TAIL=UPRF]Kwell :
+Le monde est vaste, plein de
+choses à manger et de grenouilles ![ENDN][STRT=170,3][TAIL=UPRF]Kwell :
+Tu dois voir d’autres endroits
+et connaître d’autres plats ![ENDN][STRT=213,4][TAIL=UPLF][QUIN] :
+Il y a d’autres mondes[SPED=2]...[SPED=-1]?
+J’y avais jamais pensé, miam ?
+Il y aurait des grenouilles meilleures ?[ENDN][STRT=54,2][TAIL=UPRF]Kwell :
+Bien sûr ![ENDN][STRT=188,3][TAIL=UPRF]Kwell :
+Les Kwe grandissent en mangeant
+des grenouilles, miam ![ENDN][STRT=176,3][TAIL=UPRF]Kwell :
+Il y a d’autres endroits habités
+par des Kwe à l’extérieur.[ENDN][STRT=236,5][TAIL=UPRF]Kwell :
+En mangeant des grenouilles en différents
+endroits, tu trouveras la voie.
+Pendant ton voyage, cherche les marais
+des Kwe ![ENDN][STRT=166,4][TAIL=UPRF]Kwell :
+Voyageur, je voudrais que tu
+fasses découvrir les cuisines
+du monde à [QUIN].[ENDN][STRT=156,3][TAIL=UPRF]Kwell :
+Tant qu’il y a à manger,
+elle peut aller n’importe où.[ENDN][STRT=196,4][TAIL=UPRF][PCHC=2,1][IMME][ZDNE] :
+Tu veux qu’elle vienne avec nous ?
+[CHOO][MOVE=18,0]Pas de problème !
+[MOVE=18,0]C’est pas possible ![ENDN][STRT=290,4][TAIL=UPRF][PCHC=2,1][IMME][ZDNE] :
+Tu veux qu’on l’emmène sur le Continent Extérieur ?
+[CHOO][MOVE=18,0]Allez, [QUIN] viens avec nous !
+[MOVE=18,0]C’est pas possible ![ENDN][STRT=240,2][TAIL=UPLF][QUIN] :
+Je pourrais manger des grenouilles, miam ?[ENDN][STRT=204,3][TAIL=UPLF][QUIN] :
+Le Continent Extérieur[SPED=2]...[SPED=-1]
+Il y a des grenouilles, là-bas, miam ?[ENDN][STRT=186,3][TAIL=UPRF][ZDNE] :
+Il y a plein de trucs meilleurs que
+les grenouilles dans le monde ![ENDN][STRT=173,2][TAIL=UPLF][QUIN] :
+Meilleurs que les grenouilles ?![ENDN][STRT=117,3][TAIL=UPLF][QUIN] :
+Alors je pars, miam !
+Je viens avec vous ![ENDN][STRT=12,1][TAIL=UPRF][CENT=12][SPED=2]...[SPED=-1][TIME=-1][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][TIME=-1][STRT=148,3][TAIL=UPLF][QUIN] :
+Maître Kwell, le dérangez
+pas avec ça, miam ![ENDN][STRT=153,2][TAIL=UPRF]Kwell :
+Je n’ai pas le choix, miam[SPED=2]...[SPED=-1][ENDN][STRT=152,4][TAIL=UPRF][WDTH=0,119,21,-1]Kwell :
+Voyageur, si vous changez
+d’avis, j’aimerais que vous
+montriez le monde à [QUIN].[ENDN][STRT=117,2][TAIL=UPRF][ZDNE] :
+Je vais y réfléchir[SPED=2]...[SPED=-1][ENDN][STRT=12,1][TAIL=UPRF][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=126,2][TAIL=UPLF][WDTH=0,126,17,-1][ZDNE] :
+Qu’est-ce que t’as [VIVI] ?![ENDN][STRT=32,2][TAIL=UPRF][WDTH=0,8,17,-1][VIVI] :
+Hum[SPED=2]...[SPED=-1][ENDN][STRT=100,3][TAIL=UPRF][VIVI] :
+Il ressemble à
+mon Grand-père ![ENDN][STRT=175,3][TAIL=UPLF][ZDNE] :
+Tu veux dire que Kwell
+ressemble à ton Grand-père ?![ENDN][STRT=134,3][TAIL=UPRF][VIVI] :
+Hum[SPED=2]...[SPED=-1]
+Il le connaît peut-être.[ENDN][STRT=105,2][TAIL=UPRF][VIVI] :
+Je vais lui parler ![ENDN][STRT=174,3]Kwell :
+Qu’est-ce qu’il y a ?
+J’ai quelque chose sur le nez ?[ENDN][STRT=108,3][TAIL=LORF][VIVI] :
+Euh[SPED=2]...[SPED=-1]
+Tu connais Kwane ?[ENDN][STRT=10,1][TAIL=UPRF][NANI][IMME][CENT=10]!![TIME=-1][STRT=186,2]Kwell :
+Je ne connais pas ce vieux fou[SPED=2]...[SPED=-1][ENDN][STRT=228,3][TAIL=LORF][VIVI] :
+Grand-père était un peu bizarre, mais[SPED=2]...[SPED=-1]
+Pourquoi tu le connais ?[ENDN][STRT=196,2]Kwell :
+Je... Je ne peux pas le dire, miam ![ENDN][STRT=221,2][TAIL=LORF][VIVI] :
+Grand-père te ressemblait beaucoup[SPED=2]...[SPED=-1][ENDN][STRT=244,2]Kwell :
+C’est normal, tous les Kwe se ressemblent ![ENDN][STRT=12,1][TAIL=LORF][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=159,2][ZDNE] :
+Tu le connais vraiment pas ?[ENDN][STRT=123,3]Kwell :
+Je ne le connais pas !
+Pas du tout, miam ![ENDN][STRT=74,2][WDTH=0,8,16,-1][ZDNE] :
+C’est vrai[SPED=2]...[SPED=-1]?[ENDN][STRT=190,3][ZDNE] :
+Puisqu’il dit qu’il le connaît pas[SPED=2]...[SPED=-1]
+Viens, [VIVI], on s’en va.[ENDN][STRT=32,1][TAIL=LORF]Hum[SPED=2]...[SPED=-1][ENDN][STRT=55,2][WDTH=0,8,16,-1,0,55,21,-1][ZDNE] :
+[QUIN], ça va ?![ENDN][STRT=268,3][QUIN] :
+[ZDNE] !
+J’ai eu du mal à rentrer toute seule de Clayra ![ENDN][STRT=249,3][ZDNE] :
+Tu connais la route du Continent Extérieur ?
+Il paraît qu’elle passe pas loin d’ici[SPED=2]...[SPED=-1][ENDN][STRT=268,3][QUIN] :
+La route du Continent Extérieur ? Il y a
+peut-être de bonnes grenouilles là-bas, miam[SPED=2]...[SPED=-1][ENDN][STRT=199,4][QUIN] :
+Ca a l’air bien ! Je veux bien
+t’aider pour des grenouilles, miam !
+Je viens avec toi, miam ![ENDN][STRT=184,4][QUIN] :
+Je viens avec toi, même si tu
+veux pas, miam ! Je veux manger
+des bonnes grenouilles ![ENDN][STRT=173,4][ZDNE] :
+J’ai pas le choix[SPED=2]...[SPED=-1]
+Viens, on va chercher la route
+du Continent Extérieur ![ENDN][STRT=153,4][WDTH=0,95,16,-1][QUIN] :
+[ZDNE], je veux manger
+d’autres grenouilles, je
+peux venir avec toi, miam ?[ENDN][STRT=166,4][PCHC=2,1][IMME][ZDNE] :
+Celles d’ici te suffisent plus ?
+[CHOO][MOVE=18,0]Allez, viens !
+[MOVE=18,0]Sois raisonnable ![ENDN][STRT=87,1]J’arrive, miam ![ENDN][STRT=184,4][QUIN] :
+Je pensais que tu m’aiderais à
+trouver la voie de la nourriture,
+mais je me suis trompée, miam[SPED=2]...[SPED=-1][ENDN][STRT=67,3][WDTH=0,8,16,-1,0,9,21,-1][ZDNE] :
+[QUIN] !
+Où tu vas ?![ENDN][STRT=156,2][QUIN] :
+Ca sent la grenouille, miam ![ENDN][STRT=235,3][ZDNE] :
+C’est pas le moment ! On cherche l’entrée
+de la route du Continent Extérieur ![ENDN][STRT=194,2][QUIN] :
+Les grenouilles sont par-là, miam ![TIME=-1][STRT=47,3][WDTH=0,8,16,-1,0,9,21,-1][ZDNE] :
+[QUIN] !
+Arrête ![ENDN][STRT=92,2][ZDNE] :
+C’est pas vrai[SPED=2]...[SPED=-1][ENDN][STRT=135,3][ZDNE] :
+Tu connaîtrais pas une
+mine dans les environs ?[ENDN][STRT=89,3]Kwell :
+Une mine, miam ?
+Et bien[SPED=2]...[SPED=-1][ENDN][STRT=125,3]Kwell :
+Je crois qu’il y en a[SPED=2]...[SPED=-1]
+ou qu’il n’y en a pas[SPED=2]...[SPED=-1][ENDN][STRT=43,2]Kwell :
+...une...[ENDN][STRT=124,2][ZDNE] :
+Il y en a une ou pas ?![ENDN][STRT=111,4]Kwell :
+J’ai juste entendu
+dire qu’il y en avait
+une avant, miam.[ENDN][STRT=191,4]Kwell :
+Dans les marais, l’herbe recouvre
+les chemins. Elle cache peut-être
+celui qui va à la mine.[ENDN][STRT=174,2][WDTH=0,174,21,-1]Kwell :
+[QUIN] sait peut-être quelque chose.[ENDN][STRT=212,2][ZDNE] :
+L’herbe le cache peut-être[SPED=2]...[SPED=-1] Merci ![ENDN][STRT=89,3]Kwe :
+Une mine, miam ?
+Et bien[SPED=2]...[SPED=-1][ENDN][STRT=125,3]Kwe :
+Je crois qu’il y en a[SPED=2]...[SPED=-1]
+ou qu’il n’y en a pas[SPED=2]...[SPED=-1][ENDN][STRT=43,2]Kwe :
+...une...[ENDN][STRT=111,4]Kwe :
+J’ai juste entendu
+dire qu’il y en avait
+une avant, miam.[ENDN][STRT=189,4]Kwe :
+Dans les marais l’herbe recouvre
+les chemins. Elle cache peut-être
+celui qui va à la mine.[ENDN][STRT=259,4]Kwe :
+L’une de mes disciples passe son temps à
+courir partout pour attraper des grenouilles,
+elle sait peut-être quelque chose.[ENDN][STRT=127,3][WDTH=0,105,16,-1][QUIN] :
+[ZDNE], je peux attraper
+des grenouilles, miam ?[ENDN][STRT=50,4][PCHC=2,1][WDTH=0,8,16,-1,1,162,-1,2,134,-1][IMME][ZDNE] :
+Encore ?
+[CHOO][MOVE=18,0]Bon, mais pas longtemps !
+[MOVE=18,0]On verra plus tard ![ENDN][STRT=96,2][QUIN] :
+D’accord, miam[SPED=2]...[SPED=-1][ENDN][STRT=72,2][WDTH=0,8,21,-1][QUIN] :
+Merci, miam ![ENDN][STRT=66,2][WDTH=0,8,16,-1,0,66,21,-1][ZDNE] :
+[QUIN], t’as fini ?![ENDN][STRT=164,4][PCHC=2,1][IMME][QUIN] :
+Elles sont dures à attraper !
+[CHOO][MOVE=18,0]Ca suffit, miam !
+[MOVE=18,0]Encore un effort, miam ![ENDN][STRT=170,4][PCHC=2,1][IMME][QUIN] :
+Elles sont faciles à attraper !
+[CHOO][MOVE=18,0]Ca suffit, miam !
+[MOVE=18,0]Encore un effort, miam ![ENDN][STRT=217,4][PCHC=2,1][IMME][QUIN] :
+Elles sont pas trop dures à attraper !
+[CHOO][MOVE=18,0]Ca suffit, miam !
+[MOVE=18,0]Encore un effort, miam ![ENDN][STRT=145,2][WDTH=0,145,21,-1]Kwell :
+Tu as fait des progrès, [QUIN] ![ENDN][STRT=268,3]Kwell :
+Tu t’es rapprochée de la voie de la nourriture.
+Je te le donne avec joie, miam ![ENDN][STRT=96,1][TAIL=DEFT][WDTH=0,96,21,-1][QUIN] a reçu 1 objet ![ENDN][STRT=165,3][QUIN] :
+Merci maître Kwell, miam !
+Je vais encore m’entraîner ![ENDN][STRT=188,4][WDTH=0,172,21,-1]Kwell :
+L’heure est enfin venue[SPED=2]...[SPED=-1]
+Encore une chose, [QUIN], désormais
+tu étudieras par toi-même, miam ![ENDN][STRT=84,2][QUIN] :
+Maître Kwell[SPED=2]...[SPED=-1][ENDN][STRT=185,3]Kwell :
+Mais avant[SPED=2]...[SPED=-1]
+Tu dois passer un examen, miam ![ENDN][STRT=177,3]Kwell :
+Je n’ai plus rien à t’apprendre.
+Je te la donne, miam ![ENDN][STRT=58,1]J’ai faim[SPED=2]...[SPED=-1][ENDN][STRT=109,1]Gre... Grenouilles[SPED=2]...[SPED=-1][ENDN][STRT=18,1][MOVE=18,0][TIME=-1][STRT=137,3][PCHC=2,1][WDTH=1,158,-1][IMME]Parce que je t’énerve ?
+[CHOO][MOVE=18,0]La chasser de l’équpipe.
+[MOVE=18,0]Annuler.[ENDN][STRT=158,2][QUIN] :
+Il y a des grenouilles, miam ![TIME=-1][STRT=81,1]Attends-moi !![TIME=-1][STRT=113,2][TAIL=UPRF][QUIN] :
+Elle m’a échappée[SPED=2]...[SPED=-1][ENDN][STRT=134,3][TAIL=UPLF][WDTH=0,97,21,-1][ZDNE] :
+[QUIN], on est pas venu
+là pour les grenouilles ![ENDN][STRT=149,4][TAIL=UPLF][ZDNE] :
+Regarde[SPED=2]...[SPED=-1]
+Ca serait pas l’entrée
+de la mine qu’on cherche ?[ENDN][STRT=158,2][QUIN] :
+Je l’avais jamais vue, miam ![ENDN][STRT=208,2][QUIN] :
+Tu veux vraiment entrer là-dedans ?[ENDN][STRT=54,2][TAIL=UPLF][WDTH=0,8,16,-1][ZDNE] :
+Bien sûr ![ENDN][STRT=147,4][TAIL=UPLF][ZDNE] :
+On pourra peut-être aller
+au Continent Extérieur,
+comme ça ! En avant !![ENDN][STRT=105,1][MPOS=3,3][NANI][IMME]Têtard : [MOVE=18,0][MOVE=18,0][MOVE=18,0][TIME=-1][STRT=105,1][MPOS=3,3][NANI][IMME]Grenouille :[MOVE=18,0]mâle[TIME=-1][STRT=120,1][MPOS=3,3][NANI][IMME]Grenouille :[MOVE=18,0]femelle[TIME=-1][STRT=155,1][MPOS=3,3][NANI][IMME]Grenouille dorée :[MOVE=18,0][MOVE=18,0][MOVE=18,0][TIME=-1][STRT=125,3][TAIL=DEFT][PCHC=2,1][WDTH=0,125,6,50,-1][IMME]Vous avez attrapé 1 [TEXT=3,2].
+[CHOO][MOVE=18,0]Garder.
+[MOVE=18,0]Relâcher.[ENDN][STRT=183,1][NANI][TAIL=UPC][WDTH=0,183,64,1,-1][NFOC][IMME]Nbre de Grenouilles attrapées : [NUMB=1][TIME=-1][STRT=121,1][C8B040][HSHD]Press[MOVE=18,0][C8C8C8][HSHD][DBTN=CROSS][MOBI=260][C8B040][HSHD][MOVE=18,0]button.[ENDN][STRT=217,2]Party info maybe wrong
+Check the party member or serial num.[ENDN][STRT=145,1][TAIL=DEFT][WDTH=0,145,16,-1][ZDNE] a attrapé une grenouille.[ENDN][STRT=114,1][TAIL=DEFT][WDTH=0,114,21,-1][QUIN] a pris la grenouille.[ENDN]

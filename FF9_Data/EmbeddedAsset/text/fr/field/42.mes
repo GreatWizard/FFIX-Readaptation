@@ -1,0 +1,220 @@
+[STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=12,1][TAIL=UPLF][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=12,1][CENT=12]??[ENDN][STRT=11,1][CENT=11]?![ENDN][STRT=105,1]Ca a pas changé[SPED=2]...[SPED=-1][ENDN][STRT=128,3][VIVI] :
+Je suis tombé
+en regardant en bas[SPED=2]...[SPED=-1][ENDN][STRT=218,3][VIVI] :
+Et Grand-père m’a sauvé, c’est comme
+ça que je l’ai rencontré[SPED=2]...[SPED=-1][ENDN][STRT=184,3][VIVI] :
+C’est peut-être depuis ce temps
+là que j’ai le vertige[SPED=2]...[SPED=-1][ENDN][STRT=177,1]Ah[SPED=2]...[SPED=-1] C’est plein de poussière[SPED=2]...[SPED=-1][ENDN][STRT=122,3][VIVI] :
+C’est normal,
+ça fait si longtemps[SPED=2]...[SPED=-1][ENDN][STRT=193,3][VIVI] :
+A la fin Grand-père mangeait plus,
+alors ses ustensiles sont pourris.[ENDN][STRT=56,3][WDTH=0,8,17,-1][VIVI] :
+D’ailleurs,
+il disait[SPED=2]...[SPED=-1][ENDN][STRT=253,2][WDTH=0,197,17,-1][VIVI] ! Depuis que je ne mange plus, j’ai
+compris l’extrême importance du goût, miam ![ENDN][STRT=131,3][WDTH=0,87,21,-1][VIVI] :
+[QUIN] et Grand-père
+sont vraiment pareils[SPED=2]...[SPED=-1][ENDN][STRT=224,3][ZDNE] :
+Il y a un truc d’écrit sur le mur.
+On dirait des marques de croissance[SPED=2]...[SPED=-1]?[ENDN][STRT=169,4][WDTH=0,169,17,-1][ZDNE] :
+Ca dit[SPED=2]...[SPED=-1]
+”Voilà six mois que j’ai trouvé [VIVI].
+Il ne grandit pas, miam”[SPED=2]...[SPED=-1]?[ENDN][STRT=261,3][DGGR] :
+Ah ? Il y a quelque chose d’écrit sur le mur[SPED=2]...[SPED=-1]
+Ca ressemble à des marques de croissance[SPED=2]...[SPED=-1]?[ENDN][STRT=169,4][WDTH=0,169,17,-1][DGGR] :
+Alors[SPED=2]...[SPED=-1]
+”Voilà six mois que j’ai trouvé [VIVI].
+Il ne grandit pas, miam”[SPED=2]...[SPED=-1]?[ENDN][STRT=248,4][DGGR] :
+Cette horloge est arrêtée[SPED=2]...[SPED=-1]
+La date qu’elle indique est[SPED=2]...[SPED=-1]
+une semaine avant mon départ d’Alexandrie.[ENDN][STRT=169,4][WDTH=0,103,18,-1][ZDNE] :
+Elle est arrêtée[SPED=2]...[SPED=-1]
+Elle indique une semaine avant
+l’enlèvement de [DGGR][SPED=2]...[SPED=-1][ENDN][STRT=81,3][WDTH=0,68,17,-1][ZDNE] :
+Qu’est-ce que
+tu fais là, [VIVI] ?[ENDN][STRT=132,3][VIVI] :
+[ZDNE][SPED=2]...[SPED=-1]
+Comment as-tu deviné que je serai ici ?[ENDN][STRT=149,3][ZDNE] :
+Et toi, pourquoi t’es
+venu dans ce trou perdu ?[ENDN][STRT=133,3][VIVI] :
+C’est[SPED=2]...[SPED=-1]
+C’est là que j’habitais avant...[ENDN][STRT=102,3][ZDNE] :
+Hein ? T’habitais
+à côté de Tréno ?[ENDN][STRT=103,3][VIVI] :
+Hum...
+Avec Grand-père.[ENDN][STRT=129,3][ZDNE] :
+Comment ça se fait que
+tu vivais là avec lui ?[ENDN][STRT=32,1]Ben[SPED=2]...[SPED=-1][ENDN][STRT=58,1][TAIL=UPLF]J’ai faim[SPED=2]...[SPED=-1][ENDN][STRT=201,4][TAIL=UPLF]Kwane :
+Il y a peut-être trop longtemps que
+je lance mes lignes dans le vide et
+que je mange du brouillard, miam[SPED=2]...[SPED=-1][ENDN][STRT=184,3][TAIL=UPLF]Kwane :
+Je ne pourrais jamais m’incarner
+dans la cuisine éternelle[SPED=2]...[SPED=-1][ENDN][STRT=86,3][TAIL=UPLF]Kwane :
+Ah ?
+Ca mord, miam ![ENDN][STRT=39,2][WDTH=0,8,16,-1][ZDNE] :
+Et tu[SPED=2]...[SPED=-1][ENDN][STRT=110,3][VIVI] :
+J’ai[SPED=2]...[SPED=-1]
+J’ai été pêché ici[SPED=2]...[SPED=-1][ENDN][STRT=192,3][VIVI] :
+J’avais dû tomber d’un aérocargo
+ou quelque chose comme ça[SPED=2]...[SPED=-1][ENDN][STRT=218,3][TAIL=UPLF]Kwane :
+Je ne pensais pas attraper quelque
+chose dans la mer de brouillard, miam ![ENDN][STRT=83,3][TAIL=UPLF]Kwane :
+Tu n’as pas
+à avoir peur[SPED=2]...[SPED=-1][ENDN][STRT=176,3][TAIL=UPLF]Kwane :
+(Il est peut-être comestible,
+mais il est encore trop petit[SPED=2]...[SPED=-1])[ENDN][STRT=115,4][VIVI] :
+Il était très gentil,
+il s’occupait de moi
+sans en faire trop[SPED=2]...[SPED=-1][ENDN][STRT=52,1]Je vois[SPED=2]...[SPED=-1][ENDN][STRT=156,3][VIVI] :
+On s’en va [ZDNE].
+Ca sert à rien de rester là.[ENDN][STRT=32,1]Hum[SPED=2]...[SPED=-1][ENDN][STRT=78,2][WDTH=0,8,21,-1][QUIN] :
+Ca sent bon[SPED=2]...[SPED=-1][ENDN][STRT=143,3][WDTH=0,125,21,-1][ZDNE] :
+Qu’est-ce que t’as, [QUIN] ?
+Qu’est-ce qui se passe[SPED=2]...[SPED=-1][ENDN][STRT=147,3][QUIN] :
+Tu sens rien, miam ?
+Il y a une odeur bizarre[SPED=2]...[SPED=-1][ENDN][STRT=116,3][ZDNE] :
+J’ai pas un nez aussi
+fin que le tien[SPED=2]...[SPED=-1][ENDN][STRT=91,1]Ah ! AAAAAAAH ![ENDN][STRT=116,2][ZDNE] :
+Qu’est-ce qu’il y a ?[ENDN][STRT=145,3][WDTH=0,96,16,-1][QUIN] :
+[ZDNE], regarde, miam !
+C’est merveilleux, miam[SPED=2]...[SPED=-1]![ENDN][STRT=154,1]Il y a plein à manger, miam ![ENDN][STRT=41,1]C’est[SPED=2]...[SPED=-1][ENDN][STRT=255,3][QUIN] :
+Pourquoi il y en a autant[SPED=2]...[SPED=-1]?
+Qu’est-ce que je dois manger en premier[SPED=2]...[SPED=-1]?![ENDN][STRT=58,1]OOOOOOH ![ENDN][STRT=110,1]Groumpf, groumpf[SPED=2]...[SPED=-1][ENDN][STRT=138,1]C’est fantastique, miam ![ENDN][STRT=136,1]C’est booooooon, miam ![ENDN][STRT=97,1][TAIL=UPRF]C’est bon, miam[SPED=2]...[SPED=-1][ENDN][STRT=12,2][WDTH=0,8,16,-1,0,12,21,-1][ZDNE] :
+[QUIN][SPED=2]...[SPED=-1][ENDN][STRT=116,1][TAIL=UPRF]J’ai plus faim, miam[SPED=2]...[SPED=-1][ENDN][STRT=92,2][ZDNE] :
+C’est pas vrai[SPED=2]...[SPED=-1][ENDN][STRT=29,1][TAIL=UPRF]Ha ?![ENDN][STRT=156,3][QUIN] :
+Qu’est-ce qui s’est passé ?
+Il y avait plein à manger[SPED=2]...[SPED=-1][ENDN][STRT=169,3][ZDNE] :
+Qu’est-ce que tu racontes[SPED=2]...[SPED=-1]?
+T’as des hallucinations ou quoi ?[ENDN][STRT=178,3][QUIN] :
+C’est pas possible !
+Je les ai vus, sentis et goûtés ![ENDN][STRT=174,3][ZDNE] :
+C’est ce que tu dis, mais on t’a
+juste vu tourner en rond[SPED=2]...[SPED=-1][ENDN][STRT=99,3][QUIN] :
+Hein ?! Ca sent
+bon par là, miam ![ENDN][STRT=14,2][WDTH=0,8,16,-1,0,14,21,-1][ZDNE] :
+[QUIN] !![ENDN][STRT=92,1]C’est pas vrai[SPED=2]...[SPED=-1][ENDN][STRT=84,2][QUIN] !
+Attends, miam ![ENDN][STRT=88,1][TAIL=UPLF][OFFT=100,-100,0]Te voilà enfin[SPED=2]...[SPED=-1][ENDN][STRT=153,3][TAIL=UPRF][OFFT=-40,-80,0][QUIN] :
+T’es qui ? C’est toi
+qui me donnes des visions ?[ENDN][STRT=120,1][TAIL=UPLF][OFFT=100,-100,0]Je m’appelle Kwane[SPED=2]...[SPED=-1][ENDN][STRT=249,4][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+Je ne suis pour rien dans tes visions, miam[SPED=2]...[SPED=-1]
+Tu peux voir certaines choses parce que
+tu as voyagé à travers le monde, miam[SPED=2]...[SPED=-1][ENDN][STRT=106,2][TAIL=UPRF][OFFT=-40,-80,0][QUIN] :
+Comment ça, miam ?[ENDN][STRT=165,1][TAIL=UPRF]Ne te laisse pas avoir, miam ![ENDN][STRT=176,3][TAIL=UPRF][OFFT=-40,-80,0][QUIN] :
+Maître ?!
+Qu’est-ce que vous faîtes là ?[ENDN][STRT=199,3][TAIL=UPLF]Kwell :
+C’est mon ancien maître !
+Il a quitté la voie de la nourriture ![ENDN][STRT=192,3][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+Je ne l’ai pas abandonnée, miam[SPED=2]...[SPED=-1]
+C’est toi qui l’as pervertie, miam ![ENDN][STRT=61,1][TAIL=UPLF]Comment ?![ENDN][STRT=199,3][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+Il ne suffit pas de manger
+n’importe quoi pour suivre la voie ![ENDN][STRT=143,3][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+Ta disciple commence
+à s’en apercevoir, miam ![ENDN][STRT=208,4][TAIL=UPLF][OFFT=100,-100,0][WDTH=0,139,21,-1]Kwane :
+[QUIN], ta vision est le fruit de
+l’influence de mes dernières pensées
+sur ton imagination, miam[SPED=2]...[SPED=-1][ENDN][STRT=145,4][TAIL=UPRF][OFFT=-40,-80,0][QUIN] :
+Je comprends pas, miam[SPED=2]...[SPED=-1]
+J’ai juste eu l’impression
+de manger pour de vrai[SPED=2]...[SPED=-1][ENDN][STRT=177,4][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+C’est bien[SPED=2]...[SPED=-1]
+Ton voyage à travers le monde
+a aiguisé ton imagination[SPED=2]...[SPED=-1][ENDN][STRT=266,3][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+Ceux qui n’ont pas d’imagination ne connaissent
+le goût des choses qu’en y goûtant, miam ![ENDN][STRT=44,1][TAIL=UPLF]Que...?![ENDN][STRT=251,3][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+En faisant travailler ton imagination, tu peux
+goûter à toutes les nourritures du monde ![ENDN][STRT=196,4][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+Si tu recherches vraiment la voie
+de la nourriture, une simple rumeur
+suffira à exciter ton imagination[SPED=2]...[SPED=-1][ENDN][STRT=179,3][TAIL=UPRF][OFFT=-40,-80,0][QUIN] :
+Et comment vous savez tout ça,
+maître de mon maître[SPED=2]...[SPED=-1]?[ENDN][STRT=52,1][TAIL=UPLF][OFFT=100,-100,0]Eh bien[SPED=2]...[SPED=-1][ENDN][STRT=76,1]Grand-père ![ENDN][STRT=125,3][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+[VIVI][SPED=2]...[SPED=-1]
+Tu[SPED=2]...[SPED=-1][WAIT=10] n’as pas grandi ![ENDN][STRT=146,3][TAIL=UPLF][OFFT=100,-100,0][WDTH=0,133,17,-1]Kwane :
+J’ai compris le pouvoir de
+l’imagination grâce à [VIVI][SPED=2]...[SPED=-1][ENDN][STRT=203,4][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+C’est pour lui parler de ce monde
+qu’il ne connaissait pas que j’ai
+fait travailler mon imagination, miam.[ENDN][STRT=79,2][WDTH=0,8,17,-1][VIVI] :
+Grand-père[SPED=2]...[SPED=-1][ENDN][STRT=273,3][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+La voie de la nourriture mène à celle de la vie[SPED=2]...[SPED=-1]
+Comprends-tu ce que je dis, [VIVI][SPED=2]...[SPED=-1]?[ENDN][STRT=239,4][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+Je ne pouvais pas me contenter de ce que
+j’avais vu, je devais parler de ce que
+j’avais pensé et entendu[SPED=2]...[SPED=-1][ENDN][STRT=234,4][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+La mort d’un solitaire est une fin[SPED=2]...[SPED=-1]
+Mais l’imagination permet de communiquer,
+elle permet de raconter sa vie, miam[SPED=2]...[SPED=-1][ENDN][STRT=181,3][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+Mes dernières pensées auront
+bientôt épuisé mon imagination[SPED=2]...[SPED=-1][ENDN][STRT=152,3][VIVI] :
+Grand-père[SPED=2]...[SPED=-1]
+Tu vas encore me quitter ?[ENDN][STRT=192,4][TAIL=UPLF][OFFT=100,-100,0]Kwane :
+Ne sois pas triste[SPED=2]...[SPED=-1]
+Tant que tu pourras m’imaginer,
+je serai toujours avec toi, miam[SPED=2]...[SPED=-1][ENDN][STRT=98,3][TAIL=UPLF][OFFT=100,-100,0][WDTH=0,48,21,-1]Kwane :
+[QUIN], Kwell[SPED=2]...[SPED=-1]
+Soyez dévoués[SPED=2]...[SPED=-1][ENDN][STRT=120,1][TAIL=UPLF]Maî... Maîîîîître !![ENDN][STRT=111,3][ZDNE] :
+Qu’est-ce que vous
+regardez tous[SPED=2]...[SPED=-1]?[ENDN][STRT=33,1]Hein ?[ENDN][STRT=142,3][TAIL=UPLF][WDTH=0,96,21,-1]Kwell :
+[QUIN][SPED=2]...[SPED=-1] Je vais revoir
+mon enseignement, miam[SPED=2]...[SPED=-1][ENDN][STRT=52,2][TAIL=UPRF][OFFT=-40,-80,0][WDTH=0,8,21,-1][QUIN] :
+Maître[SPED=2]...[SPED=-1][ENDN][STRT=155,3][ZDNE] :
+Vous allez me dire pourquoi
+vous parliez dans le vide ?[ENDN][STRT=96,2][TAIL=UPRF][OFFT=-40,-80,0][WDTH=0,96,16,-1][QUIN] :
+Tu l’as pas vu, [ZDNE] ?[ENDN][STRT=167,3][ZDNE] :
+De quoi tu parles ? Je vous ai
+juste vu parler dans le vide ![ENDN][STRT=133,3][TAIL=UPRF][OFFT=-40,-80,0][QUIN] :
+Je vois[SPED=2]...[SPED=-1]
+T’es pas encore prêt...[ENDN][STRT=98,3][WDTH=0,96,16,-1][VIVI] :
+T’inquiète pas, [ZDNE] !
+Je t’apprendrai ![ENDN][STRT=167,3][VIVI] :
+On y va ! On a encore
+plein de choses à découvrir ![ENDN][STRT=59,1]C’est ça[SPED=2]...[SPED=-1][ENDN][STRT=194,4][WDTH=0,90,14,0,-1][ZDNE] :
+Ah ?!
+Avant il y avait [ITEM=0]
+et il y a autre chose en dessous[SPED=2]...[SPED=-1][ENDN][STRT=126,2][TAIL=DEFT][WDTH=0,76,14,0,-1,0,126,14,1,-1]On dirait que [ITEM=0]
+et [ITEM=1] brillent ensemble[SPED=2]...[SPED=-1][ENDN][STRT=124,3][ZDNE] :
+Tiens ?
+Il y a quelque chose[SPED=2]...[SPED=-1][ENDN][STRT=243,3][TAIL=UPLF][OFFT=0,50,0][ZDNE] :
+Il y a quelque chose au pied de la falaise[SPED=2]...[SPED=-1]
+Ca ressemble à de l’écume[SPED=2]...[SPED=-1][ENDN][STRT=207,3][TAIL=UPLF][OFFT=0,50,0][DGGR] :
+J’aperçois quelque chose au pied de
+la falaise[SPED=2]...[SPED=-1] On dirait de l’écume[SPED=2]...[SPED=-1][ENDN][STRT=210,4][PCHC=2,1][WDTH=1,74,14,0,-1][IMME][ZDNE] :
+Je dois pouvoir y aller avec Choco[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Vite, un [ITEM=0] !
+[MOVE=18,0]C’est pas le moment[SPED=2]...[SPED=-1][ENDN]

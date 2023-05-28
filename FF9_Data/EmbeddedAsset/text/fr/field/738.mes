@@ -1,0 +1,655 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1,2,201,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Regard de [VIVI]
+[MOVE=18,0]Un signe de la nouvelle ère ou...
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=105,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,89,6,1,-1][TEXT=0,0] :
+Une lettre de [TEXT=0,1] ?
+Merci beaucoubo ![ENDN][STRT=275,11][WDTH=0,77,6,1,6,0,-1,0,207,17,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Un garçon est venu au village des Mages Noirs.
+Il s’appelait [VIVI]...
+[VIVI], il avait un regard vraiment triste...
+Je pense qu’il doit avoir une mission à accomplir.
+
+J’aurais dû l’encourager...
+
+[VIVI], tu n’es pas tout seul ![ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Un regard triste, coubo ?
+A-t-il une mission à accomplir ?[ENDN][STRT=256,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,111,6,1,-1][TEXT=0,0] :
+J’ai une lettre de [TEXT=0,1] !
+Mais je ne comprends rien à ce qu’il raconte.[ENDN][STRT=210,9][WDTH=0,77,6,1,6,0,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+La ”Brume” s’est dissipée,
+
+un signe d’une nouvelle ère
+
+ou celui de la fin du monde ?             
+[ENDN][STRT=241,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je n’arrive pas à comprendre, coubo...
+Il n’y a pas de bonheur après la ”Brume” ?[ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=122,1][PCHM=16,15][WDTH=1,125,-1,2,191,-1][IMME]Choisissez une scène.
+[CHOO][MOVE=18,0]La troisième Perle.
+[MOVE=18,0]Escale de la Flotte de Branet.
+[MOVE=18,0]ATE-02
+[MOVE=18,0]ATE-03
+[MOVE=18,0]ATE-04
+[MOVE=18,0]ATE-05
+[MOVE=18,0]ATE-06
+[MOVE=18,0]ATE-07
+[MOVE=18,0]ATE-08
+[MOVE=18,0]ATE-09
+[MOVE=18,0]ATE-10
+[MOVE=18,0]ATE-11
+[MOVE=18,0]ATE-12
+[MOVE=18,0]ATE-13
+[MOVE=18,0]ATE-14
+[MOVE=18,0]Annuler.[ENDN][STRT=106,1][IMME][CENT=106]La troisième Perle.[ENDN][STRT=171,1][IMME][CENT=171]Escale de la Flotte de Branet.[ENDN][STRT=36,1][NANI][IMME]Test 0[ENDN][STRT=213,2][DGGR] :
+Qu’est-ce qu’il y a comme ”Brume”[SPED=2]...[SPED=-1]![ENDN][STRT=154,3][ZDNE] :
+Il paraît qu’elle vient d’ici.
+C’est peut-être vrai...[ENDN][STRT=42,2][WDTH=0,8,22,-1][EIKO] :
+Ca va ?[ENDN][STRT=72,2][WDTH=0,8,17,-1][SIGL=0][VIVI] :
+Hum, ça va[SPED=2]...[SPED=-1][SIGL=1][ENDN][STRT=37,1][TAIL=LORF]Waah ![TIME=20][STRT=120,2][ZDNE] :
+C’est quoi ce truc[SPED=2]...[SPED=-1]?[ENDN][STRT=111,2][SIGL=0][EIKO] :
+C’est la protection.[SIGL=1][ENDN][STRT=98,3][EIKO] :
+Ca va[SPED=2]...[SPED=-1]?
+T’es pas blessé ?[ENDN][STRT=150,2][ZDNE] :
+Non, j’ai même pas eu mal ![ENDN][STRT=32,5][PCHC=3,2][WDTH=0,8,16,-1,1,108,-1,2,117,-1,3,119,22,-1][IMME][ZDNE] :
+Hum[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Je recommence.
+[MOVE=18,0]Je fonce dedans.
+[MOVE=18,0]Je vois ça avec [EIKO].[ENDN][STRT=72,1]Agagagaga ![ENDN][STRT=161,2][ZDNE] :
+Et si on creusait un tunnel ?![ENDN][STRT=212,3][ZDNE] :
+C’est pour ça que ceux de Condéa
+pensent que c’est une terre sacrée ![ENDN][STRT=220,3][ZDNE] :
+Et c’est le pouvoir des Chimères
+qui entretient la protection, c’est ça ?[ENDN][STRT=153,3][ZDNE] :
+C’est impressionnant !
+Et[SPED=2]...[SPED=-1] comment on la retire ?[ENDN][STRT=117,3][EIKO] :
+Il faut demander aux
+Chimères de revenir.[ENDN][STRT=167,4][EIKO] :
+Les Invokeurs peuvent parler
+aux Chimères et aux animaux
+grâce à leur corne ![ENDN][STRT=242,2][EIKO] :
+C’est pour ça qu’on les appelle comme ça ![ENDN][STRT=64,2][WDTH=0,8,22,-1][EIKO] :
+Regardez ![ENDN][STRT=94,1]”Abracadabri !”[ENDN][STRT=98,1]”Abracadabra !”[ENDN][STRT=170,1]”Voyez l’éclat de nos âmes !”[ENDN][STRT=205,1]”Ames des profondeurs stellaires !”[ENDN][STRT=144,1]”Entendez nos prières !”[ENDN][STRT=163,2]”Où se cachent vos coeurs,
+en un homme, en une terre ?”[ENDN][STRT=92,3][EIKO] :
+C’est fini !
+On peut y aller ![ENDN][STRT=150,2][ZDNE] :
+Heureusement que t’es là ![ENDN][STRT=166,3][VIVI] :
+C’était une incantation
+pour retirer la protection[SPED=2]...[SPED=-1]?[ENDN][STRT=56,2][WDTH=0,8,22,-1][EIKO] :
+Non, non ![ENDN][STRT=169,4][EIKO] :
+Pour appeler les Chimères,
+il faut juste faire passer
+ses sentiments dans sa corne.[ENDN][STRT=116,2][VIVI] :
+C’était quoi alors[SPED=2]...[SPED=-1]?[ENDN][STRT=116,3][EIKO] :
+C’était juste pour
+vous impressionner ![ENDN][STRT=229,5][EIKO] :
+J’aurais pu prier plus longtemps,
+mais la Chimère que j’ai appelée m’a dit :
+”J’ai pas ton temps !”
+Alors j’ai dû faire court...[ENDN][STRT=120,3][DGGR] :
+[C8C8C8][HSHD](Je[SPED=2]...[SPED=-1]
+Je n’ai rien entendu.)[ENDN][STRT=80,2][ZDNE] :
+Bon, on y va ?[ENDN][STRT=174,2][ZDNE] :
+Qu’est-ce que c’est que ça[SPED=2]...[SPED=-1]?[ENDN][STRT=185,3][TAIL=UPRF][ZDNE] :
+Tu parles d’une surprise[SPED=2]...[SPED=-1]
+Qui a bien pu fabriquer tout ça ?[ENDN][STRT=82,3][EIKO] :
+Dépêche-toi[SPED=2]...[SPED=-1]
+Ca va pas ?[ENDN][STRT=214,3][TAIL=UPRF][VIVI] :
+Comment vous faites pour aller aussi
+vite sur des racines aussi étroites[SPED=2]...[SPED=-1]?[ENDN][STRT=154,3][TAIL=UPLF][EIKO] :
+T’es le garçon le plus
+peureux que je connaisse ![ENDN][STRT=152,3][TAIL=UPLF][EIKO] :
+C’est encore pire après,
+tu veux nous attendre ici ?[ENDN][STRT=144,2][TAIL=UPRF][VIVI] :
+Non, je viens avec vous ![ENDN][STRT=147,2][TAIL=UPRF][VIVI] :
+Je dois venir avec vous[SPED=2]...[SPED=-1][ENDN][STRT=93,3][TAIL=UPLF][SIGL=0][EIKO] :
+T’as qu’à rester
+à côté de moi ![ENDN][STRT=43,2][TAIL=LORF][WDTH=0,8,17,-1][VIVI] :
+Merci...[ENDN][STRT=84,2][TAIL=UPLF][WDTH=0,84,22,-1][ZDNE] :
+[EIKO], on est où là ?[ENDN][STRT=216,3][EIKO] :
+C’est la première fois que je viens ici,
+je connais rien du tout.[ENDN][STRT=52,2][WDTH=0,8,22,-1][EIKO] :
+Pardon[SPED=2]...[SPED=-1][ENDN][STRT=173,2][TAIL=UPLF][WDTH=0,173,22,-1][ZDNE] :
+T’as pas à demander pardon, [EIKO].[ENDN][STRT=176,3][TAIL=UPLF][ZDNE] :
+Hum[SPED=2]...[SPED=-1]
+Ca a vraiment l’air très ancien.[ENDN][STRT=10,1][NFOC][CENT=10]!![TIME=30][STRT=47,5][TAIL=LORF][PCHC=3,2][WDTH=0,8,16,-1,1,108,-1,2,120,-1,3,105,22,-1][IMME][ZDNE] :
+Tiens[SPED=2]...[SPED=-1]?
+[CHOO][MOVE=18,0]Je recommence.
+[MOVE=18,0]Je monte dessus !
+[MOVE=18,0]Je demande à [EIKO].[ENDN][STRT=86,2][TAIL=UPLF][ZDNE] :
+On verra bien ![ENDN][STRT=164,2][TAIL=UPLF][WDTH=0,164,22,-1][ZDNE] :
+Qu’est-ce que t’en penses [EIKO] ?[ENDN][STRT=180,3][EIKO] :
+Si j’étais toi[SPED=2]...[SPED=-1]
+J’essayerai de monter dessus[SPED=2]...[SPED=-1][ENDN][STRT=12,2][WDTH=0,8,18,-1,0,12,16,-1][DGGR] :
+[ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=115,3][ZDNE] :
+T’inquiète pas !
+Fais-moi confiance ![ENDN][STRT=191,2][OFFT=-60,0,600][ZDNE] :
+Ca descend jusqu’où comme ça[SPED=2]...[SPED=-1]?[ENDN][STRT=12,1][OFFT=-60,0,600][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=86,2][OFFT=-60,0,600][ZDNE] :
+Ah ! Il revient ![ENDN][STRT=224,3][ZDNE] :
+Ca a l’air sûr !
+Ce coup-là je le prends jusqu’au bout ![ENDN][STRT=112,3][ZDNE] :
+Si tout va bien,
+je vous appellerai ![ENDN][STRT=106,2][EIKO] :
+Je viens avec toi ![ENDN][STRT=87,2][DGGR] :
+Je viens aussi ![ENDN][STRT=93,2][VIVI] :
+Moi[SPED=2]...[SPED=-1] Moi aussi ![ENDN][STRT=107,2][ZDNE] :
+Bon bin[SPED=2]...[SPED=-1] On y va ![ENDN][STRT=152,2][TAIL=UPRF]Kuja :
+Le grand jour est arrivé[SPED=2]...[SPED=-1][ENDN][STRT=120,3][TAIL=UPRF]Kuja :
+Je vais enfin pouvoir
+retirer mon masque[SPED=2]...[SPED=-1][ENDN][STRT=181,4][TAIL=UPRF]Kuja :
+La libération de l’Ifa m’importe
+peu, ce n’est rien comparé à ce
+qui doit arriver bientôt[SPED=2]...[SPED=-1][ENDN][STRT=239,5][TAIL=UPRF]Kuja :
+Pfff[SPED=2]...[SPED=-1] Pourquoi ?
+Pourquoi l’Ifa est-il si beau aujourd’hui[SPED=2]...[SPED=-1]?
+Il vit avec les étoiles, il ferait un excellent
+arbre des origines.[ENDN][STRT=227,4][TAIL=UPRF]Kuja :
+C’est décidé Silverdragon[SPED=2]...[SPED=-1]
+L’Ifa sera le siège de notre drame,
+là-bas personne ne viendra nous gêner.[ENDN][STRT=117,3][ZDNE] :
+Si on continue, on va
+dépasser le tronc[SPED=2]...[SPED=-1][ENDN][STRT=170,2][ZDNE] :
+Kuja s’est posé par là-bas[SPED=2]...[SPED=-1]![ENDN][STRT=133,3][EIKO] :
+Dis [ZDNE],
+comment on va monter ?[ENDN][STRT=147,2][ZDNE] :
+Tu peux pas escalader[SPED=2]...[SPED=-1]?[ENDN][STRT=62,2][WDTH=0,8,22,-1][EIKO] :
+J’ai peur[SPED=2]...[SPED=-1][ENDN][STRT=150,2][VIVI] :
+J’y arriverai pas non plus.[ENDN][STRT=168,2][DGGR] :
+Je pense que[SPED=2]...[SPED=-1] moi non plus[SPED=2]...[SPED=-1][ENDN][STRT=162,3][ZDNE] :
+On serait venu jusqu’ici pour rien[SPED=2]...[SPED=-1]
+Qu’est-ce qu’on peut faire ?[ENDN][STRT=130,3][ZDNE] :
+Ca servirait à rien que
+j’aille là-bas tout seul.[ENDN][STRT=140,3][TAIL=UPLF][AMRT] :
+Comment ai-je pu perdre
+contre un type pareil[SPED=2]...[SPED=-1]?[ENDN][STRT=36,1][NFOC]Aaah ![TIME=30][STRT=36,1][NFOC]Aaah ![TIME=30][STRT=60,2][TAIL=LOLF][WDTH=0,8,22,-1][NFOC][EIKO] :
+Attention ![TIME=45][STRT=153,3][TAIL=LORF][ZDNE] :
+Hé ! Tu pourrais faire
+attention à ce que tu fais ![ENDN][STRT=201,3][AMRT] :
+Il faut se débarrasser des plus
+faibles pour survivre, c’est la vie ![ENDN][STRT=180,2][TAIL=LORF][ZDNE] :
+Nous, on a nos propres règles ![ENDN][STRT=155,3][AMRT] :
+Je n’ai pas l’impression
+que vous sachiez réfléchir.[ENDN][STRT=107,4][WDTH=0,107,16,-1][EIKO] :
+Dis-donc toi !
+T’as perdu contre [ZDNE]
+alors tu te tais ![ENDN][STRT=185,2][AMRT] :
+Les enfants n’ont pas la parole ![ENDN][STRT=135,2][TAIL=LORF][ZDNE] :
+Je sais pas réfléchir[SPED=2]...[SPED=-1]?[ENDN][STRT=179,4][TAIL=LORF][WDTH=0,156,23,-1][ZDNE] :
+[AMRT], t’as une dette envers moi,
+pas vrai ? C’est le moment de la
+rembourser ![ENDN][STRT=82,2][AMRT] :
+Comment ça[SPED=2]...[SPED=-1]?[ENDN][STRT=197,4][TAIL=LORF][ZDNE] :
+Il y a de l’herbe à gorgone par ici,
+donc il doit y avoir des gorgones.
+Tu pourrais en capturer une ?![ENDN][STRT=173,3][TAIL=LORF][ZDNE] :
+Si on en trouve une, on pourra
+tous monter en une seule fois ![ENDN][STRT=157,3][AMRT] :
+Nous irions encore plus vite
+en portant les enfants[SPED=2]...[SPED=-1][ENDN][STRT=41,1][TAIL=LORF]Hein[SPED=2]...[SPED=-1]?[ENDN][STRT=124,2][AMRT] :
+(Comment ai-je pu[SPED=2]...[SPED=-1]?)[ENDN][STRT=83,1][NFOC]Quoi encore ?![TIME=30][STRT=81,2][ZDNE] :
+Il est rapide[SPED=2]...[SPED=-1][ENDN][STRT=123,2][TAIL=LORF][ZDNE] :
+Bon bin, je t’emmène ![ENDN][STRT=68,3][WDTH=0,8,18,-1,0,68,16,-1][DGGR] :
+Quoi ?!
+[ZDNE], attends[SPED=2]...[SPED=-1]![ENDN][STRT=125,3]Kuja :
+Les faibles sont
+les proies des forts[SPED=2]...[SPED=-1][ENDN][STRT=168,4]Kuja :
+Telle est la logique des forts.
+La loi de la nature veut qu’ils
+soient les seuls à survivre.[ENDN][STRT=270,5]Kuja :
+C’est pourquoi je devais être fort !
+J’ai eu connaissance d’une force qui l’effraiera
+lui-aussi[SPED=2]...[SPED=-1]
+Il y a 10 ans déjà[SPED=2]...[SPED=-1] presqu’une éternité[SPED=2]...[SPED=-1][ENDN][STRT=226,5]Kuja :
+Ce fut bien trop long[SPED=2]...[SPED=-1]
+Mais à présent je suis prêt à m’emparer
+de ce pouvoir[SPED=2]...[SPED=-1]
+Je ressens un pouvoir psychique[SPED=2]...[SPED=-1]![ENDN][STRT=167,2]Kuja :
+Ils sont arrivés jusque-là[SPED=2]...[SPED=-1]?![ENDN][STRT=177,4]Kuja :
+Très bien[SPED=2]...[SPED=-1]
+En attendant la diva, nous nous
+occuperons des seconds rôles.[ENDN][STRT=173,2][WDTH=0,173,23,-1][ZDNE] :
+Heureusement que t’étais là, [AMRT] ![ENDN][STRT=189,3][AMRT] :
+J’ai payé ma dette[SPED=2]...[SPED=-1]
+Montrez-moi ce que vous valez[SPED=2]...[SPED=-1][ENDN][STRT=98,2][DGGR] :
+Là-bas[SPED=2]...[SPED=-1] Kuja[SPED=2]...[SPED=-1]![ENDN][STRT=114,5][PCHC=3,2][WDTH=1,117,-1,2,119,-1][IMME][ZDNE] :
+Quand faut y aller[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Modifier l’équipe.
+[MOVE=18,0]Accéder au menu.
+[MOVE=18,0]Faut y aller ![ENDN][STRT=232,3][VIVI] :
+Kuja[SPED=2]...[SPED=-1]
+C’est lui qui a fabriqué les Mages Noirs[SPED=2]...[SPED=-1][ENDN][STRT=129,3][EIKO] :
+Si vous l’aimez pas,
+je l’aime pas non plus ![ENDN][STRT=58,1]En avant ![ENDN][STRT=179,2][DGGR] :
+C’est vous Kuja, n’est-ce pas ?[ENDN][STRT=50,2][WDTH=0,8,18,-1][DGGR] :
+Je suis[SPED=2]...[SPED=-1][ENDN][STRT=212,3][TAIL=LOLF][DGGR] :
+...Grenat di Alexandros.
+J’ai quelques questions à vous poser.[ENDN][STRT=241,3][TAIL=LOLF][NFOC][DGGR] :
+La reine d’Alexandrie a déclaré [SIGL=1] la guerre
+au reste du Continent de la ”Brume”[SPED=2]...[SPED=-1][TIME=-1][STRT=247,3]Kuja :
+Et vous voudriez savoir si je ne suis pas
+à l’origine de cette décision[SPED=2]...[SPED=-1] C’est cela ? [SIGL=2][ENDN][STRT=217,3][VIVI] :
+C’est toi qui nous[SPED=2]...[SPED=-1] qui as fabriqué
+les Mages Noirs pour faire la guerre ?[ENDN][STRT=206,3]Kuja :
+Que vois-je[SPED=2]...[SPED=-1] Vous avez une
+poupée bien vigoureuse, Princesse ![ENDN][STRT=244,3]Kuja :
+Les miennes ne sont pas aussi parfaites[SPED=2]...[SPED=-1]
+Pourrais-je vous en demander la recette ?[ENDN][STRT=150,3]Kuja :
+Faites mijoter une soupe
+d’âmes appelée ”Brume”[SPED=2]...[SPED=-1][ENDN][STRT=228,3]Kuja :
+Puis, versez-la dans un bol de véritable
+magie noire et faites chauffer[SPED=2]...[SPED=-1][ENDN][STRT=59,1]Tais-toi !![ENDN][STRT=235,4]Kuja :
+Vous ne voulez pas savoir comment
+l’on fabrique des poupées sans âmes,
+mais seulement avec des restes d’âmes ?![ENDN][STRT=182,3][ZDNE] :
+”Des restes d’âmes”[SPED=2]...[SPED=-1]?
+Tu veux parler de la ”Brume” ?![ENDN][STRT=213,3]Kuja :
+Je ne pensais pas que vous poseriez
+la question. Voulez-vous la réponse ?[ENDN][STRT=126,3]Kuja :
+Toutefois[SPED=2]...[SPED=-1][WAIT=5]
+Il est encore trop tôt.[ENDN][STRT=228,3][DGGR] :
+Vous n’avez donc pas de coeur
+pour prendre ainsi la vie des autres[SPED=2]...[SPED=-1]?![ENDN][STRT=213,3]Kuja :
+Vous êtes bien dure[SPED=2]...[SPED=-1]
+Qui prend le plus de vies pour vivre ?[ENDN][STRT=136,3]Kuja :
+Qui ? Si ce n’est
+votre mère, Princesse ?[ENDN][STRT=210,3]Kuja :
+Qui est assoiffé de pouvoir et de
+possession, si ce n’est votre mère ?![ENDN][STRT=220,4]Kuja :
+Suis-je à l’origine de la guerre ? Non !
+Votre mère l’a voulue sans moi, je n’ai
+fait que l’encourager un peu ![ENDN][STRT=131,4][DGGR] :
+Vous mentez[SPED=2]...[SPED=-1]!
+Mère est gentille,
+vous l’avez manipulée ![ENDN][STRT=203,4]Kuja :
+Pff[SPED=2]...[SPED=-1] Il est temps de lever le voile !
+Regardez, mon cher oisillon,
+voici le vrai visage de votre mère ![ENDN][STRT=182,3]Kuja :
+Début du premier acte :
+”Fin des désirs déshonorants !”[ENDN][STRT=92,4]Branet :
+Wahahahaha !
+Kuja ! Traître !
+Te voilà enfin ![ENDN][STRT=184,3]Branet :
+Tu es le dernier ! Quand tu
+seras mort le monde sera à moi ![ENDN][STRT=264,4]Branet :
+Hahaha[SPED=2]...[SPED=-1]!
+Mais je n’oublie pas ce que tu as fait pour moi,
+je tiens à t’offrir le plus grand des pouvoirs ![ENDN][STRT=191,4]Branet :
+A tous les vaisseaux !
+Que les Mages Noirs invoquent
+toute la puissance de leur magie ![ENDN][STRT=202,4]Branet :
+Que les canons fassent danser Kuja
+jusqu’à la fin de l’incantation !
+Tirez sans interruption !![ENDN][STRT=191,4]Officier :
+Ordre de Sa Majesté !
+Que les Mages Noirs invoquent
+toute la puissance de leur magie ![ENDN][STRT=67,2][TAIL=LORF][WDTH=0,8,18,-1][DGGR] :
+Pourquoi[SPED=2]...[SPED=-1]?[ENDN][STRT=191,4]Kuja :
+Un continent ne suffit pas à votre
+mère, dirait-on ! N’est-ce pas
+écoeurant et stupide ?![ENDN][STRT=111,3]Kuja :
+Il est temps pour
+moi de vous laisser.[ENDN][STRT=74,2][WDTH=0,8,16,-1][ZDNE] :
+Comment ça ?[ENDN][STRT=225,3]Kuja :
+Vous n’êtes que des seconds rôles,
+contentez-vous de regarder la scène ![ENDN][STRT=84,2][ZDNE] :
+Reste où t’es ![ENDN][STRT=235,3]Kuja :
+On ne crée plus de ”Brume”, mais[SPED=2]...[SPED=-1]
+Il en reste dans les grottes et les forêts.[ENDN][STRT=60,1][TAIL=UPRF][CENT=60]Et alors ?![ENDN][STRT=210,4]Kuja :
+Alors ? Il est encore possible
+de fabriquer de nouveaux monstres !
+Baskervilles ! A moi ![ENDN][STRT=197,4][TAIL=UPRF][AMRT] :
+Les adversaires se sont trouvés[SPED=2]...[SPED=-1]
+Partons ou nous devrons
+combattre le vainqueur.[ENDN][STRT=100,2][TAIL=UPRF][AMRT] :
+C’est à dire Kuja.[ENDN][STRT=167,4][ZDNE] :
+[AMRT] a raison[SPED=2]...[SPED=-1]
+Il faut partir avant d’être
+embarqués dans leur histoire.[ENDN][STRT=165,4][DGGR] :
+Jamais[SPED=2]...[SPED=-1]!
+Sinon[SPED=2]...[SPED=-1]
+Sinon, Mère sera en danger ![ENDN][STRT=131,1]Qu’est-ce que tu dis ?![ENDN][STRT=94,3][WDTH=0,32,16,-1][DGGR] :
+[ZDNE], je[SPED=2]...[SPED=-1]
+Je veux l’aider ![ENDN][STRT=171,4][ZDNE] :
+Pourquoi, [DGGR] ?!
+Elle t’a volé tes Chimères
+et a déclenché cette guerre ![ENDN][STRT=107,3][DGGR] :
+Mais je ne veux
+pas qu’elle meure ![ENDN][STRT=112,2][ZDNE] :
+Elle a failli te tuer bon sang !!![ENDN][STRT=118,3][TAIL=UPLF][ZDNE] :
+Tu dois plus la
+voir comme ta mère ![ENDN][STRT=79,3][B880E0][HSHD]
+SE : Explosion
+[ENDN][STRT=160,2][DGGR] :
+Elle sera toujours ma mère ![ENDN][STRT=122,3][WDTH=0,120,16,-1][DGGR] :
+Je ne te demande pas
+de me comprendre, [ZDNE] ![ENDN][STRT=210,3][WDTH=0,183,22,-1][DGGR] :
+[EIKO], tu as bien dit que des Chimères
+étaient enfermées ici, n’est-ce pas ?[ENDN][STRT=57,1]Ou... Oui...[ENDN][STRT=119,3][DGGR] :
+Dis-moi où elles sont,
+je t’en supplie ![ENDN][STRT=65,3][B880E0][HSHD]
+SE : Canons
+[ENDN][STRT=116,4][EIKO] :
+Elles sont en bas[SPED=2]...[SPED=-1]
+Là où il y a plein
+de racines, tu vois ?[ENDN][STRT=130,2][DGGR] :
+Là-bas ? J’ai compris ![ENDN][STRT=122,2][WDTH=0,122,18,-1][EIKO] :
+[DGGR] ! Vas-y pas toute[SPED=2]...[SPED=-1]![ENDN][STRT=91,3][TAIL=UPLF][AMRT] :
+Tu parles d’une
+façon de faire ![ENDN][STRT=183,3][TAIL=LORF][EIKO] :
+Et alors ! On a bien le droit de
+perdre son sang froid des fois ![ENDN][STRT=159,3][TAIL=UPLF][WDTH=0,97,16,-1,0,159,18,-1][EIKO] :
+Dis, [ZDNE][SPED=2]...[SPED=-1] On y va ?!
+[DGGR] est en danger toute seule ![ENDN][STRT=95,2][TAIL=LORF][ZDNE] :
+Allez, on la suit ![ENDN][STRT=251,5]Kuja :
+Hahahaha !
+Branet, même le plus prétentieux des canons
+est encore trop lent pour une créature
+de la ”Brume” ![ENDN][STRT=257,4]Kuja :
+Hahaha[SPED=2]...[SPED=-1]
+Même une créature aussi stupide que toi,
+comprendra que tu n’as qu’une seule solution.[ENDN][STRT=200,3]Kuja :
+Stupide diva, qu’espères-tu donc ?
+Tu ne fais que perdre du temps.[ENDN][STRT=140,3]Kuja :
+Je n’ai pas le choix[SPED=2]...[SPED=-1]
+Je dois jouer le premier.[ENDN][STRT=231,4]Kuja :
+J’ai d’ici une vue magnifique, mais je vais
+te faire l’honneur de me montrer à toi !
+Regarde et ne me rate surtout pas[SPED=2]...[SPED=-1]![ENDN][STRT=165,2]Kuja :
+Va, Silverdragon, descends ![ENDN][STRT=197,3][TAIL=LORF][DGGR] :
+Je sens le pouvoir des Chimères[SPED=2]...[SPED=-1]!
+Mère[SPED=2]...[SPED=-1] Je vais pouvoir[SPED=2]...[SPED=-1][ENDN][STRT=116,1][TAIL=LORF](Soyez ma force[SPED=2]...[SPED=-1]!)[ENDN][STRT=37,1]Non[SPED=2]...[SPED=-1]![ENDN][STRT=165,3][DGGR] :
+Je ne pourrai pas aider mère
+avec cette Chimère[SPED=2]...[SPED=-1]![ENDN][STRT=169,3][WDTH=0,130,18,-1][EIKO] :
+[DGGR] ! Qu’est-ce que t’as ?
+T’as pas réussi à la libérer ?![ENDN][STRT=129,3][DGGR] :
+Si et c’est une Chimère
+fantastique, mais[SPED=2]...[SPED=-1][SIGL=1][ENDN][STRT=153,4][EIKO] :
+Quoi[SPED=2]...[SPED=-1]?!
+C’est Léviathan, le serpent
+des mers qui était enfermé ?![ENDN][STRT=64,2][WDTH=0,8,17,-1][VIVI] :
+Léviathan ?[ENDN][STRT=275,5][TAIL=UPLF][EIKO] :
+Ca veut dire ”la grande vague”.
+Il détruit les ennemis avec une graaande vague !
+Quand on l’utilise, tous les bateaux coulent !
+Excuse-moi [DGGR], j'aurais pas du dire ça...[SIGL=1][ENDN][STRT=155,3][TAIL=UPRF][WDTH=0,155,22,-1][DGGR] :
+Ce n’est pas de ta faute, [EIKO] !
+Mais mère va...![ENDN][STRT=209,2][TAIL=LORF]Canonnier :
+Sa Majesté n’est pas encore prête ?[ENDN][STRT=257,4][TAIL=LORF]Canonnier :
+On lui a pourtant dit qu’on n’avait plus de
+munitions ! Si un autre groupe de monstres
+nous attaque, on est fichu, il faut se replier ![ENDN][STRT=229,3][TAIL=UPLF]Officier :
+Je ne peux pas prendre cette décision !
+Retournez à votre poste ![ENDN][STRT=144,3][TAIL=LORF]Soldat d’Alexandrie :
+Votre Majesté, les Mages
+Noirs sont prêts ![ENDN][STRT=185,3]Branet :
+Il est temps de donner une bonne
+leçon à ce jeune prétentieux[SPED=2]...[SPED=-1]![ENDN][STRT=70,1]Viens à moi ![ENDN][STRT=150,1]Mon plus grand serviteur ![ENDN][STRT=152,1]Bahamut, roi des dragons ![ENDN][STRT=225,4][TAIL=UPRF][AMRT] :
+J’avais entendu certaines rumeurs, mais
+je pensais pas que les Chimères étaient
+aussi puissantes[SPED=2]...[SPED=-1][ENDN][STRT=175,4][TAIL=UPRF][WDTH=0,146,16,-1][AMRT] :
+([ZDNE], c’est pour ça que tu es
+venu ici ? Si oui, je ne dois pas
+te sous-estimer[SPED=2]...[SPED=-1])[ENDN][STRT=199,3][DGGR] :
+Génial[SPED=2]...[SPED=-1] Elle va gagner !
+Avec ça, Mère ne peut pas mourir ![ENDN][STRT=169,3][DGGR] :
+Hein, [EIKO] !
+C’est[SPED=2]...[SPED=-1][WAIT=10] Qu’est-ce qu’il y a[SPED=2]...[SPED=-1]?[SIGL=1][ENDN][STRT=81,2][TAIL=UPLF][OFFT=-180,0,0][EIKO] :
+Moug a peur...[ENDN][STRT=67,2][TAIL=UPRF][WDTH=0,8,18,-1][DGGR] :
+Pourquoi[SPED=2]...[SPED=-1]?[ENDN][STRT=202,4][TAIL=UPRF][WDTH=0,144,22,-1][DGGR] :
+Voyons, [EIKO], tu sais bien que
+c’est la Chimère la plus puissante ?!
+Kuja ne peut rien contre lui ![ENDN][STRT=55,2]Kuja :
+Du sang[SPED=2]...[SPED=-1][ENDN][STRT=52,2]Kuja :
+Héhéhé[SPED=2]...[SPED=-1][ENDN][STRT=96,2]Kuja :
+Bravo, Bahamut ![ENDN][STRT=230,3]Kuja :
+Tu es bien le plus fort et le plus rapide !
+Tu as même réussi à me blesser, moi ![ENDN][STRT=164,2]Kuja :
+Branet, ton rôle s’arrête ici.[ENDN][STRT=199,4]Kuja :
+Tu admireras le deuxième acte
+depuis la prison des âmes !
+Mais tu ne quitteras pas la scène[SPED=2]...[SPED=-1][ENDN][STRT=256,3]Kuja :
+Au tombé de rideau, la scène quittera Gaïa[SPED=2]...[SPED=-1]
+Par ma simple[SPED=2]...[SPED=-1] volonté[SPED=2]...[SPED=-1]![ENDN][STRT=231,3]Kuja :
+Hahaha[SPED=2]...[SPED=-1]
+Tout se déroule comme je l’avais prévu ![ENDN][STRT=224,2]Je sais pas pourquoi Bahamut a attaqué
+ceux qui l’avaient appelé, mais...[ENDN][STRT=199,2]...quand on est arrivé sur la plage,
+on a trouvé la reine Branet...[ENDN][STRT=198,3]Elle pouvait presque plus bouger[SPED=2]...[SPED=-1]
+Alors je me suis dit qu’elle allait
+bientôt s’arrêter.[ENDN][STRT=211,3]J’aime pas Kuja et
+j’aime pas la reine Branet ![WAIT=15]
+Alors j’avais envie qu’elle s’arrête[SPED=2]...[SPED=-1][ENDN][STRT=97,1]J’étais content...[ENDN][STRT=180,2][WDTH=0,180,18,-1]Mais en voyant m’zelle [DGGR] pleurer,
+j’ai pas compris...[ENDN][STRT=207,1]...et j’ai commencé à pleurer aussi[SPED=2]...[SPED=-1][ENDN][STRT=120,2][OFFT=0,80,0][TAIL=UPLF]Branet :
+J’entends[SPED=2]...[SPED=-1] Grenat[SPED=2]...[SPED=-1][ENDN][STRT=91,3][OFFT=0,96,0][TAIL=UPR][DGGR] :
+C’est moi Mère !
+Je suis là ![ENDN][STRT=102,2][OFFT=0,96,0][TAIL=UPR][DGGR] :
+A côté de vous[SPED=2]...[SPED=-1]![ENDN][STRT=141,3][OFFT=0,80,0][TAIL=UPLF]Branet :
+Je[SPED=2]...[SPED=-1] n’ai plus de force[SPED=2]...[SPED=-1]
+Je suis[SPED=2]...[SPED=-1] vidée[SPED=2]...[SPED=-1][ENDN][STRT=135,2][OFFT=0,80,0][TAIL=UPLF]Branet :
+Je ne sens plus[SPED=2]...[SPED=-1] rien[SPED=2]...[SPED=-1][ENDN][STRT=40,2][OFFT=0,96,0][TAIL=UPR][WDTH=0,8,18,-1][DGGR] :
+Mère[SPED=2]...[SPED=-1][ENDN][STRT=215,3][OFFT=0,80,0][TAIL=UPLF]Branet :
+Je me revois[SPED=2]...[SPED=-1] avec ton père[SPED=2]...[SPED=-1] et toi[WAIT=10]
+regardant[SPED=2]...[SPED=-1][WAIT=10] une pièce de théâtre[SPED=2]...[SPED=-1][WAIT=10][ENDN][STRT=195,2][OFFT=0,80,0][TAIL=UPLF]Branet :
+J’ai eu[SPED=2]...[SPED=-1][WAIT=10] la vie[SPED=2]...[SPED=-1] que j’ai voulue[SPED=2]...[SPED=-1][ENDN][STRT=104,3][OFFT=0,80,0][TAIL=UPLF]Branet :
+Alors[SPED=2]...[SPED=-1] toi aussi[SPED=2]...[SPED=-1]
+[WAIT=10]vis[SPED=2]...[SPED=-1] ta vie[SPED=2]...[SPED=-1][ENDN][STRT=106,3][B880E0][HSHD]
+La mort de Branet.
+[ENDN][STRT=204,2]On est rentré à Alexandrie
+avec le bateau de la reine Branet[SPED=2]...[SPED=-1][ENDN][STRT=96,1]Et on a ramené[SPED=2]...[SPED=-1][ENDN][STRT=129,1][WDTH=0,129,18,-1][SPED=2]...[SPED=-1]le corps de la mère de m’zelle [DGGR][SPED=2]...[SPED=-1][ENDN][STRT=62,2][WDTH=0,8,22,-1][EIKO] :
+J’ai peur[SPED=2]...[SPED=-1][ENDN][STRT=111,2][TAIL=UPLF][AMRT] :
+Pourquoi hésiter[SPED=2]...[SPED=-1]?[ENDN][STRT=104,3][TAIL=UPLF][AMRT] :
+Autant les laisser
+partir seuls, non ?[ENDN][STRT=42,1][NFOC]Aaah ?![TIME=30][STRT=36,1][NFOC]Aaah ![TIME=30][STRT=249,4][WDTH=0,200,18,-1][B880E0][HSHD]
+[DGGR] a compris qu’il n’était pas possible
+de sauver sa mère avec la Chimère qui était
+enfermée. Elle est désespérée.[ENDN][STRT=217,3][B880E0][HSHD]
+FMV : La flotte de Branet est anéantie
+[ENDN][STRT=129,3][B880E0][HSHD]
+ FMV : Appel à Bahamut
+[ENDN][STRT=134,6][B880E0][HSHD]
+[CENT=96]Disque 2 terminé.
+[CENT=111]Insérez le Disque 3.
+
+[CENT=134][78C840][HSHD]★Version CD terminée.★
+[ENDN][STRT=179,3][TAIL=UPR]Soldat de Lindblum :
+Ils ont pris toutes nos réserves
+comme prise de guerre ![ENDN][STRT=131,3][TAIL=UPR]Soldat de Lindblum :
+Ils vont vraiment tout
+ramener à Alexandrie ?[ENDN][STRT=184,3][TAIL=UPL]Soldat de Lindblum :
+Ou alors[SPED=2]...[SPED=-1]
+Ils vont faire un grand voyage...[ENDN][STRT=175,3]Soldat d’Alexandrie :
+Vous là-bas ! Taisez-vous !
+Chargez tout ça sur le cargo ![ENDN][STRT=148,3][TAIL=UPR]Soldat de Lindblum :
+Bon sang !
+Pour qui ils se prennent ?![ENDN][STRT=212,3][TAIL=UPL]Soldat de Lindblum :
+Essayons de gagner du temps.
+C’est pas demain qu’on les arrêtera ![ENDN][STRT=112,4][TAIL=UPR]Soldat de Lindblum :
+Maintenant,
+Alexandrie contrôle
+tout le continent ![ENDN][STRT=236,3][TAIL=UPR]Soldat de Lindblum :
+Pourquoi ils préparent un voyage pareil ?
+Ils n’ont plus d’adversaire, non ?[ENDN][STRT=132,3][TAIL=UPR]Soldat de Lindblum :
+Mais qu’est-ce
+qu’ils veulent à la fin ?![ENDN][STRT=136,4][TAIL=UPL]Soldat de Lindblum :
+J’en sais rien[SPED=2]...[SPED=-1][WAIT=10]
+Cette rapace de Branet
+ne s’arrêtera jamais ![ENDN]

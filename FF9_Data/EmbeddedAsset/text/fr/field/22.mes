@@ -1,0 +1,1346 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Il est venu me voir...
+[MOVE=18,0]Je n’ai rien à faire !
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=239,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,119,6,1,-1][TEXT=0,0] :
+Ah ! Une lettre de [TEXT=0,1] !!
+Merci beaucoubo de me l’avoir apportée ![ENDN][STRT=179,13][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Steelskin est venu me voir !
+
+Il m’a dit qu’il allait partir
+pour une chasse aux trésors et
+cinq minutes après, il s’en est allé.
+
+J’ai voulu rester un peu plus
+longtemps avec lui.
+Mais où est-il parti ?
+Cela te dit quelque chose ?[ENDN][STRT=167,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+C’est bien Steelskin, ça !
+Il est passé à Lindblum aussi ?[ENDN][STRT=187,4][TAIL=UPR][WDTH=0,8,6,0,-1,0,106,6,1,-1,0,163,6,1,-1][TEXT=0,0] :
+J’ai une lettre de [TEXT=0,1].
+Je ne connais pas très bien [TEXT=0,1].
+Mais bon, on va la lire ensemble ![ENDN][STRT=260,12][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Haaa, je n’ai rien à faire !
+
+Je n’ai rien d’autre à faire que de me cacher.
+
+C’est dans une caverne que je me suis caché.
+Pourras-tu me retrouver ?
+
+Je te donne un indice : dans les murs.
+[ENDN][STRT=245,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il est sûrement le roi des fainéants !
+Il ne se rend même pas compte à quel
+point il a été difficile de sortir de Lindblum.[ENDN][STRT=238,5][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Vraiment, c’est bien que Lindblum
+se soit remis... c’est bien...!
+La Route des Fossiles, je ne l’aime pas.
+Au fait, j’aurais une chose à te demander.[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Quelle pluie !
+[MOVE=18,0]Il a disparu !
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=209,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,106,6,1,-1,0,209,6,1,-1][TEXT=0,0] :
+J’ai une lettre de [TEXT=0,1].
+Connais-tu [TEXT=0,1] ? On va la lire ensemble ![ENDN][STRT=226,13][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Après Lindblum, je me suis dirigé
+vers le nord. Sous la ”Brume” épaisse,
+en traversant la Caverne de Guismar,
+je suis arrivé pour la première fois
+au royaume de Bloumécia.
+
+Quelle pluie !
+Je ne pensais pas qu’il pleuvrait autant.
+D’abord, je vais me reposer un peu.
+[ENDN][STRT=141,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il est arrivé à Bloumécia.
+Est-ce qu’il va bien...?[ENDN][STRT=174,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,89,6,1,-1][TEXT=0,0] :
+Une lettre de [TEXT=0,1] ?
+Merci de me l’avoir apportée ![ENDN][STRT=262,11][WDTH=0,77,6,1,6,0,-1,0,139,6,7,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Bon sang !
+[TEXT=0,7] a été portée disparue !
+
+Les troupes d’Alexandrie l’ont-elles enlevée ?
+Les Mages Noirs l’ont-ils avalée ?
+
+C’est vraiment inquiétant !!
+[ENDN][STRT=165,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce qui lui est arrivé ?[ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=213,4][TAIL=UPR][PCHC=3,0][IMME][68C0D8][HSHD]= [C8C8C8][HSHD]Ascenseur du Château de Lindblum[68C0D8][HSHD] =[C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Rester sur place.
+[MOVE=18,0][68C0D8][HSHD]≪[C8C8C8][HSHD]Rez-de-chaussée[68C0D8][HSHD]≫[C8C8C8][HSHD]
+[MOVE=18,0][68C0D8][HSHD]≪[C8C8C8][HSHD]Sous-sol[68C0D8][HSHD]≫[C8C8C8][HSHD][ENDN][STRT=213,4][TAIL=UPR][PCHC=3,0][IMME][68C0D8][HSHD]= [C8C8C8][HSHD]Ascenseur du Château de Lindblum[68C0D8][HSHD] =[C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Rester sur place.
+[MOVE=18,0][68C0D8][HSHD]≪[C8C8C8][HSHD]1er étage[68C0D8][HSHD]≫[C8C8C8][HSHD]
+[MOVE=18,0][68C0D8][HSHD]≪[C8C8C8][HSHD]Sous-sol[68C0D8][HSHD]≫[C8C8C8][HSHD][ENDN][STRT=213,4][MPOS=15,140][PCHC=3,0][IMME][68C0D8][HSHD]= [C8C8C8][HSHD]Ascenseur du Château de Lindblum[68C0D8][HSHD] =[C8C8C8][HSHD]
+[CHOO][MOVE=18,0]Rester sur place.
+[MOVE=18,0][68C0D8][HSHD]≪[C8C8C8][HSHD]1er étage[68C0D8][HSHD]≫[C8C8C8][HSHD]
+[MOVE=18,0][68C0D8][HSHD]≪[C8C8C8][HSHD]Rez-de-chaussée[68C0D8][HSHD]≫[C8C8C8][HSHD][ENDN][STRT=73,1][NANI][TAIL=LOR][IMME][68C0D8][HSHD]≪[C8C8C8][HSHD]1er étage[68C0D8][HSHD]≫[C8C8C8][HSHD][ENDN][STRT=117,1][NANI][TAIL=LOR][IMME][68C0D8][HSHD]≪[C8C8C8][HSHD]Rez-de-chaussée[68C0D8][HSHD]≫[C8C8C8][HSHD][ENDN][STRT=65,1][NANI][TAIL=LOR][IMME][68C0D8][HSHD]≪[C8C8C8][HSHD]Sous-sol[68C0D8][HSHD]≫[C8C8C8][HSHD][ENDN][STRT=208,4][PCHC=3,2][WDTH=2,249,-1][IMME][CENT=208]= [68C0D8][HSHD]Wagonnet du Château de Lindblum[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Sous-sol[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller à la [68C0D8][HSHD]≪[C8C8C8][HSHD]Porte du Dragon Terrestre[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=208,3][PCHC=2,1][WDTH=1,248,-1][IMME][CENT=208]= [68C0D8][HSHD]Wagonnet du Château de Lindblum[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller à la [68C0D8][HSHD]≪[C8C8C8][HSHD]Porte du Dragon Terrestre[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=208,3][PCHC=2,1][WDTH=1,246,-1][IMME][CENT=208]= [68C0D8][HSHD]Wagonnet du Château de Lindblum[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller à la [68C0D8][HSHD]≪[C8C8C8][HSHD]Porte du Dragon Aquatique[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=208,4][PCHC=3,2][WDTH=2,247,-1][IMME][CENT=208]= [68C0D8][HSHD]Wagonnet du Château de Lindblum[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Sous-sol[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller à la [68C0D8][HSHD]≪[C8C8C8][HSHD]Porte du Dragon Aquatique[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=239,5][PCHC=4,3][IMME][CENT=239]= [68C0D8][HSHD]Taxair de Lindblum - Quartier théâtral[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier commerçant[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier ouvrier[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Château de Lindblum[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=126,4][PCHC=3,2][WDTH=1,204,-1,2,181,-1][IMME][CENT=126]= [68C0D8][HSHD]Taxair de Lindblum[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier commerçant[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier ouvrier[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=259,5][PCHC=4,3][IMME][CENT=259]= [68C0D8][HSHD]Taxair de Lindblum - Quartier commerçant[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier théâtral[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier ouvrier[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Château de Lindblum[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=259,4][PCHC=3,2][IMME][CENT=259]= [68C0D8][HSHD]Taxair de Lindblum - Quartier commerçant[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier théâtral[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier ouvrier[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=235,5][PCHC=4,3][IMME][CENT=235]= [68C0D8][HSHD]Taxair de Lindblum - Quartier ouvrier[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier commerçant[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier théâtral[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Château de Lindblum[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=235,4][PCHC=3,2][IMME][CENT=235]= [68C0D8][HSHD]Taxair de Lindblum - Quartier ouvrier[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier commerçant[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier théâtral[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=186,5][PCHC=4,3][WDTH=1,204,-1][IMME][CENT=186]= [68C0D8][HSHD]Taxair de Lindblum - Château[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier commerçant[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier théâtral[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier ouvrier[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=239,4][PCHM=3,2][IMME][CENT=239]= [68C0D8][HSHD]Taxair de Lindblum - Quartier théâtral[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier commerçant[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au ≪[C8C8C8][HSHD]Château de Lindblum[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=259,4][PCHM=3,2][IMME][CENT=259]= [68C0D8][HSHD]Taxair de Lindblum - Quartier commerçant[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier théâtral[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au ≪[C8C8C8][HSHD]Château de Lindblum[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=186,4][PCHC=3,2][WDTH=1,204,-1][IMME][CENT=186]= [68C0D8][HSHD]Taxair de Lindblum - Château[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier commerçant[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au ≪[C8C8C8][HSHD]Quartier théâtral[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=239,4][PCHC=3,2][IMME][CENT=239]= [68C0D8][HSHD]Taxair de Lindblum - Quartier théâtral[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier commerçant[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Château de Lindblum[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=259,4][PCHC=3,2][IMME][CENT=259]= [68C0D8][HSHD]Taxair de Lindblum - Quartier commerçant[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier théâtral[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Château de Lindblum[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=186,4][PCHC=3,2][WDTH=1,204,-1][IMME][CENT=186]= [68C0D8][HSHD]Taxair de Lindblum - Château[C8C8C8][HSHD] =
+[CHOO][MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier commerçant[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Aller au [68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier théâtral[68C0D8][HSHD]≫[C8C8C8][HSHD].
+[MOVE=18,0]Rester sur place.[ENDN][STRT=134,1][MPOS=170,190][NFOC][68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier commerçant[68C0D8][HSHD]≫[C8C8C8][HSHD][TIME=-1][STRT=114,1][MPOS=170,190][NFOC][68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier théâtral[68C0D8][HSHD]≫[C8C8C8][HSHD][TIME=-1][STRT=110,1][MPOS=170,190][NFOC][68C0D8][HSHD]≪[C8C8C8][HSHD]Quartier ouvrier[68C0D8][HSHD]≫[C8C8C8][HSHD][TIME=-1][STRT=61,1][MPOS=170,190][NFOC][68C0D8][HSHD]≪[C8C8C8][HSHD]Château[68C0D8][HSHD]≫[C8C8C8][HSHD][TIME=-1][STRT=187,5][IMME]
+[CENT=187]= [68C0D8][HSHD]Bouclier préféré du Roi Cid V[C8C8C8][HSHD] =
+
+[CENT=165]Fabriqué par l’artisan Fabrin
+[ENDN][STRT=190,5][IMME]
+[CENT=190]= [68C0D8][HSHD]Armure préférée du Roi Cid VI[C8C8C8][HSHD] =
+
+[CENT=176]Fabriquée par l’artisan Gabriel
+[ENDN][STRT=205,5][IMME]
+[CENT=167]= [68C0D8][HSHD]Arc préféré du Roi Cid VII[C8C8C8][HSHD] =
+
+[CENT=205][MOVE=18,0]Fabriqué par l’artisan Andréa[MOVE=18,0]
+[ENDN][STRT=185,8][IMME]
+[CENT=163]= [68C0D8][HSHD]Statue du Roi Cid Fabre[C8C8C8][HSHD] =
+
+[CENT=185]En mémoire du 500e anniversaire
+[CENT=153]de la naissance du Roi Cid I
+
+[CENT=171]Sculptée par l’artisan Laurent
+[ENDN][STRT=188,7][IMME]
+[CENT=129]= ”[68C0D8][HSHD]Eau bienfaisante[C8C8C8][HSHD]” =
+
+[CENT=188]Objet créé par l’artisan Mauricio
+[CENT=156]pour célébrer la 20e année
+[CENT=124]de règne du Roi Cid IX
+[ENDN][STRT=169,3][ZDNE] :
+Il y a pas de trou pour mettre[WAIT=5]
+une pièce.[ENDN][STRT=230,6]
+[CENT=198]Ce quai est réservé à la [68C0D8][HSHD]descente[C8C8C8][HSHD].
+[CENT=230]Vous ne pouvez pas y prendre le taxair.
+
+[CENT=183][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0][MOVE=18,0]R.A.T.L[MOVE=18,0]
+[ENDN][STRT=122,1][PCHM=16,15][WDTH=1,169,19,-1,2,117,17,-1,3,140,-1,4,163,-1][IMME]Choisissez une scène.
+[CHOO][MOVE=18,0]Le chevalier campagnard [STNR].
+[MOVE=18,0][VIVI] fait les courses.
+[MOVE=18,0]La machine à vapeur.
+[MOVE=18,0]Bach et ses compagnons.
+[MOVE=18,0]ATE-04
+[MOVE=18,0]ATE-05
+[MOVE=18,0]ATE-06
+[MOVE=18,0]ATE-07
+[MOVE=18,0]ATE-08
+[MOVE=18,0]ATE-09
+[MOVE=18,0]ATE-10
+[MOVE=18,0]ATE-11
+[MOVE=18,0]ATE-12
+[MOVE=18,0]ATE-13
+[MOVE=18,0]ATE-14
+[MOVE=18,0]Annuler.[ENDN][STRT=150,1][WDTH=0,150,19,-1][IMME][CENT=150,19]Le chevalier campagnard [STNR].[ENDN][STRT=97,1][WDTH=0,97,17,-1][IMME][CENT=97,17][VIVI] fait les courses.[ENDN][STRT=119,1][IMME][CENT=119]La machine à vapeur.[ENDN][STRT=141,1][IMME][CENT=141]Bach et ses compagnons.[ENDN][STRT=157,2][IMME][CENT=128]Mogoo, dis-nous tout !
+[CENT=157](Premier pas dans la forge)[ENDN][STRT=179,3]Soldat :
+C’est le père de Sa Majesté qui
+a inventé le moteur à ”Brume” ![ENDN][STRT=157,3]Caporal :
+Il faut une autorisation de
+Sa Majesté pour passer ici.[ENDN][STRT=152,3]Soldat :
+La salle de conférence est
+au fond du couloir.[ENDN][STRT=181,3]Soldat :
+Montez l’escalier pour aller aux
+appartements de Sa Majesté.[ENDN][STRT=182,4]Soldat :
+La salle de conférence et
+les appartements de Sa Majesté
+sont au fond du couloir.[ENDN][STRT=115,2]Caporal :
+Ici c’est la chambre.[ENDN][STRT=157,2]Caporal :
+Vous ne pouvez pas entrer.[ENDN][STRT=101,3]Soldat :
+La gare de taxair
+est droit devant.[ENDN][STRT=149,3]Soldat :
+Faire le guet ici,
+ça me fait une distraction.[ENDN][STRT=132,4]Soldat :
+Qu’est-ce que je fais ?
+Je suis en service.
+Ca ne se voit pas ?[ENDN][STRT=131,3]Chef de gare :
+Le quai d’en haut est
+réservé à la descente.[ENDN][STRT=174,3]Chef de gare :
+Vous pouvez prendre le taxair
+24 heures sur 24 ![ENDN][STRT=118,2]Opérateur :
+Eh ! Attends un peu ![ENDN][STRT=180,4]Opérateur :
+Mon boulot n’est peut-être
+pas cool, mais sans moi,
+l’ascenseur ne marcherait pas ![ENDN][STRT=153,2]Opérateur :
+Je suis fier de mon boulot ![ENDN][STRT=125,2]Soldat :
+Bienvenue à Lindblum ![ENDN][STRT=85,2]Umberto :
+C’est calme ici.[ENDN][STRT=195,4]Umberto :
+Je ne t’ai jamais vu.
+D’où tu viens ?
+Mais bon, ce n’est pas important...[ENDN][STRT=163,3]Umberto :
+Eh bien, je vais te raconter
+une anecdote, tu veux bien ?[ENDN][STRT=168,3]Umberto :
+Apparemment, tu ne veux pas.
+Mais elle est très marrante ![ENDN][STRT=176,4]Umberto :
+Ecoute, jeune homme,
+en parlant avec les vieux,
+tu apprendras plein de choses.[ENDN][STRT=93,2]Umberto :
+J’avais 27 ans[SPED=2]...[SPED=-1][ENDN][STRT=12,1][TAIL=UPRF][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=70,2]Umberto :
+Zzz[SPED=2]...[SPED=-1] zzz[SPED=2]...[SPED=-1][ENDN][STRT=169,4][VIVI] :
+Ce château est gigantesque[SPED=2]...[SPED=-1]
+Il est plus grand que
+celui d’Alexandrie[SPED=2]...[ENDN][STRT=168,3][ZDNE] :
+C’est normal, [VIVI] ![WAIT=5]
+C’est le château de Lindblum ![ENDN][STRT=250,2][STNR] :
+Il y a un quai aussi grand dans le château[SPED=2]...![ENDN][STRT=177,4][STNR] :
+Il pourrait aisément recevoir
+deux ou trois grands vaisseaux comme
+la Rose Rouge de Sa Majesté.[ENDN][STRT=160,3][ZDNE] :
+T’as déjà visité ce château,
+pas vrai, [DGGR] ?[ENDN][STRT=240,4][DGGR] :
+Oui, [WAIT=5]quelques fois dans mon enfance[SPED=2]...[SPED=-1]
+Mais c’est la première fois que j’y reviens
+depuis la mort de mon père.[ENDN][STRT=154,3][ZDNE] :
+Voilà des gens qui viennent
+vous accueillir, Princesse ![ENDN][STRT=146,3]Caporal :
+Hmn... C’est un aérocargo
+vraiment classique...[ENDN][STRT=202,3][TAIL=UPLF][DGGR] :
+Je m’appelle Grenat di Alexandros,[WAIT=5]
+princesse du royaume d’Alexandrie.[ENDN][STRT=182,3][DGGR] :
+Je viens demander à Sa Majesté
+de m’accorder une audience.[ENDN][STRT=216,4]Caporal :
+Comment la princesse d’Alexandrie
+aurait-elle pu venir par un aérocargo
+aussi abîmé ?[ENDN][STRT=215,3]Caporal :
+Et puis, [WAIT=5]les autres ne ressemblent pas
+à l’escorte d’une princesse[SPED=2]...[ENDN][STRT=131,5][STNR] :
+Vous êtes insolent
+avec la Princesse !
+La Princesse est venue
+à Lindblum incognito !![ENDN][STRT=196,4]Caporal :
+Alors, [WAIT=5] vous avez quelque
+chose pour prouver que vous êtes
+de la famille royale ?[ENDN][STRT=63,2][TAIL=UPLF][WDTH=0,8,18,-1][DGGR] :
+Oui, voilà[SPED=2]...[ENDN][STRT=218,4]Caporal :
+Quoi ?! [WAIT=5]Ce pendentif c’est[SPED=2]...[SPED=-1]
+la ”Griffe du dragon”[SPED=2]...[SPED=-1]?![WAIT=5]
+Non[SPED=2]...[SPED=-1][WAIT=5] la forme est un peu [WAIT=5]différente[SPED=2]...[ENDN][STRT=118,3]Caporal :
+Appelez le Conseiller
+Olmetta ![ENDN][STRT=185,4][STNR] :
+C’est à cause de toi que
+l’on doute de la Princesse.
+Tu as vraiment l’air d’un voleur ![ENDN][STRT=170,4][TAIL=UPLF][ZDNE] :
+Dis-moi, pourquoi personne ne
+devine que t’es un honorable
+chevalier d’Alexandrie ?![ENDN][STRT=148,2][STNR] :
+Raaah ! Tu me le paieras ![ENDN][STRT=138,2][DGGR] :
+Arrêtez ! Calmez-vous ![ENDN][STRT=116,2]Conseiller Olmetta :
+Qu’est-ce qu’il y a ?[ENDN][STRT=216,4][TAIL=UPLF]Caporal :
+Voilà...[WAIT=5]
+Une prétendue princesse d’Alexandrie
+sollicite une audience...[ENDN][STRT=225,3][TAIL=UPLF][NFOC]Caporal :
+Ce qui est louche, c’est qu’elle possède
+une imitation de la ”Griffe du dragon”...[WAIT=5][TIME=-1][STRT=5,1][CENT=5]![ENDN][STRT=6,1][TAIL=UPRF][CENT=6]?[ENDN][STRT=108,3][TAIL=LORF]Conseiller Olmetta :
+Retirez-vous.
+Laissez-moi faire.[ENDN][STRT=88,1][TAIL=UPLF]A vos ordres !![ENDN][STRT=109,2][TAIL=UPLF][DGGR] :
+Conseiller Olmetta ![ENDN][STRT=129,3]Conseiller Olmetta :
+Excusez l’impertinence
+de mes hommes.[ENDN][STRT=138,3]Conseiller Olmetta :
+Sa Majesté vous attend.
+Veuillez me suivre.[ENDN][STRT=182,4][DGGR] :
+La cloche sonne[SPED=2]...[SPED=-1]
+Les représentations du quartier
+théâtral sont terminées.[ENDN][STRT=174,2]Caporal :
+Que désirez-vous, Princesse ?[ENDN][STRT=152,2][DGGR] :
+Je voudrais aller en ville[SPED=2]...[ENDN][STRT=201,4]Caporal :
+Ce n’est pas possible, Princesse.
+J’ai ordre de Sa Majesté de ne pas
+vous laisser sortir du château.[ENDN][STRT=194,5]Caporal :
+C’est bientôt la fête de la chasse.
+Il y a de plus en plus de gens
+qui viennent du monde entier
+pour y assister.[ENDN][STRT=203,3]Caporal :
+Chaque année, il y a des malfaiteurs
+qui profitent de la foule.[ENDN][STRT=165,3]Caporal :
+Et votre présence à Lindblum
+est confidentielle...[ENDN][STRT=189,4]Caporal :
+Il est plus prudent de rester
+au château pour le moment.
+Vous y êtes en parfaite sécurité.[ENDN][STRT=139,2][DGGR] :
+Très bien, j’ai compris[SPED=2]...[ENDN][STRT=201,4][DGGR] :
+Non...[WAIT=10]
+Je ne peux pas rester là comme ça.
+Je dois agir[SPED=2]...[ENDN][STRT=174,3][DGGR] :
+Je ne suis pas venue demander
+à mon oncle de me protéger.[ENDN][STRT=100,3][DGGR] :
+Je voulais juste
+sauver ma mère[SPED=2]...[ENDN][STRT=257,3]Marinier :
+Super ! C’est un aérocargo !
+Ca fait longtemps que je rêvais d’en voir un ![ENDN][STRT=239,3]Marinier :
+La machinerie des aéronefs actuels
+est une imitation de celle des aérocargos.[ENDN][STRT=206,6]Marinier :
+Par rapport à cet aérocargo,
+les autres vaisseaux ne sont
+que des cercueils. Comme marinier,
+j’aime les vaisseaux avec une coque
+en bois.[ENDN][STRT=124,4]Zebolt, chef machino :
+Tiens, [WAIT=5]
+tu ne saurais pas
+où est c’est ça ?[ENDN][STRT=154,3]Chef de gare :
+Si, [WAIT=5]
+c’est sur le dock principal.[ENDN][STRT=124,3]Zebolt, chef machino :
+D’accord...[WAIT=5]
+Merci.[ENDN][STRT=149,4]Chef de gare :
+Il ne sort presque jamais
+de son labo. Il y étudie les
+aéronefs tous les jours.[ENDN][STRT=155,3]Chef de gare :
+Je crois qu’il tient vraiment
+à l’aérocargo.[ENDN][STRT=185,3][TAIL=UPRF]Conseiller Olmetta :
+Cet ascenseur relie les trois étages
+du château de Lindblum.[ENDN][STRT=212,4][TAIL=UPRF]Conseiller Olmetta :
+Le sous-sol est situé sous la ”Brume”
+et permet d’accéder au port et
+à la porte arrière par wagonnet.[ENDN][STRT=122,4][TAIL=UPRF]Conseiller Olmetta :
+Ce sont les deux accès
+au château utilisables
+sans aéronef...[ENDN][STRT=184,3][TAIL=UPRF]Conseiller Olmetta :
+Mais actuellement ils sont fermés
+à cause de la ”Brume”.[ENDN][STRT=225,4][TAIL=UPRF]Conseiller Olmetta :
+Ensuite, c’est le rez-de-chaussée,
+où vous êtes descendus de l’aérocargo
+tout à l’heure.[ENDN][STRT=183,3][TAIL=UPRF]Conseiller Olmetta :
+Du rez-de-chaussée, vous avez
+accès à la ville par taxair.[ENDN][STRT=165,6][TAIL=UPRF]Conseiller Olmetta :
+Enfin, le 1er étage.
+C’est le plus haut niveau
+du château, c’est là que sont
+la salle du trône et
+la salle de conférence.[ENDN][STRT=229,4][TAIL=UPRF]Conseiller Olmetta :
+Sa Majesté et moi sommes principalement
+au 1er étage. Il faut une autorisation de
+Sa Majesté pour pouvoir y monter.[ENDN][STRT=105,3][TAIL=UPLF][WDTH=0,88,18,-1][ZDNE] :
+Dis, [DGGR], comment il
+est ton oncle Cid ?[ENDN][STRT=153,3][TAIL=UPLF][ZDNE] :
+Je vis ici depuis longtemps,
+mais je l’ai jamais vu.[ENDN][STRT=142,3][TAIL=UPRF][DGGR] :
+Le roi Cid voit toujours
+plus loin que les autres...[ENDN][STRT=189,5][TAIL=UPRF][DGGR] :
+C’est vrai qu’il se comporte
+parfois bizarrement. Mais il était
+le meilleur ami de mon père et j’ai
+toujours eu confiance en lui.[ENDN][STRT=141,3][TAIL=UPRF][DGGR] :
+J’espère que Sa Majesté
+m’écoutera...[ENDN][STRT=156,4][TAIL=UPLF][OFFT=-225,25,0][ZDNE] :
+Ne t’inquiète pas !
+Il fera pas la sourde oreille
+devant sa nièce.[ENDN][STRT=139,2]Conseiller Olmetta :
+Nous voici au 1er étage.[ENDN][STRT=164,3]Conseiller Olmetta :
+Majesté, la princesse Grenat
+est arrivée d’Alexandrie.[ENDN][STRT=169,2][STNR] :
+Que se passe-t-il Princesse ?[ENDN][STRT=202,2][DGGR] :
+Sur le trône, à la place du roi Cid[SPED=2]...[ENDN][STRT=30,1]Hum ?[ENDN][STRT=38,1]Hein ?![ENDN][STRT=34,1][TAIL=UPRF][NFOC]Pulu...[TIME=-1][STRT=66,1][TAIL=UPLF][NFOC]Pulu, pulu !![TIME=-1][STRT=144,1][TAIL=UPRF]Comment vas-tu, Grenat ?[ENDN][STRT=10,1][TAIL=UPLF][NFOC][CENT=10]!![TIME=-1][STRT=54,1][TAIL=UPLF][NFOC]Un... Un[SPED=2]...[TIME=-1][STRT=68,1][TAIL=UPLF]Un puluche ![ENDN][STRT=59,1][TAIL=UPRF]Majesté !![ENDN][STRT=107,1][TAIL=UPLF]Quelle insolence[SPED=2]...![ENDN][STRT=12,1][TAIL=UPLF][NFOC][CENT=12]??[ENDN][STRT=41,1][TAIL=UPRF]Hein[SPED=2]...[SPED=-1]?[ENDN][STRT=146,4][WDTH=0,125,18,-1][ZDNE] :
+Qu’est-ce que t’as, [DGGR] ?
+C’est pas la première fois
+que tu vois Cid ou quoi[SPED=2]...?[ENDN][STRT=170,3][ZDNE] :
+C’est pas vrai !
+Il y a un puluche sur le trône ![ENDN][STRT=143,3][VIVI] :
+Les puluches sont
+aussi grands à Lindblum[SPED=2]...?[ENDN][STRT=226,5][STNR] :
+Qu’est-ce que ça veut dire ?
+C’est une mauvaise plaisanterie.
+Nous n’avons pas demandé une audience
+à un puluche ![ENDN][STRT=192,3][STNR] :
+La Princesse a beaucoup
+souffert pour arriver jusqu'à Lindblum ![ENDN][STRT=203,3][STNR] :
+C’en est trop ! Je ne peux pas vous
+laisser traiter la Princesse ainsi ![ENDN][STRT=147,3]Conseiller Olmetta :
+Calmez-vous !
+Ce puluche est le Roi Cid ![ENDN][STRT=138,2][STNR] :
+Trêve de plaisanteries ![ENDN][STRT=68,2][WDTH=0,8,18,-1,0,68,19,-1][DGGR] :
+Attendez, [STNR] ![ENDN][STRT=142,3][DGGR] :
+Cette moustache est bien
+celle de mon oncle ![ENDN][STRT=121,3]Cid :
+Oui, je suis ton oncle,
+Cid Fabre ![ENDN][STRT=199,4][WDTH=0,90,14,0,-1]Cid :
+”Une fille portant un pendentif
+en forme de [C8B040][HSHD][ITEM=0][C8C8C8][HSHD]”...
+Ce ne pouvait être que toi, Grenat.[ENDN][STRT=187,3]Cid :
+Pardonne-moi de me présenter
+sous cette pitoyable forme, pulu.[ENDN][STRT=108,2]Conseiller Olmetta :
+Je vous explique[SPED=2]...[ENDN][STRT=208,4]Conseiller Olmetta :
+Il y a six mois, des vauriens se sont
+introduits dans le château et ont
+surpris Sa Majesté dans son sommeil.[ENDN][STRT=232,3]Conseiller Olmetta :
+Quand nous sommes arrivés à sa chambre
+à coucher, il était trop tard[SPED=2]...[ENDN][STRT=192,4]Conseiller Olmetta :
+Les malfaiteurs avaient déjà
+transformé Sa Majesté en puluche
+et enlevé la Reine Hilda.[ENDN][STRT=60,1]Mon dieu[SPED=2]...[ENDN][STRT=213,4][ZDNE] :
+C’est pas facile de s’introduire
+dans ce château...
+Ils doivent être aussi doués que moi...[ENDN][STRT=188,2][STNR] :
+Est-ce un forfait des Tantalas ?![ENDN][STRT=117,2]Cid :
+Non, absolument pas.[ENDN][STRT=176,2][ZDNE] :
+Hum ? Tu connais notre bande ?[ENDN][STRT=222,3]Cid :
+Un bon roi doit être au courant de tout
+ce qui se passe dans son pays.[ENDN][STRT=223,3][DGGR] :
+Mon oncle, je suis venue vous
+demander conseil à propos de Mère.[ENDN][STRT=74,2][TAIL=UPLF]Cid :
+Oui, je sais...[ENDN][STRT=176,3][TAIL=UPLF]Cid :
+Mais vous devez être fatigués.
+Il faut que vous vous reposiez.[ENDN][STRT=195,2]Cid :
+Nous nous verrons demain, Grenat.[ENDN][STRT=89,2][DGGR] :
+Bien, mon oncle.[ENDN][STRT=144,3]Conseiller Olmetta :
+Veuillez me suivre.
+Votre dîner vous attend.[ENDN][STRT=163,2]Cid :
+Comment va la reine Branet ?[ENDN][STRT=144,2][DGGR] :
+Elle est en pleine forme[SPED=2]...[ENDN][STRT=220,3][DGGR] :
+J’ai l’impression qu’elle a complètement
+changé depuis la mort de père[SPED=2]...[ENDN][STRT=193,3]Cid :
+Elle l’aimait tant[SPED=2]...[SPED=-1]
+Sa mort a dû tellement la traumatiser.[ENDN][STRT=240,4][DGGR] :
+En ce moment, le château est fréquenté
+par des gens douteux et Mère me parle
+de moins en moins.[ENDN][STRT=247,3][DGGR] :
+Je suis persuadée qu’elle envisage de faire
+quelque chose d’affreux[SPED=2]...[ENDN][STRT=158,3][DGGR] :
+Pourtant personne ne doute
+d’elle au château.[ENDN][STRT=208,5][DGGR] :
+Tout le monde dit que si je m’inquiète
+pour Mère, c’est juste parce que
+je suis déprimée à cause de la mort
+de Père[SPED=2]...[ENDN][STRT=202,4]Cid :
+C’est pour ça que tu t’es résolue
+à demander de l’aide au meilleur ami
+de ton père.[ENDN][STRT=208,2][DGGR] :
+Oui, j’ai pensé que vous m’aideriez[SPED=2]...[ENDN][STRT=193,3][DGGR] :
+J’ai attendu l’aérothéâre
+qui pourrait m’emmener à Lindblum.[ENDN][STRT=228,4][DGGR] :
+Par hasard, son équipage était la bande
+des Tantalas qui avait l’intention
+de m’enlever[SPED=2]...[ENDN][STRT=159,4]Cid :
+Oui...
+Pour te dire la vérité, c’est
+moi qui le leur ai demandé.[ENDN][STRT=61,1]Comment ?![ENDN][STRT=162,3][TAIL=LOLF]Cid :
+J’ai promis à ton père de
+t’aider si tu en avais besoin.[ENDN][STRT=197,3][TAIL=LOLF]Cid :
+J’ai très vite eu vent des
+manigances actuelles d’Alexandrie.[ENDN][STRT=207,4][TAIL=LOLF]Cid :
+Mais je ne pouvais pas agir
+tout de suite sans risquer de causer
+une guerre.[ENDN][STRT=234,3][TAIL=LOLF]Cid :
+Bach, le chef de la bande, est un vieil ami
+d’enfance. Je lui ai demandé de m’aider.[ENDN][STRT=207,3][TAIL=LOLF]Cid :
+Les Tantalas avaient pour mission
+de t'enlever et de disparaitre...[ENDN][STRT=176,3][TAIL=LOLF]Cid :
+Je suis sûr qu’Alexandrie
+ne me demandera pas mon aide.[ENDN][STRT=225,3][TAIL=LOLF]Cid :
+Tant que nous resterons tranquilles,
+Alexandrie ne découvrira pas la vérité.[ENDN][STRT=165,5][TAIL=LORF][DGGR] :
+Dans le village de Dali,
+j’ai vu des Mages Noirs.
+Ce sont des golems sans âme,
+actionnés grâce à la magie[SPED=2]...[ENDN][STRT=236,3][TAIL=LORF][DGGR] :
+Je sais qu’ils sont fabriqués en série
+pour le compte du royaume d’Alexandrie ![ENDN][STRT=187,5][TAIL=LORF][WDTH=0,146,17,-1][DGGR] :
+Je ne sais pas quel rapport
+il y a entre [VIVI] et les Mages.
+J’ai peur que Mère s’en serve
+pour tuer les gens[SPED=2]...[ENDN][STRT=163,3][TAIL=UPLF]Cid :
+Il faut prendre des mesures
+avant qu’il ne soit trop tard.[ENDN][STRT=194,5][TAIL=UPLF]Cid :
+En outre, même avec une
+armée de Mages Noirs,
+notre flotte aérienne est toujours
+une menace pour Alexandrie.[ENDN][STRT=170,3][TAIL=UPLF]Cid :
+Ne t’inquiète pas Grenat.
+Je m’occupe de cette affaire.[ENDN][STRT=236,2][TAIL=LORF][OFFT=0,150,0][DGGR] :
+Aidez-moi, je vous en supplie, mon oncle ![ENDN][STRT=162,3][TAIL=UPLF]Cid :
+Arrête, Grenat, pulu !
+Ne sois pas si respectueuse.[ENDN][STRT=146,3][TAIL=UPLF]Cid :
+C’est ton oncle qui t’aide,
+pas le roi de Lindblum.[ENDN][STRT=168,2][TAIL=LORF][OFFT=0,150,0][DGGR] :
+Je vous remercie, mon oncle ![ENDN][STRT=124,1]Où sommes-nous ici[SPED=2]...?[ENDN][STRT=140,4]Cid :
+Ici c’est le quai de la
+flotte aérienne, le coeur
+du château de Lindblum.[ENDN][STRT=167,2][DGGR] :
+Mais il n’y a aucun vaisseau[SPED=2]...[SPED=-1][ENDN][STRT=190,4]Cid :
+Non. Le quai 1 est une sorte
+de laboratoire. Ici on fait
+des expériences aéronautiques[SPED=2]...[ENDN][STRT=217,3]Cid :
+Il y a déjà environ six mois qu’un
+nouveau modèle d’aéronef a disparu...[ENDN][STRT=171,4]Cid :
+Cet aéronef peut voler
+sans ”Brume”, c’est un modèle
+révolutionnaire ![ENDN][STRT=154,3][DGGR] :
+Ce sont vos agresseurs qui
+l’ont volé[SPED=2]...?[ENDN][STRT=230,4]Cid :
+Non. A vrai dire[SPED=2]...[SPED=-1]
+Un jour j’ai rencontré une femme très jolie
+dans une taverne de la ville[SPED=2]...[ENDN][STRT=162,3]Hm[SPED=2]...[SPED=-1]?
+Je ne vois pas ce que cela a
+à voir avec cette histoire.[ENDN][STRT=230,4]Cid :
+C’était juste un caprice sans lendemain !
+Mais Hilda s’est mise en colère et
+m’a transformé en puluche...[ENDN][STRT=177,4]Cid :
+Puis elle est partie je ne sais
+où avec un aéronef que j’avais
+baptisé ”Hildegarde”.[ENDN][STRT=12,1][CENT=12][SPED=2]...[ENDN][STRT=192,3]Cid :
+Elle n’est pas revenue au château
+depuis...[ENDN][STRT=209,5]Cid :
+Je me suis mis à construire
+un autre aéronef du même type,
+mais avec ce petit corps de puluche,
+ce n’est pas évident...[ENDN][STRT=176,2]Cid :
+Je suis vraiment minable, pulu[SPED=2]...[ENDN][STRT=190,3]Cid :
+Mais ne t’inquiète pas !
+Laisse-moi m’occuper de Branet ![ENDN][STRT=221,4][DGGR] :
+Entendu[SPED=2]...[SPED=-1]
+Mais la Porte Sud a été détruite, et
+la route pour Alexandrie est bloquée[SPED=2]...[ENDN][STRT=231,3]Cid :
+Il n’y a pas de problème.
+La reconstruction sera bientôt terminée.[ENDN][STRT=190,3]Cid :
+Dès que la Porte sera réparée,
+nous irons à Alexandrie ensemble.[ENDN][STRT=163,3][DGGR] :
+Oui, nous pourrons
+ramener Mère à la raison.[ENDN][STRT=12,1][CENT=12][SPED=2]...[ENDN][STRT=153,1]Qu’est-ce que vous avez ?[ENDN][STRT=229,3]Cid :
+Hmn... La nouvelle de la chute
+de l’aérothéâtre m’a vraiment inquiété...[ENDN][STRT=179,3]Cid :
+Je suppose que de bons hommes
+entourent Bach[SPED=2]...[ENDN][STRT=201,3][STNR] :
+J’ai réussi à retourner au château.
+Où est la chambre de la Princesse ?[ENDN][STRT=250,2][STNR] :
+Ce château et cette ville sont trop grands ![ENDN][STRT=127,4][STNR] :
+Excusez-moi,
+pourriez-vous me dire
+où je suis ?[ENDN][STRT=130,4]Vieillard :
+Quoi ? Vous êtes perdu
+Monsieur le Chevalier ?
+C’est lamentable ![ENDN][STRT=123,3]Vieillard :
+Mais bon...
+Je vais vous le dire...[ENDN][STRT=169,4]Vieillard :
+Vous êtes sur le pont
+qui relie le quai de
+la flotte aérienne au château.[ENDN][STRT=78,3]Vieillard :
+Regardez là !
+C’est le quai.[ENDN][STRT=127,3][STNR] :
+Qu’est-ce que ce
+gigantesque aéronef ?[ENDN][STRT=166,2][TAIL=UPLF]Vieillard :
+Hum ? Vous l’avez remarqué ?[ENDN][STRT=174,3]Vieillard :
+Cet aéronef à coque rouge
+est le fameux ”Hildegarde II” ![ENDN][STRT=213,4][TAIL=UPLF]Vielliard :
+Grâce à la machine à vapeur
+qu’a inventé Sa Majesté, il peut
+s’envoler dans les airs sans ”Brume”.[ENDN][STRT=212,4][STNR] :
+Est-ce que c’est bien vrai ?!
+Je pensais que seule la ”Brume”
+pouvait produire une force motrice...[ENDN][STRT=195,3]Vieillard :
+Quel ringard !
+On entre dans l’âge de la vapeur ![ENDN][STRT=238,4]Vieillard :
+La vapeur, c’est de l’eau à l’état gazeux,
+elle ne nuit donc pas à notre santé !
+Ce n’est pas comme la ”Brume”.[ENDN][STRT=196,3]Vieillard :
+Hahaha !
+L’avenir de Lindblum sera brillant ![ENDN][STRT=121,2][TAIL=LOLF][WDTH=0,121,19,-1][ZDNE] :
+Qu’est-ce que t’as [STNR] ?[ENDN][STRT=159,3][STNR] :
+Où est la Princesse ?!
+Où l’as-tu encore cachée ?![ENDN][STRT=191,4][TAIL=LOLF][ZDNE] :
+Hein ? Tu cherches ta princesse ?
+Je sais pas moi...
+Je viens juste d’arriver ici.[ENDN][STRT=144,4][STNR] :
+Où est-elle partie alors ?
+Je lui avais pourtant
+demandé de rester ici...[ENDN][STRT=151,3][TAIL=LOLF][ZDNE] :
+Peut-être qu’elle est allée
+se balader dans la cour ?[ENDN][STRT=170,3][STNR] :
+Comment tu oses dire
+une chose aussi insouciante ?![ENDN][STRT=160,3][STNR] :
+La Princesse a risqué sa vie
+pour arriver à Lindblum.[ENDN][STRT=170,3][STNR] :
+Il ne faut en aucun cas quitter
+la Princesse des yeux.[ENDN][STRT=182,3][STNR] :
+Je ne veux plus avoir à faire à toi.
+Je vais chercher la Princesse ![ENDN][STRT=84,1]Zzzz... Zzzz[SPED=2]...[ENDN][STRT=144,2][ZDNE] :
+Mais où elle est partie[SPED=2]...[SPED=-1]?[ENDN][STRT=207,3][ZDNE] :
+Cette chanson[SPED=2]...[SPED=-1]
+Je l’ai déjà entendue quelque part[SPED=2]...[ENDN][STRT=114,3][WDTH=0,113,18,-1][ZDNE] :
+C’est [DGGR] qui chante[SPED=2]...[SPED=-1]?
+Ca vient d’en haut[SPED=2]...[SPED=-1][ENDN][STRT=154,3][ZDNE] :
+La chanson vient d’en haut.
+Il faut que je monte.[ENDN][STRT=154,4][ZDNE] :
+Bon sang !
+Je dois embrouiller ce type
+pour pouvoir monter.[ENDN][STRT=177,3][ZDNE] :
+Si je suis en uniforme,
+il me laissera passer de suite[SPED=2]...[ENDN][STRT=84,1][TAIL=UPLF]Zzzz... Zzzz[SPED=2]...[ENDN][STRT=77,3][WDTH=0,8,16,-1][ZDNE] :
+Eh ! A l’aide !
+Réveille-toi ![ENDN][STRT=146,2][TAIL=UPLF]Caporal :
+Qu’est-ce qui se passe ?![ENDN][STRT=213,2][ZDNE] :
+Il y a une bande de vauriens là-haut ![ENDN][STRT=75,3][TAIL=UPLF]Caporal :
+Quoi ?
+Où sont-ils ?![ENDN][STRT=130,2][ZDNE] :
+Suis-moi, c’est par là ![ENDN][STRT=44,1][TAIL=UPLF]Oui, oui.[ENDN][STRT=160,3][TAIL=UPRF][ZDNE] :
+Non, par ici !
+Ils sont dans cette chambre.[ENDN][STRT=88,2]Sortez de là !
+Montrez-vous ![ENDN][STRT=106,2]Mais que fais-tu ?!
+Arrête...[ENDN][STRT=106,2][TAIL=UPRF][ZDNE] :
+C’est trop facile...[ENDN][STRT=162,4][ZDNE] :
+Crie pas comme ça.
+Je vais revenir te détacher.
+Ca sera pas long.[ENDN][STRT=120,3]Soldat dépouillé :
+Eh ! Il y a quelqu’un ?
+J’ai peur du noir ![ENDN][STRT=112,3]Soldat dépouillé :
+Au secours !
+Laissez-moi sortir ![ENDN][STRT=172,3]Soldat :
+Caporal...
+Vous avez un peu maigri, non ?[ENDN][STRT=143,2]Soldat :
+Vous avez grandi, non...?[ENDN][STRT=191,3]Soldat :
+Je m’occupe de cette zone.
+Veuillez faire une pause, Caporal.[ENDN][STRT=127,2]Soldat :
+L’entrée est interdite.[ENDN][STRT=96,2]Soldat :
+Tout est normal ![ENDN][STRT=245,4][ZDNE] :
+Avec cet uniforme, personne ne se doutera
+de quoi que se soit et je pourrai prendre
+l’ascenseur.[ENDN][STRT=178,4]Soldat :
+Est-ce que t’es au courant
+qu’un vieux vaisseau est arrivé
+d’Alexandrie ?[ENDN][STRT=128,4]Soldat :
+Ouais, bien sûr.
+Il y avait une superbe
+fille à bord, pas vrai ?[ENDN][STRT=180,3]Soldat :
+Il te faut une autorisation
+de Sa Majesté pour passer ici ![ENDN][STRT=216,2]Soldat :
+L’ascenseur fonctionne parfaitement ![ENDN][STRT=132,4]Soldat :
+T’as le droit d’entrer
+librement au château ?!
+T’es qui alors ?[ENDN][STRT=226,5]Nouveau soldat :
+Euh... Si vous allez tout droit[SPED=2]...[SPED=-1]
+Si je ne me trompe pas[SPED=2]...[SPED=-1]
+Vous tomberez sur le quai de la flotte...
+et sur la gare de taxair.[ENDN][STRT=151,2]Nouveau soldat :
+Tout... Tout est en ordre ![ENDN][STRT=165,4][ZDNE] :
+Maintenant j’entends chanter
+plus fort[SPED=2]...[SPED=-1]
+J’y serai bientôt.[ENDN][STRT=72,1][NFOC]Hé ! Toi là !![TIME=-1][STRT=202,3]Caporal :
+On ne dort pas pendant le service !
+Je t’ai déjà prévenu ![ENDN][STRT=106,2][ZDNE] :
+[C8C8C8][HSHD]Ouf ! J'ai eu chaud...[ENDN][STRT=144,3][ZDNE] :
+[C8C8C8][HSHD]Je peux plus avancer !
+Je vais me faire repérer.[ENDN][STRT=89,2][TAIL=UPRF]Opérateur :
+Hum ? Une fille ?[ENDN][STRT=134,3][TAIL=UPRF]Opérateur :
+Ah, je l’ai vue aller
+en haut tout à l’heure...[ENDN][STRT=170,3]Opérateur :
+Bon sang ! C’est pas vrai ça !
+J’ai perdu une vis !![ENDN][STRT=168,2]Soldat :
+Une chanson à l’air étrange...[ENDN][STRT=165,2][CENT=43]FMV016
+Chanson : Djidane et Dagga 1[ENDN][STRT=58,1]A suivre...[ENDN][STRT=167,1][TAIL=LOLF]Elle est jolie cette chanson[SPED=2]...[ENDN][STRT=169,3][DGGR] :
+Comment as-tu fais pour venir
+jusqu’ici[SPED=2]...?[ENDN][STRT=131,3][TAIL=LOLF][ZDNE] :
+Ha !
+C’était un jeu d’enfant.[ENDN][STRT=138,3][DGGR] :
+Tu connais vraiment bien
+l’art de l’intrusion[SPED=2]...[ENDN][STRT=12,1][CENT=12]...[ENDN][STRT=31,1]Ah...?[ENDN][STRT=122,3][TAIL=LOLF][ZDNE] :
+Oh, quelle belle vue !
+La ville est si petite vue d'ici ![ENDN][STRT=206,3][TAIL=UPLF][ZDNE] :
+Ah, un télescope !
+Si on regardait ce qu’on voit avec ?[ENDN][STRT=74,2][WDTH=0,8,16,-1][ZDNE] :
+Viens par ici.[ENDN][STRT=79,1]Voyons voir[SPED=2]...[ENDN][STRT=174,2][MPOS=0,50]Je vois très clairement
+des choses qui sont très loin...[ENDN][STRT=227,1][TAIL=LOC][NANI][NFOC][IMME]Utilisez [DBTN=PAD][MOBI=262] pour manipuler le télescope ![TIME=-1][STRT=101,1][NANI][TAIL=UPC][IMME]Chaîne des Aerbs[TIME=-1][STRT=131,2][TAIL=LOC]Bloumécia est entourée
+par ces montagnes...[ENDN][STRT=190,3][TAIL=LOC]On passe par la caverne en bas
+de l’une des montagnes pour aller
+à Bloumécia.[ENDN][STRT=157,2][TAIL=LOC]Au-delà de cette montagne,
+c’est Alexandrie.[ENDN][STRT=143,1][TAIL=LOC]On est recherché là-bas.[ENDN][STRT=64,1][NANI][TAIL=UPC][IMME]Les Marais.[TIME=-1][STRT=125,2][TAIL=LOC]Il doit y avoir plein de
+créatures étranges...[ENDN][STRT=226,2][TAIL=LOC]On ira dans ces marais la prochaine fois
+qu’on passe dans les environs.[ENDN][STRT=83,1][NANI][TAIL=UPC][IMME]La Forêt de ??[TIME=-1][STRT=94,1][TAIL=LOC]Ah, un Chocobo ![ENDN][STRT=123,2][TAIL=LOC]Cette forêt est un nid
+isolé de Chocobo ?[ENDN][STRT=77,1][NANI][TAIL=UPC][IMME]La Porte Sud.[TIME=-1][STRT=51,1][NANI][TAIL=UPC][IMME]Le Siber.[TIME=-1][STRT=149,2][TAIL=LOC]La Porte Sud se trouve en
+amont sur le Siber.[ENDN][STRT=188,2][TAIL=LOC]En marchant le long de la rivière,
+on tombe sur la Porte Sud.[ENDN][STRT=138,3][TAIL=LOC]Ah, je vois la Porte Sud.
+On a déjà commencé à
+la reconstruire ?[ENDN][STRT=220,2][TAIL=LOC]Il y a eu pas mal de dégâts...
+Il faudra du temps pour tout réparer...[ENDN][STRT=125,1][TAIL=LOC]Laisse-moi regarder ![ENDN][STRT=177,2][TAIL=UPLF][ZDNE] :
+Alors ? Tu vois quelque chose ?[ENDN][STRT=131,3][TAIL=UPRF][DGGR] :
+(J’ai mêlé plein de gens
+à mes histoires[SPED=2]...[SPED=-1])[ENDN][STRT=178,2][TAIL=UPRF][DGGR] :
+(Mon oncle avait tout deviné[SPED=2]...[SPED=-1])[ENDN][STRT=204,3][TAIL=UPRF][DGGR] :
+(Il avait même demandé aux Tantalas
+de m’emmener à Lindblum[SPED=2]...[SPED=-1])[ENDN][STRT=225,3][TAIL=UPRF][DGGR] :
+(J’ai beau faire des efforts, je suis
+toujours en retard sur tout le monde[SPED=2]...[SPED=-1])[ENDN][STRT=72,1][TAIL=UPRF](Toujours[SPED=1]...[SPED=-1])[ENDN][STRT=127,2][TAIL=UPLF][WDTH=0,127,18,-1][ZDNE] :
+Qu’est-ce que t'as [DGGR] ?[ENDN][STRT=36,2][TAIL=UPRF][WDTH=0,8,18,-1,0,36,16,-1][DGGR] :
+Dis, [ZDNE][SPED=2]...[ENDN][STRT=142,3][TAIL=UPRF][DGGR] :
+C’est parce que ton chef
+te l’a ordonné que[SPED=2]...[ENDN][STRT=215,2][TAIL=UPRF][DGGR] :
+...tu m’as emmenée jusqu’à Lindblum[SPED=2]...[SPED=-1]?[ENDN][STRT=221,3][TAIL=UPLF][ZDNE] :
+C’est pas ça, [DGGR].
+C’est parce que je voulais te sauver...[ENDN][STRT=246,2][TAIL=UPLF][ZDNE] :
+C’était pas parce qu’on me l’avait ordonné.[ENDN][STRT=177,3][TAIL=UPLF][ZDNE] :
+J’ai quitté les Tantalas à cause
+d’un désaccord avec le chef...[ENDN][STRT=120,3][TAIL=UPRF][DGGR] :
+C’est vrai ?
+Je ne le savais pas[SPED=2]...[ENDN][STRT=154,4][TAIL=UPLF][ZDNE] :
+C’est pas grand-chose.
+T’inquiète pas, c’est pas la
+première fois.[ENDN][STRT=12,1][WDTH=0,12,16,-1][ZDNE][SPED=2]...[ENDN][STRT=171,2][ZDNE] :
+Hum ? T’as dit quelque chose ?[ENDN][STRT=152,3][DGGR] :
+Mais comment tu aurais fait
+pour m’enlever ?[ENDN][STRT=220,3][ZDNE] :
+D’abord, je t’aurais endormie avec un
+sédatif et ensuite je t’aurais emmenée.[ENDN][STRT=215,4][TAIL=UPLF][ZDNE] :
+C’est un calmant pour les gosses, mais
+avec une dose un peu forte, même
+les adultes s’endorment.[ENDN][STRT=206,3][DGGR] :
+Comme je t’ai demandé de m’enlever,
+tu n’as pas eu besoin de l’utiliser.[ENDN][STRT=186,2][TAIL=UPRF][DGGR] :
+Tu pourrais m’en donner un peu ?[ENDN][STRT=169,3][TAIL=UPRF][DGGR] :
+Je n’ai pas dormi suffisamment
+depuis quelques jours[SPED=2]...[ENDN][STRT=257,3][TAIL=UPLF][ZDNE] :
+C’est pas bon de prendre des calmants
+pour dormir. Si je te chantais une berceuse ?[ENDN][STRT=153,2][TAIL=UPRF][DGGR] :
+Je ne suis plus une enfant ![ENDN][STRT=127,3][ZDNE] :
+Si t’étais qu’une môme,
+ce serait gênant[SPED=2]...[ENDN][STRT=161,1]Qu’est-ce que tu racontes ?[ENDN][STRT=209,5][TAIL=UPLF][ZDNE] :
+Non, non, oublie ce que j’ai dit.
+Au fait, la chanson que tu chantais
+tout à l’heure... Tu l’as déjà chantée
+à Dali, pas vrai ?[ENDN][STRT=119,3][DGGR] :
+Oui[SPED=2]...[SPED=-1]
+Tu ne dormais pas[SPED=2]...[SPED=-1]?[ENDN][STRT=135,3][TAIL=UPLF][ZDNE] :
+Je l’aime bien.
+Comment elle s’appelle ?[ENDN][STRT=185,3][DGGR] :
+Moi-même je ne sais plus comment
+je l’ai apprise...[ENDN][STRT=231,4][DGGR] :
+Depuis mon enfance, quand je suis triste,
+je la chante. Je ne sais pas pourquoi,
+mais ça me rend heureuse[SPED=2]...[ENDN][STRT=132,3][DGGR] :
+Je me sens moins seule,
+et je suis plus positive.[ENDN][STRT=208,3][TAIL=UPLF][ZDNE] :
+C’est bizarre[SPED=2]...[SPED=-1]
+Tu peux la chanter encore une fois ?[ENDN][STRT=34,2][TAIL=UPLF][WDTH=0,8,16,-1,0,34,18,-1][ZDNE] :
+Hé, [DGGR][SPED=2]...[ENDN][STRT=155,3][TAIL=UPLF][ZDNE] :
+Au fait, quand est-ce qu’on
+part en croisière ?[ENDN][STRT=106,1]De quoi tu parles ?[ENDN][STRT=36,1][TAIL=UPLF]Ah...?![ENDN][STRT=179,3][TAIL=UPLF][ZDNE] :
+C’est vrai ! C’est à la serveuse
+que je l’avais proposé[SPED=2]...[SPED=-1]![ENDN][STRT=124,3][DGGR] :
+Je crois que cela
+ne me concerne pas[SPED=2]...[SPED=-1][ENDN][STRT=143,2][TAIL=LOLF][ZDNE] :
+Attends, le prends pas comme ça ![ENDN][STRT=182,2][WDTH=0,182,16,-1][DGGR] :
+Je ne suis pas du tout surprise [ZDNE].[ENDN][STRT=134,3][DGGR] :
+J’espère que vous vous
+amuserez bien là-haut ![ENDN][STRT=76,1][TAIL=LOLF]Excuse-moi[SPED=2]...[ENDN][STRT=211,3][TAIL=UPRF][ZDNE] :
+Si je suis le champion de la fête de la
+chasse, je t’emmène en croisière ![ENDN][STRT=153,2][TAIL=UPLF][DGGR] :
+Je ne vois pas le rapport ![ENDN][STRT=62,1]D’accord ?[ENDN][STRT=64,1][TAIL=UPLF]D’accord...[ENDN][STRT=114,2][WDTH=0,114,18,-1][ZDNE] :
+Bon, tu m’a promis [DGGR] ![ENDN][STRT=51,1][WDTH=0,51,16,-1]Merci[SPED=2]...[SPED=-1] [ZDNE].[ENDN][STRT=155,2][WDTH=0,155,16,-1][NFOC][VIVI] :
+([ZDNE] est vraiment en retard[SPED=2]...[SPED=-1])[TIME=-1][STRT=145,3][NFOC][STNR] :
+Il vous faut prendre
+des vacances, Princesse.[TIME=-1][STRT=28,1][NFOC]Oui[SPED=2]...[SPED=-1][TIME=-1][STRT=204,2][WDTH=0,204,16,-1][FRYA] :
+(Est-ce que [ZDNE] a fait des progrès[SPED=2]...[SPED=-1]?)[TIME=-1][STRT=116,3][ZDNE] :
+Pardon !
+J’ai dû me préparer.[ENDN][STRT=135,3]Caporal :
+Je vais vous expliquer
+les règles de la chasse.[ENDN][STRT=190,10][IMME]
+[CENT=190][68C0D8][HSHD]= [C8C8C8][HSHD]Fête de la chasse de Lindblum[68C0D8][HSHD] =[C8C8C8][HSHD]
+
+[CENT=150]Allez chasser les monstres
+[CENT=150]lâchés dans toute la ville !
+
+[CENT=162]Plus votre proie est grande,
+[CENT=168]plus vous marquez de points !
+[CENT=86]Bonne chance !
+[ENDN][STRT=245,14][IMME]
+[CENT=190][68C0D8][HSHD]= [C8C8C8][HSHD]Fête de la chasse de Lindblum[68C0D8][HSHD] =[C8C8C8][HSHD]
+
+[CENT=152]La chasse dure [68C0D8][HSHD]12[C8C8C8][HSHD] minutes.
+[CENT=203]Au cours de la chasse, vous pouvez
+[CENT=141]vous déplacer en taxair.
+[CENT=245]Si vous perdez un combat avec un monstre,
+[CENT=236]la chasse est finie pour vous. Vous devez
+[CENT=174]vous retirer de la compétition.
+
+[CENT=236]Le champion de la chasse recevra un [68C0D8][HSHD]prix
+ [CENT=155]d’honneur[C8C8C8][HSHD] et la [68C0D8][HSHD]Diane d’Or[C8C8C8][HSHD].
+[CENT=86]Bonne chance !
+[ENDN][STRT=229,2]Caporal :
+Avez-vous choisi votre prix d’honneur ?[ENDN][STRT=136,2][ZDNE] :
+Ouais, je veux des [68C0D8][HSHD]gils[C8C8C8][HSHD] ![ENDN][STRT=142,2][FRYA] :
+Je choisis un [68C0D8][HSHD]accessoire[C8C8C8][HSHD].[ENDN][STRT=203,3]Caporal :
+Quel prix d’honneur préférez-vous,
+chasseur [VIVI] ?[ENDN][STRT=141,3][VIVI] :
+Pourquoi je dois aussi
+participer à la chasse ?![ENDN][STRT=80,3][ZDNE] :
+Je t’ai inscrit.
+Bon courage ![ENDN][STRT=130,3][ZDNE] :
+Avec ta magie noire,
+t’as pas à avoir peur ![ENDN][STRT=36,1]Mais...[ENDN][STRT=120,2][FRYA] :
+Tu n’as pas changé...[ENDN][STRT=157,1]Oui, j’ai eu une bonne idée ![ENDN][STRT=224,3][WDTH=0,184,18,-1][ZDNE] :
+(Si tu deviens le champion de la chasse,
+t’auras un rendez-vous avec [DGGR] !)[ENDN][STRT=210,2][VIVI] :
+Un rendez-vous avec la princesse ?![ENDN][STRT=122,2][ZDNE] :
+(chut ! Pas si fort !)[ENDN][STRT=122,3][STNR] :
+Hum ? Vous parliez de
+la Princesse, hein ?[ENDN][STRT=150,3][STNR] :
+Qu’est-ce que tu combines
+encore ?![ENDN][STRT=61,3][WDTH=0,8,16,-1,0,61,17,-1][ZDNE] :
+Mais rien !
+Pas vrai [VIVI] ?[ENDN][STRT=85,1]N... Non, rien...[ENDN][STRT=141,2]Caporal :
+Quel prix désirez-vous ?[ENDN][STRT=121,3][VIVI] :
+Euh... moi je voudrais
+des [68C0D8][HSHD]cartes[C8C8C8][HSHD][SPED=2]...[ENDN][STRT=216,3]Caporal :
+Bien.
+Des [68C0D8][HSHD]gils[C8C8C8][HSHD], un [68C0D8][HSHD]accessoire[C8C8C8][HSHD] et des [68C0D8][HSHD]cartes[C8C8C8][HSHD].[ENDN][STRT=124,2]Caporal :
+Bon, préparez-vous ![ENDN][STRT=192,4][WDTH=0,192,16,-1,0,127,20,-1,0,151,17,-1]Caporal :
+[ZDNE], vous allez au quartier théâtral !
+[FRYA], au quartier ouvrier !
+[VIVI], au quartier commerçant ![ENDN][STRT=147,3]Caporal :
+Le chasseur [ZDNE]
+part du quartier théâtral.[ENDN][STRT=134,4]Caporal :
+Utilisez le taxair
+pour aller d’un quartier
+à l’autre.[ENDN][STRT=122,3]Soldat :
+Bonne chance pour
+la fête de la chasse ![ENDN][STRT=116,3]Soldat :
+La fête de la chasse
+commencera bientôt.[ENDN][STRT=164,3]Soldat :
+Dépêchez-vous d’aller
+à votre quartier de départ ![ENDN][STRT=207,4]Nouveau soldat :
+Je suis toujours en service,
+alors que tout le monde fait la fête !
+C’est dur la vie de soldat...[ENDN][STRT=179,3][NFOC]Chef de gare :
+Le taxair à destination
+du quartier théâtral va partir ![TIME=-1][STRT=120,2]Chef de gare :
+Attention au départ ![ENDN][STRT=142,2][TAIL=UPRF]Cid :
+Toutes mes félicitations ![ENDN][STRT=187,3][TAIL=UPLF][WDTH=0,154,64,7,-1]Conseiller Olmetta :
+Vous gagnez le titre de champion
+de la chasse avec [NUMB=7] points ![ENDN][STRT=165,3]Cid :
+Voici votre prix d’honneur et
+la Diane d’Or ![ENDN][STRT=106,2][WDTH=0,106,16,-1][VIVI] :
+Ah ! Tu es génial [ZDNE] ![ENDN][STRT=155,2][ZDNE] :
+Tu t’en es bien sorti aussi ![ENDN][STRT=167,3][STNR] :
+Vous êtes un grand chasseur,
+Monsieur [VIVI] ![ENDN][STRT=143,2][VIVI] :
+Je me sens un peu gêné...[ENDN][STRT=142,3][WDTH=0,86,20,-1][ZDNE] :
+Félicitations, [FRYA] !
+T’es vraiment très forte.[ENDN][STRT=198,3][FRYA] :
+C’est le résultat
+de longues années d’entraînement.[ENDN][STRT=67,1]Le Roi Cid[SPED=2]...[ENDN][STRT=148,2]Soldat de Bloumécia :
+Pardonnez mon intrusion[SPED=2]...[ENDN][STRT=164,3][TAIL=LORF][OFFT=200,0,0]Soldat de Bloumécia :
+J’apporte un message urgent
+du Roi de Bloumécia[SPED=2]...[SPED=-1][ENDN][STRT=143,3]Cid :
+Quoi ? Un message urgent
+du Roi de Bloumécia ?[ENDN][STRT=197,2]Conseiller Olmetta :
+(Majesté, vous êtes un puluche[SPED=2]...[SPED=-1]!)[ENDN][STRT=171,3]Cid :
+(Regarde bien ce soldat, pulu.
+La magie l’a rendu aveugle.)[ENDN][STRT=88,2]Cid :
+Dis-le moi, pulu.[ENDN][STRT=261,3][TAIL=LORF][OFFT=200,0,0]Notre royaume est attaqué par une armée
+inconnue. Le combat tourne à notre
+désavantage. Nous vous demandons des renforts ![ENDN][STRT=10,1][TAIL=UPRF][CENT=10]!![ENDN][STRT=134,3][TAIL=LORF][OFFT=200,0,0]Soldat de Bloumécia :
+L’armée ennemie porte
+des chapeaux pointus[SPED=2]...[ENDN][STRT=265,3][TAIL=UPRF]Cid :
+Bloumécia et Lindblum ont toujours été alliées !
+Je vais envoyer notre flotte en renfort ![ENDN][STRT=281,3][TAIL=UPRF][OFFT=200,0,0]Soldat de Bloumécia :
+Je vous remercie pour votre aide, roi Cid[SPED=2]...[SPED=-1]
+Le roi de Bloumécia vous en sera reconnaissant...[ENDN][STRT=187,2][TAIL=LORF][OFFT=200,0,0]Soldat de Bloumécia :
+Je dois en informer Sa Majesté[SPED=2]...[ENDN][STRT=120,2][TAIL=LORF][OFFT=200,0,0]Soldat de Bloumécia :
+[SPED=2]...[SPED=-1]au plus[WAIT=5] tôt[SPED=2]...[ENDN][STRT=97,3][TAIL=UPRF]Cid :
+Dépêchez-vous !
+Soignez-le vite ![ENDN][STRT=207,3][TAIL=UPLF][FRYA] :
+C’est trop tard[SPED=2]...[SPED=-1]
+Ses blessures étaient trop graves...[ENDN][STRT=130,4][TAIL=UPLF][FRYA] :
+Il ne lui restait que la
+force de vous délivrer
+ce message...[ENDN][STRT=162,2][TAIL=UPLF][FRYA] :
+Que s’est-il passé là-bas[SPED=2]...?[ENDN][STRT=120,2]Conseiller Olmetta :
+Qu’allez-vous faire ?[ENDN][STRT=226,4]Conseiller Olmetta :
+La plupart des soldats sont occupés
+par la fête de la chasse, il n’y en a plus
+assez au château pour armer la flotte ![ENDN][STRT=95,3]Cid :
+Appelez la flotte
+de la frontière ![ENDN][STRT=149,3]Conseiller Olmetta :
+Voudriez-vous arrêter de
+surveiller Alexandrie ?![ENDN][STRT=248,2]Cid :
+Je ne peux pas laisser détruire Bloumécia...[ENDN][STRT=191,3][WDTH=0,191,17,-1][FRYA] :
+Des chapeaux pointus[SPED=2]...[SPED=-1]
+Seraient-ils des Mages Noirs comme [VIVI].[ENDN][STRT=68,1]Mais, non[SPED=2]...![ENDN][STRT=178,2][DGGR] :
+Mère attaquerait Bloumécia[SPED=2]...[SPED=-1]?![ENDN][STRT=166,3][FRYA] :
+Permettez-moi de me retirer.
+Je pars devant.[ENDN][STRT=114,2][WDTH=0,114,20,-1][ZDNE] :
+Je viens avec toi, [FRYA] ![ENDN][STRT=137,3][FRYA] :
+Je te remercie mais,
+c’est mon affaire, pas...[ENDN][STRT=168,3][ZDNE] :
+Tais-toi ! Je peux pas laisser
+détruire le pays d’une amie ![ENDN][STRT=117,3][ZDNE] :
+Même si tu veux pas,
+j'irais à Bloumécia ![ENDN][STRT=51,2][WDTH=0,8,20,-1,0,51,16,-1][FRYA] :
+[ZDNE][SPED=2]...[SPED=-1] Merci.[ENDN][STRT=176,3][VIVI] :
+Je viens aussi !
+Je veux les voir de mes yeux[SPED=2]...[ENDN][STRT=64,1]D’accord[SPED=2]...[SPED=-1][ENDN][STRT=114,2][DGGR] :
+Allez, partons vite ![ENDN][STRT=128,3][STNR] :
+C’est trop dangereux
+pour vous, Princesse ![ENDN][STRT=212,4][WDTH=0,146,19,-1]Cid :
+Le Capitaine [STNR] a tout à fait
+raison. Et puis, on ne sait pas encore
+qui est l’agresseur.[ENDN][STRT=191,3][DGGR] :
+Mais si ce sont des Mages Noirs[SPED=2]...[SPED=-1]
+c’est sûrement Mère...[ENDN][STRT=12,1][TAIL=UPLF][CENT=12][SPED=2]...[ENDN][STRT=104,2][DGGR] :
+Je dois l’arrêter ![ENDN][STRT=175,3][ZDNE] :
+Je peux pas t’emmener[SPED=2]...[SPED=-1]
+sur un vrai champ de bataille[SPED=2]...[ENDN][STRT=15,1][WDTH=0,15,16,-1][ZDNE] ?![ENDN][STRT=126,2][ZDNE] :
+Reste ici, s’il te plaît.[ENDN][STRT=196,3][DGGR] :
+Qu’est-ce que ça veut dire ?
+Je sais bien que c’est dangereux ![ENDN][STRT=211,3][ZDNE] :
+As-tu déjà assisté à une guerre ?
+Ou vu des gens qui meurent ?[ENDN][STRT=52,2][WDTH=0,8,18,-1][DGGR] :
+Mais je[SPED=2]...[ENDN][STRT=227,5][ZDNE] :
+[DGGR][SPED=2]...[SPED=-1]
+Tout à l’heure, qu’est-ce que tu t’es dit
+en voyant le soldat de Bloumécia mourir
+devant toi ?[ENDN][STRT=81,2][DGGR] :
+Le[SPED=2]...[SPED=-1][WAIT=3] pauvre[SPED=2]...[SPED=-1][ENDN][STRT=209,3][ZDNE] :
+C’est vrai qu’il a pas eu de chance[SPED=2]...[SPED=-1]
+T’as pas tort...[ENDN][STRT=192,3][ZDNE] :
+Mais t’as pas imaginé[SPED=2]...[SPED=-1] qu’il
+pouvait t’arriver la même chose[SPED=2]...[ENDN][STRT=191,4][ZDNE] :
+C’est pas le moment de persuader
+ta mère d’arrêter la guerre !
+On a pas de temps à perdre ![ENDN][STRT=36,1]Mais...[ENDN][STRT=235,3]Cid :
+Eh là, calmez-vous[SPED=2]...[SPED=-1]
+Ce n’est pas le moment de vous disputer ![ENDN][STRT=205,3][FRYA] :
+Il a raison.
+Nous devons partir pour Bloumécia ![ENDN][STRT=171,3][FRYA] :
+Pourriez-vous ouvrir la Porte
+du Dragon Terrestre, s'il vous plaît ?[ENDN][STRT=178,3]Cid :
+Bien sûr. Si vous y allez à pied,
+c’est la seule sortie.[ENDN][STRT=212,3]Cid :
+En attendant l’ouverture de la porte,
+régalez-vous.[ENDN][STRT=147,3][VIVI] :
+Ah !
+Il y a plein de bons plats ![ENDN][STRT=211,4][TAIL=UPRF]Cid :
+C’est le repas traditionnel
+que l’on sert à l’occasion de la fête
+de la chasse, depuis plus de 500 ans.[ENDN][STRT=213,3][TAIL=UPRF]Cid :
+La coutume veut que l’on mange
+avec ses doigts. Ne vous gênez pas ![ENDN][STRT=220,3][DGGR] :
+Puisque vous nous y encouragez[SPED=2]...[SPED=-1]
+Mangeons avant que ça ne refroidisse.[ENDN][STRT=92,2][FRYA] :
+C’est délicieux ![ENDN][STRT=114,2][VIVI] :
+Oui, c’est très bon ![ENDN][STRT=12,1][CENT=12][SPED=2]...[ENDN][STRT=224,4][ZDNE] :
+Allez, mange !
+De toute façon, il y aura rien à faire
+en attendant que la porte soit ouverte.[ENDN][STRT=81,1]Tu as raison[SPED=2]...[SPED=-1][ENDN][STRT=80,2][ZDNE] :
+C’est drôlement bon ![ENDN][STRT=188,3][TAIL=UPLF][STNR] :
+Je n’avais rien mangé d’aussi succulent
+depuis longtemps ![ENDN][STRT=185,2][TAIL=UPLF][STNR] :
+Vous ne mangez pas, Princesse ?[ENDN][STRT=125,2][DGGR] :
+Euh... je n’ai pas faim.[ENDN][STRT=194,2][DGGR] :
+Tous les plats ont l’air très bons ![ENDN][STRT=208,3][TAIL=UPRF][STNR] :
+Hahahaha ! Ils sont vraiment très bons !
+Particulièrement, ce plat de viande ![ENDN][STRT=38,1][NFOC]Hmn[SPED=2]...[SPED=-1]?[TIME=-1][STRT=143,3][VIVI] :
+Hum[SPED=2]...[SPED=-1][WAIT=3] J’ai de plus en plus
+sommeil...[ENDN][STRT=10,1][NFOC][CENT=10]!![TIME=-1][STRT=18,1][OFFT=100,0,-200][WDTH=0,18,18,-1][NFOC][DGGR]...?[TIME=-1][STRT=200,2][STNR] :
+Bon dieu ! On nous a empoisonnés !![ENDN][STRT=180,3][TAIL=UPRF][STNR] :
+Ce... c’est pas vrai...[WAIT=10] Je...[WAIT=5] Je[SPED=2]...[SPED=-1]
+J’étouffe[SPED=2]...![ENDN][STRT=174,3][TAIL=UPRF][STNR] :
+Pardonnez...[WAIT=5] moi, Princesse[SPED=2]...[SPED=-1]
+J’aurais dû vérifier les plats[SPED=2]...[ENDN][STRT=203,3][TAIL=UPRF][DGGR] :
+Ce n’est pas possible !
+Je n’ai rien mis dans votre assiette.[ENDN][STRT=190,3][TAIL=UPRF][STNR] :
+Hum[SPED=2]...[SPED=-1]?[WAIT=10]
+Tiens, c’est vrai. Je ne sens rien.[ENDN][STRT=163,3][TAIL=UPRF][STNR] :
+Mais...[WAIT=5] attendez, Princesse ![WAIT=5]
+Comment le savez-vous ?[ENDN][STRT=152,2][STNR] :
+Princesse...[WAIT=5] Ne me dites pas que...?![ENDN][STRT=226,4][WDTH=0,174,16,-1][DGGR] :
+Ce n’est pas du poison, juste un calmant
+que m’a donné [ZDNE]. Je ne comptais
+pas l’utiliser comme ça mais...[ENDN][STRT=177,3][DGGR] :
+Ecoutez, [STNR].
+Je veux faire ce que je peux[SPED=2]...[ENDN][STRT=214,2][DGGR] :
+Je n’aime pas qu’on décide pour moi[SPED=2]...[ENDN][STRT=190,3][STNR] :
+C’est que tout le monde s’inquiète
+tellement pour vous, Princesse ![ENDN][STRT=119,2][DGGR] :
+Je le sais bien mais[SPED=2]...[ENDN][STRT=164,3][STNR] :
+Non, vous ne comprenez pas,
+Princesse ![ENDN][STRT=257,4][TAIL=UPRF][STNR] :
+Je connais bien l’horreur de la guerre !
+Même si vous m’ordonniez de vous y emmener,
+je ne pourrai pas le faire ![ENDN][STRT=163,3][DGGR] :
+Si c’est l’armée d’Alexandrie
+qui a envahi Bloumécia[SPED=2]...[ENDN][STRT=162,3][DGGR] :
+...la guerre s’étendra à tout
+le Continent de la ”Brume”...[ENDN][STRT=204,3][DGGR] :
+Beaucoup de gens perdront la vie...
+Mère aussi[SPED=2]...[ENDN][STRT=177,4][DGGR] :
+Il doit y avoir des choses que
+seule la princesse d’Alexandrie
+puisse faire ![ENDN][STRT=182,3][DGGR] :
+Je n’ai plus que Mère[SPED=2]...[SPED=-1]
+Je ne veux pas la voir mourir[SPED=2]...[SPED=-1]![ENDN][STRT=12,1][CENT=12][SPED=2]...[ENDN][STRT=202,2][STNR] :
+Je comprends bien vos sentiments[SPED=2]...[SPED=-1][ENDN][STRT=167,2][STNR] :
+Je vous suivrai n’importe où ![ENDN][STRT=117,2][WDTH=0,117,19,-1][DGGR] :
+Je vous remercie, [STNR]...[ENDN][STRT=171,3][TAIL=LOLF][DGGR] :
+Allez, [WAIT=5] partons pour Bloumécia
+avant qu’ils ne se réveillent ![ENDN][STRT=89,2][OFFT=200,0,-200][TAIL=UPLF][WDTH=0,89,16,-1][DGGR] :
+Pardonne-moi, [ZDNE].[ENDN][STRT=62,1][TAIL=UPLF]Allez vite ![ENDN][STRT=123,2][STNR] :
+Attendez, Princesse ![ENDN][STRT=83,1][WDTH=0,83,18,-1][SPED=4][DGGR][SPED=2]...[SPED=-1][WAIT=10] [SPED=4]Où vas-tu[SPED=2]...[ENDN][STRT=229,2][FRYA] :
+Ce devait être une sorte de somnifère...[ENDN][STRT=149,2][TAIL=UPLF][ZDNE] :
+Je lui en ai donné un peu...[ENDN][STRT=146,3][TAIL=UPLF][ZDNE] :
+...parce qu’elle m’a dit
+qu’elle dormait pas bien...[ENDN][STRT=140,3][FRYA] :
+Je ne la savais pas aussi
+intrigante...[ENDN][STRT=184,3][TAIL=UPLF][ZDNE] :
+Qu’est-ce qu’elle veut faire ?!
+Elle est partie pour Bloumécia ?![ENDN][STRT=169,3]Cid :
+Dans ce cas-là, vous pourrez
+encore les rattraper ![ENDN][STRT=196,3][TAIL=UPLF][ZDNE] :
+Eh, [VIVI] ! Réveille-toi !
+On part à Bloumécia tout de suite ![ENDN][STRT=95,2][TAIL=UPRF]Cid :
+Elle nous a bien eus...[ENDN][STRT=207,3][FRYA] :
+Passons par la [68C0D8][HSHD]Caverne de Guismar[C8C8C8][HSHD] !
+Nous serons plus vite à Bloumécia ![ENDN][STRT=261,4][TAIL=UPRF]Cid :
+Descendez jusqu’au sous-sol par l’ascenseur,
+et sortez du château par la Porte du Dragon
+Terrestre ![ENDN][STRT=198,3][TAIL=UPRF]Cid :
+Dépêchez-vous d’aller à Bloumécia
+par la [68C0D8][HSHD]Caverne de Guismar[C8C8C8][HSHD] ![ENDN][STRT=194,5][ZDNE] :
+Tu es marinière ?
+Je l’ai reconnu à ton habit.
+En ce moment, il y a de plus en
+plus de femmes qui s’embarquent[SPED=2]...[SPED=-1][ENDN][STRT=224,4]Marinière :
+Bonjour[SPED=2]...[SPED=-1]
+Je suppose que vous vous y connaissez
+en bateaux.[ENDN][STRT=196,3][ZDNE] :
+Pas tant que ça[SPED=2]...[SPED=-1]
+Au fait, pourquoi t’es au château ?[ENDN][STRT=205,3]Marinière :
+J’ai été choisie comme pilote d’essai
+pour le nouvel aéronef[SPED=2]...[SPED=-1][ENDN][STRT=187,3]Marinière :
+Mais l'Hildegarde a disparu...
+Je n’ai vraiment pas de chance[SPED=2]...[SPED=-1][ENDN][STRT=228,4]Marinière :
+Et puis, la transformation de Sa Majesté
+en bestiole a retardé la construction
+de l'Hildegarde II[SPED=2]...[SPED=-1][ENDN][STRT=208,5][ZDNE] :
+Te décourage pas trop[SPED=2]...[SPED=-1]
+Un jour, tout le monde parlera de toi
+comme de la pilote d’un nouveau
+modèle d’aéronef ![ENDN][STRT=131,3][ZDNE] :
+Au fait[SPED=2]...[SPED=-1]
+Comment tu t’appelles ?[ENDN][STRT=192,3]Marinière :
+Merci de m’avoir encouragée !
+Ca m’a donné envie de travailler ![ENDN][STRT=103,3][WDTH=0,103,16,-1][ZDNE] :
+Dis-moi ton nom[SPED=2]...[SPED=-1]
+Moi je m’appelle [ZDNE] ![ENDN][STRT=85,2]Marinière :
+Moi, c’est Erin.[ENDN][STRT=166,3][ZDNE] :
+Erin[SPED=2]...[SPED=-1]
+Si on allait prendre un pot[SPED=2]...[SPED=-1]?[ENDN][STRT=178,3]Erin :
+Il faut que je m’entraîne
+pour devenir une bonne pilote ![ENDN][STRT=157,3]Officier :
+Vous avez eu de la chance
+de rencontrer Sa Majesté ![ENDN][STRT=241,3]Officier :
+Je ne l’a vu qu’une seule fois
+depuis six mois que je suis devenue officier.[ENDN][STRT=203,3]Officier :
+On dirait qu’il est toujours
+très occupé. Il m’inspire le respect.[ENDN][STRT=138,3]Caporal :
+Sa Majesté vous attend.
+Veuillez entrer ![ENDN][STRT=220,4]Soldat :
+Le port d’Alexandrie est droit devant.
+Mais depuis l’apparition de la ”Brume”,
+il est toujours fermé.[ENDN][STRT=242,3]Soldat :
+La ”Brume” n’est pas bonne pour la santé.
+Il vaut mieux que tu sortes pas.[ENDN][STRT=134,3]Soldat :
+On dit que ce port était
+très animé autrefois.[ENDN][STRT=262,4]Soldat :
+Mais aujourd’hui, en plus de la ”Brume”,
+il y a de moins en moins de vaisseaux
+qui y entrent. Nous vivons l’âge de l’aéronef ![ENDN][STRT=218,4]Soldat :
+J’ai de l’asthme[SPED=2]...[SPED=-1]!
+C’est sûrement à cause de la ”Brume”.
+Je veux entrer dans le château ![ENDN][STRT=162,3]Soldat :
+A quoi ça sert de patrouiller
+dans un port désert...[ENDN][STRT=186,4]Soldat :
+Ici c’est la ”Porte du Dragon
+Terrestre”, l’entrée au-dessous
+de la ”Brume”.[ENDN][STRT=248,4]Soldat :
+Depuis que la ”Brume” s’est épaissie,
+elle est toujours fermée.
+Sinon des monstres envahiraient le château.[ENDN][STRT=128,4]Soldat :
+Pour ouvrir la porte,
+il faut une autorisation
+de Sa Majesté ![ENDN][STRT=198,3]Soldat :
+Est-ce que tu connais les noms des
+quatre portes de Lindblum ?[ENDN][STRT=157,3][PCHC=2,1][IMME]Les quatre portes de Lindblum...?
+[CHOO][MOVE=18,0]Oui, bien sûr !
+[MOVE=18,0]Pas du tout.[ENDN][STRT=174,4]Soldat :
+Quoi ? Tu ne les connais pas ?!
+Je vais te les apprendre, moi !
+Faut pas que tu les oublies ![ENDN][STRT=197,2]Soldat :
+C’est normal que tu les connaisses.[ENDN][STRT=226,4]Soldat :
+La plus grande, celle par où
+les aéronefs entrent dans le château,
+s’appelle la ”Porte du Dragon Céleste”.[ENDN][STRT=196,4]Soldat :
+Celle par où on monte de la ville
+au-dessus de la ”Brume” s’appelle
+la ”Porte du Dragon”.[ENDN][STRT=239,3]Soldat :
+Celle qui va au port de Lindblum
+s’appelle la ”Porte du Dragon Aquatique”.[ENDN][STRT=186,3]Soldat :
+Et pour finir ici c’est
+la ”Porte du Dragon Terrestre”.[ENDN][STRT=246,3]Soldat :
+Si tu veux devenir un bon soldat comme moi,
+il te faut les connaître ![ENDN][STRT=298,4]Soldat :
+Pour aller à Bloumécia,
+passez par la [68C0D8][HSHD]Caverne de Guismar[C8C8C8][HSHD].
+Elle se situe dans les montagnes au nord de Lindblum.[ENDN][STRT=230,3]Soldat :
+En suivant les racines qui sortent du sol,
+vous arriverez à la caverne.[ENDN][STRT=209,3]Commerçant :
+Est-ce que vous vous êtes préparés
+à entrer dans la ”Brume” ?[ENDN][STRT=247,4]Commerçant :
+La ”Brume” est vraiment épaisse ici.
+Il faudrait que vous achetiez quelque chose
+par prudence.[ENDN][STRT=213,2]Commerçant :
+Voulez-vous acheter quelque chose ?[ENDN][STRT=139,4][PCHC=2,1][IMME][ZDNE] :
+Lui acheter des objets ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=198,3]Soldat :
+Lindblum est en alerte rouge !
+L’entrée du château est interdite ![ENDN][STRT=71,1]Impeccable ![ENDN][STRT=124,2]Cid :
+Cette fois-ci, ça ira ![ENDN][STRT=177,2]Zebolt, chef machino :
+L’essai a raté, Votre Majesté ![ENDN][STRT=129,2]Cid :
+Ce n’est pas possible ![ENDN][STRT=142,3]Zebolt, chef machino :
+Une nef pareille peut pas
+voler plus de dix minutes ![ENDN][STRT=50,1]Raaaah ![ENDN][STRT=211,3]Cid :
+Depuis que je suis devenu puluche,
+mon cerveau ne marche plus du tout ![ENDN][STRT=216,6][IMME]
+[CENT=176][68C0D8][HSHD]= [C8C8C8][HSHD]Porte du Dragon Terrestre[68C0D8][HSHD] =[C8C8C8][HSHD]
+
+[CENT=185]Une porte gigantesque et solide.
+[CENT=216]On ne pourrait pas l’ouvrir facilement.
+[ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=0,1][ENDN][STRT=95,3][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=95][MOVE=18,0]Appris : [C8B040][HSHD]Taillade[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN]

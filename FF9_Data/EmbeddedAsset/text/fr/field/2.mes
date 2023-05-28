@@ -1,0 +1,455 @@
+[STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=109,1]Scènes de Kataoka[ENDN][STRT=124,4][PCHC=3,1][IMME]Aller à la machinerie ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non
+[MOVE=18,0]Aller en ville.[ENDN][STRT=105,1]On y voit rien ici[SPED=2]...[SPED=-1][ENDN][STRT=94,1]Il y a quelqu’un ?[ENDN][STRT=0,2][PCHC=2,1][WDTH=1,117,-1,2,132,-1][IMME][CHOO][MOVE=18,0]Allumer la bougie.
+[MOVE=18,0]Rester dans le noir.[ENDN][STRT=230,2][TAIL=UPC]
+Allumez la bougie au centre de la pièce ![TIME=-1][STRT=298,2][TAIL=UPC]
+Quand vous voyez un ”?”, appuyez sur la touche [CBTN=CROSS][MOBI=305].[TIME=-1][STRT=58,1][TAIL=UPL]Qui va là ?![TIME=20][STRT=207,10][IMME]
+[CENT=154]∈[68C0D8][HSHD]Aérothéâtre Prima Vista[C8C8C8][HSHD]∋
+
+Catégorie[XTAB=80] : Aérothéâtre de luxe
+Poids[XTAB=80] : 8235 t
+Capacité[XTAB=80] : 288 personnes
+Energie[XTAB=80] : Energie brumique
+Constructeur[XTAB=80] : Chantier Zebolt
+Origine[XTAB=80] : Lindblum
+[ENDN][STRT=72,2][WDTH=0,8,16,-1,0,72,16,-1][ZDNE] :
+C’est moi ! [ZDNE] ![ENDN][STRT=142,3][TAIL=UPL]Frank :
+Oh ! [ZDNE] !
+Tu es encore en retard ![ENDN][STRT=114,3][ZDNE] :
+Désolé !
+Le chef est arrivé ?[ENDN][STRT=96,2]Cina :
+Non, pas encore.[ENDN][STRT=95,1][WDTH=0,95,14,0,-1][CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0][ENDN][STRT=43,1]Aaaah ![TIME=10][STRT=69,2]Bach :
+Misérables ![ENDN][STRT=222,2]Bach :
+C’est que vous avez fait des progrès ![ENDN][STRT=79,2]Bach :
+HAHAHAHAHA ![ENDN][STRT=97,3]Bach :
+Allez !
+Tous en réunion ![ENDN][STRT=174,2]Bach :
+Voilà le plan pour aujourd’hui ![ENDN][STRT=118,2]Bach :
+On va à Alexandrie[SPED=2]...[SPED=-1][ENDN][STRT=215,3][TAIL=UPRF][OFFT=0,-80,0]Bach :
+Et l’objectif de la bande des Tantalas
+est d’enlever la princesse Grenat ![ENDN][STRT=134,2][TAIL=UPRF][OFFT=210,-80,0]Cina :
+Bon, ze vous esplique...[ENDN][STRT=126,3][TAIL=UPRF][OFFT=210,-80,0]Cina :
+Nous allons bientôt
+arriver à Alessandrie.[ENDN][STRT=191,3][TAIL=UPRF][OFFT=210,-80,0]Cina :
+Une fois qu’on aura atterri,
+on fera comme si de rien n’était[SPED=2]...[SPED=-1][ENDN][STRT=217,3][TAIL=UPRF][OFFT=210,-80,0]Cina :
+...et on leur zouera la fameuse pièce :
+”Ze veux être ton oisillon”.[ENDN][STRT=155,3][TAIL=UPRF][OFFT=210,-80,0]Cina :
+Markus, on compte sur toi !
+Tu as le rôle principal ![ENDN][STRT=201,4]Markus :
+Je ferai de mon mieux !
+Mais Frank et [ZDNE] sont
+les vrais héros de cet enlèvement ![ENDN][STRT=52,2]Frank :
+Compris ![ENDN][STRT=141,3]Frank :
+A l’entracte, je lâche
+ça sur les spectateurs[SPED=2]...[SPED=-1][ENDN][STRT=61,1]Pulu, pulu ![ENDN][STRT=145,3]Frank :
+Je tiens à dire que
+j’aime pas ces bestioles ![ENDN][STRT=89,3]Frank :
+Mais bon...
+Je ferai avec[SPED=2]...[SPED=-1][ENDN][STRT=83,3][WDTH=0,82,16,-1]Frank :
+Et c’est là que
+t’interviens, [ZDNE] ![ENDN][STRT=189,4][OFFT=-150,0,0][PCHC=2,-1][WDTH=2,202,-1][IMME][SIGL=0][ZDNE] :
+J’ai pigé ! Pendant ce temps-là...
+[CHOO][MOVE=18,0]...j’enlève la reine Branet !
+[MOVE=18,0]...j’enlève la princesse Grenat ![ENDN][STRT=203,4][TAIL=UPLF][OFFT=-88,-500,0]Bach :
+Exactement ! Notre cible c’est
+l’abominable et énoooorme Branet...[WAIT=30]
+[SIGL=1]Je blague ![ENDN][STRT=203,4][TAIL=UPLF][OFFT=-88,-500,0]Bach :
+Exactement ! Notre cible, c’est
+l’abominable et énoooorme Branet...[WAIT=30][SIGL=1]
+[ENDN][STRT=125,2]Bach :
+On y arrivera jamais ![ENDN][STRT=198,4][TAIL=UPRF][OFFT=88,-500,0]Bach :
+Exactement ! Notre cible, c’est
+la plus belle princesse de l’histoire
+d’Alexandrie, la belle Grenat ![ENDN][STRT=137,3]Rubis :
+[ZDNE] !
+Tu es énervant à la fin ![ENDN][STRT=144,1]Très chers spectateurs ![ENDN][STRT=245,2]La pièce que nous allons jouer devant vous
+nous vient d’un très lointain passé...[ENDN][STRT=243,3]L’héroïne de cette histoire,
+la princesse Cordélia, et son amant Markus
+sont sur le point d’être séparés.[ENDN][STRT=229,3]La princesse décide alors de fuir
+le château familial, mais elle est ramenée
+devant son père, le roi Lear.[ENDN][STRT=226,3]La pièce de ce soir commence alors
+qu’ayant appris cela, Markus envisage
+de tourner son épée contre le roi Lear.[ENDN][STRT=164,2]Et à présent, Votre Majesté,
+Vous, princesse Grenat[SPED=2]...[SPED=-1][ENDN][STRT=265,3]...noble assistance et vous qui nous regardez
+du haut des toits, je vous demande d’applaudir
+très fort ![ENDN][STRT=166,2][TAIL=UPRF][IMME]Frank :
+Il a tué son père et sa mère ![TIME=-1][STRT=143,3][TAIL=UPRF][IMME]Frank :
+Et à présent,
+il veut briser son amour ![TIME=-1][STRT=125,3][TAIL=UPLF][IMME]Cina :
+Ah ! Quel malheureux !
+Pauvre Markus ![TIME=-1][STRT=125,3][TAIL=UPLF][IMME]Cina :
+Quel espoir te tiendra
+en vie, à présent ?![TIME=-1][STRT=91,2][TAIL=UPLF][IMME][ZDNE] :
+Pour notre ami ![TIME=-1][STRT=167,3][TAIL=UPLF][IMME][ZDNE] :
+Nos lames auront-elles raison
+de l’exécrable roi Lear ?![TIME=-1][STRT=25,1][TAIL=UPRF][IMME]Oui ![TIME=-1][STRT=25,1][TAIL=UPLF][IMME]Oui ![TIME=-1][STRT=135,2][TAIL=UPRF][IMME]Frank :
+Nous voici, compagnon ![TIME=-1][STRT=89,2][TAIL=UPRF][IMME]Markus :
+Laissez-le moi ![TIME=-1][STRT=98,2][TAIL=UPRF][IMME]Cina :
+C’est impossible ![TIME=-1][STRT=75,3][TAIL=UPRF][IMME]Cina :
+Il a assassiné
+mes frères ![TIME=-1][STRT=121,3][TAIL=UPLF][IMME]Roi Lear :
+N’approchez pas !
+Misérables vauriens ![TIME=-1][STRT=107,3][TAIL=UPLF][IMME]Roi Lear :
+Nul ne résiste à
+ma vaillante épée ![TIME=-1][STRT=190,3][TAIL=UPLF][IMME]Roi Lear :
+Ceux qui l’affrontent
+disparaissent dans les ténèbres ![TIME=-1][STRT=178,3][TAIL=UPRF][IMME][ZDNE] :
+Roi Lear ! Vois la douleur
+qui habite le coeur de mon ami ![TIME=-1][STRT=88,3][TAIL=UPRF][IMME][ZDNE] :
+Et reçois
+sa souffrance ![TIME=-1][STRT=72,2]Roi Lear :
+Ah...[WAIT=5]Aaaaa...[TIME=15][STRT=47,1][IMME]Arrête ![TIME=15][STRT=222,2]Roi Lear :
+Jamais tu n’auras mon pardon, Markus ![ENDN][STRT=178,2][ZDNE] :
+Pourquoi m’arrêtes-tu Frank ?![TIME=20][STRT=217,5][TAIL=LORF][OFFT=0,100,0]Frank :
+[ZDNE] ! Reprends-toi !
+Si la princesse Cordélia épouse
+le prince Schneider,
+nos deux royaumes vivront enfin en paix ![ENDN][STRT=249,3][ZDNE] :
+Cesse tes plaisanteries ! Il n’y aurait pas
+situation plus malheureuse de par le monde ![ENDN][STRT=22,1][IMME]Ah ![TIME=10][STRT=29,1][IMME]Han ![TIME=10][STRT=29,1][IMME]Han ![TIME=10][STRT=228,2][TAIL=LORF]Frank :
+Puisque c’est ainsi, nous nous battrons ![INCS][TIME=-1][STRT=163,2][TAIL=UPLF][ZDNE] :
+Je n’en attendais pas moins ![INCS][TIME=-1][STRT=226,2][TAIL=LORF]Frank :
+Nous finirons ce combat une autre fois ![INCS][TIME=-1][STRT=155,2][TAIL=UPLF][ZDNE] :
+Je ne te laisserai pas fuir ![INCS][TIME=-1][STRT=95,2][TAIL=LORF]Frank :
+Viens te battre ![INCS][TIME=-1][STRT=165,2][TAIL=UPLF][ZDNE] :
+Tu paieras pour ta trahison ![INCS][TIME=-1][STRT=239,5][TAIL=DEFT][IMME][CENT=164]Parmi les touches ci-dessous
+[XTAB=91][YADD=6][DBTN=UP][MOBI=268][XTAB=135][DBTN=TRIANGLE][MOBI=272]
+[CENT=77][DBTN=LEFT][MOBI=267][FEED=6][DBTN=RIGHT][MOBI=269][FEED=13][DBTN=SQUARE][MOBI=271][FEED=6][DBTN=CIRCLE][MOBI=273]
+[XTAB=91][YSUB=6][DBTN=DOWN][MOBI=270][XTAB=135][DBTN=CROSS][MOBI=274]
+[CENT=239]appuyez sur celle que vous indique Frank.[ENDN][STRT=22,1][TAIL=UPRF][IMME][DBTN=LEFT][MOBI=267] ![TIME=-1][STRT=22,1][TAIL=UPRF][IMME][DBTN=RIGHT][MOBI=269] ![TIME=-1][STRT=22,1][TAIL=UPRF][IMME][DBTN=TRIANGLE][MOBI=272] ![TIME=-1][STRT=22,1][TAIL=UPRF][IMME][DBTN=DOWN][MOBI=270] ![TIME=-1][STRT=22,1][TAIL=UPRF][IMME][DBTN=CROSS][MOBI=274] ![TIME=-1][STRT=22,1][TAIL=UPRF][IMME][DBTN=UP][MOBI=268] ![TIME=-1][STRT=22,1][TAIL=UPRF][IMME][DBTN=CIRCLE][MOBI=273] ![TIME=-1][STRT=22,1][TAIL=UPRF][IMME][DBTN=SQUARE][MOBI=271] ![TIME=-1][STRT=121,2][TAIL=DEFT][WDTH=0,81,64,0,-1][IMME]Sur 100 spectateurs,
+[NUMB=0] ont apprécié.[ENDN][STRT=124,2][TAIL=DEFT][IMME]Apparemment, la reine
+Branet n’a pas aimé.[ENDN][STRT=121,2][TAIL=DEFT][WDTH=0,81,64,0,-1][IMME]Sur 100 spectateurs,
+[NUMB=0] ont apprécié.[ENDN][STRT=139,2][TAIL=DEFT][IMME]Apparemment, la reine
+Branet a beaucoup aimé.[ENDN][STRT=153,4][TAIL=DEFT][PCHC=2,1][IMME]Ca n’a pas vraiment plu...
+On recommence le combat ?
+[CHOO][MOVE=18,0]En scène !
+[MOVE=18,0]Ca suffit ![ENDN][STRT=260,4][TAIL=DEFT][PCHC=2,1][IMME]La réaction n’est pas vraiment enthousiaste...
+On recommence le combat ?
+[CHOO][MOVE=18,0]En scène !
+[MOVE=18,0]Ca suffit ![ENDN][STRT=153,4][TAIL=DEFT][PCHC=2,1][IMME]Le public est partagé...
+On recommence le combat ?
+[CHOO][MOVE=18,0]En scène !
+[MOVE=18,0]Ca suffit ![ENDN][STRT=153,4][TAIL=DEFT][PCHC=2,1][IMME]Ils en redemandent...
+On recommence le combat ?
+[CHOO][MOVE=18,0]En scène !
+[MOVE=18,0]Ca suffit ![ENDN][STRT=235,1][TAIL=DEFT][WDTH=0,235,64,1,-1][IMME]Votre performance vous rapporte [C8B040][HSHD][NUMB=1] gil(s)[C8C8C8][HSHD].[ENDN][STRT=113,3][ZDNE] :
+Eh ?!
+Où elle est passée ?[ENDN][STRT=22,1][TAIL=UPLF][NFOC]Ah ![TIME=10][STRT=50,1][TAIL=LORF][OFFT=0,400,150]Aoutch[SPED=2]...[SPED=-1][TIME=10][STRT=148,3]Chef d’orchestre :
+[ZDNE] ?!
+Qu’est-ce que tu fais ici ?[ENDN][STRT=145,3]Trompette :
+Pouet, pouet !
+Elle est plutôt jolie, non ?[ENDN][STRT=78,2]Cymbales :
+Tu m’ennuies ![ENDN][STRT=186,3]Tambour :
+Boum ! Boum ! Boum !
+Mon tambour retourne les tripes.[ENDN][STRT=191,3]Violon :
+Valse, polka, java...
+On joue tout ce que vous voulez ![ENDN][STRT=134,2]Rubis :
+Aaah ! Qui êtes-vous ?![TIME=20][STRT=64,1][TAIL=UPLF]Un instant ![ENDN][STRT=105,1][TAIL=UPLF]Dites donc, vous[SPED=2]...[SPED=-1][ENDN][STRT=168,3][TAIL=UPLF]Rubis :
+Vous m’avez bousculée !
+Vous pourriez vous excuser ![ENDN][STRT=144,3]Jeune fille en blanc :
+Veuillez me pardonner...
+Je suis très pressée et[SPED=2]...[SPED=-1][ENDN][STRT=169,3]Rubis :
+Ah ! Mais c’est que je dois
+bientôt entrer en scène, moi ![ENDN][STRT=167,3][WDTH=0,100,16,-1]Rubis :
+[ZDNE], attends un peu !
+J’ai quelque chose à te dire ![ENDN][STRT=100,3]Rubis :
+Cette fille
+est une calamité ![ENDN][STRT=150,3][ZDNE] :
+C’est ça, c’est ça...
+Mais là, je dois lui parler ![ENDN][STRT=40,2]Rubis :
+Stop !![ENDN][STRT=117,3]Rubis :
+Qu’est-ce que
+tu veux dire par là ?[ENDN][STRT=22,1][TAIL=UPLF][IMME]Ah ![TIME=15][STRT=132,3][TAIL=UPLF][ZDNE] :
+Rubis !
+On verra ça plus tard ![ENDN][STRT=114,2]Rubis :
+Qui est cette fille ?![ENDN][STRT=182,3]Rubis :
+Depuis le temps que j’attends
+de jouer la princesse Cordélia ![ENDN][STRT=80,3]Rubis :
+J’ai répété
+avec ardeur ![ENDN][STRT=129,3]Rubis :
+Qu’est-ce que tu viens
+chercher par ici ?![ENDN][STRT=192,3][TAIL=UPLF][OFFT=10,0,0][ZDNE] :
+Pff[SPED=2]...[SPED=-1][WAIT=10]
+Ca y est, vous vous êtes calmée ?[ENDN][STRT=208,3][TAIL=UPLF][OFFT=10,0,0][ZDNE] :
+(On a pas vraiment suivi le plan,
+mais on l’aura quand même enlevée !)[ENDN][STRT=207,3][TAIL=UPR]Jeune fille en blanc :
+Vous[SPED=2]...[SPED=-1][WAIT=30]
+vous faites partie de cette troupe ?[ENDN][STRT=96,3][TAIL=UPLF][OFFT=10,0,0][ZDNE] :
+(Et voilà !
+Elle l’a deviné[SPED=2]...[SPED=-1])[ENDN][STRT=124,3][TAIL=UPR]Jeune fille en blanc :
+Peut-être
+le savez-vous, mais[SPED=2]...[SPED=-1][ENDN][STRT=76,1][TAIL=UPR]...en vérité[SPED=2]...[SPED=-1][ENDN][STRT=61,1][TAIL=UPR]...je suis[SPED=2]...[SPED=-1][ENDN][STRT=135,3][TAIL=UPR]Jeune fille en blanc :
+...Grenat di Alexandros,
+princesse d’Alexandrie.[ENDN][STRT=110,3][TAIL=UPR]Grenat :
+J’ai une requête
+à vous présenter...[ENDN][STRT=124,3][TAIL=UPR][OFFT=-110,-10,0]Grenat :
+Ne pourriez-vous pas
+m’enlever sans délai ?[INCS][TIME=-1][STRT=138,3][TAIL=LOLF][OFFT=-40,40,0][ZDNE] :
+Que... QUOI ?!
+C’était pas prévu, ça[SPED=2]...![SPED=-1][INCS][TIME=-1][STRT=190,1][OFFT=440,500,0][TAIL=UPLF]PRINCEEEEESSE ! Où êtes-vous ?![TIME=30][STRT=114,2][TAIL=UPR]Grenat :
+Ah ! Il vient par ici ![ENDN][STRT=139,3][TAIL=UPLF][OFFT=10,0,0][ZDNE] :
+Je suppose que
+vous avez vos raisons...[ENDN][STRT=127,3][TAIL=UPLF][OFFT=10,0,0][ZDNE] :
+Faites-moi confiance !
+Je m’occupe de tout ![ENDN][STRT=230,2][TAIL=UPR]Grenat :
+Merci, je vous en serai reconnaissante ![ENDN][STRT=64,1][TAIL=UPLF][OFFT=0,80,0]Princesse ![ENDN][STRT=171,3][TAIL=UPLF][OFFT=0,80,0][ZDNE] :
+A présent, ayez l’obligeance
+de nous laisser vous enlever ![ENDN][STRT=136,3]Cina :
+Qu’est-ce que tu fais ?!
+Par ici, vite ![ENDN][STRT=22,1][NFOC][IMME]Ah ![TIME=15][STRT=160,3][TAIL=UPLF][ZDNE] :
+N’ayez pas peur, Princesse,
+c’est Cina, un ami.[ENDN][STRT=55,2][TAIL=UPLF]Grenat :
+Ah bon...?[ENDN][STRT=162,3][TAIL=UPLF]Grenat :
+Veuillez pardonner
+l’effronterie de ma surprise.[ENDN][STRT=207,3][TAIL=UPLF][ZDNE] :
+C’est vrai qu’avec une tête pareille,
+il surprend pas que vous ![ENDN][STRT=179,3]Cina :
+Quoi ?! Tu peux parler !
+Je me lave tous les matins, moi ![ENDN][STRT=95,1][TAIL=UPLF][NFOC][IMME]PRINCEEEESSE ?![TIME=30][STRT=76,2]Cina :
+Par ici, vite ![ENDN][STRT=67,3][WDTH=0,8,16,-1][ZDNE] :
+Allez,
+suivons-le ![ENDN][STRT=82,1]PRINCEEESSE ![ENDN][STRT=82,1]PRINCEEESSE ![ENDN][STRT=70,1]Princesse ?![ENDN][STRT=70,1]Princesse ?![ENDN][STRT=110,1]PRIN-CEEES-SSSE ![ENDN][STRT=82,1]PRINCEEESSE ![ENDN][STRT=209,1]C’est maintenant que t’arrives, toi ?![ENDN][STRT=114,1]Je... dés... Pardon ![ENDN][STRT=86,1][TAIL=UPC] PRINCEEESSE ![TIME=30][STRT=149,3][ZDNE] :
+Hé, Cina !
+C’est une impasse par ici ![ENDN][STRT=79,3]Cina :
+Héhéhé !
+Tu crois ça ?![ENDN][STRT=30,1][IMME]Hop ![TIME=15][STRT=52,1][IMME]Et voilà ![TIME=15][STRT=70,3]Cina :
+C’est moi
+qui l’ai fait ![ENDN][STRT=73,1]PRINCESSE !![ENDN][STRT=177,3]Cina :
+Allez !
+Tout le monde là-dedans, vite ![TIME=25][STRT=201,2][STNR] :
+La Princesse serait dans ce trou ?![ENDN][STRT=117,2]??? (Brutos No ???) :
+Je... J’y vais !![ENDN][STRT=176,2][STNR] :
+Raah ! Qu’est-ce que tu fais ?![ENDN][STRT=188,2][OFFT=500,300,0]??? (Brutos No ???) :
+Capitaine ! Je suis coincé ![ENDN][STRT=112,2][STNR] :
+Raaaah ! Imbécile !![ENDN][STRT=122,2][OFFT=500,300,0]??? (Brutos No ???) :
+Héhéhé ! Il a rien vu ![ENDN][STRT=210,3][TAIL=UPLF][ZDNE] :
+C’est que vous êtes agile, Princesse.
+Je pourrais bien tomber amoureux...[ENDN][STRT=239,3][TAIL=UPRF]Grenat :
+Je me suis entraînée pour fuir le château.
+Jusque-là, ce n’était pas trop difficile.[ENDN][STRT=149,3][TAIL=UPLF][ZDNE] :
+Vous étiez vraiment pas
+faite pour être princesse.[ENDN][STRT=179,3][TAIL=UPRF]Grenat :
+Nous en reparlerons plus tard !
+Allons-nous en ![ENDN][STRT=106,3]Grenat :
+Et maintenant,
+que faisons-nous ?[ENDN][STRT=152,2]Grenat :
+Entrons dans cette pièce ![ENDN][STRT=95,3]Cina :
+Le spectacle est
+bientôt terminé ![ENDN][STRT=0,3][PCHC=3,2][WDTH=1,224,-1,2,220,-1,3,97,-1][IMME][CHOO][MOVE=18,0]Tourner la manivelle vers la gauche.
+[MOVE=18,0]Tourner la manivelle vers la droite.
+[MOVE=18,0]Ne rien faire.[ENDN][STRT=115,1]La machine ralentit ![ENDN][STRT=124,1]La machine s’emballe ![ENDN][STRT=65,1][TAIL=UPLF][IMME]Ca va pas ![ENDN][STRT=164,3][TAIL=UPLF]Cina :
+Si cette macine ralentit,
+l’aérothéâtre va s’écraser ![ENDN][STRT=193,2][TAIL=UPLF]Cina :
+Tourne la manette vers la droite ![ENDN][STRT=158,3][TAIL=UPLF]Cina :
+Si cette macine s’emballe,
+l’aérothéâtre va exploser ![ENDN][STRT=198,2][TAIL=UPLF]Cina :
+Tourne la manette vers la gauche ![ENDN][STRT=51,2][WDTH=0,8,19,-1][STNR] :
+STOOOP ![ENDN][STRT=156,3][WDTH=0,134,19,-1][STNR] :
+Princesse ! N’ayez crainte,
+[STNR] est venu vous sauver ![ENDN][STRT=165,2]??? (Brutos No ???) :
+N’ayez pas peur, Princesse ![ENDN][STRT=167,3][STNR] :
+Parfait, Brutos !
+Ca c’est du travail d’équipe ![ENDN][STRT=62,1][TAIL=UPRF]Héhéhéhé ![ENDN][STRT=253,3][TAIL=UPRF]??? (Brutos No ???) :
+Tout va bien...
+Votre enlèvement se passera sans problème.[ENDN][STRT=57,2][WDTH=0,8,19,-1][STNR] :
+KÔAAAA ?![ENDN][STRT=67,2][WDTH=0,8,19,-1][STNR] :
+Qui es-tu ?![ENDN][STRT=84,1][TAIL=UPRF][IMME]La Princesse...[ENDN][STRT=71,1][TAIL=UPRF][IMME]...est sous...[ENDN][STRT=116,1][TAIL=UPLF][IMME]...notre protection ![TIME=30][STRT=136,1][TAIL=LOLF][IMME]...notre responsabilité ![TIME=30][STRT=124,1][TAIL=UPRF][OFFT=0,182,0][IMME]...notre surveillance ![TIME=30][STRT=120,1][IMME]Je hais les puluches ![TIME=20][STRT=80,1][IMME]Les puluches ![TIME=20][STRT=100,1][IMME]Pas les pulusses ![TIME=20][STRT=174,1][IMME]J’ai horreur de ces bestioles ![TIME=20][STRT=130,2][TAIL=UPLF][ZDNE] :
+Vite ! C’est le moment ![ENDN][STRT=175,3]Grenat :
+Pourquoi n’aimez-vous pas
+ces adorables petits animaux ?[ENDN][STRT=211,3][OFFT=0,-55,0][TAIL=UPLF]Roi Lear :
+C’est aujourd’hui qu’on marie
+ma fille Cordélia au prince Schneider.[ENDN][STRT=221,3][OFFT=0,-55,0][TAIL=UPLF]Roi Lear :
+Ainsi le Prince deviendra mon vassal
+et le royaume de Sathoune sera à moi ![ENDN][STRT=79,2][OFFT=0,-55,0][TAIL=UPLF]Roi Lear :
+HAHAHAHAHA ![ENDN][STRT=117,2][TAIL=UPLF]Senero :
+Nous avons arrêté...[INCS][TIME=-1][STRT=83,2][TAIL=LORF]Benero :
+...ce suspect ![INCS][TIME=-1][STRT=151,3][TAIL=UPLF][OFFT=0,-70,0]Roi Lear :
+Oh, mais qui voilà ?
+Ne serait-ce pas Markus ?[ENDN][STRT=184,3][TAIL=UPLF][OFFT=0,-70,0]Roi Lear :
+Serais-tu donc
+toujours amoureux de Cordélia ?[ENDN][STRT=229,3][TAIL=UPLF][OFFT=0,-70,0]Roi Lear :
+Bah, quand bien même Cordélia
+serait-elle toujours amoureuse de toi,...[ENDN][STRT=146,3][TAIL=UPLF][OFFT=0,-70,0]Roi Lear :
+...elle n’épouserait jamais
+quelqu’un de ton espèce ![ENDN][STRT=250,2][TAIL=UPLF][OFFT=0,-70,0]Roi Lear :
+Quand les cloches auront sonné par trois fois[SPED=2]...[SPED=-1][ENDN][STRT=203,2][TAIL=UPLF][OFFT=0,-70,0]Roi Lear :
+...je te ferai disparaître à jamais ![ENDN][STRT=176,3][TAIL=UPRF]Grenat :
+Nous ne pouvons aller plus loin,
+qu’allons-nous faire ?![ENDN][STRT=133,2][TAIL=UPLF][ZDNE] :
+Hum... C’est ennuyeux[SPED=2]...[SPED=-1][ENDN][STRT=104,2][TAIL=UPRF][WDTH=0,104,16,-1]Cina :
+[ZDNE] ! Prends la Numéro deux ![ENDN][STRT=114,3][TAIL=UPLF][ZDNE] :
+Compris !
+Princesse ! Par ici ![ENDN][STRT=188,1][TAIL=UPLF][IMME]Ca ne se passera pas comme ça ![TIME=30][STRT=46,1][NFOC][IMME]Aoutss ![TIME=15][STRT=96,2]Roi Lear :
+Encore un coup ![ENDN][STRT=118,2]Bach :
+[C8C8C8][HSHD](Prin...[WAIT=10] Princesse ?!)[TIME=20][STRT=191,2][ZDNE] :
+[C8C8C8][HSHD](Faites comme si de rien n’était !)[ENDN][STRT=43,1](Pigé !)[ENDN][STRT=129,2][TAIL=UPRF][STNR] :
+Tiens ? [WAIT=20] Où je suis, là ?[ENDN][STRT=56,1][TAIL=UPRF]Cordélia ![ENDN][STRT=104,1][TAIL=UPLF](Co... Comment[SPED=2]...?[SPED=-1])[ENDN][STRT=168,2][ZDNE] :
+[C8C8C8][HSHD](C’est Markus, votre amant !)[ENDN][STRT=49,1][TAIL=UPLF]Markus ![ENDN][STRT=88,2][ZDNE] :
+[C8C8C8][HSHD](Non, pas moi !)[ENDN][STRT=85,2][TAIL=UPLF]Grenat :
+[C8C8C8][HSHD](Oh ! Pardon !)[ENDN][STRT=141,2][ZDNE] :
+[C8C8C8][HSHD](C’est ça ! Impeccable !)[ENDN][STRT=180,2][TAIL=UPRF]Grenat :
+[C8C8C8][HSHD](J’ai toujours aimé le théâtre !)[ENDN][STRT=182,3]Bach :
+[C8C8C8][HSHD](Continuez à jouer !
+La reine Branet nous regarde !)[ENDN][STRT=225,2][TAIL=UPLF]Cordélia :
+Markus ![WAIT=20] Je désespérais de te revoir[SPED=2]...[SPED=-1][ENDN][STRT=59,2][TAIL=UPRF]Markus :
+Cordélia[SPED=2]...[SPED=-1][ENDN][STRT=185,3][TAIL=UPLF]Cordélia :
+Je ne veux plus te quitter !
+Emmène-moi où bon te semblera ![ENDN][STRT=126,3][TAIL=UPRF][ZDNE] :
+Roi Lear !
+Acceptez leur amour ![ENDN][STRT=45,1][TAIL=UPRF]Jamais ![ENDN][STRT=178,2][TAIL=UPRF]Roi Lear :
+Ah, tu ne veux plus le quitter ?![ENDN][STRT=165,2][TAIL=UPRF]Roi Lear :
+Jamais je ne t’y autoriserai ![ENDN][STRT=136,3][TAIL=UPRF]Roi Lear :
+Cordélia ! Tu épouseras
+le prince Schneider ![ENDN][STRT=124,2][TAIL=UPLF]Roi Lear :
+N’est-ce pas Prince ?[ENDN][STRT=153,2][STNR] :
+Qui ? Moi et la Princesse ?![ENDN][STRT=59,3][TAIL=UPRF]Roi Lear :
+Tuez-les !
+Tous ![ENDN][STRT=22,1][TAIL=UPRF][IMME]Ah ![TIME=20][STRT=42,1][TAIL=UPLF][IMME]Aïeuh ![TIME=20][STRT=111,2][TAIL=UPRF][IMME]Benero :
+Ils sont trop forts ![TIME=20][STRT=48,2][TAIL=UPLF][IMME]Senero :
+Fuyons ![TIME=20][STRT=166,3][TAIL=LORF][OFFT=50,100,0][SIGL=0]Roi Lear :
+Cordélia !
+Rentre avec moi au château ![ENDN][STRT=94,3]Cordélia :
+Jamais !
+[SIGL=1]Je ne veux pas ![ENDN][STRT=188,3][TAIL=LORF][OFFT=50,100,0]Roi Lear :
+Cordélia[SPED=2]...[SPED=-1]
+Cela suffit, ne me contrarie pas ![ENDN][STRT=183,3][TAIL=LORF][OFFT=50,100,0]Roi Lear :
+Si je veux ce mariage,
+c’est pour toi[SPED=2]...[SPED=-1] Comprends-le[SPED=2]...[SPED=-1][ENDN][STRT=197,2][TAIL=LORF]Markus :
+Je ne te laisserai pas faire, Lear ![ENDN][STRT=167,4][TAIL=LORF]Markus :
+Revoilà le temps des impôts !
+En mémoire de mes parents et
+pour Cordélia[SPED=2]...[SPED=-1][ENDN][STRT=145,2][TAIL=LORF]Markus :
+Tu vas goûter à ma lame ![ENDN][STRT=22,1][TAIL=UPLF][IMME]Ah ![TIME=20][STRT=106,2][TAIL=UPRF]Markus :
+Pour[SPED=2]...[SPED=-1] Pourquoi ?![ENDN][STRT=234,3][TAIL=UPLF][OFFT=220,250,0]Cordélia :
+Mar[SPED=2]...[SPED=-1]kus [WAIT=10]pardonne-moi...[WAIT=10]
+Mais cet homme...[WAIT=10]est toujours mon père[SPED=2]...[SPED=-1][ENDN][STRT=56,1][TAIL=UPLF][IMME]Cordélia ![TIME=20][STRT=69,1][TAIL=UPRF][IMME]Princesse !![TIME=20][STRT=207,3][TAIL=UPLF][OFFT=220,250,0]Cordélia :
+Père, pardonnez-moi mon égoïsme...
+Et pardonnez à Markus[SPED=2]...[SPED=-1][ENDN][STRT=240,3][TAIL=UPR]Markus :
+C’est impossible ! Je n’entendrai donc plus
+la voix de Cordélia ?![ENDN][STRT=122,3][TAIL=UPR]Markus :
+Je ne caresserai plus
+sa peau si douce ?![ENDN][STRT=83,3][TAIL=UPRF]Markus :
+Ma vie n’a plus
+aucun sens !![ENDN][STRT=35,1][TAIL=UPRF][IMME]Argh ![TIME=20][STRT=54,1][TAIL=UPLF][IMME]Markus !![TIME=20][STRT=80,2][OFFT=0,-110,0]Reine Branet :
+OUIIIIINNNNNN ![ENDN][STRT=106,2][OFFT=0,-110,0]Reine Branet :
+C’est si beauuuuu ![ENDN][STRT=80,2][OFFT=0,-110,0]Reine Branet :
+OUIIIIIIINNN ![ENDN][STRT=94,2][OFFT=0,-110,0]Reine Branet :
+J’en pleure ![ENDN][STRT=170,2][OFFT=0,-110,0]Reine Branet :
+[C8C8C8][HSHD](Mais au fait, où est Grenat ?)[ENDN][STRT=150,2][OFFT=0,-110,0]Reine Branet :
+Ouin ![WAIT=5] Snirf, snif...[WAIT=5] OUIIIN !![ENDN][STRT=117,2][TAIL=UPRF]Puck :
+C’est vraiment bien ![ENDN][STRT=28,2][TAIL=UPLF][WDTH=0,8,17,-1][VIVI] :
+Oui...[ENDN][STRT=145,3][TAIL=UPRF]Puck :
+Maintenant, il faut encore
+rentrer par les toits.[ENDN][STRT=115,2][TAIL=UPRF][IMME]Puck :
+Ah zut ! On s’en va ![TIME=10][STRT=167,2][IMME]Hagen (Brutos No 8) :
+Vous là-bas ! Arrêtez-vous ![TIME=18][STRT=154,2][IMME]Weimar (Brutos No 7) :
+La resquille est interdite !![TIME=18][STRT=136,2][TAIL=UPLF][IMME]Puck :
+Imbécile ! Dépêche-toi ![ENDN][STRT=122,2][IMME]Hagen (Brutos No 8) :
+Si je vous attrape...![TIME=18][STRT=126,2][IMME]Weimar (Brutos No 7) :
+Vous allez voir ![TIME=18][STRT=69,2][OFFT=-100,100,0][WDTH=0,8,19,-1][STNR] :
+Princesse !![ENDN][STRT=131,2][OFFT=0,100,0]Roi Lear :
+Pardonne à ton père !![ENDN][STRT=49,2][WDTH=0,8,17,-1][VIVI] :
+Pardon ![ENDN][STRT=54,1][IMME]Stooop !![TIME=18][STRT=71,1][IMME]Gare à toi !![TIME=18][STRT=72,2][WDTH=0,8,17,-1][VIVI] :
+N'approchez pas !![ENDN][STRT=43,1]Aaaah ![TIME=10][STRT=146,3][WDTH=0,94,16,-1]Bach :
+[ZDNE] ! C’est l’heure !
+Les Tantalas se retirent ![ENDN][STRT=67,3][WDTH=0,8,16,-1][ZDNE] :
+Princesse !
+On s’en va ![ENDN][STRT=160,3][STNR] :
+Qu’est-ce qu’il se passe ?!
+Je ne comprends plus rien !![ENDN][STRT=130,3]Hagen (Brutos No 8) :
+Capitaine !
+Qu’est-ce qu’on fait ?![ENDN][STRT=134,3][TAIL=UPLF][WDTH=0,80,19,-1]Grenat :
+[STNR] ! Cela suffit !
+Arrêtez de me suivre !![ENDN][STRT=67,6][TAIL=UPLF][WDTH=0,8,19,-1][STNR] :
+Euuuuuuuh...
+Et bien...
+Euuuuuuuh...
+Je...
+Huuuum...[ENDN][STRT=99,3][TAIL=UPLF][STNR] :
+C’est impossible !
+Je ne peux pas !![ENDN][STRT=128,3][TAIL=UPLF]Grenat :
+Ce que vous pouvez
+être obstiné, parfois ![ENDN][STRT=89,3][TAIL=UPLF][ZDNE] :
+Laissez tomber,
+on s’en va ![ENDN][STRT=64,1][TAIL=UPLF][IMME]Princesse ![ENDN][STRT=68,3][TAIL=UPLF][WDTH=0,8,16,-1][ZDNE] :
+Eh ! Ca va ?
+T’as rien ?[ENDN][STRT=110,3][VIVI] :
+Ca va, je suis juste
+un peu assommé[SPED=2]...[SPED=-1][ENDN][STRT=132,3][TAIL=UPRF][STNR] :
+Raaaaah !
+Arrêtez la Princesse !![ENDN][STRT=112,2]Cina :
+Paré au décollaze ![ENDN][STRT=32,1]Bien ![ENDN][STRT=151,2]Frank :
+Paré de notre côté aussi ![INCS][TIME=-1][STRT=76,1]Trèèès bien ![INCS][TIME=-1][STRT=84,2]Bach :
+En avaaaant !![TIME=20][STRT=48,1][NFOC]Hourra ![TIME=20][STRT=76,1][NFOC]On est parti ![TIME=20][STRT=100,2]Cina :
+On va s’écraser ![ENDN][STRT=102,2]Reine Branet :
+Cette gamine va[SPED=2]...[SPED=-1][ENDN][STRT=217,4]Reine Branet :
+Dire que je la voyais encore
+comme une gamine !
+Je ne l’imaginais pas aussi téméraire[SPED=2]...[SPED=-1][ENDN][STRT=80,2]Reine Branet :
+Pile ![ENDN][STRT=80,2]Reine Branet :
+Face ![ENDN][STRT=87,3]Reine Branet :
+Ils sont encore
+opérationnels ?[ENDN][STRT=232,3][OFFT=0,-200,0]Pile :
+Bien sûr !
+Ils sont au mieux de leurs performances ![ENDN][STRT=121,3][OFFT=0,-200,0]Face :
+Faut-il tuer
+la princesse Grenat ?[ENDN][STRT=126,2]Reine Branet :
+Qui parle de la tuer ?![ENDN][STRT=101,3]Reine Branet :
+Il faut la
+ramener vivante ![ENDN][STRT=194,3][TAIL=UPC]
+[CENT=72]A mon réveil,
+[CENT=194]je pensais plus qu’à la chercher[SPED=2]...[SPED=-1][ENDN][STRT=191,2][TAIL=UPC]
+[CENT=191]C’était pas juste pour l’enlever[SPED=2]...[SPED=-1][ENDN][STRT=172,3][TAIL=UPC]
+[CENT=172]Mais c’était pas non plus juste
+[CENT=149]parce qu’elle était belle[SPED=2]...[SPED=-1][ENDN][STRT=169,3][TAIL=UPC]
+[CENT=120]Je sais pas pourquoi,
+[CENT=169]mais je tiens vraiment à elle[SPED=2]...[SPED=-1][ENDN][STRT=176,2][TAIL=UPC]
+[CENT=176]Pourquoi j’ai ces sentiments[SPED=2]...?[SPED=-1][ENDN][STRT=170,2][TAIL=UPC]
+[CENT=170]Que puis-je faire pour elle[SPED=2]...[SPED=-1]?[ENDN][STRT=174,2][TAIL=UPC]
+[CENT=174]Elle avait un regard si triste[SPED=2]...[SPED=-1][ENDN][STRT=246,2][TAIL=UPC]
+[CENT=246]Pourquoi avait-elle ce regard si lointain[SPED=2]...?[SPED=-1][ENDN][STRT=181,3][TAIL=UPC]
+[CENT=160]On aurait dit qu’elle refusait
+[CENT=181]de voir le monde autour d’elle[SPED=2]...[SPED=-1][ENDN][STRT=257,3][TAIL=UPC]
+[CENT=257]Comme si ses yeux ne voulaient pas même voir
+[CENT=187]les sept couleurs de l’arc-en-ciel[SPED=2]...[SPED=-1][ENDN][STRT=85,2][TAIL=UPC]
+[CENT=85]Sur ce point,[SPED=2]...[SPED=-1][ENDN][STRT=231,2][TAIL=UPC]
+[CENT=231]...on dirait qu’elle me ressemble un peu[SPED=2]...[SPED=-1][ENDN][STRT=120,1][D06050][HSHD]ANM : Strike a match.[TIME=20][STRT=130,1][D06050][HSHD]ANM : Turn on the light.[TIME=20][STRT=132,1][D06050][HSHD]ANM : Tantarus Action ![TIME=20][STRT=127,1][B880E0][HSHD]SE : Boss’s Footsteps.[TIME=20][STRT=104,1][D06050][HSHD]BTL : Bach Masqué[ENDN][STRT=108,1][D06050][HSHD]BTL : Bach Costumé[ENDN][STRT=109,1][78C840][HSHD]Suite vers la scène[ENDN][STRT=147,1][C8B040][HSHD]Appuyez sur la touche [C8C8C8][HSHD][CBTN=CROSS][MOBI=260][C8B040][HSHD].[ENDN][STRT=57,1][B880E0][HSHD]SE : Ring~[TIME=30][STRT=96,1][TAIL=UPC][B880E0][HSHD]SE : Spectateurs[TIME=30][STRT=155,1][TAIL=UPC][B880E0][HSHD]SE : Spectateurs plus forts[TIME=30][STRT=88,1][B880E0][HSHD]SE : Don ! Don ![TIME=30][STRT=179,1][B880E0][HSHD]FMV002 : Bibi arrive au théâtre[ENDN][STRT=201,1][B880E0][HSHD]BTL : Steiner dans son beau combat[ENDN][STRT=75,1][B880E0][HSHD]SPS : Brasier[TIME=60][STRT=53,1][B880E0][HSHD]BTL : 004[ENDN][STRT=330,1][B880E0][HSHD]FMV005 : Départ de l’aérothéâtre (Lance Bombe Succube)[ENDN][STRT=137,1][B880E0][HSHD]BTL : Succube explosive[ENDN][STRT=49,1][TAIL=UPR][B880E0][HSHD]SPS=OFF[TIME=30][STRT=230,1][B880E0][HSHD]FMV006A : Départ 1 (Explosion Succube)[ENDN][STRT=246,1][B880E0][HSHD]FMV006B : Départ 2 (vers la forêt maudite)[ENDN]

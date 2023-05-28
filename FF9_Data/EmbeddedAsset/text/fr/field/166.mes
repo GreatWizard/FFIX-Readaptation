@@ -1,0 +1,667 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Lettre 00
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment.[TIME=-1][STRT=159,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,141,6,1,-1][IMME][TEXT=0,0] :
+J’ai reçu une lettre de [TEXT=0,1] !
+Bon, on va la lire ensemble ![ENDN][STRT=229,12][WDTH=0,77,6,1,6,0,-1,0,229,64,7,-1,0,109,6,0,64,7,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Aujourd’hui, j’ai entendu dire
+qu’un petit avait sauté à la corde [NUMB=7] fois !
+C’est incroyable !
+Peu de gens seraient capables d’établir
+un tel record !
+[TEXT=0,0] peut sauter [NUMB=7] fois ?
+Moi, je peux sauter que [NUMB=6] fois
+tout au plus...
+[ENDN][STRT=199,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je voudrais essayer la Mog-poste.
+Je peux te confier ma lettre ?![ENDN][STRT=105,3]Steelskin :
+Où je suis ?
+Je me suis perdu[SPED=2]...[SPED=-1][ENDN][STRT=209,5][PCHC=2,1][WDTH=0,126,14,1,14,2,14,3,-1,0,209,64,0,-1][IMME]Steelskin :
+3 objets utiles : [ITEM=1], [ITEM=2] et [ITEM=3].
+Souhaitez-vous les avoir pour [C8B040][HSHD][NUMB=0] gils[C8C8C8][HSHD] ?
+[CHOO][MOVE=18,0]Je les achète.
+[MOVE=18,0]J’en ai pas besoin.[ENDN][STRT=200,5][WDTH=0,82,14,1,14,2,14,3,-1][IMME]Steelskin :
+Ah, oui ? Vous en avez déjà ?
+Je pensais que vous n’aviez pas de
+[ITEM=1] ni de [ITEM=2] ni de [ITEM=3]...
+Vous n’en voulez plus alors...?[ENDN][STRT=210,2][IMME]Steelskin :
+Hum... Vous n’avez pas assez de gils.[ENDN][STRT=174,4]Steelskin :
+Merci de me les avoir achetés.
+Ca me permettra de continuer
+ma route...[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Ma première Mog-poste
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]Pas le moment de lire.[TIME=-1][STRT=117,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,89,6,1,-1][TEXT=0,0] :
+Une lettre de [TEXT=0,1] ?
+Qu’y a-t-il de neuf ?[ENDN][STRT=198,12][WDTH=0,77,6,1,6,0,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Couboom, ma première Mog-poste !
+
+Couboom, mon premier courrier !
+
+Coubobom coubobom...
+
+Mais de quoi je vais te parler ?
+
+[ENDN][STRT=104,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que...?![ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1,1,191,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Tu vois de quoi je veux parler
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=179,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,89,6,1,-1][TEXT=0,0] :
+Une lettre de [TEXT=0,1] ?
+Merci de me l’avoir apportée !![ENDN][STRT=212,14][WDTH=0,77,6,1,6,0,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+J’ai entendu dire que la Mog-poste
+marcherait dans pas longtemps.
+Pour l’instant, on cherche un machin
+pour la redémarrer.
+
+Je sais pas quel machin exactement...
+Vu qu’ils m’ont interrogé...
+Euh... Ils parlaient de ce machin...?
+
+Tu vois de quoi je veux parler, hein ?
+[ENDN][STRT=177,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,146,6,1,-1][TEXT=0,0] :
+Le ”machin” dont parle [TEXT=0,1][SPED=2]...[SPED=-1]
+Si je ne me trompe pas, c’est...[ENDN][STRT=158,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+On va bientôt découvrir
+le secret de la Mog-poste ![ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=42,1]   ?????[ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=132,3][ZDNE] :
+Tiens ?
+Qu’est-ce que c’est[SPED=2]...[SPED=-1]?[ENDN][STRT=216,4]Aventurier :
+Il y a de très vieilles légendes par ici.
+L’une d’elle s’appelle[SPED=2]...[SPED=-1]
+”La protection du dragon”.[ENDN][STRT=277,4]Aventurier :
+La terre accumulait le pouvoir du dragon
+et du coup il y avait toujours de l’eau[SPED=2]...[SPED=-1]
+Mais avec des montagnes pareilles c’est normal ![ENDN][STRT=208,4]Aventurier :
+Les gars qui ont construit cette ville
+voulaient le pouvoir du dragon,
+c’est à dire la puissance de l’eau.[ENDN][STRT=243,3]Aventurier :
+Je pense que cette histoire sent le trésor,
+c’est pour ça que je suis venu jusqu’ici ![ENDN][STRT=68,4][PCHC=2,1][IMME]Aventurier :
+Tu joues ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=154,2]Aventurier :
+T’as pas assez de cartes ![ENDN][STRT=173,4][ZDNE] :
+”Donnez la force du dragon
+aux pierres maternelles” ?
+Qu’est-ce que ça veut dire[SPED=2]...[SPED=-1]?[ENDN][STRT=238,4][WDTH=0,134,14,0,-1][ZDNE] :
+On dirait qu’il faut poser des pierres ici[SPED=2]...[SPED=-1]
+Les pierres maternelles[SPED=2]...[SPED=-1]?
+C’est peut-être des [ITEM=0][C8B040][HSHD]s[C8C8C8][HSHD] ?[ENDN][STRT=216,5][MPOS=30,30][WDTH=0,206,14,0,64,5,-1][IMME]Poser combien de [ITEM=0][C8B040][HSHD]s[C8C8C8][HSHD] ? (Possession : [NUMB=5])
+[MOVE=18,0][MOVE=18,0][NUMB=6][NUMB=7]
+[DBTN=UP][MOBI=276][DBTN=DOWN][MOBI=275] : Changer de chiffre.
+[DBTN=LEFT][MOBI=267][DBTN=RIGHT][MOBI=269] : Passer des dizaines aux unités.
+[CBTN=CROSS][MOBI=260] : Confirmer.[MOVE=18,0][CBTN=CIRCLE][MOBI=261] : Annuler.[SIGL=1][TIME=-1][STRT=0,1][MPOS=66,44][NANI][WDTH=0,0,64,6,-1][IMME][B880E0][HSHD][NUMB=6][TIME=-1][STRT=0,1][MPOS=73,44][NANI][WDTH=0,0,64,7,-1][IMME][B880E0][HSHD][NUMB=7][TIME=-1][STRT=139,3][WDTH=0,139,14,0,-1][ZDNE] :
+Il se passe rien[SPED=2]...[SPED=-1]
+Je vais chercher des [ITEM=0][C8B040][HSHD]s[C8C8C8][HSHD] ![ENDN][STRT=143,2][ZDNE] :
+Elles se transforment[SPED=2]...[SPED=-1]?![ENDN][STRT=110,1][WDTH=0,110,14,0,64,4,-1][CENT=110,14,0,64,4][MOVE=18,0]Obtenu : [ITEM=0] X [NUMB=4] ![MOVE=18,0][ENDN][STRT=178,3][PCHC=2,1][IMME]On retourne au 1er étage ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=210,4]Chercheur :
+Je fais des recherches sur l’homme
+de la légende. Celui qui a répondu
+au désir de réincarnation des gens[SPED=2]...[SPED=-1][ENDN][STRT=208,3]Chercheur :
+Cent personnes[SPED=2]...[SPED=-1] ! Si je nomme
+cent personnes, je serai comme lui[SPED=2]...[SPED=-1]![ENDN][STRT=106,3][WDTH=0,45,14,0,-1][IMME]Chercheur :
+Oh ! Mais c’est une
+Carte [ITEM=0] ![ENDN][STRT=211,4][PCHC=2,1][IMME]Chercheur :
+Fais voir ! Je te la vole pas, promis !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]Tu peux toujours courir ![ENDN][STRT=191,4][PCHC=2,1][IMME]Chercheur :
+Tu montres ta carte Nemingway ?!
+[CHOO][MOVE=18,0]Si tu veux.
+[MOVE=18,0]Sûrement pas ![ENDN][STRT=159,3]Chercheur :
+Dégage !
+Tu parasites ma créativité ![ENDN][STRT=166,4]Chercheur :
+Ooooooh !
+L’imagination déferle en moi !
+Je veux créer tout de suite ![ENDN][STRT=219,3]Chercheur :
+Tu sais ! J’ai appris la technique
+des Nemingway pour donner des noms ![ENDN][STRT=142,3]Chercheur :
+Laissez-moi en donner un
+à l’un de vous !![ENDN][STRT=143,11][PCHM=10,9][IMME]On change le nom de qui ?
+[CHOO][MOVE=18,0][ZDNE]
+[MOVE=18,0][DGGR]
+[MOVE=18,0][VIVI]
+[MOVE=18,0][STNR]
+[MOVE=18,0][FRYA]
+[MOVE=18,0][QUIN]
+[MOVE=18,0][EIKO]
+[MOVE=18,0][AMRT]
+[MOVE=18,0]Béatrix
+[MOVE=18,0]Annuler[ENDN][STRT=160,3][TAIL=UPLF]Lectrice :
+J’aime beaucoup les livres[SPED=2]...[SPED=-1]
+Surtout les vieux livres.[ENDN][STRT=204,4][TAIL=UPLF]Lectrice :
+Quand je lis un livre, je ressens les
+sentiments de l’auteur, de l’éditeur
+et des autres lecteurs[SPED=2]...[SPED=-1] Pas vous ?[ENDN][STRT=138,4][PCHC=2,1][IMME]Lectrice :
+Vous jouez aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=155,2]Lectrice :
+Vous n’en avez pas assez ![ENDN][STRT=190,3]Lecteur :
+Il y a tellement de livres que
+je ne sais par lequel commencer ![ENDN][STRT=178,4][PCHC=2,1][IMME]Lecteur :
+Vous voulez jouer aux cartes ?
+[CHOO][MOVE=18,0]Exactement !
+[MOVE=18,0]Pas du tout ![ENDN][STRT=180,2][IMME]Lecteur :
+Vous n’en avez pas suffisament.[ENDN][STRT=135,3][PCHM=2,1][IMME]Appuyer sur le bouton ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=184,2][ZDNE] :
+Il y a eu comme un bruit en bas[SPED=2]...[SPED=-1][ENDN][STRT=123,5][PCHC=4,3][IMME]Abaisser quel levier ?
+[CHOO][MOVE=18,0]Le droit
+[MOVE=18,0]Celui du milieu
+[MOVE=18,0]Le gauche
+[MOVE=18,0]Annuler[ENDN][STRT=86,3]Bibliothécaire :
+J’étudie !
+Taisez-vous ![ENDN][STRT=153,3][ZDNE] :
+On dirait qu’il faut mettre
+quelque chose là-dedans[SPED=2]...[SPED=-1][ENDN][STRT=187,2][ZDNE] :
+On peut peut-être monter par là.[ENDN][STRT=78,3][WDTH=0,8,16,-1][ZDNE] :
+Ah...
+Ca s’arrête[SPED=2]...[SPED=-1][ENDN][STRT=98,2][ZDNE] :
+A quoi ça sert[SPED=2]...[SPED=-1]?[ENDN][STRT=197,2][ZDNE] :
+Hé ! Ca peut peut-être être utile ![ENDN][STRT=95,2][ZDNE] :
+Si je le mets là[SPED=2]...[SPED=-1][ENDN][STRT=71,2][WDTH=0,8,16,-1][ZDNE] :
+Impeccable ![ENDN][STRT=203,4]Armurier :
+Avant on montait les marchandises
+par cet ascenseur, mais maintenant,
+il ne monte plus jusqu’ici[SPED=2]...[SPED=-1][ENDN][STRT=220,4]Armurier :
+Si je peux plus monter ma marchandise,
+le forgeron d’en face va me prendre
+toute ma clientèle[SPED=2]...[SPED=-1][ENDN][STRT=134,3]Armurier :
+Tu l’as réparé ! Merci !
+Tu me sauves la vie ![ENDN][STRT=244,4]Armurier :
+Les armuriers aussi sont intelligents !
+Regarde, j’ai ce qu’il faut pour te rendre
+encore plus intelligent que tu ne l’es déjà ![ENDN][STRT=124,4][PCHC=2,1][IMME] Armurier :
+Tu joues aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=216,2]Armurier :
+Tu n’as pas assez de cartes, tu sais ?[ENDN][STRT=208,3]Aventurier :
+La ville a été construite en l’honneur
+de Daguéréo, le bibliothécaire fou.[ENDN][STRT=176,4][PCHC=2,1][IMME]Aventurier :
+Tu ferais une partie avec moi ?
+[CHOO][MOVE=18,0]Pourquoi pas ?
+[MOVE=18,0]J’ai pas le temps.[ENDN][STRT=245,2]Aventurier :
+T’as pas assez de cartes à ce que je vois.[ENDN][STRT=123,3]Aventurier :
+Cet ascenseur utilise
+la pression de l’eau[SPED=2]...[SPED=-1][ENDN][STRT=237,3]Aventurier :
+Evidemment[SPED=2]...[SPED=-1] Comme ça,
+l’eau ne se répartit plus qu’en deux endroits.[ENDN][STRT=224,3]Aventurier :
+Je crois qu’il faut être fou pour utiliser
+de l’eau pour protéger des livres[SPED=2]...[SPED=-1][ENDN][STRT=184,3][TAIL=UPLF]Kildéa, prêtre du bois :
+Mais, c’est sire [ZDNE] !
+C’est un plaisir de vous revoir[SPED=2]...[SPED=-1][ENDN][STRT=148,3][ZDNE] :
+Mais[SPED=2]...[SPED=-1] T’es de Clayra !
+Qu’est-ce que tu fais ici ?[ENDN][STRT=254,4][TAIL=UPLF]Kildéa, prêtre du bois :
+Après la destruction de Clayra, j’ai réalisé
+combien Clayra et Bloumécia étaient coupées
+du reste du monde.[ENDN][STRT=261,4][TAIL=UPLF]Kildéa, prêtre du bois :
+Cet isolement nous a rendu incapables de nous
+défendre[SPED=2]...[SPED=-1] Alors j’ai décidé de lire et
+d’étudier afin de découvrir le monde[SPED=2]...[SPED=-1][ENDN][STRT=252,4][TAIL=UPLF]Kildéa, prêtre du bois :
+Et je me dis qu’un jour, les connaissances
+que j’acquiers serviront à la reconstruction
+de Clayra et de Bloumécia[SPED=2]...[SPED=-1][ENDN][STRT=252,4]Forgeron :
+T’es à Daguéréo, la ville de l’eau et
+du savoir, gamin ! Je sais forger des choses
+qu’aucun autre forgeron ne sait faire.[ENDN][STRT=167,4][PCHC=2,1][IMME]Forgeron :
+Une partie de cartes, gamin ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=218,3]Forgeron :
+Hohoho !
+Mais t’as pas assez de cartes, gamin ![ENDN][STRT=242,5]Bibliothécaire :
+D’après d’anciennes légendes, il y aurait
+un monde souterrain, mais les académiciens
+ne considèrent cette histoire que comme
+une affabulation populaire[SPED=2]...[SPED=-1][ENDN][STRT=257,6]Bibliothécaire :
+Les rumeurs concernant le monde souterrain
+datent de l’époque où l’on a découvert
+les techniques de navigation aériennes
+et maritimes. Tout cela est le fruit de gens
+ayant oublié les mystères de l’horizontalité[SPED=2]...[SPED=-1][ENDN][STRT=271,5]Bibliothécaire :
+L’autre argument en faveur de l’existence
+du monde souterrain est qu’il y a deux lunes.
+Certains écrits prétendent que les orbites
+des deux lunes n’ont pas toujours le même centre[SPED=2]...[SPED=-1][ENDN][STRT=258,6]Bibliothécaire :
+Il est communément admis que l’éclat des lunes
+n’est que le reflet de la lumière du soleil.
+Mais certains astronomes objectent qu’en
+cas d’éclipse entre les deux lunes,
+elles émettent une lumière particulière[SPED=2]...[SPED=-1][ENDN][STRT=146,4][PCHC=2,1][IMME]Bibliothécaire :
+Hum[SPED=2]...[SPED=-1] Jouer aux cartes[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]C’est parti !
+[MOVE=18,0]C’est pas le moment ![ENDN][STRT=172,3]Bibliothécaire :
+De nombreux manuscrits disent
+qu’il faut avoir 5 cartes[SPED=2]...[SPED=-1][ENDN][STRT=169,2][ZDNE] :
+Il y a un paquet de bouquins[SPED=2]...[SPED=-1][ENDN][STRT=154,6][SPED=64]”Les cloches de...”
+”Au-delà de la Brume”
+”Plan d’un moteur à Brume”
+”Mes Chimères et moi”
+”Gaïa - Son aspect”
+”La magie pour les...”[ENDN][STRT=143,4]Bibliothécaire :
+Hum[SPED=2]...[SPED=-1] Où peut bien être
+”Mes Chimères et moi”[SPED=2]...[SPED=-1]?
+Je ne le trouve pas.[ENDN][STRT=242,2]Bibliothécaire :
+Je n’ai pas le temps de jouer aux cartes[SPED=2]...[SPED=-1][ENDN][STRT=125,2][ZDNE] :
+Je l’ai vu par là-bas ![ENDN][STRT=144,4]Bibliothécaire :
+Vraiment ?!
+Merci beaucoup !
+Je vais aller le chercher.[ENDN][STRT=256,5]Bibliothécaire :
+Il n’y a pas de meilleure vie que celle passée
+au milieu des livres. Ici nous avons tellement
+d’ouvrages qu’il est difficile de trouver celui
+que l’on veut lire[SPED=2]...[SPED=-1][ENDN][STRT=138,4][PCHC=2,1][IMME]Bibliothécaire :
+Vous jouez aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=192,2]Bibliothécaire :
+Vos n’avez pas assez de cartes ![ENDN][STRT=125,4][PCHC=2,1][IMME][ZDNE] :
+Tiens ? Une échelle[SPED=2]...[SPED=-1]?
+[CHOO][MOVE=18,0]On descend.
+[MOVE=18,0]On reste.[ENDN][STRT=194,3]Bibliobergiste :
+Décidément le vieux Coucrow perd
+de plus en plus la mémoire[SPED=2]...[SPED=-1][ENDN][STRT=245,4]Bibliobergiste :
+Ici, c’est une biblioberge[SPED=2]...[SPED=-1]
+Nous avons des hamacs pour les voyageurs
+qui désirent lire et dormir.[ENDN][STRT=181,5][PCHC=2,1][WDTH=0,181,64,0,-1][IMME]Bibliobergiste :
+Nos tarifs sont de [NUMB=0] gils par nuit,
+ça vous intéresse ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=111,2]Bibliobergiste :
+Ce n’est pas assez.[ENDN][STRT=138,4][PCHC=2,1][IMME]Bibliobergiste :
+Vous jouez aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=153,2]Bibliobergiste :
+Il vous faut plus de cartes.[ENDN][STRT=232,3][TAIL=UPRF]Vieillard :
+Les livres sont mes fidèles compagnons[SPED=2]...[SPED=-1]
+Ils seront en moi à jamais[SPED=2]...[SPED=-1][ENDN][STRT=242,5][TAIL=UPRF]Vieillard :
+Ils m’accompagneront dans la tombe[SPED=2]...[SPED=-1]
+Je ne serai plus debout et eux non plus[SPED=2]...[SPED=-1]
+Je ne peux pas nous imaginer étant séparé
+par la mort.[ENDN][STRT=152,3][TAIL=UPRF]Vieillard :
+Tu fais partie de ceux-là
+qui font le tour du monde[SPED=2]...[SPED=-1][ENDN][STRT=148,4][TAIL=UPRF][WDTH=0,23,14,0,-1]Vieillard :
+J’ai toujours rêvé d’avoir
+1 [ITEM=0][SPED=2]...[SPED=-1]
+Si jamais tu en trouves[SPED=2]...[SPED=-1][ENDN][STRT=224,3][TAIL=UPRF]Vieillard :
+Je ne pourrais pas te remercier, mais
+c’est un vieil homme qui te le demande[SPED=2]...[SPED=-1][ENDN][STRT=54,3][TAIL=UPRF][WDTH=0,54,14,0,-1]Vieillard :
+Quoi[SPED=2]...[SPED=-1]?
+Tu as 1 [ITEM=0] ![ENDN][STRT=146,4][TAIL=UPRF][PCHC=2,1][IMME]Vieillard :
+C’est pour moi, vraiment ?
+[CHOO][MOVE=18,0]Bien sûr.
+[MOVE=18,0]Pas du tout.[ENDN][STRT=153,3][TAIL=UPRF]Vieillard :
+Je vois[SPED=2]...[SPED=-1]
+Désolé de t’avoir dérangé.[ENDN][STRT=101,3][TAIL=UPRF]Vieillard :
+C’est vrai ?!
+Merci beaucoup[SPED=2]...[SPED=-1][ENDN][STRT=211,2][ZDNE] :
+Qu’est-ce qui t’arrive, grand-père ?[ENDN][STRT=133,4][TAIL=UPRF]Vieillard :
+Excuse-moi[SPED=2]...[SPED=-1]
+En fait j’étais forgeron
+dans mon jeune temps[SPED=2]...[SPED=-1][ENDN][STRT=151,4][TAIL=UPRF]Vieillard :
+Quand ma femme est morte,
+j’ai tout perdu et je suis
+venu vivre ici.[ENDN][STRT=209,5][TAIL=UPRF]Vieillard :
+Un jour j’ai lu l’histoire de Golgo.
+On y disait que ses poupées étaient
+criantes de vérité et que son secret
+était dans ses ongles.[ENDN][STRT=267,5][TAIL=UPRF]Vieillard :
+J’ai un peu honte, mais cette histoire m’a donné
+envie de fabriquer un mannequin de ma femme[SPED=2]...[SPED=-1]
+Je pensais qu’un ancien forgeron aussi
+expérimenté que moi pouvait y arriver.[ENDN][STRT=180,6][TAIL=UPRF]Vieillard :
+Mais en voyant ça, j’ai compris.
+Regarde cet ongle !
+C’est celui de quelqu’un qui
+travaillait sans se poser
+de questions[SPED=2]...[SPED=-1][ENDN][STRT=140,6][TAIL=UPRF]Vieillard :
+Il est comme les miens[SPED=2]...[SPED=-1]
+Merci du fond du coeur !
+C’est la première fois
+que j’arrive à regarder
+ma vie en face.[ENDN][STRT=197,3][TAIL=UPRF]Vieillard :
+Tiens, c’est pour te remercier.
+J’en aurai plus besoin maintenant[SPED=2]...[SPED=-1][ENDN][STRT=268,3]Vieillard :
+Je n’en ai peut-être plus pour très longtemps,
+mais j’ai encore le temps de repenser à ma vie.[ENDN][STRT=132,4][PCHC=2,1][IMME]Vieillard :
+Tu joues aux cartes[SPED=2]...[SPED=-1]?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=139,2]Vieillard :
+Il te faut plus de cartes.[ENDN][STRT=265,4]Vendeuse :
+Raaah !
+Mais qu’est-ce que tu comprends pas encore ?
+[SPED=2]...[SPED=-1] Excusez-moi ! Bonjour ![ENDN][STRT=166,3]Vendeuse :
+Non, c’est pas ça du tout !
+Oh[SPED=2]...[SPED=-1] Excusez-moi ! Bonjour ![ENDN][STRT=157,3]Vendeuse :
+Tu comprends rien à rien[SPED=2]...[SPED=-1]!
+[SPED=2]...[SPED=-1] Excusez-moi ! Bonjour ![ENDN][STRT=245,3]Vendeuse :
+Non ! C’est une façade[SPED=2]...[SPED=-1]!
+C’est que je m’énerverais[SPED=2]...[SPED=-1] Vous désirez ?[ENDN][STRT=205,4]Jeune-homme :
+Avec mon amie nous nous demandions
+pourquoi les gens ont tellement
+étudié les deux lunes[SPED=2]...[SPED=-1][ENDN][STRT=233,6]Vendeuse :
+C’est parce que les hommes sont
+des chercheurs nés !
+Quand ils ont eu compris ce qu’ils avaient
+à portée de la main, ils se sont tournés
+vers les deux lunes ![ENDN][STRT=231,6]Jeune-homme :
+Pas du tout !
+C’est parce que ce sont des poètes !
+Il n’y a rien de plus poétique qu’une lune,
+c’est pour ça qu’elle attire les hommes
+et qu’ils l’étudient ![ENDN][STRT=182,4][PCHC=2,-1][WDTH=1,229,-1][IMME]Jeune-homme :
+Qu’est-ce que vous en pensez ?
+[CHOO][MOVE=18,0]Les hommes sont des chercheurs nés.
+[MOVE=18,0]Les hommes sont des poètes.[ENDN][STRT=213,4]Jeune-homme :
+Avec mon amie nous nous demandions
+pourquoi Cordélia devait mourir à
+la fin de ”Je veux être ton oisillon”[SPED=2]...[SPED=-1][ENDN][STRT=249,3]Vendeuse :
+C’est parce qu’elle a compris qu’ils ne
+pourraient être ensemble que dans la mort ![ENDN][STRT=239,6]Jeune-homme :
+Mais non !
+Elle voulait prouver que même s’ils ne se
+ressemblent pas, son amour pour son père
+et celui pour son amoureux ont autant
+d’importance l’un que l’autre ![ENDN][STRT=182,4][PCHC=2,-1][WDTH=1,252,-1,2,260,-1][IMME]Jeune-homme :
+Qu’est-ce que vous en pensez ?
+[CHOO][MOVE=18,0]Ils ne peuvent être unis que dans la mort.
+[MOVE=18,0]Elle veut montrer son amour aux deux hommes.[ENDN][STRT=260,3]Jeune-homme :
+Avec mon amie nous discutions de l’importance
+du royaume et du gouvernement[SPED=2]...[SPED=-1][ENDN][STRT=167,3]Vendeuse :
+L’importance du royaume est
+une invention des dirigeants ![ENDN][STRT=207,4]Jeune-homme :
+Pas du tout ! Il y a plein de choses
+qu’on ne peut pas faire tout seul !
+C’est pour ça qu’il faut un royaume ![ENDN][STRT=182,4][PCHC=2,-1][WDTH=2,189,-1][IMME]Jeune-homme :
+Qu’est-ce que vous en pensez ?
+[CHOO][MOVE=18,0]Le royaume est inutile.
+[MOVE=18,0]Le royaume est indispensable.[ENDN][STRT=151,3]Jeune-homme :
+Pourquoi me contredit-elle
+toujours[SPED=2]...[SPED=-1][ENDN][STRT=146,3]Jeune-homme :
+Tu vois !
+Il est d’accord avec moi ![ENDN][STRT=84,3]Vendeuse :
+Tiens !
+Il m’approuve ![ENDN][STRT=239,4]Jeune-homme :
+En fait, je suis d’accord avec toi[SPED=2]...[SPED=-1]
+Tiens ! Je suis étudiant ici et je n’en
+ai pas besoin, je te le donne en souvenir ![ENDN][STRT=182,4]Vendeuse :
+Vous comprenez vraiment tout[SPED=2]...[SPED=-1]
+Tenez, je ne pourrai jamais le
+vendre, je vous le donne ![ENDN][STRT=228,4]Zebolt, chef machino :
+Je suis venu étudier ici pour essayer
+de trouver une alternative à la ”Brume”
+et au feu.[ENDN][STRT=223,5]Zebolt, chef machino :
+Ici certains appareils utilisent l’énergie
+hydraulique mais pour les autres c’est
+un mystère[SPED=2]...[SPED=-1] A moins que ce soit
+le pouvoir du dragon[SPED=2]...[SPED=-1][ENDN][STRT=210,4][PCHC=2,1][IMME]Zebolt, chef machino :
+Tu veux jouer aux cartes, c’est ça ?
+[CHOO][MOVE=18,0]Tout à fait !
+[MOVE=18,0]Pas du tout ![ENDN][STRT=141,2]Zebolt, chef machino :
+Il te manque des cartes ![ENDN][STRT=178,4][PCHC=2,1][IMME]Quatre bras :
+Oh ? Tu me défies aux cartes ?!
+[CHOO][MOVE=18,0]Absolument !
+[MOVE=18,0]Finalement, non...[ENDN][STRT=168,3]Quatre bras :
+On t’a jamais dit qu’il fallait
+plus de 5 cartes pour jouer ?[ENDN][STRT=161,3]Quatre bras :
+Toi aussi t’es venu chercher
+un trésor, à ce que je vois.[ENDN][STRT=149,3]Quatre bras :
+Je repère les confrères à
+cent lieues à la ronde ![ENDN][STRT=240,3]Quatre bras :
+Avec des bras pareils, je suis vite devenu
+célèbre chez les chasseurs de trésors.[ENDN][STRT=166,3]Quatre bras :
+Mais c’est pas pour ça
+que je te dirai mon vrai nom ![ENDN][STRT=186,4]Quatre bras :
+On a ce qu’on appelle notre rang
+de chasseur, c’est un peu comme
+notre classement à nous.[ENDN][STRT=54,3]Quatre bras :
+T’es venu
+me voir ?[ENDN][STRT=139,3]Quatre bras :
+Au fait, c’est quoi
+ton rang de chasseur[SPED=2]...[SPED=-1]?[ENDN][STRT=94,3]Quatre bras :
+Quoâââââ ?!
+T’as le rang S ?![ENDN][STRT=68,3]Quatre bras :
+Rang A[SPED=2]...[SPED=-1]?
+C’est bien[SPED=2]...[SPED=-1][ENDN][STRT=98,3]Quatre bras :
+Rang B[SPED=2]...[SPED=-1]?
+C’est déjà bien...[ENDN][STRT=86,3]Quatre bras :
+Rang C[SPED=2]...[SPED=-1]?
+C’est pas mal...[ENDN][STRT=107,3]Quatre bras :
+Rang D ?
+C’est pas trop mal.[ENDN][STRT=137,3]Quatre bras :
+Rang E ?
+Bah, c’est un bon début.[ENDN][STRT=176,3]Quatre bras :
+Rang F[SPED=2]...[SPED=-1]?
+Il faut encore faire un effort...[ENDN][STRT=127,3]Quatre bras :
+Rang G, hein[SPED=2]...[SPED=-1]?
+Tu débutes, c’est ça ?[ENDN][STRT=162,3]Quatre bras :
+Quoi ? Rang H ?!
+Il y a pas de honte à avoir...[ENDN][STRT=174,1][TAIL=UPRF][SPED=32]Je... [WAIT=2]Je suis vraiment désolé !![TIME=60][STRT=116,2][ZDNE] :
+Qui c’est ce type[SPED=2]...[SPED=-1]?[ENDN][STRT=176,3][TAIL=UPRF]Quatre bras :
+Non, je veux dire[SPED=2]...[SPED=-1]
+C’est pas vrai ce que j’ai dit[SPED=2]...[SPED=-1][ENDN][STRT=186,4][TAIL=UPRF]Quatre bras :
+En fait[SPED=2]...[SPED=-1] Je suis pas
+célèbre du tout, je suis
+qu’un petit chasseur de rang D[SPED=2]...[SPED=-1][ENDN][STRT=168,3][TAIL=UPRF]Quatre bras :
+Mais je compte bien atteindre
+le rang S, comme toi[SPED=2]...[SPED=-1][ENDN][STRT=169,4][TAIL=UPRF]Quatre bras :
+Enfin, pas seulement ça...
+Je voudrais devenir quelqu’un
+de costaud, quoi ![ENDN][STRT=228,4][TAIL=UPRF]Quatre bras :
+Je suis juste un peu prétentieux,
+et j’étais venu voler ce truc, mais
+j’en suis pas digne, alors je te le laisse.[ENDN][STRT=46,1][TAIL=UPRF][SPED=32]Au fait ![TIME=45][STRT=152,3]Quatre bras :
+J’oubliais, je t’ai pas
+dit comment je m’appelais ![ENDN][STRT=214,3]Gilgamesh :
+Je m’appelle Gilgamesh ! Je serai
+célèbre un jour alors souviens-t-en ![ENDN]

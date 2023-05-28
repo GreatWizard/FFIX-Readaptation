@@ -1,0 +1,1190 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Vers le Désert de Vouby
+[MOVE=18,0]Nouveau champion
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=227,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Une lettre de Steelskin est arrivée !
+Veux-tu la lire ? On va la lire ensemble ![ENDN][STRT=273,12][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+La ville de la pluie n’en aurait plus
+pour longtemps...
+Des gens partent vers le Désert de Vouby.
+
+Qu’est-ce qui les amène dans un endroit pareil ?
+Il n’y a que des tempêtes de sable, rien d’autre.
+
+Ceci dit, j’y vais aussi.
+[ENDN][STRT=186,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Désert de Vouby...
+On dirait que le trajet sera long.
+Je t’admire Steelskin.[ENDN][STRT=174,6][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Tout à l’heure, Hartemision m’a
+apporté une lettre.
+Mais elle a dit que cette lettre
+serait peut-être la dernière...
+Qu’est-ce que ça veut dire ?[ENDN][STRT=196,12][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Un coureur est apparu
+dans le centre-ville d’Alexandrie !
+Il a des ailes ! Son stade préféré,
+c’est les boulevards alexandrins !
+
+Ce coureur s’appelle ”Hippo” !
+
+Faudra pas que tu l’oublies.
+[ENDN][STRT=196,12][WDTH=0,77,6,1,6,0,-1,0,145,17,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Un coureur est apparu
+dans le centre-ville d’Alexandrie !
+Il a des ailes ! Son stade préféré,
+c’est les boulevards alexandrins !
+
+Ce coureur s’appelle ”[VIVI]” !
+
+Faudra pas que tu l’oublies.
+[ENDN][STRT=193,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hum...
+Au fait, qu’est-ce que Hartemision
+voulait dire exactement ?[ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=245,3][IMME]Voyou :
+Hé hé, j’ai trouvé des gils dans la fontaine,
+j’aurai de nouvelles cartes avec ça.[ENDN][STRT=157,4][PCHC=2,1][IMME]Voyou :
+Hé hé, on joue aux cartes ?
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]Pas question.[ENDN][STRT=197,2]Voyou :
+T’as pas assez de cartes pour ça.[ENDN][STRT=179,5][PCHC=2,1][IMME]Le Baron :
+Si on fait une partie,
+vous ne nous dérangerez plus ?
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]Pourquoi ?[ENDN][STRT=162,3]Le Baron :
+Vous n’en avez même pas 5 ?
+Vous ne pouvez pas jouer[SPED=2]...[SPED=-1][ENDN][STRT=129,4][PCHC=2,1][IMME]La Baronne :
+Une partie de cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non merci.[ENDN][STRT=166,3]La Baronne :
+Il vous faut au moins 5 cartes
+pour jouer.[ENDN][STRT=258,3][PCHC=2,1][IMME]Il y a des pièces de 10 gils dans la fontaine[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Lancer une pièce.
+[MOVE=18,0]Pas question ![ENDN][STRT=102,1][TAIL=DEFT][IMME]Pas assez de gils.[ENDN][STRT=171,2]Une pièce de forme différente
+vient d’apparaître[SPED=2]...[SPED=-1][ENDN][STRT=208,1]J’ai l’impression de me sentir mieux[SPED=2]...[SPED=-1][ENDN][STRT=50,1][TAIL=UPRF][OFFT=0,-400,0][NFOC]Couboo ![TIME=30][STRT=191,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Nous...[WAIT=3] nous sommes
+les...[WAIT=3] les meilleurs amis du monde ![ENDN][STRT=211,4][PCHC=2,1][IMME]Vieillard :
+Ah ! Tu veux qu’on fasse une partie ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Mais non ![ENDN][STRT=230,3]Vieillard :
+Tu n’as pas assez de cartes pour jouer.
+On ne peut pas faire de partie[SPED=2]...[SPED=-1][ENDN][STRT=201,4][PCHC=2,1][IMME]Ivrogne :
+Quoi ? Une partie de cartes ? Hic ! 
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=231,3]Ivrogne :
+T’as même pas 5 cartes !
+Comment tu veux faire une partie ?! Hic ![ENDN][STRT=187,4][PCHC=2,1][IMME]Le Baron :
+Eh, une petite partie de cartes ?
+[CHOO][MOVE=18,0]Oui, bien sûr !
+[MOVE=18,0]Pas maintenant ![ENDN][STRT=193,3]Le Baron :
+Pour jouer aux cartes,
+tu as besoin de 5 cartes au moins.[ENDN][STRT=203,4][PCHC=2,1][IMME]La Baronne :
+Voulez-vous me défier aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=136,3]La Baronne :
+Il faut au moins 5 cartes
+pour pouvoir jouer.[ENDN][STRT=183,5][PCHC=2,1][IMME]Père :
+Tu veux défier un des champions
+de la Salle de jeux ?
+[CHOO][MOVE=18,0]C’est ça !
+[MOVE=18,0]Non ![ENDN][STRT=221,3]Père :
+Il te faut au moins 5 cartes pour jouer.
+Tu ne le savais pas ?[ENDN][STRT=193,2]Fils :
+Moi, j’aime pas jouer aux cartes ![ENDN][STRT=175,3]Guide :
+Vous êtes sur le point d’entrer
+dans la Salle de jeux ![ENDN][STRT=237,4]Guide :
+Au-delà, c’est un vrai champ de bataille !
+Allez jouer aux cartes,
+à moins que vous ne soyez trop peureux ![ENDN][STRT=164,4][PCHC=2,1][IMME]Guide :
+Vous voulez vraiment jouer ?
+[CHOO][MOVE=18,0]Oui, bien sûr !
+[MOVE=18,0]Pas maintenant ![ENDN][STRT=194,3]Guide :
+Avec moins de 5 cartes,
+vous ne pouvez même pas entrer ![ENDN][STRT=169,3]Guide :
+Si vous voulez jouer,
+entrez dans la Salle de jeux ![ENDN][STRT=174,9][PCHM=7,6][WDTH=6,278,-1][IMME]Voulez-vous que je vous parle
+un peu du jeu de cartes ?
+[CHOO][MOVE=18,0]Comment joue-t-on ?
+[MOVE=18,0]Expliquez-moi les règles.
+[MOVE=18,0]C’est quoi un Combo ?
+[MOVE=18,0]C’est quoi un Sans-faute ?
+[MOVE=18,0]C’est quoi un niveau ?
+[MOVE=18,0]C’est quoi les lettres inscrites sur la carte ?
+[MOVE=18,0]Non merci.[ENDN][STRT=251,7]Guide :
+Il vous faut absolument au moins 5 cartes
+pour faire une partie. Si vous voulez défier
+quelqu’un aux cartes, parlez à n’importe
+qui en appuyant sur la touche [CBTN=SQUARE][MOBI=310] ! Vous
+tomberez parfois sur des gens qui ne jouent
+pas aux cartes ![ENDN][STRT=164,3]Guide :
+Dans la Salle de jeux, il n’y a
+que des joueurs invétérés ![ENDN][STRT=242,4]Guide :
+Si vous voulez jouer dans la Salle de jeux,
+allez d’abord au guichet à votre gauche
+et inscrivez-vous au tournoi ![ENDN][STRT=211,3]Guide :
+Les joueurs posent leurs cartes tour
+à tour sur un tableau de 4 x 4 cases.[ENDN][STRT=193,4]Guide :
+Parfois, la carte de l’adversaire
+change de couleur. Tout le secret
+est dans les triangles jaunes.[ENDN][STRT=203,5]Guide :
+Quand un triangle pointe vers une
+carte de l’adversaire et qu’elle
+change de couleur, elle est aussitôt
+à vous.[ENDN][STRT=227,5]Guide :
+Si vous posez une carte de telle façon
+que l’un des triangles se trouve en face
+de celui d’une carte de l’adversaire,
+il y aura une bataille.[ENDN][STRT=247,9]Guide :
+Lors de la bataille, un chiffre apparaît sur
+votre carte. Il indique la force de la carte.
+Il diminue au cours de la bataille et s’il
+est plus grand que celui de l’adversaire,
+vous gagnez la bataille. Si votre chiffre
+est supérieur à celui de l’adversaire dès
+le début de la bataille, vous avez plus de
+chances de gagner, bien sûr.[ENDN][STRT=199,3]Guide :
+Il y aura autant de batailles que de
+triangles qui se font face.[ENDN][STRT=222,5]Guide :
+Dans ce cas-là, vous pouvez choisir
+la carte qui participera à la première
+bataille. Votre avantage dans la partie
+dépend de vos choix.[ENDN][STRT=157,3]Guide :
+Ensuite, il y a une technique
+qui s’appelle le ”Combo” ![ENDN][STRT=184,3]Guide :
+Bon maintenant, je vous explique
+ce qu’est un Combo ![ENDN][STRT=254,5]Guide :
+Si votre carte bat celle de l’adversaire
+à la bataille, vous gagnez toutes les cartes
+qui sont en face de chaque triangle de cette
+dernière.[ENDN][STRT=274,4]Guide :
+Au contraire, si la carte de l’adversaire bat
+votre carte, elle gagne toutes les cartes en
+face de chaque triangle de votre carte perdue.[ENDN][STRT=197,4]Guide :
+C’est magnifique et affreux
+en même temps, un Combo !
+Bonne chance pour le Sans-faute ![ENDN][STRT=235,3]Guide :
+En général, quand vous gagnez une partie,
+vous prenez 1 carte à votre adversaire.[ENDN][STRT=247,4]Guide :
+Mais, si toutes les cartes du tapis sont
+à vous, c’est un Sans-faute et vous prenez
+les 5 cartes de l’adversaire.[ENDN][STRT=164,3]Guide :
+Bonne chance pour atteindre
+le plus haut niveau ![ENDN][STRT=197,5]Guide :
+Pour voir votre niveau, choisissez
+la rubrique ”Cartes” dans le Menu.
+Plus vous avez de cartes, plus
+votre niveau est élevé ![ENDN][STRT=168,5]Guide :
+Mais, je ne sais pas comment
+s’appelle le dernier niveau !
+Personne ne l’a jamais atteint
+jusqu’à aujourd’hui ![ENDN][STRT=184,4]Guide :
+Je ne peux pas vous le dire !
+C’est un secret ! Si vous voulez
+savoir, découvrez-le tout seul ![ENDN][STRT=210,4]Caissier :
+Avant d’entrer dans la Salle de jeux,
+achetez suffisamment de cartes pour
+faire une partie.[ENDN][STRT=181,3]Caissier :
+Il me semble que vous avez déjà
+assez de cartes pour jouer.[ENDN][STRT=104,6][PCHC=5,4][WDTH=0,104,64,4,-1,1,55,14,0,-1,2,56,14,1,-1,3,57,14,2,-1,4,58,14,3,-1][IMME]1 carte pour [NUMB=4] gils.
+[CHOO][MOVE=18,0]Carte [ITEM=0][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte [ITEM=1][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte [ITEM=2][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Carte [ITEM=3][C8B040][HSHD][C8C8C8][HSHD]
+[MOVE=18,0]Annuler[ENDN][STRT=207,2]Caissier :
+Mais vous n’avez pas assez de gils ![ENDN][STRT=74,1][TAIL=LOL][WDTH=0,74,64,5,-1][NFOC][IMME]Bourse : [NUMB=5] gils[TIME=-1][STRT=183,4]Dame Stella :
+Nous collectionnons les ”Pierres
+Stellaires” disséminées de par
+le monde.[ENDN][STRT=174,3]Dame Stella :
+Seules les ”Pierres Stellaires”
+nous intéressent.[ENDN][STRT=189,4][WDTH=0,106,14,0,-1]Dame Stella :
+Hum ? Vous avez [ITEM=0] ?
+Voudriez-vous l’échanger contre
+l’un de mes trésors ?[ENDN][STRT=152,4][PCHC=2,1][WDTH=0,152,14,0,-1][IMME]Dame Stella :
+Voulez-vous m’échanger [ITEM=0] ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=133,2]Dame Stella :
+Vous n’êtes pas gentil ![ENDN][STRT=154,3]Dame Stella :
+Oh, vous êtes sûr ?!
+Je suis vraiment heureuse ![ENDN][STRT=161,4]Dame Stella :
+Kwoa, [WAIT=3]Kwoaaa, [WAIT=3]Kwoaaaa !
+Ma domestique vous donnera
+une belle récompense.[ENDN][STRT=164,3][WDTH=0,108,14,0,-1]Dame Stella :
+Vous avez trouvé [ITEM=0],
+la dernière Pierre Stellaire ![ENDN][STRT=214,4]Dame Stella :
+Donnez-la moi vite !
+Ainsi que les autres Pierres Stellaires
+que vous m’avez empruntées ![ENDN][STRT=186,3]Dame Stella :
+Kwoaa, [WAIT=3]Kwoaaa, [WAIT=3]Kwoaaaa !
+Je suis vraiment très contente !![ENDN][STRT=239,4][PCHC=2,1][IMME]Dame Stella :
+Vous voulez jouer aux cartes avec moi[SPED=2]...[SPED=-1]?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=105,3]Dame Stella :
+En effet, je suis
+forte aux cartes ![ENDN][STRT=133,2]Dame Stella :
+Arrêtez de m’énerver ![ENDN][STRT=187,3]Dame Stella :
+Vous n’avez même pas 5 cartes ?
+Allez-vous-en, pauvre ![ENDN][STRT=226,3]Domestique :
+Si vous trouvez une Pierre Stellaire,
+veuillez nous l’apporter, s’il vous plaît.[ENDN][STRT=155,3]Domestique :
+En récompense, vous aurez
+un beau trésor.[ENDN][STRT=128,3][WDTH=0,128,64,0,-1]Domestique :
+Nous avons déjà reçu
+[NUMB=0] Pierre(s) Stellaire(s).[ENDN][STRT=138,4][PCHC=2,1][IMME]Domestique :
+Vous jouez aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=125,2]Domestique :
+Bien. Vous êtes prêt ?[ENDN][STRT=227,2]Domestique :
+D’accord. Nous jouerons une autre fois.[ENDN][STRT=166,3]Domestique :
+Il vous faut au moins 5 cartes
+pour pouvoir jouer.[ENDN][STRT=201,4][PCHC=2,1][IMME]Bandit :
+Tu veux faire une partie avec moi ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=149,3]Bandit :
+T’as pas assez de cartes.
+Tu peux pas jouer.[ENDN][STRT=163,4][PCHC=2,1][IMME]Aventurière :
+Si on allait faire une partie ?
+[CHOO][MOVE=18,0]Volontiers.
+[MOVE=18,0]Pas maintenant.[ENDN][STRT=161,3]Aventurière :
+Tu n’as pas assez de cartes
+pour faire une partie.[ENDN][STRT=153,6][TAIL=DEFT]
+[CENT=145][MOVE=18,0]AVIS DE RECHERCHE[MOVE=18,0]
+
+[CENT=105][MOVE=18,0]100 000 gils[MOVE=18,0]
+[CENT=153][MOVE=18,0]à qui le capturera !![MOVE=18,0]
+[ENDN][STRT=146,4][PCHC=2,1][IMME]Serveuse :
+Tu me défies aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=193,2]Serveuse :
+Quoi ? T’as pas assez de cartes ?[ENDN][STRT=125,5][PCHC=2,1][WDTH=0,125,64,0,-1][IMME]Aubergiste :
+Veux-tu te reposer ?
+C’est [NUMB=0] gils la chambre.
+[CHOO][MOVE=18,0]Dormir un moment.
+[MOVE=18,0]Pas question.[ENDN][STRT=109,3]Aubergiste :
+Bon, prends un lit
+et repose-toi bien.[ENDN][STRT=155,3]Aubergiste :
+Tu n’as pas assez de gils !
+Tu ne peux pas te reposer.[ENDN][STRT=162,4]Aubergiste :
+Qu’est-ce que tu viens
+chercher ici ? Quoi ? Rien[SPED=2]...[SPED=-1]?
+Sors d’ici tout de suite ![ENDN][STRT=177,4][PCHC=2,1][IMME]Aubergiste :
+Mmh ? Tu veux jouer avec moi ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=256,3]Aubergiste :
+Quand tu n’as pas assez de cartes,
+va en acheter au guichet de la Salle de jeux.[ENDN][STRT=131,4][PCHC=2,1][IMME]Voyou :
+Hé, on fait une partie ?
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]Plus tard.[ENDN][STRT=142,4]Voyou :
+T’es fou ou quoi ?
+Comment tu peux jouer
+avec moins de 5 cartes ?[ENDN][STRT=118,4][PCHC=2,1][IMME]Mario :
+On joue aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=164,4]Mario :
+Je te préviens :
+jusqu’à maintenant,
+je n’ai perdu aucune partie ![ENDN][STRT=128,3]Mario :
+Ha ! ”Il partit la queue
+entre les jambes !”[ENDN][STRT=154,3]Mario :
+T’as pas assez de cartes !
+Pas question ![ENDN][STRT=201,4][PCHC=2,1][IMME]Nathalie :
+Tu veux faire une partie avec moi ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=180,4]Nathalie :
+Jouer aux cartes,
+ce n’est pas mon genre.
+Mais bon, ça me détend parfois.[ENDN][STRT=132,3]Nathalie :
+J’ai pas le temps
+de bavarder avec toi ![ENDN][STRT=193,4]Nathalie :
+Un minimum de 5 cartes
+pour faire une partie !
+Fais en sorte de ne pas l’oublier ![ENDN][STRT=182,3]Vendeur :
+Nous avons beaucoup de choix !
+Prenez votre temps ![ENDN][STRT=164,4][PCHC=2,1][IMME]Vendeur :
+Mmh ? Une partie de cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=189,5]Vendeur :
+Vous n’avez pas assez de cartes
+pour pouvoir jouer.
+Il vous faudrait en acheter
+à la Salle de jeux.[ENDN][STRT=144,4][PCHC=2,1][IMME]Voyou :
+Hein ? Une petite partie ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=212,4]Voyou :
+Faire une partie ?
+Mais t’as même pas assez de cartes !
+Tu rêves ou quoi ?[ENDN][STRT=139,4][PCHC=2,1][IMME]Charpentier :
+Si on faisait une partie ?
+[CHOO][MOVE=18,0]Bien sûr.
+[MOVE=18,0]Pas maintenant.[ENDN][STRT=131,3]Charpentier :
+Pour jouer aux cartes,
+il en faut au moins 5 ![ENDN][STRT=32,1][WDTH=0,32,64,1,-1][NFOC][SPED=64][NUMB=1] gils ![TIME=20][STRT=32,1][NFOC][SPED=64]Hum[SPED=2]...[SPED=-1][TIME=15][STRT=149,2][NFOC][SPED=64]Cette personne a proposé
+[NUMB=1] gils ![TIME=20][STRT=80,2][WDTH=0,27,64,1,-1][NFOC][SPED=64][NUMB=1] gils.
+Qui dit mieux ?[TIME=20][STRT=48,2][WDTH=0,36,64,1,-1][NFOC][SPED=64] [NUMB=1] gils !
+Adjugé ![TIME=20][STRT=135,1][NFOC][SPED=64]Le prochain objet est[SPED=2]...[SPED=-1][TIME=20][STRT=104,1][NFOC][SPED=64]Une petite pause ![TIME=20][STRT=9,1][WDTH=0,9,14,0,-1][NFOC][SPED=64][ITEM=0] ![TIME=30][STRT=9,1][WDTH=0,9,14,0,-1][NFOC][SPED=64][ITEM=0] ![TIME=30][STRT=106,2][WDTH=0,9,14,0,-1,0,106,64,1,-1][NFOC][SPED=64][ITEM=0] !
+Mise à prix : [NUMB=1] gils ![TIME=30][STRT=106,2][WDTH=0,9,14,0,-1,0,106,64,1,-1][NFOC][SPED=64][ITEM=0] !
+Mise à prix : [NUMB=1] gils ![TIME=25][STRT=82,4][MPOS=8,8][NANI][WDTH=0,74,64,4,-1,0,43,14,0,-1,0,58,64,1,-1][NFOC][IMME]Actuellement...
+Bourse : [NUMB=4] gils
+Objet : [ITEM=0]
+Prix : [NUMB=1] gils[TIME=-1][STRT=82,4][MPOS=8,8][NANI][WDTH=0,74,64,4,-1,0,43,14,0,-1,0,58,64,1,-1][NFOC][IMME]Actuellement...
+Bourse : [NUMB=4] gils
+Objet : [ITEM=0]
+Prix : [NUMB=1] gils[TIME=-1][STRT=196,5][MPOS=8,80][NANI][WDTH=0,111,64,5,64,6,64,7,-1][NFOC][IMME]Mise à prix : [FEED=3][NUMB=5][NUMB=6][NUMB=7]00 gils
+[DBTN=UP][MOBI=276][DBTN=DOWN][MOBI=275] : Augmenter / Diminuer le prix
+[DBTN=LEFT][MOBI=267][DBTN=RIGHT][MOBI=269] : Changer de colonne
+[CBTN=CROSS][MOBI=260] : Confirmer
+[CBTN=CIRCLE][MOBI=261] : Annuler[TIME=-1][STRT=0,1][MPOS=82,80][WDTH=0,0,64,5,-1][NFOC][B880E0][HSHD][IMME][NUMB=5][TIME=-1][STRT=0,1][MPOS=89,80][WDTH=0,0,64,6,-1][NFOC][B880E0][HSHD][IMME][NUMB=6][TIME=-1][STRT=0,1][MPOS=96,80][WDTH=0,0,64,7,-1][NFOC][B880E0][HSHD][IMME][NUMB=7][TIME=-1][STRT=218,2][IMME]Il vous faut proposer au moins 100 gils
+de plus que l’enchérisseur précédent.[ENDN][STRT=179,1][IMME]Vous n’avez pas assez de gils ![ENDN][STRT=264,3][IMME]L’enchérisseur le plus offrant
+ne peut pas sortir de la Salle des ventes
+tant que l’adjudication n’a pas été prononcée.[TIME=30][STRT=173,1][NFOC][SPED=64]Les objets mis en vente sont[SPED=2]...[SPED=-1][TIME=30][STRT=57,1][NFOC][SPED=64]D’abord[SPED=2]...[SPED=-1][TIME=20][STRT=129,5][WDTH=0,60,14,0,-1]Le Baron :
+J’ai entendu dire qu’on
+mettrait 1 [ITEM=0]
+au prochain encan.
+C’est très attendu ![ENDN][STRT=177,2][WDTH=0,177,14,0,-1]Jeune noble :
+1 [ITEM=0] ? Ca m’intéresse beaucoup[SPED=2]...[SPED=-1][ENDN][STRT=155,3]La Baronne :
+Si l’objet est très attendu,
+il risque d’être très cher[SPED=2]...[SPED=-1][ENDN][STRT=230,4]Le Baron :
+Non, si les autres acheteurs investissent
+leurs gils dans d’autres marchandises,
+nous pouvons l’avoir à un bon prix.[ENDN][STRT=259,6]Le Baron :
+Dans la plupart des cas, ce sont surtout
+les acheteurs assis au premier rang,
+qui font augmenter le prix des articles
+très attendus. Il va donc falloir les détourner
+de leur passion[SPED=2]...[SPED=-1][ENDN][STRT=53,1]Bonjour ![ENDN][STRT=165,4][PCHC=2,1][IMME]Vendeur :
+Vous voulez jouer avec moi ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=224,3]Vendeur :
+Mmh ? Vous n’avez pas assez de cartes
+pour une partie. Si vous alliez en acheter[ENDN][STRT=178,4][PCHC=2,1][IMME]Savant :
+Vous voulez jouer aux cartes ?
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]Pas question.[ENDN][STRT=198,2]Savant :
+Vous n’avez pas assez de cartes ![ENDN][STRT=112,3][WDTH=0,99,14,0,-1]Savant :
+Ah, c’est étonnant !
+1 [ITEM=0], c’est à vous ?[ENDN][STRT=130,4][PCHC=2,1][WDTH=0,130,64,0,-1][IMME]Savant :
+Je vous en offre [NUMB=0] gils !
+[CHOO][MOVE=18,0]Avec plaisir !
+[MOVE=18,0]Sûrement pas ![ENDN][STRT=146,3]Savant :
+Ah bon[SPED=2]...[SPED=-1]
+C’est vraiment dommage[SPED=2]...[SPED=-1][ENDN][STRT=196,3]Savant :
+Oh, c’est vrai ?
+Ca fait longtemps que j’en rêvais ![ENDN][STRT=118,4][PCHC=2,1][IMME]Jeune noble :
+On joue aux cartes ?
+[CHOO][MOVE=18,0]Bien sûr.
+[MOVE=18,0]Pas maintenant.[ENDN][STRT=179,4]Jeune noble :
+Tu n’as pas assez de cartes.
+Il te faut un minimum de 5 cartes
+pour faire une partie.[ENDN][STRT=142,4][PCHC=2,1][IMME]La Baronne :
+Mmh ? Une petite partie ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=118,3]La Baronne :
+Il vous faut au moins
+5 cartes pour jouer.[ENDN][STRT=109,4][PCHC=2,1][IMME]Aventurier :
+On fait une partie ?
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]Une autre fois.[ENDN][STRT=155,2]Aventurier :
+Il faut 5 cartes pour jouer.[ENDN][STRT=193,4][PCHC=2,1][IMME]Le Baron :
+Quoi ? Tu veux jouer aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=127,3]Le Baron :
+Tu n’as pas 5 cartes ?
+Tu ne peux pas jouer.[ENDN][STRT=114,3][WDTH=0,114,14,0,-1]Le Baron :
+Eh... Quoi ?
+Pourquoi as-tu 1 [ITEM=0] ?![ENDN][STRT=112,4][PCHC=2,1][WDTH=0,112,64,0,-1,2,119,-1][IMME]Le Baron :
+Je t’en donne [NUMB=0] gils !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]C’est pas assez ![ENDN][STRT=99,4][PCHC=2,1][WDTH=0,99,64,0,-1,2,119,-1][IMME]Le Baron :
+Hum[SPED=2]...[SPED=-1] Pour [NUMB=0] gils ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]C’est pas assez ![ENDN][STRT=166,4]Le Baron :
+Et bon sang !
+Ca doit être déjà assez cher
+pour un pauvre comme toi ![ENDN][STRT=122,3]Le Baron :
+Ah, c’est très gentil !
+Je te remercie.[ENDN][STRT=168,5][TAIL=DEFT]
+[CENT=144][MOVE=18,0]♦Cale des cartes♦[MOVE=18,0]
+[CENT=129][MOVE=18,0]Café en plein air[MOVE=18,0]
+[CENT=168][MOVE=18,0](Réservé aux membres)[MOVE=18,0]
+[ENDN][STRT=198,2]Aventurier :
+Bon, je vais chercher ce truc-là[SPED=2]...[SPED=-1][ENDN][STRT=95,3][WDTH=0,95,14,0,-1]Aventurier :
+Tiens, tu as 1 [ITEM=0] ?!
+Tu tombes bien ![ENDN][STRT=145,4][PCHC=2,1][WDTH=0,145,64,0,-1][IMME]Aventurier :
+Je te l’achète pour [NUMB=0] gils !
+[CHOO][MOVE=18,0]Volontiers.
+[MOVE=18,0]C’est pas possible.[ENDN][STRT=79,4][PCHC=2,1][WDTH=0,79,64,0,-1,2,119,-1][IMME]Aventurier :
+Et pour [NUMB=0] gils ?
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]C’est pas assez ![ENDN][STRT=88,3]Aventurier :
+Bon d’accord[SPED=2]...[SPED=-1]
+C’est dommage.[ENDN][STRT=196,3]Aventurier :
+Merci à toi !
+Ca fait longtemps que j’en rêvais ![ENDN][STRT=208,4][PCHC=2,1][IMME]Fillette :
+Tu veux jouer aux cartes avec moi ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=152,3]Fillette :
+Il te faut 5 cartes au moins
+pour faire une partie.[ENDN][STRT=10,1][NFOC][CENT=10]!![TIME=30][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=141,1]La porte est verrouillée.[ENDN][STRT=122,1][PCHM=16,15][WDTH=7,132,-1][IMME]Choisissez une scène.
+[CHOO][MOVE=18,0]Spécialités.
+[MOVE=18,0]Poursuite.
+[MOVE=18,0]Embarras.
+[MOVE=18,0]Retrouvailles.
+[MOVE=18,0]Existence.
+[MOVE=18,0]Ambition.
+[MOVE=18,0]Crime et châtiment.
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Annuler.[ENDN][STRT=66,1][IMME][CENT=66]Spécialités.[ENDN][STRT=57,1][IMME][CENT=57]Poursuite.[ENDN][STRT=57,1][IMME][CENT=57]Embarras.[ENDN][STRT=78,1][IMME][CENT=78]Retrouvailles.[ENDN][STRT=59,1][IMME][CENT=59]Existence.[ENDN][STRT=49,1][IMME][CENT=49]Ambition.[ENDN][STRT=107,1][IMME][CENT=107]Crime et châtiment.[ENDN][STRT=164,3][STNR] :
+Voilà Princesse, c’est Tréno,
+la ville des nobles.[ENDN][STRT=173,3][WDTH=0,33,14,0,-1][DGGR] :
+Nous devrions nous renseigner
+sur l’[ITEM=0].[ENDN][STRT=283,3]Markus :
+Les nobles ne sont qu’une minorité à Tréno[SPED=2]...[SPED=-1]
+Ici, la nuit est longue et les voleurs en profitent[SPED=2]...[SPED=-1][ENDN][STRT=210,3][STNR] :
+Ce sont des voyous comme toi qui ont
+corrompu cette belle ville nocturne ![ENDN][STRT=226,4][WDTH=0,156,14,0,-1]Markus :
+C’est pas le moment de discuter. On doit
+se dépêcher de piquer une [ITEM=0]
+dans une maison de nobles.[ENDN][STRT=219,2][STNR] :
+Quoi ? Piquer ?! Tu es un vrai bandit !![ENDN][STRT=221,2][STNR] :
+Comment oses-tu voler sous mes yeux ![ENDN][STRT=194,3][WDTH=0,160,14,0,-1]Markus :
+Et qu’est-ce qu’on doit faire pour
+obtenir une [ITEM=0], d’après vous ?[ENDN][STRT=172,4][STNR] :
+Tais-toi !
+En tout cas, je ne peux pas te
+laisser en voler une ![ENDN][STRT=157,3]Markus :
+Je crois que vous cherchez
+à critiquer mon métier.[ENDN][STRT=58,3][WDTH=0,8,19,-1][STNR] :
+Raaah !
+En effet[SPED=2]...[SPED=-1][ENDN][STRT=86,2]Markus :
+Il faut y aller[SPED=2]...[SPED=-1][ENDN][STRT=91,3][STNR] :
+Attends !
+Je n’ai pas fini ![ENDN][STRT=237,2]Markus :
+Mais la Princesse est partie toute seule...[ENDN][STRT=150,2][STNR] :
+Ne dis pas n’importe quoi ![ENDN][STRT=236,3][STNR] :
+Il ne faut absolument pas que la Princesse
+fréquente ce type de voleur[SPED=2]...[SPED=-1][ENDN][STRT=111,2][TAIL=UPRF][STNR] :
+Hein ?! Princesse !![ENDN][STRT=123,4][STNR] :
+Et voilà[SPED=2]...[SPED=-1]
+J’ai de moins en moins
+de confiance en moi[WAIT=3][SPED=2]...[SPED=-1][ENDN][STRT=237,3][TAIL=UPRF][STNR] :
+Ca fait 18 ans que je suis chevalier[SPED=2]...[SPED=-1]
+Pourquoi dois-je subir un affront pareil[SPED=2]...[SPED=-1][ENDN][STRT=106,3][TAIL=UPRF][STNR] :
+Mais tout ça, c’est
+de ta faute[SPED=2]...[SPED=-1][ENDN][STRT=183,2][STNR] :
+Hein[SPED=2]...[SPED=-1]? Il n’y a[WAIT=3] plus personne[SPED=2]...[SPED=-1]?[ENDN][STRT=232,4][TAIL=UPRF][STNR] :
+Non, non, je suis un honorable chevalier
+d’Alexandrie, je dois me retenir...
+Je dois d’abord retrouver la Princesse ![ENDN][STRT=184,3][OFFT=0,100,0][STNR] :
+Je ne pourrai pas quitter la ville
+sans la Princesse ![ENDN][STRT=149,3]Markus :
+Mais pourquoi vous sortez
+de la ville[SPED=2]...[SPED=-1]?[ENDN][STRT=137,3]Markus :
+Eh bien, je vous attends
+à la taverne.[ENDN][STRT=178,3]Voyou :
+Hé, monsieur le chevalier,
+qu’est-ce que tu cherches ici ?[ENDN][STRT=218,4]Voyou :
+Héhé, tu te balades toute seule, hein ?
+C’est pas prudent pour une jeune fille,
+héhéhé...[ENDN][STRT=139,3]Le Baron :
+Allez-vous-en !!
+Ne nous dérangez pas !![ENDN][STRT=150,2]Le Baron :
+La vue est très belle d’ici.[ENDN][STRT=218,3]La Baronne :
+Oh, c’est magnifique ! Mais ce quartier
+me fait un peu peur...[ENDN][STRT=186,3]Le Baron :
+Ne vous inquiétez pas, ma chère.
+Je serai toujours avec vous.[ENDN][STRT=172,2][DGGR] :
+Cette ville a l’air dangereuse[SPED=2]...[SPED=-1][ENDN][STRT=189,3][WDTH=0,189,14,0,-1][DGGR] :
+Mais il est temps de trouver une [ITEM=0],
+et de rentrer à Alexandrie[SPED=2]...[SPED=-1][ENDN][STRT=58,3][WDTH=0,8,18,-1][DGGR] :
+Hum[SPED=2]...[SPED=-1]
+Je crois que[SPED=2]...[SPED=-1][ENDN][STRT=122,3][DGGR] :
+Je n’en trouverai pas
+par ici...[ENDN][STRT=25,1]Ah[SPED=2]...[SPED=-1][ENDN][STRT=176,4][WDTH=0,106,14,0,-1][DGGR] :
+Euh[SPED=2]...[SPED=-1] Excusez-moi,
+Monsieur, pouvez-vous me dire
+où trouver une [ITEM=0][SPED=2]...[SPED=-1]?[ENDN][STRT=110,4]Vieillard :
+Quoi ?
+Ma femme est morte
+il y a 3 ans[SPED=2]...[SPED=-1][ENDN][STRT=201,4][WDTH=0,113,14,0,-1][DGGR] :
+Euh[SPED=2]...[SPED=-1] Je cherche un remède appelé
+[ITEM=0] capable de soigner
+les gens pétrifiés[SPED=2]...[SPED=-1][ENDN][STRT=122,3]Vieillard :
+Ah, c’est très gentil !
+Je vous remercie ![ENDN][STRT=147,3]Vieillard :
+J’ai 96 ans, mais je suis
+toujours en pleine forme ![ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=101,3][DGGR] :
+Euh[SPED=2]...[SPED=-1]
+Merci beaucoup[SPED=2]...[SPED=-1][ENDN][STRT=80,3]Vieillard :
+Bon courage !
+Tiens bon ![ENDN][STRT=165,4]Vieillard :
+Quand j’étais jeune,
+j’étais l’un des meilleurs
+joueurs de la Salle de jeux[SPED=2]...[SPED=-1][ENDN][STRT=267,4]Poivrot :
+Visitez la belle ville de Tréno !
+Les riches jouent au bord de l’eau jour et nuit,
+et moi je traîne dans la rue toute la journée[SPED=2]...[SPED=-1][ENDN][STRT=26,1]Ha[SPED=2]...[SPED=-1][ENDN][STRT=26,1][TAIL=UPL][NFOC]Hic ![TIME=30][STRT=31,1][TAIL=UPL][NFOC]Hic !![TIME=30][STRT=209,3]Père :
+Cette fois-ci, c’est sûr !
+Je vais gagner de nouvelles cartes ![ENDN][STRT=137,3]Fils :
+C’est assez, papa !
+Maman sera en colère !![ENDN][STRT=47,1]Arrête ![TIME=30][STRT=211,4][DGGR] :
+Un voleur ?
+Je savais qu’il y en avait beaucoup[SPED=2]...[SPED=-1]
+Il faut que je prenne garde[SPED=2]...[SPED=-1][ENDN][STRT=30,3][WDTH=0,8,18,-1][DGGR] :
+Hum ?
+Ah[SPED=2]...[SPED=-1]![ENDN][STRT=196,2][DGGR] :
+Je me suis fait voler de l’argent ?![ENDN][STRT=62,1]Au [WAIT=3]voleur ![ENDN][STRT=139,1][WDTH=0,139,64,0,18,-1][CENT=139,64,0,18][MOVE=18,0]On a volé [NUMB=0] gils à [DGGR] ![MOVE=18,0][ENDN][STRT=92,2]Gardien :
+Où est-il parti[SPED=2]...[SPED=-1][ENDN][STRT=188,4]Gardien :
+Pff[SPED=2]...[SPED=-1]
+Mais depuis quand y a-t-il autant
+de voleurs dans cette ville ?[ENDN][STRT=259,3]Fillette :
+Cette tour est toujours fermée[SPED=2]...[SPED=-1]
+C’est très bizarre ! Ca sent l’affaire louche ![ENDN][STRT=250,3]Fillette :
+J’ai vu plusieurs fois un vieillard louche
+avec de grosses lunettes entrer et sortir...[ENDN][STRT=240,2]Fillette :
+Ca cache sûrement une affaire douteuse[SPED=2]...[SPED=-1][ENDN][STRT=151,4]Quatre bras :
+Héhéhé, c’est trop facile !
+J’ai gagné assez d’argent
+dans cette ville aussi[SPED=2]...[SPED=-1][ENDN][STRT=89,3]Quatre bras :
+Hein[SPED=2]...[SPED=-1]?!
+C’est pas vrai ![ENDN][STRT=231,3][DGGR] :
+Où a-t-il disparu[SPED=2]...[SPED=-1]?
+J’aurais dû faire attention aux voleurs[SPED=2]...[SPED=-1][ENDN][STRT=208,3][TAIL=LOLF]Quatre bras :
+J’ai pas fait attention tout à l’heure,
+mais c’est une vraie beauté ![ENDN][STRT=160,3][TAIL=LOLF]Quatre bras :
+T’aurais pas dû te promener
+toute seule la nuit[SPED=2]...[SPED=-1][ENDN][STRT=174,3][TAIL=LOLF]Quatre bras :
+Je vais préparer mon prochain
+voyage avec l’argent volé[SPED=2]...[SPED=-1][ENDN][STRT=187,4]Le Baron :
+Qu’est-ce que vous me voulez ?
+Je n’ai pas le temps de bavarder
+avec quelqu’un comme vous ![ENDN][STRT=228,3]Aventurier :
+Tréno est une mine d’objets.
+On y trouve des objets du monde entier.[ENDN][STRT=175,3]Jeune noble :
+Comment trouvez-vous Tréno ?
+On y est bien, n’est-ce pas ?[ENDN][STRT=193,4]La Baronne :
+C’est fantastique[SPED=2]...[SPED=-1]
+Je souhaite que quelqu’un m’y
+emmène encore l’année prochaine.[ENDN][STRT=193,3]Serveuse :
+Je suis désolée, mais
+seuls les membres peuvent entrer.[ENDN][STRT=155,2]Quatre bras :
+Qu’est-ce que tu me veux ?[ENDN][STRT=176,4][STNR] :
+Vous n’avez pas vu par hasard
+une belle Princes[SPED=2]...[SPED=-1]
+Euh... une belle fille ?[ENDN][STRT=130,2]Quatre bras :
+Non[SPED=2]...[SPED=-1] Je l’ai pas vue...[ENDN][STRT=49,2][WDTH=0,8,19,-1][STNR] :
+Ah bon[SPED=2]...[SPED=-1][ENDN][STRT=140,2]Quatre bras :
+Je suis pressé, dégage ![ENDN][STRT=170,4]Quatre bras :
+Non[SPED=2]...[SPED=-1]
+J’ai pas vu de jolie fille
+aux cheveux longs attachés[SPED=2]...[SPED=-1][ENDN][STRT=164,4][STNR] :
+Quoi...?
+Comment sais-tu qu’elle a
+les cheveux longs attachés ?[ENDN][STRT=197,4]Quatre bras :
+Euh[SPED=2]...[SPED=-1] Non, non, je me suis trompé !
+J’ai pas dit que je lui avais piqué
+de l’argent[SPED=2]...[SPED=-1][ENDN][STRT=113,3][WDTH=0,113,14,0,-1]Quatre bras :
+Prends ça, c’est 1 [ITEM=0].
+C’est pour toi[SPED=2]...[SPED=-1][ENDN][STRT=86,1][NFOC]Pardonne-moi ![TIME=-1][STRT=47,2][WDTH=0,8,19,-1][STNR] :
+Reste ici ![ENDN][STRT=123,2][STNR] :
+Raah ! Je l’ai perdu[SPED=2]...[SPED=-1][ENDN][STRT=192,3]Aventurière :
+Toi aussi tu as apporté
+une ”Pierre Stellaire” à la Dame ?[ENDN][STRT=212,3]Aventurière :
+Mais c’est une fausse, non ?
+Tu ne pourras pas tricher avec elle ![ENDN][STRT=251,5]Aventurière :
+La Dame qui est propriétaire de cette maison
+collectionne des pièces appelées
+”Pierre Stellaire”. Il n’en existe
+qu’une dizaine dans le monde.[ENDN][STRT=165,4]Bandit :
+Tss[SPED=2]...[SPED=-1]
+Elle s’est pas faite avoir par
+mon imitation[SPED=2]...[SPED=-1][ENDN][STRT=171,3]Bandit :
+Si tu lui en apportes une,
+elle te donne une récompense.[ENDN][STRT=137,5][PCHC=3,2][WDTH=2,189,-1][IMME]Vieille :
+Qu’est-ce que tu veux ?
+[CHOO][MOVE=18,0]Faire des achats.
+[MOVE=18,0]C’est quoi le monstre en bas ?
+[MOVE=18,0]Non, rien.[ENDN][STRT=137,5][PCHM=3,2][WDTH=2,144,-1][IMME]Vieille :
+Qu’est-ce que tu veux ?
+[CHOO][MOVE=18,0]Faire des achats.
+[MOVE=18,0]Combattre le monstre.
+[MOVE=18,0]Non, rien.[ENDN][STRT=148,6][TAIL=UPLF][PCHM=4,3][IMME]Vieille :
+Il faut se battre tout seul.
+[CHOO][MOVE=18,0][DGGR]
+[MOVE=18,0][STNR]
+[MOVE=18,0]Markus
+[MOVE=18,0]Annuler[ENDN][STRT=140,4]Vieille :
+C’est la mascotte du
+Cavalier, le propriétaire
+de cette maison.[ENDN][STRT=146,4]Vieille :
+Le Cavalier aime bien voir
+que son monstre bat ceux
+qui jouent les gros bras.[ENDN][STRT=123,3]Vieille :
+Vraiment ?
+Tu as bien réfléchi[SPED=2]...[SPED=-1]?[ENDN][STRT=166,2]Vieille :
+Bon, vas au milieu de la cage.[ENDN][STRT=155,3]Vieille :
+Je ne m’y attendais pas[SPED=2]...[SPED=-1]
+Tiens, voilà ta récompense.[ENDN][STRT=178,3]Vieille :
+Je le savais bien[SPED=2]...[SPED=-1]
+Tu aurais mieux fait de partir...[ENDN][STRT=167,3]Markus :
+Hé, mon vieux, c’en est où
+ce que je t’avais demandé[SPED=2]...[SPED=-1]?[ENDN][STRT=188,3]Patron de la taverne :
+Hein[SPED=2]...[SPED=-1]?
+Mais qu’est-ce que tu racontes ?[ENDN][STRT=205,4]Patron de la taverne :
+Hum[SPED=2]...[SPED=-1]?[WAIT=5]
+Oh ! C’est toi Markus !
+J’avais pas reconnu ta sale gueule ![ENDN][STRT=153,2]Markus :
+Tu changes pas, mon vieux.[ENDN][STRT=127,4]Patron de la taverne :
+Haha[SPED=2]...[SPED=-1]
+Au fait, dépêche-toi,
+le chef t’attend[SPED=2]...[SPED=-1][ENDN][STRT=41,1]Atcha ![TIME=30][STRT=98,2]Bach :
+Tu es en retard ![ENDN][STRT=150,3]Markus :
+Pardon, Chef[SPED=2]...[SPED=-1]
+J’ai eu beaucoup à faire...[ENDN][STRT=220,3]Bach :
+Ca ne te ressemble pas de t’excuser[SPED=2]...[SPED=-1]
+A propos, tout est prêt.[ENDN][STRT=137,3][WDTH=0,137,14,0,-1]Markus :
+Oh, super !
+Vous avez trouvé une [ITEM=0] ?[ENDN][STRT=201,3]Bach :
+Oui, dans une maison de nobles.
+On s’y introduit ce soir par bateau.[ENDN][STRT=225,3]Markus :
+Faites-moi confiance !
+Je suis le seul à pouvoir sauver Frank ![ENDN][STRT=255,3]Bach :
+Même si tu veux aller sauver Frank tout seul,
+il y en a deux qui t’accompagneront[SPED=2]...[SPED=-1][ENDN][STRT=235,4][TAIL=LOLF]Serveuse :
+Tout à l’heure, j’ai vu un vieux barbu
+avec des lunettes et un type qui zozotait
+descendre par là.[ENDN][STRT=164,4][TAIL=LOLF]Serveuse :
+Désolée, mais je ne peux
+pas te laisser passer
+sans demander à mon patron.[ENDN][STRT=132,4][TAIL=LOLF]Serveuse :
+Il faut une autorisation
+officielle pour aller sur
+le canal de Tréno.[ENDN][STRT=248,5][TAIL=LOLF]Serveuse :
+A Tréno, il n’y a que les nobles qui ont
+le droit d’habiter au bord de l’eau.
+Mais en réalité, n’importe qui peut y habiter
+en donnant une enveloppe aux officiels.[ENDN][STRT=226,4][TAIL=LORF]Voyou :
+Regarde cette affiche !
+Ce type a un mandat au cul.
+Il a volé vachement d’argent à un noble.[ENDN][STRT=127,3][TAIL=LORF]Voyou :
+Je voudrais être aussi
+connu que lui, un jour.[ENDN][STRT=214,4][TAIL=LORF]Nathalie :
+Ecoute, Mario, depuis toujours, on dit
+que Tréno est la ville des nobles[SPED=2]...[SPED=-1]
+Mais c’est un mensonge ![ENDN][STRT=198,3][TAIL=UPLF]Mario :
+Les nobles ”exploitent” le peuple !
+C’est ça, Nathalie ?[ENDN][STRT=230,5][TAIL=LORF]Nathalie :
+Tout à fait, Mario. Ils nous exploitent,
+ils nous pressent ! Ils ont accaparé tous
+les terrains au bord de l’eau et nous ont
+poussés dans cet endroit misérable.[ENDN][STRT=182,3][TAIL=UPLF]Mario :
+Les nobles sont ”despotiques” !
+C’est ça ?[ENDN][STRT=193,5][TAIL=LORF]Nathalie :
+Absolument[SPED=2]...[SPED=-1]
+Mais écoute, Mario, ça sert à rien
+de se plaindre comme les pauvres
+habitants d’ici.[ENDN][STRT=189,3][TAIL=UPLF]Mario :
+J’ai compris ! On devrait prendre
+le ”pouvoir”, c’est ça, Nathalie ?[ENDN][STRT=153,3][TAIL=LORF]Nathalie :
+Exactement !
+Il faut prendre le pouvoir ![ENDN][STRT=254,5][TAIL=LORF]Nathalie :
+Si tu penses que les nobles t’exploitent,
+il faut devenir noble !
+Comme ça, on n’aura plus de soucis d’argent.
+On pourra vivre heureux ![ENDN][STRT=94,2][TAIL=LORF]Nathalie :
+Suis-moi, Mario ![ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=239,2]Markus :
+Je m’inquiète de l’avenir de ces deux petits[SPED=2]...[SPED=-1][ENDN][STRT=201,5]Nathalie :
+Regarde bien, Mario[SPED=2]...[SPED=-1]
+Un jour on sortira de ces baraques
+et on s’installera dans une grande
+maison au bord de l’eau ![ENDN][STRT=158,3]Mario :
+Et on deviendra des nobles,
+c’est ça, Nathalie ?[ENDN][STRT=181,4]Mario :
+On sera noble et on habitera
+dans une grande maison au bord
+de l’eau ![ENDN][STRT=150,4]Nathalie :
+Ecoute, Mario !
+C’est un secret !
+Il faut le dire à personne ![ENDN][STRT=230,3]Mario :
+Les toits des grandes maisons au bord
+de l’eau laissent jamais passer la pluie[SPED=2]...[SPED=-1][ENDN][STRT=199,4]Charpentier :
+Ce sont de vraies bicoques !
+Je dois les réparer tout le temps[SPED=2]...[SPED=-1]
+Sinon elles tombent en ruine ![ENDN][STRT=177,3]Voyou :
+Y a pas d’argent ou de trésors
+dans la rue[SPED=2]...[SPED=-1]?[ENDN][STRT=81,3]Voyou :
+Si je piquais[SPED=2]...[SPED=-1]
+ce trésor[SPED=2]...[SPED=-1][ENDN][STRT=131,2]Voyou :
+Zut ! Y a rien dedans[SPED=2]...[SPED=-1][ENDN][STRT=203,3]Gardien :
+Ici, c’est la Salle des ventes.
+C’est le Roi qui organise les ventes.[ENDN][STRT=197,3]La Baronne :
+Pourquoi achetez-vous un détritus
+pour 5 000 gils ?[ENDN][STRT=185,2]Le Baron :
+Parce que je rêvais de l’avoir[SPED=2]...[SPED=-1][ENDN][STRT=138,2]Le Baron :
+Mais ne criez pas tant[SPED=2]...[SPED=-1][ENDN][STRT=215,3]La Baronne :
+Ce que vous achetez aujourd’hui sera
+retenu sur votre argent de poche ![ENDN][STRT=167,3][DGGR] :
+Ah ?
+C’est ici la Salle des ventes ?[ENDN][STRT=173,3][WDTH=0,52,14,3,-1][DGGR] :
+On pourrait peut-être trouver
+une [ITEM=3] ici[SPED=2]...[SPED=-1][ENDN][STRT=66,1][MOVE=18,0]Hum ?[MOVE=18,0][ENDN][STRT=214,4][STNR] :
+Ah ! Je vous trouve enfin, Princesse !
+Je m’inquiétais pour vous.
+S’il vous arrivait quelque chose[SPED=2]...[SPED=-1][ENDN][STRT=203,4][WDTH=0,133,14,3,-1][DGGR] :
+J’en ai assez de vous entendre
+grogner ! Avec vous, je n’arriverai
+jamais à trouver une [ITEM=3]...[ENDN][STRT=237,2][STNR] :
+Princesse, je veux juste vous protéger[SPED=2]...[SPED=-1][ENDN][STRT=138,3][WDTH=0,40,14,3,-1][DGGR] :
+Il semble qu’il n’y ait pas
+d’[ITEM=3] ici...[ENDN][STRT=89,2][DGGR] :
+Où est Markus ?[ENDN][STRT=92,2][STNR] :
+Je ne sais pas[SPED=2]...[SPED=-1][ENDN][STRT=164,2][DGGR] :
+Il en a peut-être trouvé une.[ENDN][STRT=204,3][DGGR] :
+Vous ne voulez pas venir avec moi ?
+Je partirai devant alors.[ENDN][STRT=125,4][STNR] :
+Ah[SPED=2]...[SPED=-1]!
+Non...[WAIT=3] Non !
+Je vous accompagne ![ENDN][STRT=169,3][DGGR] :
+Cet homme[SPED=2]...[SPED=-1]
+Je l’ai déjà vu quelque part[SPED=2]...[SPED=-1][ENDN][STRT=171,3][WDTH=0,32,14,0,-1]Markus :
+Tout est prêt, on va chercher
+une [ITEM=0] ![ENDN][STRT=206,4][DGGR] :
+C’est bien !
+Comme ça, on pourra sauver Frank !
+Et alors[SPED=2]...[SPED=-1] quand partons-nous ?[ENDN][STRT=163,3]Markus :
+Le plus vite possible[SPED=2]...[SPED=-1]
+Vous voulez venir avec moi ?[ENDN][STRT=101,4][PCHC=2,1][IMME]Markus :
+Vous êtes prête ?
+[CHOO][MOVE=18,0]Je suis prête.
+[MOVE=18,0]Une minutes.[ENDN][STRT=86,2][DGGR] :
+Allez, on y va ![ENDN][STRT=165,2]Markus :
+Le Chef nous attend plus loin.[ENDN][STRT=145,2][DGGR] :
+Chef[SPED=2]...[SPED=-1] C’est votre supérieur ?[ENDN][STRT=167,4]Markus :
+Bien sûr.
+Il n’y a qu’une seule personne
+que j’appelle ”Chef”.[ENDN][STRT=230,3][DGGR] :
+Je ne suis pas encore tout à fait prête.
+Vous pouvez m’attendre encore un peu ?[ENDN][STRT=104,3]Markus :
+Ouais[SPED=2]...[SPED=-1]
+Mais faites vite...![ENDN][STRT=101,4][PCHC=2,1][IMME]Markus :
+Vous êtes prête ?
+[CHOO][MOVE=18,0]Je suis prête.
+[MOVE=18,0]Pas encore.[ENDN][STRT=163,2][TAIL=LORF][NFOC]Princesse !
+Attendez un peu, Princesse ![TIME=80][STRT=164,2][TAIL=LOLF][NFOC]Princesse !
+Veuillez réfléchir un instant ![TIME=80][STRT=254,2][TAIL=LORF][NFOC]Ne croyez pas ce que ce type vient de dire.
+Il vous tend un piège ! Princesse ![TIME=80][STRT=257,2][NFOC]D’ailleurs une Princesse comme vous
+ne devrait pas collaborer avec ces bandits ![TIME=80][STRT=203,1][TAIL=LOLF][NFOC]Si Sa Majesté venait à l’apprendre[SPED=2]...[SPED=-1][TIME=100][STRT=201,6][PCHC=2,0][IMME][STNR] :
+Vous ne devez pas aller avec eux !
+Veuillez accepter le conseil
+de votre fidèle vassal !
+[CHOO][MOVE=18,0]Pas question.
+[MOVE=18,0]D’accord.[ENDN][STRT=69,1][NFOC]Princesse !![TIME=80][STRT=69,1][TAIL=LOLF][NFOC]Princesse !![TIME=80][STRT=187,3][STNR] :
+Oh ! Vraiment ?!
+Je suis très heureux, Princesse ![ENDN][STRT=233,3]Bach :
+Eh, c’est la première fois que tu dérobes
+quelque chose à quelqu’un, pas vrai ?[ENDN][STRT=192,3][DGGR] :
+Je dois vous surveiller pour que
+vous ne voliez pas n’importe quoi.[ENDN][STRT=81,2]Markus :
+Allez, on part.[ENDN][STRT=125,3][STNR] :
+Raaah !!
+Je vous accompagne ![ENDN][STRT=196,3][STNR] :
+Je dois vérifier que vous ne faites
+pas de mal à la Princesse.[ENDN][STRT=121,2]Markus :
+La confiance règne[SPED=2]...[SPED=-1][ENDN][STRT=220,4]Bach :
+C’est vrai que t’es un vassal fidèle[SPED=2]...[SPED=-1]
+Mais je doute que tu aies déjà réfléchi
+à ce que tu voulais vraiment faire.[ENDN][STRT=251,3][STNR] :
+Tu oses te moquer du Capitaine des Brutos ?
+Moi, j’ai ordre de ramener la Princesse[SPED=2]...[SPED=-1][ENDN][STRT=208,4]Bach :
+Je pensais que tu changerais un peu,
+après avoir passé pas mal de temps
+avec [ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=225,3]Bach :
+T’es tout juste bon à suivre les ordres.
+T’as jamais agi de toi-même, pas vrai ?[ENDN][STRT=151,2][STNR] :
+Comment oses-tu me dire[SPED=2]...[SPED=-1][ENDN][STRT=132,3][WDTH=0,132,19,-1][DGGR] :
+Arrêtez [STNR]. C’est assez !
+Allez, on y va ![ENDN][STRT=162,2]Commissaire-priseur :
+Alors, Bloumécia vous a plu ?[ENDN][STRT=228,5]Kuja :
+C’était assez bien[SPED=2]...[SPED=-1]
+J’aurais préféré que ces rats puants et
+cette horrible femme ne s’offrissent pas
+à ma vue.[ENDN][STRT=195,3]Kuja :
+Leur existence ne correspond pas
+à mon sens esthétique.[ENDN][STRT=143,2]Commissaire-priseur :
+Cela a dû vous ennuyer[SPED=2]...[SPED=-1][ENDN][STRT=272,5]Kuja :
+La prochaine fois, ce sera une chasse
+aux rats du désert[SPED=2]...[SPED=-1]
+Quoique je veuille rester encore longtemps
+dans cette belle ville pour effacer leur odeur...[ENDN][STRT=185,2]Commissaire-priseur :
+Vous partez pour Clayra alors[SPED=2]...[SPED=-1][ENDN][STRT=167,3]Kuja :
+Oui. Je vous prendrai ce dont
+je vous avais parlé.[ENDN][STRT=153,3]Commissaire-priseur :
+Bien.
+Je vais vous le préparer[SPED=2]...[SPED=-1][TIME=50][STRT=156,4]Kuja :
+A propos, il y a eu une jolie
+cliente aujourd’hui.
+Vous l’avez remarquée ?[ENDN][STRT=134,3]Commissaire-priseur :
+Une jolie cliente ?
+Cette dame vous a plu ?[ENDN][STRT=210,4]Kuja :
+Oui, elle m’a beaucoup plu[SPED=2]...[SPED=-1]
+L’oisillon que je poursuivais
+est entré de lui-même dans la cage[SPED=2]...[SPED=-1][ENDN][STRT=12,1][CENT=12]??[ENDN][STRT=222,4]Kuja :
+Je n’avais pas prévu de pouvoir la
+rencontrer dans cet endroit[SPED=2]...[SPED=-1]
+Est-ce cela que l’on appelle le destin ?[ENDN][STRT=170,3]Kuja :
+Mais il n’est pas encore temps
+que tu replies tes ailes[SPED=2]...[SPED=-1][ENDN][STRT=118,4]Kuja :
+Ton nid n’est pas ici.
+Rentre à ton vrai nid
+où ta mère t’attend.[ENDN][STRT=179,2][FLIM][SPED=4]Moi aussi[WAIT=20],
+je t’accueillerai cordialement...[ENDN][STRT=238,4]Savant :
+Cette maison appartient au Fou.
+Il se passionne pour les sciences et
+aide financièrement beaucoup de savants.[ENDN][STRT=275,4]Savant :
+Il est forgeron par passe-temps et il prête
+une tour près d’ici à un savant[SPED=2]...[SPED=-1]
+Je ne comprends pas à quoi pensent les riches...[ENDN][STRT=134,3][WDTH=0,128,14,0,-1][STNR] :
+Tu es sûr qu’il y a une [ITEM=0]
+dans un endroit pareil ?[ENDN][STRT=173,3]Markus :
+Arrêtez de grogner !
+Contentez-vous de chercher ![ENDN][STRT=47,1]Tiens...?[ENDN][STRT=102,2]Markus :
+[C8C8C8][HSHD](Voilà quelqu’un !)[ENDN][STRT=258,3][TAIL=UPLF]Savant :
+Pff... Quand la lune rouge est comme ce soir,
+c’est une belle occasion pour l’observation[SPED=2]...[SPED=-1][ENDN][STRT=165,3][TAIL=UPLF]Savant :
+Il n’y a plus d’encre[SPED=2]...[SPED=-1]
+Hum[SPED=2]...[SPED=-1] où puis-je en trouver[SPED=2]...[SPED=-1]?[ENDN][STRT=111,2]Markus :
+(Que faites-vous ?)[ENDN][STRT=96,2][DGGR] :
+[C8C8C8][HSHD]([SPED=2]...[SPED=-1]!! Attendez !)[ENDN][STRT=69,3][WDTH=0,8,19,-1][STNR] :
+(Princesse !
+Arrêtez !)[ENDN][STRT=84,2]Savant :
+Hmn...? Quoi...?[ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=142,2]Savant :
+[SPED=2]...[SPED=-1][WAIT=5]Mais, [WAIT=5]c’est bien vrai ?![ENDN][STRT=211,2][DGGR] :
+Comment allez-vous[SPED=2]...[SPED=-1] Maître Totto ?[ENDN][STRT=106,3]Totto :
+Princesse !!
+Princesse Grenat ![ENDN][STRT=166,2][STNR] :
+Quoi ?! [WAIT=3]C’est Maître Totto ?![ENDN][STRT=87,2]Markus :
+Mais qui c’est ?[ENDN][STRT=215,3][TAIL=LORF][STNR] :
+Maître Totto est un grand savant.
+Il était le précepteur de la Princesse.[ENDN][STRT=204,5]Totto :
+Ah ! c’est vous, Capitaine [STNR] !
+Voulez-vous parler moins fort[SPED=2]...[SPED=-1]!
+Votre voix réveillerait les vendeurs
+en sursaut.[ENDN][STRT=210,3]Totto :
+Dites-moi, Princesse,
+qu’est-ce qui vous amène à Tréno[SPED=2]...[SPED=-1]?[ENDN][STRT=228,4][WDTH=0,119,14,0,-1][DGGR] :
+Ce n’est pas une histoire simple[SPED=2]...[SPED=-1]
+Après bien des aventures compliquées[SPED=2]...[SPED=-1]
+Nous cherchons une [ITEM=0].[ENDN][STRT=270,3][STNR] :
+Ne pensez pas que nous nous amusions à voler !
+Nous n’avons pas le choix[SPED=2]...[SPED=-1][ENDN][STRT=94,1]Il y a quelqu’un ?[ENDN][STRT=10,1][CENT=10]!![TIME=30][STRT=171,3][TAIL=UPRF][WDTH=0,164,14,0,-1]Totto :
+Retirez-vous pour le moment !
+Je vous donnerai une [ITEM=0] après.[ENDN][STRT=243,4]Totto :
+Prenez la rue sur la gauche après l’entrée
+de Tréno. Suivez la galerie jusqu’au bout,
+vous arriverez sur une grande Tour.[ENDN][STRT=201,4]Totto :
+J’habite dans cette tour.
+Je laisserai la porte ouverte.
+Venez me voir quand vous voudrez.[ENDN][STRT=82,3][DGGR] :
+Bien, Maître.
+Nous y allons ![ENDN][STRT=108,4][DGGR] :
+Maître Totto,
+je vous remercie[SPED=2]...[SPED=-1]
+A tout à l’heure ![ENDN][STRT=167,2]Vendeur :
+Oh, c’est vous, Maître Totto.[ENDN][STRT=201,4][TAIL=UPLF][OFFT=0,-100,0]Totto :
+Excusez-moi de vous avoir surpris.
+Je voudrais une bouteille d’encre,
+s’il vous plaît.[ENDN][STRT=201,4]Vendeur :
+Faites attention, s’il vous plaît[SPED=2]...[SPED=-1]
+Si vous cassiez des marchandises,
+le patron me donnerait des coups[SPED=2]...[SPED=-1][ENDN][STRT=67,2][TAIL=UPRF]Totto :
+Princesse[SPED=2]...[SPED=-1][ENDN][STRT=150,4][TAIL=UPLF][WDTH=0,105,14,0,-1]Bach :
+Alors[SPED=2]...[SPED=-1]
+Tu dis qu’un certain Poppo
+nous filerait une [ITEM=0] ?[ENDN][STRT=137,3]Markus :
+C’est pas Poppo, Chef[SPED=2]...[SPED=-1]
+Il s’appelle Totto.[ENDN][STRT=186,4][TAIL=UPLF]Bach :
+Totto ou Poppo, ça m’est égal.
+Je ne pensais pas qu’on devrait
+demander de l’aide à quelqu’un...[ENDN][STRT=204,3][TAIL=UPLF]Bach :
+Mais bon[SPED=2]...[SPED=-1] On sera au service
+de la Princesse pour un bon moment.[ENDN][STRT=102,2]Markus :
+On n’en finit pas[SPED=2]...[SPED=-1][ENDN][STRT=209,4][TAIL=UPLF][WDTH=0,102,14,0,-1]Bach :
+C’est sûrement grâce à la Princesse.
+Qui donnerait une [ITEM=0]
+à un minable comme toi ?[ENDN][STRT=200,4][TAIL=UPLF][WDTH=0,84,14,0,-1]Bach :
+Princesse, vous nous guidez jusque
+chez [SIGL=1]Titti pour récupérer
+une [ITEM=0], compris ?[ENDN][STRT=173,2][DGGR] :
+Je dois y aller de toute façon.[ENDN][STRT=121,1][NFOC][SPED=2]...[SPED=16]C’est Totto, Chef[SPED=2]...[SPED=16][TIME=48][STRT=185,4][TAIL=UPLF]Bach :
+Bon, c’est pas la peine de nous
+dépêcher[SPED=2]...[SPED=-1] [SIGL=1]Pippi aura besoin de
+temps pour se préparer.[ENDN][STRT=25,1]Ah[SPED=2]...[SPED=-1][ENDN][STRT=87,2][DGGR] :
+Maître Totto[SPED=2]...[SPED=-1][ENDN][STRT=141,4][TAIL=UPRF]Totto :
+Oh, Princesse !
+J’espère que cette ruine
+ne vous gênera pas[SPED=2]...[SPED=-1][ENDN][STRT=222,3][TAIL=LOLF][DGGR] :
+Maître Totto, est-ce que vous habitez
+dans cette tour depuis longtemps ?[ENDN][STRT=172,4][TAIL=UPRF]Totto :
+Après avoir quitté Alexandrie,
+j’ai erré d’une ville à l’autre
+en cherchant un mécène[SPED=2]...[SPED=-1][ENDN][STRT=209,2]Totto :
+Et finalement, je suis arrivé à Tréno.[ENDN][STRT=240,3]Totto :
+Vous êtes devenue très belle, Princesse[SPED=2]...[SPED=-1]
+Je suis vraiment heureux de vous revoir.[ENDN][STRT=163,4][STNR] :
+Maître Totto !
+Je suis très heureux de vous
+revoir en pleine forme.[ENDN][STRT=154,3][WDTH=0,88,19,-1]Totto :
+Oui, c’est vrai, le Capitaine
+[STNR] est avec vous.[ENDN][STRT=215,3][STNR] :
+C’était un acte indigne d’un chevalier.
+J’ai horriblement honte...[ENDN][STRT=225,4]Totto :
+Vous n’avez pas changé, Capitaine[SPED=2]...[SPED=-1]
+J’imagine que vous n’aviez pas le choix.
+Je ne vous demande pas pourquoi[SPED=2]...[SPED=-1][ENDN][STRT=152,3][WDTH=0,139,14,0,-1]Totto :
+Je vous ai préparé une [ITEM=0].
+Elle est à vous, prenez-la.[ENDN][STRT=101,2]Markus :
+Alors on la prend.[ENDN][STRT=149,3][STNR] :
+Tu pourrais au moins
+remercier Maître Totto !![ENDN][STRT=184,2][WDTH=0,184,19,-1]Totto :
+Ce n’est pas grave, Capitaine [STNR][SPED=2]...[SPED=-1][ENDN][STRT=206,3][DGGR] :
+Je dois encore discuter d’une chose
+avec vous, Maître[SPED=2]...[SPED=-1][ENDN][STRT=201,2]Markus :
+Avec ça, je pourrai sauver Frank ![ENDN][STRT=129,4][STNR] :
+Pourquoi dois-je aider
+un voleur insolent[SPED=2]...[SPED=-1]?
+C’est une honte ![ENDN][STRT=147,3][DGGR] :
+Maître Totto,
+c’est une Gaïa-sphère[SPED=2]...[SPED=-1]?[ENDN][STRT=161,3][TAIL=UPRF]Totto :
+Exactement. Elle représente
+notre belle planète[SPED=2]...[SPED=-1][ENDN][STRT=151,3][TAIL=UPLF][DGGR] :
+Un jour vous m’avez donné
+un cours sur la sphère.[ENDN][STRT=187,3][TAIL=UPRF]Totto :
+C’est vrai, Princesse.
+Vous en souvenez-vous encore ?[ENDN][STRT=186,4]Totto :
+Bien sûr[SPED=2]...[SPED=-1]
+Je vois ce que c’est[SPED=2]...[SPED=-1]
+Sa Majesté est allée jusque-là[SPED=2]...[SPED=-1][ENDN][STRT=226,4]Totto :
+J’ai compris. Je ne peux pas vous dire
+qu’il n’y aura pas de danger en chemin.
+Mais je dois vous aider à retourner à Alexandrie.[ENDN][STRT=202,3][DGGR] :
+Mais par quelle route pouvons-nous
+y retourner ?[ENDN][STRT=230,4]Totto :
+J’avais prévu cet événement, Princesse.
+Vous pourrez aller à Alexandrie
+par une vieille route.[ENDN][STRT=79,2]Totto :
+Venez par ici.[ENDN][STRT=172,4][STNR] :
+Ah !!
+Enfin, nous retournons à notre
+grand royaume d’Alexandrie ![ENDN][STRT=198,2]Markus :
+Je pars pour Alexandrie, moi aussi.[ENDN][STRT=137,2][STNR] :
+Pourquoi, tu nous suis ?![ENDN][STRT=140,3]Markus :
+Alexandrie me va bien
+pour aller libérer Frank.[ENDN][STRT=131,3][DGGR] :
+Bien.
+On y va donc ensemble.[ENDN][STRT=129,2][WDTH=0,129,19,-1][DGGR] :
+Vous êtes d’accord, [STNR] ?[ENDN][STRT=25,2][WDTH=0,8,19,-1][STNR] :
+Je[SPED=2]...[SPED=-1][ENDN][STRT=125,3][DGGR] :
+Je souhaite que Frank
+[SPED=2]...[SPED=-1]et Mère guérissent.[ENDN][STRT=211,3]Totto :
+N’oubliez pas de bien vous préparer.
+Il y a des monstres parfois.[ENDN][STRT=216,3]Totto :
+Lorsque vous serez prêts, descendez
+par cette échelle.[ENDN][STRT=138,4][PCHC=2,1][IMME]Totto :
+Vous jouez aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=162,2]Totto :
+Eh bien, faisons une partie[SPED=2]...[SPED=-1][ENDN][STRT=167,3]Totto :
+Je vois...
+Nous jouerons une autre fois.[ENDN][STRT=166,3]Totto :
+Il vous faut au moins 5 cartes
+pour pouvoir jouer.[ENDN]

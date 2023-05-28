@@ -1,0 +1,282 @@
+[STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=11,1][CENT=11]?![ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=151,2]Vous êtes sûres de vouloir
+y aller juste vous deux[SPED=2]...[SPED=-1]?[ENDN][STRT=181,3][DGGR] :
+Toi-même, tu as dit qu’on devait
+se mettre par deux.[ENDN][STRT=172,4][TAIL=LOLF][OFFT=0,80,0][WDTH=0,172,16,-1,0,121,18,-1][EIKO] :
+Qu’est-ce que tu veux dire, [ZDNE] ?
+Tu penses que [DGGR] et moi
+on n’y arrivera pas ?[ENDN][STRT=222,3][ZDNE] :
+C’est pas ça[SPED=2]...[SPED=-1]
+J’ai confiance en vous, bien sûr, mais[SPED=2]...[SPED=-1][ENDN][STRT=148,3][TAIL=LOLF][OFFT=0,80,0][WDTH=0,79,18,-1][EIKO] :
+Je sais bien que tu voulais
+partir avec [DGGR] ![ENDN][STRT=209,4][DGGR] :
+Plus on s’attarde et moins
+on aura de chance de conquérir
+tous les Sanctuaires en même temps ![ENDN][STRT=97,2][ZDNE] :
+Oui, t’as raison[SPED=2]...[SPED=-1][ENDN][STRT=223,3][DGGR] :
+Il faut choisir le prochain Sanctuaire et
+le couple qui le conquerra.[ENDN][STRT=178,4][WDTH=0,132,23,20,-1][ZDNE] :
+”Mon pouvoir est gardé au plus
+chaud des hauts sommets[SPED=2]...[SPED=-1]”
+Si je demandais à [AMRT] et [FRYA] ?[ENDN][STRT=216,5][TAIL=LOLF][OFFT=0,80,0][EIKO] :
+Allez, dépêche-toi !
+Tu veux nous faire attendre
+dans un endroit pareil jusqu’à quand ?
+On traite pas les demoiselles comme ça ![ENDN][STRT=208,2][ZDNE] :
+On revient vous chercher plus tard ![ENDN][STRT=198,6][TAIL=LOLF][OFFT=0,80,0][EIKO] :
+Bon[SPED=2]...[SPED=-1]
+C’est bien calme maintenant que
+personne n’est là pour nous gêner.
+Entre femmes on doit s’entendre !
+Marchons main dans la main ![ENDN][STRT=113,2][DGGR] :
+Main dans la main[SPED=2]...[SPED=-1]?[ENDN][STRT=139,3][OFFT=0,100,-80][TAIL=LOLF][ZDNE] :
+Eh bien, on part pour
+le prochain sanctuaire[SPED=2]...[SPED=-1][ENDN][STRT=197,4][QUIN] :
+[ZDNE] !
+J’étais sûre que tu me proposerais
+d’y aller avec toi ![ENDN][STRT=204,3][OFFT=0,100,-80][TAIL=LOLF][ZDNE] :
+Hum[SPED=2]...[SPED=-1] comment dire[SPED=2]...[SPED=-1]
+En fait, j’ai gagné le vrai gros lot[SPED=2]...[SPED=-1][ENDN][STRT=188,3][QUIN] :
+T’as pas à te gêner avec moi !
+Je suis tellement heureuse, miam ![ENDN][STRT=25,1][OFFT=0,100,-80][TAIL=LOLF]Ah...[ENDN][STRT=215,2][QUIN] :
+Chez les Kwe, il y a un dicton qui dit[SPED=2]...[SPED=-1][ENDN][STRT=183,2][QUIN] :
+...”Le meilleur c’est les restes.”[ENDN][STRT=186,3][OFFT=0,100,-80][TAIL=LOLF][ZDNE] :
+Moi aussi, j’espère qu’il y aura
+plein de bonnes choses dedans[SPED=2]...[SPED=-1][ENDN][STRT=165,2][QUIN] :
+Il doit y en avoir plein, miam ![ENDN][STRT=163,3][QUIN] :
+C’est vide.
+Il n’y a rien à manger, miam[SPED=2]...[SPED=-1][ENDN][STRT=68,2][WDTH=0,8,16,-1][ZDNE] :
+C’est vrai[SPED=2]...[SPED=-1][ENDN][STRT=30,1]Hum ?[ENDN][STRT=116,2][QUIN] :
+Qu’est-ce qu’il y a ?[ENDN][STRT=196,3][ZDNE] :
+On dirait que le plancher a tremblé
+un peu[SPED=2]...[SPED=-1][ENDN][STRT=89,3][ZDNE] :
+Il faut sauter
+au bon moment ![ENDN][STRT=177,2][QUIN] :
+Je sauterai bien cette fois-ci ![ENDN][STRT=97,2][ZDNE] :
+Encore une fois ![ENDN][STRT=102,2][EIKO] :
+Il y a personne[SPED=2]...[SPED=-1]?[ENDN][STRT=169,3][TAIL=LORF][DGGR] :
+Ca a l’air d’autant plus louche
+que c’est calme[SPED=2]...[SPED=-1][ENDN][STRT=140,3][EIKO] :
+Ils ont trop peur de nous
+pour nous dire salut ![ENDN][STRT=80,2][TAIL=LORF][DGGR] :
+Si seulement[SPED=2]...[SPED=-1][ENDN][STRT=93,1]Tu gâches tout ![ENDN][STRT=155,3][EIKO] :
+T’es trop timide alors
+je dois m’occuper de tout ![ENDN][STRT=140,2][TAIL=LORF][DGGR] :
+Hum ?[WAIT=3] De quoi tu parles ?[ENDN][STRT=116,3][EIKO] :
+C’est de tout ça que
+je veux te parler[SPED=2]...[SPED=-1][ENDN][STRT=65,1][IMME]Attention !![TIME=30][STRT=53,1]Miaaam !![ENDN][STRT=107,3][TAIL=UPRF][QUIN] :
+J’ai failli me faire
+mettre en miettes ![ENDN][STRT=168,3][ZDNE] :
+Et s’il y avait des pièges
+dans les autres Sanctuaires ?[ENDN][STRT=135,2][WDTH=0,135,18,-1][ZDNE] :
+J’espère que [DGGR] va bien[SPED=2]...[SPED=-1][ENDN][STRT=39,1][TAIL=UPRF]Quoi ?![ENDN][STRT=163,3][TAIL=LOLF][DGGR] :
+C’est un piège !
+Il y en a sûrement d’autres[SPED=2]...[SPED=-1][ENDN][STRT=46,1][TAIL=UPRF]Kiaaah ![ENDN][STRT=143,2][TAIL=LOLF][DGGR] :
+Cours ! Ne t’arrête pas ![ENDN][STRT=118,4][QUIN] :
+Miaaam !
+Ca doit être là qu’on
+doit poser le miroir ![ENDN][STRT=219,3][WDTH=0,187,16,-1][QUIN] :
+Eh, [ZDNE] ! Qu’est-ce que tu attends ?
+Pose-le vite ! Sinon il sera trop tard ![ENDN][STRT=97,2][WDTH=0,97,16,-1][QUIN] :
+[ZDNE] ! Pose-le vite !![ENDN][STRT=154,2][ZDNE] :
+J’ai plus qu’à le poser ici[SPED=2]...[SPED=-1][ENDN][STRT=112,1]Je vous attendais[SPED=2]...[SPED=-1][ENDN][STRT=197,3][TAIL=UPRF][OFFT=0,-40,0][FRYA] :
+Ca n’a pas été si dur jusqu’ici[SPED=2]...[SPED=-1]
+A te voir, je dirais que tu es déçu.[ENDN][STRT=208,2][TAIL=UPRF][OFFT=0,-40,0][FRYA] :
+On n’a plus qu’à mettre le miroir ici[SPED=2]...[SPED=-1][ENDN][STRT=111,2][TAIL=UPLF][WDTH=0,111,20,-1][AMRT] :
+Eloigne-toi de là, [FRYA] ![ENDN][STRT=234,3][TAIL=UPLF][OFFT=40,-100,0]Gardien du Feu :
+Kuja ne se trompait pas[SPED=2]...[SPED=-1]
+Il m’a prévenu que des rats viendraient[SPED=2]...[SPED=-1][ENDN][STRT=136,2][ZDNE] :
+C’est Kuja qui t’envoit ?[ENDN][STRT=209,3][QUIN] :
+Même si tu aides Kuja,
+il te donnera pas de bonnes choses ![ENDN][STRT=210,3][TAIL=LOLF][OFFT=-20,-255,0]Gardien de la Terre :
+Non, vous vous trompez[SPED=2]...[SPED=-1]
+Nous sommes les Gardiens de Terra[SPED=2]...[SPED=-1][ENDN][STRT=137,2][ZDNE] :
+Les Gardiens de Terra ?[ENDN][STRT=202,3][TAIL=UPLF][OFFT=40,-170,0]Gardien du Feu :
+Nous sommes les Gardiens de Terra,
+ou plutôt, les forces de Terra[SPED=2]...[SPED=-1][ENDN][STRT=198,2][TAIL=UPRF][OFFT=0,-40,0][FRYA] :
+Qu’est-ce que ”Terra” veut dire ?[ENDN][STRT=172,3][TAIL=UPLF][OFFT=40,-170,0]Gardien du Feu :
+Nous ne sommes pas là pour
+raconter l’histoire de Terra[SPED=2]...[SPED=-1][ENDN][STRT=167,3][TAIL=UPLF][OFFT=40,-170,0]Gardien du Feu :
+C’est juste pour le plaisir
+de tuer des rats comme vous.[ENDN][STRT=156,2][TAIL=UPLF][AMRT] :
+Et pour prouver ta force[SPED=2]...[SPED=-1][ENDN][STRT=231,4][TAIL=UPLF][OFFT=40,-170,0]Gardien du Feu :
+Hum[SPED=2]...[SPED=-1]? Je ne te le fais pas dire !
+Mais je me demande si je pourrai le faire
+avec de la vermine comme vous ?[ENDN][STRT=99,2][TAIL=UPLF][AMRT] :
+Tu es pitoyable[SPED=2]...[SPED=-1][ENDN][STRT=92,2][TAIL=UPLF][OFFT=40,-170,0]Gardien du Feu :
+Quoi ?![ENDN][STRT=222,3][TAIL=UPLF][AMRT] :
+Tu n’as qu’à te lover au fond du volcan
+en attendant tes proies[SPED=2]...[SPED=-1][ENDN][STRT=141,2][TAIL=UPLF][WDTH=0,141,23,-1][AMRT] :
+Tout comme un certain [AMRT][SPED=2]...[SPED=-1][ENDN][STRT=211,5][TAIL=UPLF][AMRT] :
+Je ne pensais qu’à me battre
+avec quelqu’un de plus fort que moi.
+Je n’ai même pas tenté de me trouver
+moi-même[SPED=2]...[SPED=-1][ENDN][STRT=12,2][TAIL=UPLF][OFFT=0,-40,0][WDTH=0,8,20,-1,0,12,23,-1][FRYA] :
+[AMRT][SPED=2]...[SPED=-1][ENDN][STRT=115,2][TAIL=UPLF][OFFT=40,-170,0]Gardien du Feu :
+Que veux-tu dire[SPED=2]...[SPED=-1]?[ENDN][STRT=165,3][TAIL=UPLF][OFFT=0,-40,0][FRYA] :
+Tu le comprendras quand
+nous en aurons fini avec toi ![ENDN][STRT=164,4][TAIL=UPLF][OFFT=40,-170,0]Gardien du feu :
+Tu me fais rire[SPED=2]...[SPED=-1]
+Je vais vous faire regretter
+de m’avoir parlé sur ce ton ![ENDN][STRT=43,1][NFOC][SPED=32]Raaah ![TIME=30][STRT=57,1][NFOC][SPED=32]Aaaaaah ![TIME=30][STRT=146,4][OFFT=0,-500,0][TAIL=UPLF]Gardien du Vent :
+C’est tout ?
+Je pensais que vous étiez
+plus costauds que ça...[ENDN][STRT=193,2][STNR] :
+Huuum ! Tu voudrais vraiment me[SPED=2]...[SPED=-1][ENDN][STRT=231,3][VIVI] :
+Mes magies n’arrivent pas à l’atteindre !
+Il bouge trop vite[SPED=2]...[SPED=-1][ENDN][STRT=131,3][VIVI] :
+On peut pas le détruire
+juste à nous deux[SPED=2]...[SPED=-1][ENDN][STRT=179,4][STNR] :
+Si vous êtes un homme,
+ne vous plaignez pas comme ça,
+Monsieur [VIVI] ![ENDN][STRT=36,2][WDTH=0,8,17,-1][VIVI] :
+Mais[SPED=2]...[SPED=-1][ENDN][STRT=163,3][STNR] :
+Si nous unissons nos forces,
+nous détruirons ce monstre ![ENDN][STRT=166,4][OFFT=0,-500,0][TAIL=UPLF]Gardien du Vent :
+Alors, vous avez décidé
+qui d’entre vous se fera tuer
+le premier ?[ENDN][STRT=213,3][STNR] :
+Tais-toi, sale monstre !
+C’est moi qui t’attaquerai le premier ![ENDN][STRT=38,1]Hein ?![ENDN][STRT=137,4][WDTH=0,119,17,-1][STNR] :
+Ecoutez[SPED=2]...[SPED=-1] Monsieur [VIVI].
+J’attire son attention et
+bloque son mouvement...[ENDN][STRT=186,3][STNR] :
+Et vous en profitez pour
+lui envoyer une rafale de sorts ![ENDN][STRT=171,3][VIVI] :
+Mais[SPED=2]...[SPED=-1] c’est trop dangereux !
+Tu vas risquer ta vie[SPED=2]...[SPED=-1][ENDN][STRT=134,2][WDTH=0,134,17,-1][STNR] :
+Je compte sur vous[SPED=2]...[SPED=-1] [VIVI] ![ENDN][STRT=53,3][WDTH=0,8,17,-1][VIVI] :
+Je[SPED=2]...[SPED=-1][WAIT=15]
+Entendu ![ENDN][STRT=63,1][NFOC][SPED=32]Raaaaahh ![TIME=25][STRT=121,3][TAIL=LOLF][OFFT=-20,-255,0]Gardien de la terre :
+Kuja m’avait dit que
+huit rats viendraient[SPED=2]...[SPED=-1]?[ENDN][STRT=236,4][TAIL=UPLF][ZDNE] :
+Tu as l’air déçu.
+Tu préparais une fête pour plus de rats ?
+Tu veux pas qu’on s’amuse tous les trois ?[ENDN][STRT=144,3][TAIL=UPRF][QUIN] :
+Hohoho ! On va te manger
+jusqu’aux os ![ENDN][STRT=174,6][TAIL=LOLF][OFFT=-20,-255,0]Gardien de la Terre :
+Ha[SPED=2]...[SPED=-1] J’ai compris.
+Les autres rats sont allés
+aux trois autres sanctuaires...
+Je ne pensais pas qu’il existait
+des rats aussi stupides[SPED=2]...[SPED=-1][ENDN][STRT=128,3][TAIL=UPLF][ZDNE] :
+Bats-toi avant de dire
+qu’on est stupide ![ENDN][STRT=137,3][TAIL=UPRF][QUIN] :
+Oui, on peut pas juger
+tant qu’on a pas goûté ![ENDN][STRT=192,4][TAIL=LOLF][OFFT=-20,-255,0]Gardien de la Terre :
+Qu’allez-vous chercher à Terra ?
+Ce n’est pas un endroit pour
+des microbes comme vous.[ENDN][STRT=246,3][TAIL=UPLF][ZDNE] :
+Faut que tu resserres tes vis un peu[SPED=2]...[SPED=-1]
+On peut rien dire tant qu’on y est pas allé ![ENDN][STRT=179,5][TAIL=UPRF][QUIN] :
+On peut pas connaître le goût
+tant qu’on n’y aura pas goûté !
+J’ai appris ça en cherchant
+de bons plats de par le monde ![ENDN][STRT=149,4][TAIL=LOLF][OFFT=-20,-255,0]Gardien de la Terre :
+Bon[SPED=2]...[SPED=-1]
+Alors je vous ferai goûter
+la véritable angoisse ![ENDN][STRT=146,2][TAIL=UPLF][ZDNE] :
+Comme ça, c’est parfait[SPED=2]...[SPED=-1][ENDN][STRT=221,2][TAIL=UPRF][QUIN] :
+J’espère que nos amis vont bien, miam ![ENDN][STRT=148,4][TAIL=UPLF][ZDNE] :
+Ils ont peut-être tous fini.
+Maintenant faut qu’on aille
+les chercher ![ENDN][STRT=146,3][TAIL=UPRF][QUIN] :
+Miam !
+On retourne au vaisseau ![ENDN][STRT=192,2][TAIL=LOLF][OFFT=-10,60,0][EIKO] :
+On peut enfin respirer l’air frais ![ENDN][STRT=198,6][TAIL=LOLF][OFFT=-10,60,0][WDTH=0,141,16,-1][EIKO] :
+C’est pas vrai[SPED=2]...[SPED=-1]
+Personne demanderait à des demoiselles
+de détruire un monstre pareil...
+Sauf [ZDNE] ! Il sait pas du tout
+comment traiter les femmes ![ENDN][STRT=50,1][TAIL=UPLF]Aaaaah ![ENDN][STRT=127,2][WDTH=0,127,22,-1][DGGR] :
+Qu’est-ce que tu as [EIKO] ?[ENDN][STRT=185,3][TAIL=LOLF][OFFT=-10,60,0][WDTH=0,185,18,-1][EIKO] :
+J’allais oublier !
+J’ai une chose à te demander, [DGGR]...[ENDN][STRT=71,2][WDTH=0,8,18,-1][DGGR] :
+Que... Quoi ?[ENDN][STRT=239,2][TAIL=LOLF][OFFT=-10,60,0][EIKO] :
+Je veux vraiment te demander une chose ![ENDN][STRT=148,4][TAIL=LOLF][OFFT=-10,60,0][EIKO] :
+Depuis un bon moment,
+je cherchais une occasion
+de te demander...[ENDN][STRT=194,2][TAIL=LOLF][OFFT=-10,60,0][EIKO] :
+Promets-moi de me dire la vérité ![ENDN][STRT=196,3][TAIL=UPLF][WDTH=0,175,22,-1][DGGR] :
+[EIKO], tu dois me poser une question
+avant que je puisse te répondre[SPED=2]...[SPED=-1][ENDN][STRT=150,2][TAIL=LOLF][OFFT=-10,60,0][WDTH=0,150,16,-1][EIKO] :
+Est-ce que[SPED=2]...[SPED=-1][WAIT=10] tu aimes[SPED=2]...[SPED=-1] [ZDNE] ?[ENDN][STRT=153,3][TAIL=UPLF][DGGR] :
+Euh,[WAIT=5] qu’est-ce que tu as ?
+Pourquoi cette question[SPED=2]...[SPED=-1]?[ENDN][STRT=178,3][TAIL=LOLF][OFFT=-10,60,0][EIKO] :
+Alors ? Dis-moi !
+Tu l’aimes ou tu ne l’aimes pas ?[ENDN][STRT=141,2][68C0D8][HSHD]Sous l’ombre du vaisseau
+on entend SE.[ENDN][STRT=146,3][TAIL=UPLF][WDTH=0,146,16,-1][EIKO] :
+Eh ! Regarde !
+[ZDNE] est venu nous chercher ![ENDN][STRT=185,2][TAIL=UPLF][WDTH=0,185,18,-1][EIKO] :
+Hum ? Tu as dit quelque chose, [DGGR] ?[ENDN][STRT=94,2][TAIL=UPLF][WDTH=0,94,22,-1][DGGR] :
+Allez, [EIKO], on y va ![ENDN][STRT=86,3][TAIL=UPLF][WDTH=0,86,18,-1][EIKO] :
+Eh, attends ! [DGGR] !
+Réponds-moi ![ENDN][STRT=4,1] [TIME=-1][STRT=0,1][ENDN][STRT=147,1]On regarde autour de soi.[ENDN][STRT=215,1]On s’est aperçu de la masse de glace.[ENDN][STRT=273,1]Début de la conquête du Sanctuaire de la Glace.[ENDN][STRT=203,1]Fin de la conquête des Sanctuaires.[ENDN][STRT=146,1][C8B040][HSHD]Appuyer sur la touche [C8C8C8][HSHD][DBTN=CROSS][MOBI=260][C8B040][HSHD].[ENDN][STRT=0,2][ZDNE] :
+Je vous laisse à partir d’ici.[ENDN][STRT=0,2]Béatrix :
+Courrez ![ENDN][STRT=0,2]Béatrix :
+Croyais-tu que nous partions en ballade?[ENDN][STRT=0,2][EIKO] :
+Non mais quand même ![ENDN][STRT=0,3][TAIL=UPRF]Béatrix :
+Cependant[SPED=2]...[SPED=-1] Je dois admettre
+que tu m’as impressionnée.[ENDN][STRT=0,3][TAIL=UPRF]Béatrix :
+Tu te bats vigoureusement
+pour une enfant.[ENDN][STRT=0,3][EIKO] :
+Héhé !
+T’as pas été trop inutile non plus ![ENDN][STRT=0,2][TAIL=UPRF]Béatrix :
+Surveille tes paroles ![ENDN][STRT=0,3][DGGR] :
+L’Hildegarde est revenu.
+Venez, toutes les deux.[ENDN][STRT=0,3][TAIL=UPRF][EIKO] :
+Hein?[WAIT=5] Hé, attends [DGGR] !
+Je voulais te demander un truc ![ENDN][STRT=0,2][EIKO] :
+Atteeeeeeends ![TIME=25][STRT=0,2]Béatrix :
+Alors ? Que venons-nous faire ici ?[ENDN][STRT=0,3][ZDNE] :
+Si j’ai vu juste, nous avons les clefs de Terra.
+Maintenant, on doit trouver la “serrure”.[ENDN][STRT=0,3]Béatrix :
+Cela ne me paraît pas difficile.
+À nous trois, on devrait s'en sortir ![ENDN][STRT=0,2][QUIN] :
+Il doit y avoir plein de bonnes choses ici, miam ![ENDN][STRT=0,2]Béatrix :
+Le sol a tremblé[SPED=2]...[SPED=-1][ENDN][STRT=0,4]Béatrix :
+Comment ?!
+Vous avez envoyé Sa Majesté
+dans un endroit comme ça ?![ENDN][STRT=0,3]Béatrix :
+Finissons-en rapidement et
+allons chercher Sa Majesté.[ENDN][STRT=0,4][TAIL=UPLF][ZDNE] :
+Tu as l’air déçu.
+Tu préparais une fête pour plus de rats ?
+Tu veux pas qu’on s’amuse tous les quatre ?[ENDN][STRT=0,1]Laissons la cuisine pour plus tard ![TIME=20][STRT=0,2]Béatrix :
+Ne perdons pas plus de temps.[ENDN]

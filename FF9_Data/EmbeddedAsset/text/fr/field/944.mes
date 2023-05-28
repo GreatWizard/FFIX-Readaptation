@@ -1,0 +1,514 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1,2,201,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Regard de [VIVI]
+[MOVE=18,0]Un signe de la nouvelle ère ou...
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=105,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,89,6,1,-1][TEXT=0,0] :
+Une lettre de [TEXT=0,1] ?
+Merci beaucoubo ![ENDN][STRT=275,11][WDTH=0,77,6,1,6,0,-1,0,207,17,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Un garçon est venu au village des Mages Noirs.
+Il s’appelait [VIVI]...
+[VIVI], il avait un regard vraiment triste...
+Je pense qu’il doit avoir une mission à accomplir.
+
+J’aurais dû l’encourager...
+
+[VIVI], tu n’es pas tout seul ![ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Un regard triste, coubo ?
+A-t-il une mission à accomplir ?[ENDN][STRT=256,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,111,6,1,-1][TEXT=0,0] :
+J’ai une lettre de [TEXT=0,1] !
+Mais je ne comprends rien à ce qu’il raconte.[ENDN][STRT=210,9][WDTH=0,77,6,1,6,0,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+La ”Brume” s’est dissipée,
+
+un signe d’une nouvelle ère
+
+ou celui de la fin du monde ?             
+[ENDN][STRT=241,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je n’arrive pas à comprendre, coubo...
+Il n’y a pas de bonheur après la ”Brume” ?[ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=180,4][PCHC=2,1][IMME][ZDNE] :
+Il y a des trucs qui dépassent[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Appuyer dessus.
+[MOVE=18,0]Ne rien faire.[ENDN][STRT=180,4][PCHC=2,1][IMME][ZDNE] :
+Il y a des trucs qui dépassent[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Appuyer dessus.
+[MOVE=18,0]Ne rien faire.[ENDN][STRT=154,2][ZDNE] :
+Jusque-là tout était mort[SPED=2]...[SPED=-1][ENDN][STRT=220,2][ZDNE] :
+Et maintenant ça change complètement.[ENDN][STRT=101,3][ZDNE] :
+On voit rien de ce
+qu’il y a en bas[SPED=2]...[SPED=-1][ENDN][STRT=130,3][ZDNE] :
+Est-ce qu’on peut
+vraiment descendre[SPED=2]...[SPED=-1]?[ENDN][STRT=102,3][WDTH=0,49,16,-1][EIKO] :
+Dis, [ZDNE], il y
+a un truc bizarre.[ENDN][STRT=131,3][ZDNE] :
+Hum[SPED=2]...[SPED=-1] Peut-être
+qu’en montant dessus...[ENDN][STRT=127,3][EIKO] :
+Je suis montée dessus,
+mais il a pas bougé[SPED=2]...[SPED=-1][ENDN][STRT=124,2][ZDNE] :
+T’es montée dessus ?![ENDN][STRT=32,2][WDTH=0,8,16,-1][ZDNE] :
+Bon[SPED=2]...[SPED=-1][ENDN][STRT=114,3][EIKO] :
+Et si on montait tous
+dessus pour voir ?[ENDN][STRT=114,3][ZDNE] :
+On dirait qu’il réagit
+à ma présence[SPED=2]...[SPED=-1][ENDN][STRT=102,2][ZDNE] :
+C’est normal ça ?![ENDN][STRT=142,4][PCHC=2,1][IMME][ZDNE] :
+Je redescends ou pas[SPED=2]...[SPED=-1]?
+[CHOO][MOVE=18,0]Je redescends.
+[MOVE=18,0]Je reste là.[ENDN][STRT=46,1]Ooooh[SPED=2]...[SPED=-1][ENDN][STRT=230,3][ZDNE] :
+Le démarrage est surprenant mais après
+ça va, on sent presque pas le vent.[ENDN][STRT=138,3][ZDNE] :
+C’est peut-être à cause
+de ces trucs lumineux[SPED=2]...[SPED=-1][ENDN][STRT=50,2][WDTH=0,8,16,-1,0,50,18,-1][ZDNE] :
+Ca va, [DGGR] ?[ENDN][STRT=28,1][TAIL=UPR]Oui[SPED=2]...[SPED=-1][ENDN][STRT=142,3][TAIL=UPL][DGGR] :
+Tu crois qu’il y a quelque
+chose tout en bas[SPED=2]...[SPED=-1]?[ENDN][STRT=69,1]Peut-être[SPED=2]...[SPED=-1][ENDN][STRT=158,3][OFFT=50,-50,0][TAIL=UPRF][EIKO] :
+Je sais !
+Moug pourrait nous le dire ![ENDN][STRT=123,3][OFFT=50,-50,0][TAIL=UPRF][EIKO] :
+Moug, tu sens quelque
+chose dans l’Ifa ?[ENDN][STRT=46,1]Coubo[SPED=2]...[SPED=-1][ENDN][STRT=133,3]Moug :
+Coubo[SPED=2]...[SPED=-1]?
+Couuuuubo, coub coub ![ENDN][STRT=56,2][OFFT=50,-50,0][TAIL=UPRF][WDTH=0,8,22,-1][EIKO] :
+Tu crois ?[ENDN][STRT=43,1]Coubo ![ENDN][STRT=83,2][OFFT=50,-50,0][TAIL=UPRF][EIKO] :
+Humm[SPED=2]...[SPED=-1] Merci ![ENDN][STRT=57,1]Coubobo ![ENDN][STRT=93,3][ZDNE] :
+Alors, qu’est-ce
+qu’il dit ?[ENDN][STRT=143,3][OFFT=50,-50,0][TAIL=UPRF][EIKO] :
+Et bin... En bas il y a
+plein de choses vivantes.[ENDN][STRT=214,4][OFFT=50,-50,0][TAIL=UPRF][EIKO] :
+Les Mog sont des esprits, pas vrai ?
+Ils sentent les choses avec leur peau,
+et Moug dit qu’ici c’est spécial.[ENDN][STRT=113,3][DGGR] :
+Il y a peut-être des
+complices de Kuja[SPED=2]...[SPED=-1][ENDN][STRT=182,3][ZDNE] :
+Quel lien peut-il bien y
+avoir entre lui et la ”Brume” ?!![ENDN][STRT=11,1][TAIL=UPRF][CENT=11]?![ENDN][STRT=120,2][OFFT=50,-50,0][TAIL=UPRF][EIKO] :
+Voilà quelque chose ![ENDN][STRT=167,3][OFFT=50,-50,0][TAIL=UPRF][EIKO] :
+On dirait qu’il y a pas les
+mêmes monstres que dehors[SPED=2]...[SPED=-1][ENDN][STRT=128,3][DGGR] :
+Peut-être que c’est à
+cause de la ”Brume”[SPED=2]...[SPED=-1][ENDN][STRT=215,4][ZDNE] :
+J’en sais rien[SPED=2]...[SPED=-1] La Forêt Maudite et
+la Route de la Gorgone ont aussi leurs
+propres monstres de la ”Brume”[SPED=2]...[SPED=-1][ENDN][STRT=162,4][OFFT=50,-50,0][TAIL=UPRF][EIKO] :
+Mais si la ”Brume” vient d’ici
+pourquoi est-ce qu’elle est
+que sur votre continent ?[ENDN][STRT=161,3][ZDNE] :
+C’est vrai[SPED=2]...[SPED=-1] Il faut quelque
+chose pour la transporter[SPED=2]...[SPED=-1][ENDN][STRT=95,2][DGGR] :
+Mais pourquoi[SPED=2]...[SPED=-1]?[ENDN][STRT=12,1][TAIL=UPLF][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=12,2][WDTH=0,8,18,-1,0,12,16,-1][DGGR] :
+[ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=99,3][ZDNE] :
+Oui ?
+Qu’est-ce que[SPED=2]...[SPED=-1]?[ENDN][STRT=18,1][WDTH=0,18,17,-1][VIVI][WAIT=6][SPED=2]...[SPED=-1]?[ENDN][STRT=109,2][OFFT=50,-50,0][TAIL=UPRF][WDTH=0,109,17,-1][EIKO] :
+Qu’est-ce qu’il a [VIVI] ?[ENDN][STRT=111,2][WDTH=0,111,17,-1][DGGR] :
+[VIVI] n’a pas l’air bien[SPED=2]...[SPED=-1][ENDN][STRT=121,3][WDTH=0,121,17,-1][ZDNE] :
+Qu’est-ce que t’as [VIVI] ?
+A quoi tu penses[SPED=2]...[SPED=-1]?[ENDN][STRT=147,3][VIVI] :
+Ah ! [ZDNE][SPED=2]...[SPED=-1]
+Je pensais à la ”Brume”[SPED=2]...[SPED=-1][ENDN][STRT=122,3][WDTH=0,105,16,-1][VIVI] :
+[ZDNE], tu te souviens de
+la fabrique de Dali[SPED=2]...[SPED=-1]?[ENDN][STRT=102,3][DGGR] :
+Celle où ils font
+des Mages Noirs ?[ENDN][STRT=150,3][OFFT=50,-50,0][TAIL=UPRF][EIKO] :
+Hein ? Quoi ?
+C’est quoi un Mage Noir[SPED=2]...[SPED=-1]?[ENDN][STRT=183,2][WDTH=0,183,17,-1][DGGR] :
+Ils ressemblent à [VIVI] mais ce sont[SPED=2]...[SPED=-1][ENDN][STRT=14,1][WDTH=0,14,18,-1][DGGR] !![ENDN][STRT=109,3][DGGR] :
+Oh[SPED=2]...[SPED=-1] Pa... Pardon !
+Je ne voulais pas[SPED=2]...[SPED=-1][ENDN][STRT=128,4][VIVI] :
+C’est pas grave[SPED=2]...[SPED=-1]
+Ca me fait plus rien
+d’avoir été fabriqué[SPED=2]...[SPED=-1][ENDN][STRT=12,2][WDTH=0,8,16,-1,0,12,17,-1][ZDNE] :
+[VIVI][SPED=2]...[SPED=-1][ENDN][STRT=154,3][VIVI] :
+Je voulais dire qu’il y avait
+plein de ”Brume” là-bas[SPED=2]...[SPED=-1][ENDN][STRT=151,3][ZDNE] :
+C’est vrai[SPED=2]...[SPED=-1] Mais elle était
+dans une grosse machine[SPED=2]...[SPED=-1][ENDN][STRT=129,3][DGGR] :
+Oui[SPED=2]...[SPED=-1] Et il y avait
+des espèces d’oeufs[SPED=2]...[SPED=-1][ENDN][STRT=226,3][VIVI] :
+Je crois qu’il y a un lien entre
+la ”Brume”, Kuja et[SPED=2]...[SPED=-1][WAIT=10] les Mages Noirs[SPED=2]...[SPED=-1][ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=99,2][OFFT=50,-50,0][TAIL=UPRF][EIKO] :
+C’est compliqué[SPED=2]...[SPED=-1][ENDN][STRT=128,2][OFFT=50,-50,0][TAIL=UPRF][EIKO] :
+Attention, un dragon tout moche arrive ![ENDN][STRT=111,3][OFFT=0,20,0][ZDNE] :
+Ca y est,
+on arrive au fond[SPED=2]...[SPED=-1][ENDN][STRT=90,3][EIKO] :
+C’était vraiment
+profond, hein ?![ENDN][STRT=217,3][ZDNE] :
+On sait pas ce qui nous attend,
+on a plus qu’à aller voir nous-mêmes[SPED=2]...[SPED=-1][ENDN][STRT=203,4][PCHC=2,1][IMME][ZDNE] :
+On doit pouvoir remonter avec ça[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Monter dessus.
+[MOVE=18,0]Rester là.[ENDN][STRT=71,3][WDTH=0,8,16,-1][ZDNE] :
+Hé !
+On remonte ![ENDN][STRT=76,2][WDTH=0,8,22,-1][EIKO] :
+C’est par là ![ENDN][STRT=136,3][EIKO] :
+Tu vas laisser une jolie
+fille partir toute seule ?[ENDN][STRT=123,3][TAIL=UPLF][ZDNE] :
+Hé ! On sait pas
+ce qui traîne par là ![ENDN][STRT=12,1][TAIL=LOLF][WDTH=0,12,16,-1][ZDNE]...[ENDN][STRT=157,4][TAIL=LOLF][DGGR] :
+Moug a dit qu’il y avait
+”plein de choses vivantes”,
+mais on ne voit rien.[ENDN][STRT=120,3][TAIL=UPLF][ZDNE] :
+Mais tu les sens
+toi aussi, pas vrai[SPED=2]...[SPED=-1]?[ENDN][STRT=101,3][TAIL=UPLF][ZDNE] :
+Je l’aurais senti,
+même sans Moug...[ENDN][STRT=141,3][TAIL=LOLF][DGGR] :
+C’est vrai[SPED=2]...[SPED=-1]
+Il y a quelque chose ici[SPED=2]...[SPED=-1][ENDN][STRT=163,4][TAIL=LOLF][DGGR] :
+Qu’est-ce que c’est[SPED=2]...[SPED=-1]?
+C’est en partie végétal, mais
+on dirait une machine[SPED=2]...[SPED=-1][ENDN][STRT=135,3][TAIL=LORF][ZDNE] :
+Une machine[SPED=2]...[SPED=-1]?
+Où tu vois une machine ?[ENDN][STRT=233,2][TAIL=LOLF][DGGR] :
+Cet arbre n’est pas naturel, ça se voit[SPED=2]...[SPED=-1][ENDN][STRT=161,3][TAIL=LOLF][ZDNE] :
+C’est clair que ça ressemble
+pas à l’intérieur d’un arbre.[ENDN][STRT=234,3][TAIL=LOLF][DGGR] :
+Mais il a l’air d’être là depuis très
+longtemps[SPED=2]...[SPED=-1] 100 ou 200 ans, peut-être[SPED=2]...[SPED=-1][ENDN][STRT=153,3][TAIL=UPRF][VIVI] :
+Il y a une source brillante
+en bas, elle est très jolie ![ENDN][STRT=135,3][TAIL=UPRF][VIVI] :
+Tu crois que la ”Brume”
+vient de là[SPED=2]...[SPED=-1]?[ENDN][STRT=125,3][TAIL=UPRF][VIVI] :
+Si la ”Brume” vient de
+l’Ifa, peut-être que[SPED=2]...[SPED=-1][ENDN][STRT=175,2][TAIL=UPRF][VIVI] :
+C’est quoi cette belle lumière ?[ENDN][STRT=121,2][EIKO] :
+Moug a un peu peur...[ENDN][STRT=126,4][EIKO] :
+Elle dit que l’eau
+qui brille est vivante !
+Elle est jolie, non ?[ENDN][STRT=90,5][PCHC=2,1][WDTH=0,76,16,-1,2,107,-1][IMME][EIKO] :
+[ZDNE], tu regardes
+l’eau avec moi ?
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]Pas maintenant.[ENDN][STRT=92,2][EIKO] :
+T’es pas gentil ![ENDN][STRT=118,3][EIKO] :
+C’est vrai ?!
+Viens à côté de moi ![ENDN][STRT=100,3][ZDNE] :
+C’est bon, je vois
+très bien d’ici[SPED=2]...[SPED=-1][ENDN][STRT=107,3][EIKO] :
+Non ! C’est pas
+assez romantique ![ENDN][STRT=65,1]Woaaaaah ![ENDN][STRT=135,2][ZDNE] :
+Tu regardes pas l’eau ?[ENDN][STRT=121,3][EIKO] :
+Je regarde ton profil
+dans la lumière...[ENDN][STRT=159,3][ZDNE] :
+[C8C8C8][HSHD](Je commence à comprendre
+[DGGR][SPED=2]...[SPED=-1])[ENDN][STRT=100,3][ZDNE] :
+[C8C8C8][HSHD](Je vais devoir
+faire attention[SPED=2]...[SPED=-1])[ENDN][STRT=164,4][PCHC=2,1][IMME][EIKO] :
+Tu regardes l’eau avec moi ?
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]Pas maintenant.[ENDN][STRT=70,2][WDTH=0,8,16,-1][ZDNE] :
+Ca bouge[SPED=2]...[SPED=-1]?[ENDN][STRT=86,2][ZDNE] :
+J’ai dû rêver[SPED=2]...[SPED=-1][ENDN][STRT=139,3][ZDNE] :
+Aucune trace de Kuja ou
+d’un complice[SPED=2]...[SPED=-1][ENDN][STRT=152,3][ZDNE] :
+Je devrais peut-être
+descendre jusque là-bas ?[ENDN][STRT=153,2][ZDNE] :
+La lumière viendrait de là ?[ENDN][STRT=9,1][TAIL=LORF][WDTH=0,9,16,-1][ZDNE] ![ENDN][STRT=109,1]Qu’est-ce qui y a ?[ENDN][STRT=84,2][EIKO] :
+Moug... Moug...[ENDN][STRT=163,2][TAIL=UPRF][EIKO] :
+Moug dit que ”ça” descend ![TIME=-1][STRT=80,2][TAIL=LOLF][ZDNE] :
+Ca descend ?![ENDN][STRT=106,3][TAIL=UPRF][ZDNE] :
+[DGGR] !
+Viens par là, vite ![ENDN][STRT=43,1]Aaaah ![ENDN][STRT=9,1][WDTH=0,9,18,-1][DGGR] ![ENDN][STRT=47,1]Ca va ?![ENDN][STRT=171,3][DGGR] :
+J’ai juste été un peu surprise.
+Qu’est-ce que c’était ?[ENDN][STRT=43,1]Par là ![TIME=30][STRT=73,1]Où ils vont ?![ENDN][STRT=120,3][ZDNE] :
+Il faut les rejoindre !
+Tu peux te lever ?[ENDN][STRT=79,2][WDTH=0,8,18,-1][DGGR] :
+Oui, allons-y ![ENDN][STRT=52,1][TAIL=LORF][OFFT=0,-128,-128][WDTH=0,52,18,-1]M’zelle [DGGR] ![ENDN][STRT=173,1][TAIL=LOLF][OFFT=0,-128,-128]Il y a quelque chose qui vient ![ENDN][STRT=83,3][EIKO] :
+Regarde !
+Le mur bouge ![ENDN][STRT=120,3][VIVI] :
+C’est vrai[SPED=2]...[SPED=-1] On dirait
+qu’il est vivant[SPED=2]...[SPED=-1]![ENDN][STRT=22,1][TAIL=UPL][OFFT=-256,0,0][WDTH=0,22,22,17,-1][EIKO] ! [VIVI] ![ENDN][STRT=118,3][WDTH=0,87,16,-1][EIKO] :
+[ZDNE] ! Le mur bouge
+de plus en plus vite ![ENDN][STRT=53,1][TAIL=UPL]Le voilà ![ENDN][STRT=138,1]Qu’est-ce que c’était ?![ENDN][STRT=127,1]Vous n’êtes pas Kuja ![ENDN][STRT=190,3][VIVI] :
+Qu’est-ce qui se passe ?
+J’entends une voix dans ma tête ![ENDN][STRT=128,3][ZDNE] :
+T’as bien dit ”Kuja” ?!
+Tu sais où il est ?![ENDN][STRT=96,1]Je n’en sais rien.[ENDN][STRT=132,2][DGGR] :
+Que se passe-t-il ici ?![ENDN][STRT=131,3][ZDNE] :
+Tu fabriques
+la ”Brume”, c’est ça ?![ENDN][STRT=261,3]Je ne la fabrique pas[SPED=2]...[SPED=-1]
+La ”Brume” n’est que le rebut d’une épuration
+et je l’expulse par mes racines.[ENDN][STRT=80,2][TAIL=UPLF][VIVI] :
+”Le rebut”[SPED=2]...[SPED=-1]?[ENDN][STRT=148,3][DGGR] :
+Et vos racines traversent
+tout le continent ?![ENDN][STRT=125,3][ZDNE] :
+Pourquoi ?!
+Pourquoi tu fais ça[SPED=2]...[SPED=-1]?[ENDN][STRT=211,2]Pour envelopper les continents et
+répandre la guerre par la ”Brume”[SPED=2]...[SPED=-1][ENDN][STRT=169,2]Pour combattre les dirigeants
+et éradiquer les civilisations.[ENDN][STRT=194,2]Kuja n’a fait qu’utiliser
+les rejets pour son propre usage.[ENDN][STRT=170,3][VIVI] :
+Qu’est-ce que ça veut dire ?!
+Qu’est-ce qu’il fait ?![ENDN][STRT=119,2]Il fabrique des armes[WAIT=10]
+qui te ressemblent[SPED=2]...[SPED=-1][ENDN][STRT=11,1][TAIL=UPRF][NFOC][CENT=11]?![TIME=30][STRT=109,4][EIKO] :
+[ZDNE] !!
+Il me dégoûte !
+Je peux le taper ?![ENDN][STRT=178,3][ZDNE] :
+Pas tout de suite !
+C’est quoi les armes de Kuja[SPED=2]...[SPED=-1]?[ENDN][STRT=211,3]Il les appelle ”les Mages Noirs”.
+Ce sont des êtres des ténèbres issus
+de la ”Brume”.[ENDN][STRT=11,1][TAIL=UPLF][CENT=11]?![TIME=30][STRT=141,3][DGGR] :
+Alors la fabrique de Dali,
+c’était bien[SPED=2]...[SPED=-1][ENDN][STRT=254,1]En me détruisant, vous détruirez la ”Brume”.[ENDN][STRT=154,2]Et les poupées ne pourront
+plus être fabriquées.[ENDN][STRT=129,3]Réponds-moi, poupée !
+Oseras-tu détruire
+ton propre créateur ?[ENDN][STRT=81,3][ZDNE] :
+Pourriture !
+Tu vas me le[SPED=2]...[SPED=-1][ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=147,1]Je le laisserai pas faire[SPED=2]...[SPED=-1][ENDN][STRT=18,2][WDTH=0,8,18,-1,0,18,17,-1][DGGR] :
+[VIVI][SPED=2]...[SPED=-1]?[ENDN][STRT=191,3][VIVI] :
+Je le laisserai pas fabriquer
+plus d’armes pour tuer des gens ![ENDN][STRT=135,4][EIKO] :
+Bien dit, [VIVI] !
+Je comprends pas tout,
+mais je peux le taper ?![ENDN][STRT=176,3][ZDNE] :
+Oui, on a suffisamment attendu !
+Et puis, Kuja risque d’arriver ![ENDN][STRT=152,2]Mon existence millénaire
+n’est pas encore terminée.[ENDN][STRT=180,1]Vous ne pourrez pas m’arrêter.[ENDN][STRT=171,1]Me vaincre vous serait inutile.[ENDN][STRT=57,2][WDTH=0,8,16,-1][ZDNE] :
+On l’a eu ![ENDN][STRT=120,3][WDTH=0,75,17,-1][ZDNE] :
+[VIVI], c’est pas le
+moment de réfléchir ![ENDN][STRT=129,3][ZDNE] :
+Ah[SPED=2]...[SPED=-1] On s’en va !
+Tout le monde dehors ![ENDN][STRT=143,4][B880E0][HSHD]
+FMV027 
+Disparition de la ”Brume”
+[ENDN][STRT=212,3][TAIL=UPR][EIKO] :
+La ”Brume” a complètement disparu[SPED=2]...[SPED=-1]
+L’Ifa est très beau finalement[SPED=2]...[SPED=-1][ENDN][STRT=159,3][TAIL=UPR][EIKO] :
+Chez vous aussi, il doit
+faire beau maintenant, non ?[ENDN][STRT=79,2][TAIL=UPR][OFFT=64,0,0][WDTH=0,8,16,-1][ZDNE] :
+Sûrement, oui.[ENDN][STRT=150,3][TAIL=UPR][OFFT=64,0,0][ZDNE] :
+Je me demande ce que
+Kuja va faire maintenant[SPED=2]...[SPED=-1][ENDN][STRT=18,1][WDTH=0,18,17,-1][VIVI][SPED=2]...[SPED=-1]?[ENDN][STRT=119,3][VIVI] :
+[ZDNE][SPED=2]...[SPED=-1]
+J’ai bien fait[SPED=2]...[SPED=-1] hein ?[ENDN][STRT=162,4][VIVI] :
+Il a dit que les Mages Noirs
+étaient fabriqués avec de la
+”Brume”, c’est bien ça ?[ENDN][STRT=256,3][VIVI] :
+Quand il a dit ça, je me suis dit que mes
+amis étaient fabriqués pour faire la guerre[SPED=2]...[SPED=-1][ENDN][STRT=125,2][VIVI] :
+Et moi je voulais pas ![ENDN][STRT=181,3][VIVI] :
+Mais maintenant[SPED=2]...[SPED=-1] Il y aura
+plus de nouveaux Mages Noirs...[ENDN][STRT=134,3][VIVI] :
+J’ai l’impression[SPED=2]...[SPED=-1]
+qu’ils vont me détester.[ENDN][STRT=56,2][WDTH=0,8,22,-1][EIKO] :
+Mais non ![ENDN][STRT=94,1]Je peux parler ?[ENDN][STRT=142,3][EIKO] :
+T’as pas le droit
+de te mentir à toi-même ![ENDN][STRT=149,3][EIKO] :
+Si tu te mentais,
+tes amis t’aimeraient pas ![ENDN][STRT=112,3][VIVI] :
+Tu crois[SPED=2]...[SPED=-1]?
+Ils comprendront[SPED=2]...[SPED=-1]?[ENDN][STRT=108,3][EIKO] :
+Ce sont des amis ?!
+Alors ça va ![ENDN][STRT=41,1][SPED=2]...[SPED=-1] Oui ![ENDN][STRT=155,2][EIKO] :
+Qu’est-ce que tu as Moug ?[ENDN][STRT=14,1][TAIL=UPRF][WDTH=0,14,22,-1][EIKO] !![ENDN][STRT=44,1]Moko ?![ENDN][STRT=153,3][EIKO] :
+Qu’est-ce que tu fais ici ?!
+Dis-moi tout ! Quoi ?![ENDN][STRT=94,1]C’est pas vrai !![ENDN][STRT=198,2][EIKO] :
+D’accord, je rentre tout de suite ![ENDN][STRT=161,3]Moko :
+Je pars devant pour
+prévenir les autres, coubo ![ENDN][STRT=120,3][OFFT=-80,0,0][EIKO] :
+Vous attendez Kuja ?
+Moi je dois rentrer ![ENDN][STRT=109,3][WDTH=0,60,22,-1][ZDNE] :
+Attends, [EIKO] !
+Qu’est-ce qui y a ?[ENDN][STRT=107,3][EIKO] :
+On a volé le trésor
+du village ![ENDN][STRT=17,1][WDTH=0,17,16,-1][ZDNE][SPED=2]...[SPED=-1]![ENDN][STRT=105,2][ZDNE] :
+On vient avec toi ![ENDN][STRT=75,3][WDTH=0,8,22,-1][EIKO] :
+Je veux bien,
+mais Kuja...?![ENDN][STRT=110,3][ZDNE] :
+Madahine-salee est
+pas si loin que ça ![ENDN][STRT=98,2][ZDNE] :
+Il nous attendra ![ENDN][STRT=140,2][ZDNE] :
+Ca bouge vraiment pas[SPED=2]...[SPED=-1][ENDN][STRT=257,3][ZDNE] :
+Il y a pas l’air d’y avoir de ”Brume” fraîche.
+Kuja est peut-être pas encore arrivé.[ENDN][STRT=218,2][AMRT] :
+Que s’est-il passé avec la ”Brume”[SPED=2]...[SPED=-1]?[ENDN][STRT=212,4][EIKO] :
+On a détruit le monstre qui la
+fabriquait ! Maintenant il fait beau
+même sur le Continent de la ”Brume” ![ENDN][STRT=237,2][AMRT] :
+Vous avez fait disparaître la ”Brume”[SPED=2]...[SPED=-1]?[ENDN][STRT=131,3][AMRT] :
+(Si c’est vrai[SPED=2]...[SPED=-1] ils sont
+vraiment très forts[SPED=2]...[SPED=-1])[ENDN][STRT=180,2][DGGR] :
+Là-bas[SPED=2]...[SPED=-1]! Un dragon d’argent ![SIGL=1][ENDN][STRT=139,4][ZDNE] :
+C’est bien ça[SPED=2]...[SPED=-1]!
+C’est comme ça que Kuja
+est parti de Bloumécia ![ENDN][STRT=54,2][WDTH=0,8,16,-1][ZDNE] :
+C’est lui ![SIGL=1][ENDN][STRT=151,5][PCHC=3,2][IMME][ZDNE] :
+On est prêt à se battre[SPED=2]...[SPED=-1]?
+[CHOO][MOVE=18,0]Modifier l’équipe.
+[MOVE=18,0]Accéder au menu.
+[MOVE=18,0]Ne rien changer.[ENDN]

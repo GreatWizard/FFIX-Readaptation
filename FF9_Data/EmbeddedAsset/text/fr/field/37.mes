@@ -1,0 +1,906 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=193,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?[MOVE=18,0][MOVE=18,0]
+[CHOO][MOVE=18,0]Vers Condéa
+[MOVE=18,0]Quelque chose de spécial
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=192,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+J’ai reçu une lettre de Steelskin !
+Est-ce coubo il va bien ?
+On va la lire ensemble ![ENDN][STRT=241,15][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+J’ai de plus en plus de connaissances
+sur le ”Continent Extérieur” et
+je suis sur le point de partir pour Condéa.
+On dit que c’est un village vraiment unique.
+
+Au fait, comment doit-on saluer les gens
+là-bas déjà ? Si je ne m’en souviens pas,
+on ne me laissera pas entrer.
+
+”Papo” ? ”Ciapo” ?!
+Ah ! ”Tapo” ! C’est ça ?
+[ENDN][STRT=196,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ha ha, je ne pensais pas qu’il était
+aussi marrant que ça.
+C’est ”Yapo”, cher Steelskin ![ENDN][STRT=144,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,99,6,1,-1][TEXT=0,0] :
+Merci de m’avoir apporté
+cette lettre de [TEXT=0,1] ![ENDN][STRT=253,11][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+C’est à cause d’une défaillance de l’appareil
+du Siège de la Mog-poste que les lettres
+ne sont plus distribuées.
+
+Comment on doit faire pour le redémarrer ?
+
+Il faut peut-être quelque chose de spécial ?
+[ENDN][STRT=153,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Quelque chose de spécial ?
+Si je ne me trompe pas[SPED=2]...[SPED=-1][ENDN][STRT=158,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+On va bientôt connaître
+le secret de la Mog-poste ![ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=122,1][PCHM=16,15][WDTH=3,167,-1,5,152,-1,6,149,-1][IMME]Choisissez une scène.
+[CHOO][MOVE=18,0]Possession.
+[MOVE=18,0]Chaque mot.
+[MOVE=18,0]Envahisseurs et Visiteurs.
+[MOVE=18,0]Nez de génie.
+[MOVE=18,0]Habitude et Exception.
+[MOVE=18,0]Nature trop naturelle.
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Dammy
+[MOVE=18,0]Annuler.[ENDN][STRT=65,1][IMME][CENT=65]Possession.[ENDN][STRT=67,1][IMME][CENT=67]Chaque mot.[ENDN][STRT=146,1][IMME][CENT=146]Envahisseurs et Visiteurs.[ENDN][STRT=77,1][IMME][CENT=77]Nez de génie.[ENDN][STRT=129,1][IMME][CENT=129]Habitude et Exception.[ENDN][STRT=125,1][IMME][CENT=125]Nature trop naturelle.[ENDN][STRT=141,1]La porte est verrouillée.[ENDN][STRT=178,4][PCHC=2,1][IMME]Mage Noir [NUMB=0] :
+Vous voulez jouer aux cartes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=136,3]Mage Noir [NUMB=0] :
+On ne peut pas jouer
+avec moins de 5 cartes.[ENDN][STRT=163,2]Mage Noir [NUMB=0] :
+Vous savez, moi les cartes[SPED=2]...[SPED=-1][ENDN][STRT=221,4][PCHC=2,1][IMME]Mage Noir [NUMB=0] :
+Moi, je sais jouer aux cartes et vous ?
+[CHOO][MOVE=18,0]Je vous défie sur une partie.
+[MOVE=18,0]Je ne sais pas jouer.[ENDN][STRT=141,3]Mage Noir [NUMB=0] :
+On ne peut pas jouer
+avec moins de 5 cartes ![ENDN][STRT=166,3]Mage Noir [NUMB=0] :
+Je suis désolé,
+mais je ne me sens pas bien[SPED=2]...[SPED=-1][ENDN][STRT=222,4][PCHC=2,1][IMME]Mage Noir [NUMB=0] :
+Vous aimez jouer aux carte, on dirait ?
+[CHOO][MOVE=18,0]J’adore ça !
+[MOVE=18,0]Pas du tout ![ENDN][STRT=170,3]Mage Noir [NUMB=0] :
+Pour faire une partie,
+il vous faut au moins 5 cartes.[ENDN][STRT=222,4]Mage Noir [NUMB=0] :
+Désolé, je ne peux pas faire de partie.
+Selon mon horoscope, je suis en plein
+marasme aujourd’hui...[ENDN][STRT=71,1]Après MBG...[ENDN][STRT=10,1][NFOC][CENT=10]!![TIME=30][STRT=10,1][CENT=10]!![ENDN][STRT=10,1][TAIL=LORF][CENT=10]!![TIME=30][STRT=12,1][TAIL=UPRF][CENT=12]??[ENDN][STRT=11,1][CENT=11]?![ENDN][STRT=169,4][ZDNE] :
+Euh, je crois que c’était...
+”Si profonde que même
+les chouettes n’y vont pas”[SPED=2]...[SPED=-1][ENDN][STRT=43,3][TAIL=DEFT]
+Impasse
+[ENDN][STRT=130,4][TAIL=DEFT] 
+← Plein de chouettes
+[MOVE=18,0]Pas de chouettes →
+[ENDN][STRT=136,4][TAIL=DEFT] 
+← Pas de chouettes
+[MOVE=18,0]Plein de chouettes →
+[ENDN][STRT=154,1][TAIL=UPRF]Qu’est-ce qui vous prend ?[ENDN][STRT=48,1]Yaaah !![TIME=30][STRT=112,1][TAIL=UPLF][NFOC]Des...[WAIT=30] des[WAIT=30] hommes[SPED=2]...[SPED=-1][TIME=30][STRT=78,1][TAIL=LOLF]Des hommes !![TIME=50][STRT=68,1][TAIL=UPRF]Attendez[SPED=2]...[SPED=-1]![ENDN][STRT=124,2][TAIL=UPRF][VIVI] :
+Ils sont... comme moi...[ENDN][STRT=94,1]Oui, [WAIT=3]tout à fait[SPED=2]...[SPED=-1][ENDN][STRT=160,4][VIVI] :
+Ils parlaient...
+Ils parlaient comme moi !
+Il y a des Mages comme moi ![ENDN][STRT=210,3][DGGR] :
+Pourquoi y a-t-il un village de Mages
+dans la Forêt morte[SPED=2]...[SPED=-1]?[ENDN][STRT=32,1]Hum[SPED=2]...[SPED=-1][ENDN][STRT=49,1][WDTH=0,49,17,-1]Où est [VIVI] ?[ENDN][STRT=61,4][WDTH=0,8,16,-1,0,61,18,-1][FLIM][ZDNE] :
+Il est[SPED=2]...[SPED=-1]
+[SPED=-1][WAIT=5]là-bas[SPED=2]...[SPED=-1][WAIT=3]
+Eh ! Oh ! [DGGR] ![ENDN][STRT=119,5][QUIN] :
+S’il y a un village,
+ça veut dire qu’il y a
+des spécialités.
+C’est la règle ![ENDN][STRT=130,3][ZDNE] :
+C’est pas vrai[SPED=2]...[SPED=-1][WAIT=3]
+C’est toujours pareil[SPED=2]...[SPED=-1][ENDN][STRT=219,3][ZDNE] :
+Je dois pas quitter le village tout seul.
+Ce serait trop dangereux[SPED=2]...[SPED=-1][ENDN][STRT=114,3][WDTH=0,114,17,-1][ZDNE] :
+Je peux pas laisser [VIVI]
+dans ce village[SPED=2]...[SPED=-1][ENDN][STRT=89,2]Mage Noir 239 :
+Bonjour[SPED=2]...[SPED=-1] Ah ![ENDN][STRT=225,3]Mage Noir 239 :
+Que[SPED=2]...[SPED=-1][WAIT=3]
+Qu’est-ce que vous désirez,[WAIT=3] Monsieur ?[ENDN][STRT=244,4]Mage Noir 79 :
+Ici c’est une ”Armurerie” où on achète
+des ”armes”[SPED=2]...[SPED=-1]
+Mais pourquoi on aurait besoin d’”armes” ?[ENDN][STRT=142,1]Des hommes sont venus !![TIME=30][STRT=14,1][WDTH=0,14,17,-1][VIVI] !![TIME=30][STRT=106,2][TAIL=LOLF][DGGR] :
+Ce village c’est[SPED=2]...[SPED=-1]?[ENDN][STRT=11,1][TAIL=LOLF][CENT=11]?![ENDN][STRT=18,1][TAIL=LOLF][CENT=18][SPED=2]...[SPED=-1]?[TIME=60][STRT=30,2][WDTH=0,8,16,-1,0,30,17,-1][ZDNE] :
+Eh, [VIVI] ![ENDN][STRT=148,2][ZDNE] :
+Qu’est-ce qui lui prend[SPED=2]...[SPED=-1]?[ENDN][STRT=218,3]Mage Noir 44 :
+J’ai grossi de dix kilos en deux semaines[SPED=2]...[SPED=-1]
+Est-ce que je mange un peu[WAIT=3] trop ?[ENDN][STRT=220,4][OFFT=0,50,0]Mage Noir 189 :
+Depuis que nous nous sommes installés
+dans ce village, petit à petit, chacun a
+trouvé sa propre personnalité.[ENDN][STRT=203,6][OFFT=0,50,0]Mage Noir 189 :
+Par exemple, 44 est devenu gros.
+Mais il y en a aussi qui sont devenus
+intelligents, impatients...
+Il y a des différences physiques
+ou mentales entre nous.[ENDN][STRT=182,4][OFFT=0,50,0]Mage Noir 189 :
+Comme monsieur 288 est brillant,
+il utilise le mot ”particularité”
+pour expliquer ça.[ENDN][STRT=219,3][OFFT=0,50,0]Mage Noir 189 :
+Mais, quant à Monsieur 44,
+je suis sûr que il n’est qu’un gourmand.[ENDN][STRT=145,2][QUIN] :
+Pourquoi vous m’évitez ?![ENDN][STRT=216,3][QUIN] :
+Moi,[WAIT=3] je leur ai pas fait de mal !
+Ils doivent me cacher quelque chose[SPED=2]...[SPED=-1][ENDN][STRT=43,1]Hum...?![ENDN][STRT=93,3][QUIN] :
+Cette odeur[SPED=2]...[SPED=-1]
+J’en étais sûre ![ENDN][STRT=134,3][TAIL=UPLF][OFFT=-100,-200,0][QUIN] :
+Je savais bien que vous
+cachiez un oeuf ![ENDN][STRT=89,2]Mage Noir 111 :
+Sortez d’ici ![ENDN][STRT=219,2]Mage Noir 33 :
+Nous ne vous laisserons pas cet oeuf ![ENDN][STRT=173,5][TAIL=UPLF][OFFT=-100,-200,0][QUIN] :
+Ne soyez pas têtus, mes amis !
+Si on le partageait ?
+C’est un oeuf de Chocobo,
+c’est vachement bon ![ENDN][STRT=143,2]Mage Noir 111 :
+On ne le mangera jamais ![ENDN][STRT=165,4]Mage Noir 33 :
+C’est un oeuf très précieux !
+Sa Chocomaman nous l’a laissé
+juste avant de s’arrêter.[ENDN][STRT=138,3]Mage Noir 111 :
+Nous nous en occupons
+à la place de sa maman ![ENDN][STRT=149,2][TAIL=UPLF][OFFT=-100,-200,0][QUIN] :
+Non, vous ne pouvez pas ![ENDN][STRT=240,2][TAIL=UPLF][OFFT=-100,-200,0][QUIN] :
+Vous n’avez jamais soigné un animal, hein ?[ENDN][STRT=131,3]Mage Noir 33 :
+Assez !
+Nous pouvons le faire ![ENDN][STRT=190,3][TAIL=UPLF][OFFT=-100,-200,0][QUIN] :
+En faisant semblant de le soigner,
+vous le mangerez ni vu ni connu[SPED=2]...[SPED=-1][TIME=45][STRT=162,1]Ne dites pas n’importe quoi ![TIME=30][STRT=201,3]Mage Noir 111 :
+C’est votre ami ?
+Dites-lui de s'en aller ![ENDN][STRT=187,4][QUIN] :
+Ah, [ZDNE] !
+Goûte-moi cet oeuf de Chocobo !
+Je t’assure que c’est extra ![ENDN][STRT=112,3]Mage Noir 33 :
+Sortez, sortez !!
+Vous êtes malades ![ENDN][STRT=192,3]Mage Noir 33 :
+Quand le chocobébé en sortira ?
+Je le couverai de temps en temps.[ENDN][STRT=228,2]Mage Noir 111 :
+Quel nom va-t-on donner à notre petit ?[ENDN][STRT=187,3][TAIL=UPRF]Mage Noir 55 :
+Nous avons construit ce bâtiment
+pour la couveuse de chocobébé.[ENDN][STRT=97,2][TAIL=UPRF]Mage Noir 55 :
+C’est beau, non ?[ENDN][STRT=201,2]Mage Noir 192 :
+Bienvenue à la Forge du Chat Noir ![ENDN][STRT=95,3][DGGR] :
+Excusez-moi[SPED=2]...[SPED=-1]
+Ce village est[SPED=2]...[SPED=-1]?[ENDN][STRT=171,2]Mage Noir 32 :
+Pourquoi vous êtes venus ici ?[ENDN][STRT=159,2]Mage Noir 192 :
+C’est notre village à nous !![ENDN][STRT=145,2]Mage Noir 32 :
+Oui, notre village à nous ![ENDN][STRT=224,3]Mage Noir 192 :
+Je sais, vous avez dû vous faire guider
+par ce petit-là jusqu’ici ![ENDN][STRT=147,4]Mage Noir 192 :
+C’est toujours pareil
+avec les hommes[SPED=2]...[SPED=-1]
+Ils nous traitent très mal ![ENDN][STRT=99,3][WDTH=0,99,17,-1][DGGR] :
+Ce petit-là ?
+Vous parlez de [VIVI] ?[ENDN][STRT=228,4][WDTH=0,203,17,-1][DGGR] :
+Non, non, vous vous trompez !
+Nous n’avions jamais vu des Mages Noirs
+comme [VIVI], avec leur propre volonté[SPED=2]...[SPED=-1][ENDN][STRT=178,4][DGGR] :
+Et puis, nous sommes venus ici
+pour arrêter l'homme qui vous a
+forcé à vous battre ![ENDN][STRT=82,2]Mage Noir 32 :
+C’est [WAIT=3]vrai ?[TIME=30][STRT=133,2]Mage Noir 192 :
+Ne te laisse pas avoir ![ENDN][STRT=238,2]Mage Noir 192 :
+Les hommes ne disent que des mensonges ![ENDN][STRT=119,2][DGGR] :
+Mais c’est la vérité ![ENDN][STRT=148,3][DGGR] :
+Nous voulons vraiment[SPED=2]...[SPED=-1]
+l’empêcher de continuer[SPED=2]...[SPED=-1][ENDN][STRT=33,2][WDTH=0,8,18,-1,0,33,16,-1][DGGR] :
+Ah, [ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=125,2][WDTH=0,125,18,-1][ZDNE] :
+Qu’est-ce que t’as, [DGGR] ?[ENDN][STRT=131,3][DGGR] :
+Je leur expliquais ce que nous voulons
+faire en venant sur ce continent.[ENDN][STRT=160,3][ZDNE] :
+Ce qu’on veut faire[SPED=2]...[SPED=-1]?
+Qu’est-ce qu’on veut déjà ?[ENDN][STRT=14,2][WDTH=0,8,18,-1,0,14,16,-1][DGGR] :
+[ZDNE] !![ENDN][STRT=126,4][ZDNE] :
+Non, non, je plaisante.
+C’est une blague.
+Te fâche pas ![ENDN][STRT=186,3][DGGR] :
+Oh, non !
+Ils commençaient à comprendre...[ENDN][STRT=220,3]Mage Noir 32 :
+Qu’est-ce que ça veut dire ”blague” ?
+C’est quelque chose de terrible ?[ENDN][STRT=109,4][WDTH=0,65,18,-1][ZDNE] :
+Pas du tout.
+C’est très marrant.
+Pas vrai, [DGGR] ?[ENDN][STRT=182,3]Mage Noir 192 :
+J’ai l’impression que vous n’êtes
+pas comme les autres.[ENDN][STRT=162,3]Mage Noir 32 :
+Vous vous battez contre
+les méchants, n’est-ce pas ?[ENDN][STRT=74,2][WDTH=0,8,16,-1][ZDNE] :
+Exactement ![ENDN][STRT=175,3][DGGR] :
+Arrête de dire n’importe quoi ![WAIT=3]
+Tu adores ça, on dirait[SPED=2]...[SPED=-1][ENDN][STRT=99,2][WDTH=0,99,17,-1][DGGR] :
+Au fait ![WAIT=3] Où est [VIVI] ?[ENDN][STRT=92,3][ZDNE] :
+Je sais pas, moi.
+Où il est allé[SPED=2]...[SPED=-1]?[ENDN][STRT=124,2][DGGR] :
+Je m’inquiète un peu[SPED=2]...[SPED=-1][ENDN][STRT=124,2][DGGR] :
+Je vais le chercher !![ENDN][STRT=66,2][WDTH=0,8,16,-1,0,66,18,-1][ZDNE] :
+Eh ! [WAIT=3]Attends ! [DGGR] !![ENDN][STRT=34,2][WDTH=0,8,16,-1][ZDNE] :
+Pfff[SPED=2]...[SPED=-1][ENDN][STRT=168,3][ZDNE] :
+Hum...? Quoi ?
+J’entends quelqu’un parler[SPED=2]...[SPED=-1]?[ENDN][STRT=183,3][TAIL=UPLF][OFFT=-100,0,400]Eh ben, l’autre jour, 163 disait :
+Qu’est-ce qu’on veut dire
+avec ”ça”[SPED=2]...[SPED=-1][ENDN][STRT=101,2][TAIL=UPRF][OFFT=-150,0,-500]”Ca”,
+c’est quoi alors[SPED=2]...[SPED=-1][ENDN][STRT=217,4][TAIL=UPLF][OFFT=-100,0,400]On m’a dit que si un client vient et dit :
+Je voudrais ”ça”, s’il vous plaît,
+il faut lui montrer un article
+qu’il n’a jamais vu ![ENDN][STRT=230,2][TAIL=UPRF][OFFT=-150,0,-500]Ah bon[SPED=2]...[SPED=-1]
+Ce n’est pas facile de tenir un magasin...[ENDN][STRT=259,2][TAIL=UPRF][OFFT=-150,0,-500]Ce magasin s’appelle la ”Forge du Chat Noir”.
+Mais son chat n’est pas noir du tout[SPED=2]...[SPED=-1][ENDN][STRT=256,4][TAIL=UPLF][OFFT=-100,0,400]Au début, 32 l’appelait
+la ”Forge du Mage Noir et de son chat”, mais
+192 l’a trouvé trop long et l’a changé
+en ”Forge du Chat Noir”[SPED=2]...[SPED=-1][ENDN][STRT=151,4][TAIL=UPRF][OFFT=-150,0,-500]Bien sûr !
+”Forge du Chat Noir”...
+Ca sonne beaucoup mieux !
+192 est intelligent ![ENDN][STRT=227,4]Mage Noir 163 :
+Je vois[SPED=2]...[SPED=-1] Selon le livre que j’ai trouvé
+dans la fôret, quand il veut quelque chose
+de magnifique[SPED=2]...[SPED=-1][ENDN][STRT=197,3]Mage Noir 163 :
+...le client doit dire au vendeur[SPED=2]...[SPED=-1]
+”Je voudrais ça, s’il vous plaît”[SPED=2]...[SPED=-1][ENDN][STRT=213,3]Mage Noir 163 :
+Mais que doit répondre le vendeur[SPED=2]...[SPED=-1]?
+C’est pas facile ça ![ENDN][STRT=167,3]Mage Noir 163 :
+Homme[SPED=2]...[SPED=-1]
+Qu’est-ce que ça veut dire...[ENDN][STRT=143,3]Mage Noir 163 :
+Chose bonne à manger[SPED=2]...[SPED=-1]?
+Non, non, c’est pas ça.[ENDN][STRT=35,1][TAIL=UPRF]Hum ?![ENDN][STRT=89,2][TAIL=UPRF]Mage Noir 163 :
+Ho [WAIT=3]Homme ?![ENDN][STRT=89,2][TAIL=UPRF]Mage Noir 163 :
+Bien,[WAIT=3]euh[SPED=2]...[SPED=-1][ENDN][STRT=180,2][TAIL=UPRF]Mage Noir 163 :
+Hum[SPED=2]...[SPED=-1][WAIT=3] Je ne m’en rappelle plus ![ENDN][STRT=202,4][TAIL=UPRF]Mage Noir 163 :
+Eh bien, venez jusqu’au comptoir[SPED=2]...[SPED=-1]
+C’est comme ça qu’on doit accueillir
+les clients.[ENDN][STRT=168,6][TAIL=UPRF][PCHM=3,2][IMME]Mage Noir 163 :
+Euh... Bon... Bonjour !
+Qu’est-ce que vous désirez ?
+[CHOO][MOVE=18,0]Achat et Vente.
+[MOVE=18,0]”Ca”, s’il vous plaît.
+[MOVE=18,0]Rien.[ENDN][STRT=89,3][TAIL=UPRF]Mage Noir 163 :
+Quoi ? Ca ?
+Bon alors[SPED=2]...[SPED=-1][ENDN][STRT=89,2][TAIL=UPRF]Mage Noir 163 :
+Où je l’ai mis[SPED=2]...[SPED=-1]?[ENDN][STRT=210,3]Mage Noir 288 :
+C’est lui...?
+Celui qui est venu avec des hommes...[ENDN][STRT=164,4]Mage Noir 288 :
+Ne t’inquiète pas.
+Il a le même regard que nous.
+Il s’est réveillé comme nous.[ENDN][STRT=201,4][OFFT=0,100,0][TAIL=LORF][VIVI] :
+Euh...[WAIT=3] Merci[SPED=2]...[SPED=-1] Euh[SPED=2]...[SPED=-1]
+Pourquoi il y a plein de Mages Noirs
+dans ce village... ?[ENDN][STRT=195,3]Mage Noir 288 :
+Nous nous sommes tous enfuis
+d’Alexandrie ou des aérocargos[SPED=2]...[SPED=-1][ENDN][STRT=63,2][OFFT=0,100,0][TAIL=LORF][WDTH=0,8,17,-1][VIVI] :
+Jusqu’ici ?![ENDN][STRT=243,5]Mage Noir 288 :
+Oui. Nous avons dû venir jusqu’ici pour ne
+pas être rattrapés par les hommes et pour
+trouver un endroit où nous pourrions vivre
+en paix[SPED=2]...[SPED=-1][ENDN][STRT=72,2][WDTH=0,8,17,-1][VIVI] :
+Ah, je vois[SPED=2]...[SPED=-1][ENDN][STRT=93,2][VIVI] :
+Euh[SPED=2]...[SPED=-1] Ici c’est...[ENDN][STRT=135,3]Mage Noir 56 :
+Ici, [WAIT=3]c’est[SPED=2]...[SPED=-1]
+[SPED=2]...[SPED=-1]qu’est-ce que c’est déjà ?[ENDN][STRT=109,2]Mage Noir 288 :
+Un ”Cimetière”, 56.[ENDN][STRT=121,3]Mage Noir 56 :
+Oui, c’est ça.
+Tu es au ”Cimetière”.[ENDN][STRT=101,2][VIVI] :
+Un ”Cimetière”[SPED=2]...[SPED=-1]?[ENDN][STRT=93,3][VIVI] :
+Vous enterrez[SPED=2]...[SPED=-1]
+[WAIT=3]vos amis, ici ?![ENDN][STRT=238,3]Mage Noir 288 :
+Oui[SPED=2]...[SPED=-1]
+Nos amis restent immobiles dans la terre[SPED=2]...[SPED=-1][ENDN][STRT=99,2][VIVI] :
+Mais[SPED=2]...[SPED=-1] Pourquoi ?[ENDN][STRT=103,2][TAIL=UPRF]Mage Noir 288 :
+Parce que c’est[SPED=2]...[SPED=-1][TIME=40][STRT=136,4][OFFT=-10,100,0][TAIL=LOLF]Mage Noir 56 :
+Nous nous sommes enfuis[WAIT=3]
+ensemble 36 et moi, puis
+nous sommes arrivés ici.[ENDN][STRT=181,4][OFFT=-10,100,0][TAIL=LOLF]Mage Noir 56 :
+Nous avons construit ce village.
+Nous avons vécu ensemble
+pendant un bon moment, mais[SPED=2]...[SPED=-1][ENDN][STRT=235,3][OFFT=-10,100,0][TAIL=LOLF]Mage Noir 56 :
+...un jour, soudain, 36 est tombé immobile.
+Il n’a plus bougé.[WAIT=3] Il n’a plus parlé[WAIT=3][SPED=2]...[SPED=-1][ENDN][STRT=239,5][OFFT=-10,100,0][TAIL=LOLF]Mage Noir 56 :
+Un de mes amis très intelligent m’a dit que
+ce qui était arrivé à 36, c’était la mort et
+que quand on meurt, on doit se cacher
+dans la terre.[ENDN][STRT=145,5][OFFT=-10,100,0][TAIL=LOLF]Mage Noir 56 :
+36 se cache toujours ici.
+Mais je ne comprends pas
+pourquoi on doit entrer
+dans la terre, après...[ENDN][STRT=227,5][OFFT=-10,100,0][TAIL=LOLF]Mage Noir 56 :
+Je crois que 36 en sortira un jour et
+nous jouerons à cache-cache ensemble.
+D’abord je laverai son corps,
+il devra être plein de boue.[ENDN][STRT=193,2][VIVI] :
+Pourquoi...[WAIT=3] Pourquoi il est mort[SPED=2]...[SPED=-1]?[ENDN][STRT=153,3][VIVI] :
+Il était malade ?
+Il a été gravement blessé ?[ENDN][STRT=201,2][VIVI] :
+Dites-moi ![WAIT=3] Pourquoi il a dû mourir ?[ENDN][STRT=12,1][TAIL=UPRF][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=12,1][TAIL=LOLF][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=163,4][TAIL=UPLF]Mage Noir 56 :
+Quand on dort dans la terre,
+est-ce qu’on se sent bien ?
+Il fait froid ou chaud ?[ENDN][STRT=254,4][TAIL=UPRF]Mage Noir 288 :
+En ce moment, [WAIT=3] il y a de plus en plus
+d’amis qui ne bougent plus[SPED=2]...[SPED=-1]
+Nos amis les plus vieux s’arrêtent plus vite[SPED=2]...[SPED=-1][ENDN][STRT=180,3][TAIL=UPRF]Mage Noir 288 :
+Nous ne devons fonctionner que
+pendant une durée limitée[SPED=2]...[SPED=-1][ENDN][STRT=120,3][TAIL=LORF][ZDNE] :
+Pourquoi vous parlez
+normalement ?[ENDN][STRT=251,3][TAIL=UPLF]Mage Noir 288 :
+Parce qu’on s’est réveillé[SPED=2]...[SPED=-1]
+On a eu chacun une chance de se réveiller[SPED=2]...[SPED=-1][ENDN][STRT=165,3][TAIL=LORF][ZDNE] :
+Vous vous êtes réveillés ?
+Qu’est-ce que ça veut dire ?[ENDN][STRT=180,3][TAIL=UPLF]Mage Noir 288 :
+Est-ce que vous vous souvenez
+de votre premier jour ?[ENDN][STRT=164,2][TAIL=LORF][ZDNE] :
+Non, j’en ai aucun souvenir[SPED=2]...[SPED=-1][ENDN][STRT=186,4][TAIL=UPLF]Mage Noir 288 :
+C’est pareil.
+Quand on s’en aperçoit,
+on est déjà tout à fait réveillé[SPED=2]...[SPED=-1][ENDN][STRT=197,3][TAIL=UPLF]Mage Noir 288 :
+Quand je me suis réveillé, un corps
+était par terre à côté de moi[SPED=2]...[SPED=-1][ENDN][STRT=215,2][TAIL=UPLF]Mage Noir 288 :
+...le sang coulait, il était tout rouge...[ENDN][STRT=234,6][TAIL=UPLF]Mage Noir 288 :
+Ce n’est qu’après un bon moment que
+j’ai pu comprendre ce que voulait dire
+ce corps sanglant...
+A ce moment, je ne faisais que trembler[SPED=2]...[SPED=-1]
+dans une angoisse totale[SPED=2]...[SPED=-1][ENDN][STRT=195,3][TAIL=UPLF]Mage Noir 288 :
+Quand je suis revenu à moi, j’étais
+déjà loin du champ de bataille[SPED=2]...[SPED=-1][ENDN][STRT=270,3][TAIL=UPLF]Mage Noir 288 :
+Je n’étais pas le seul Mage qui s’était réveillé.
+Et nous avons décidé de nous enfuir ensemble[SPED=2]...[SPED=-1][ENDN][STRT=207,5][TAIL=UPLF]Mage Noir 288 :
+Quelques temps après notre fuite,
+nous avons appris qu’il y avait
+un village où des Mages Noirs comme
+nous étaient venus chercher refuge.[ENDN][STRT=52,2][TAIL=LORF][WDTH=0,8,16,-1][ZDNE] :
+Je vois[SPED=2]...[SPED=-1][ENDN][STRT=198,4][TAIL=UPLF]Mage Noir 288 :
+Je vous en prie[SPED=2]...[SPED=-1]
+Protégez-le.
+J’espère que nous nous reverrons.[ENDN][STRT=179,4][TAIL=LOC]
+Titre : Promenade dans la forêt
+Auteur : Mage Noir 234
+[ENDN][STRT=134,4][TAIL=LOC]
+Titre : Notre village
+Auteur :  Mage Noir 123
+[ENDN][STRT=149,4]Mage Noir 234 :
+Bo... Bonjour[SPED=2]...[SPED=-1]
+Ce... c’est un peu trop tôt
+pour se coucher.[ENDN][STRT=196,4][PCHC=2,1][IMME]Mage Noir 234 :
+Vou... voulez-vous vous reposer ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=192,5]Mage Noir 123 :
+Avec cet appareil,
+on peut écouter de la ”MUSIQUE”.
+C’est très amusant de danser
+sur de la ”MUSIQUE”.[ENDN][STRT=238,3]Mage Noir 123 :
+Mais...[WAIT=3]
+Qu’est-ce que ça veut dire ”MUSIQUE”[SPED=2]...[SPED=-1]?[ENDN][STRT=149,2]Mage Noir 234 :
+Re...[WAIT=3] reposez-vous bien[SPED=2]...[SPED=-1][ENDN][STRT=102,2]Mage Noir 234 :
+Bonne...[WAIT=3] journée ![ENDN][STRT=89,2]Mage Noir 234 :
+Au revoir[SPED=2]...[SPED=-1][ENDN][STRT=123,3][ZDNE] :
+[VIVI][SPED=2]...[SPED=-1]?
+Qu’est-ce que tu as ?[ENDN][STRT=30,1]Hum ?[ENDN][STRT=130,3][VIVI] :
+Ah, [ZDNE][SPED=2]...[SPED=-1]
+Non, non[SPED=2]...[SPED=-1] c’est[WAIT=3] rien[SPED=2]...[SPED=-1][ENDN][STRT=206,3][ZDNE] :
+Qu’est-ce qu’il y a ?
+J’ai l’impression qu’ils sont sympas[SPED=2]...[SPED=-1][ENDN][STRT=151,2][NFOC][VIVI] :
+Mais, c’est vraiment rien[SPED=2]...[SPED=-1][TIME=30][STRT=140,2][TAIL=UPRF][QUIN] :
+Je vais crever de faim[SPED=2]...[SPED=-1][ENDN][STRT=150,2][QUIN] :
+Il y a rien à manger, miam ![ENDN][STRT=67,3][WDTH=0,8,18,-1,0,30,17,-1][DGGR] :
+Ah, [VIVI] !
+Te revoilà ![ENDN][STRT=118,3][DGGR] :
+Dis-moi, où étais-tu passé ?
+Tu as l'air[SPED=2]...[SPED=-1][ENDN][STRT=118,3][TAIL=UPRF][WDTH=0,65,17,-1][ZDNE] :
+Tu es un peu fatigué,
+c’est ça, [VIVI] ?[ENDN][STRT=63,2][WDTH=0,8,17,-1][VIVI] :
+Euh... Oui[SPED=2]...[SPED=-1][ENDN][STRT=247,2][TAIL=UPLF][OFFT=0,-20,0][DGGR] :
+Il va falloir que nous nous reposions un peu.[ENDN][STRT=205,3][TAIL=UPLF][OFFT=0,-20,0][QUIN] :
+Moi, je vais chercher quelque chose
+de mangeable dans la forêt ![ENDN][STRT=169,4][PCHC=2,1][WDTH=0,169,16,-1][IMME][DGGR] :
+Tu prends un peu de repos, [ZDNE] ?
+[CHOO][MOVE=18,0]Oui, je peux plus marcher.
+[MOVE=18,0]Non, pas maintenant.[ENDN][STRT=85,2][TAIL=UPRF][ZDNE] :
+Non, moi ça va.[ENDN][STRT=70,2][TAIL=UPRF][WDTH=0,8,16,-1][ZDNE] :
+Bonne idée ![ENDN][STRT=89,4][PCHC=2,1][IMME][DGGR] :
+Tu te reposes ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=114,3]Mage Noir 123 :
+Nous avons un client
+très petit.[ENDN][STRT=65,3][TAIL=UPRF][OFFT=0,-30,0][WDTH=0,8,18,-1,0,33,16,-1,0,65,17,-1][DGGR] :
+Eh, [ZDNE][SPED=2]...[SPED=-1]
+[VIVI] est sorti[SPED=2]...[SPED=-1][ENDN][STRT=228,3][TAIL=UPLF][OFFT=0,50,180][ZDNE] :
+Pour pas nous déranger, peut-être ?
+Il commence à comprendre[SPED=2]...[SPED=-1][ENDN][STRT=78,1][TAIL=UPRF][OFFT=0,-30,0]Sois sérieux ![ENDN][STRT=166,2][TAIL=UPLF][OFFT=0,50,180][ZDNE] :
+T’inquiète pas trop pour lui[SPED=2]...[SPED=-1][ENDN][STRT=36,2][TAIL=UPRF][OFFT=0,-30,0][WDTH=0,8,18,-1][DGGR] :
+Mais[SPED=2]...[SPED=-1][ENDN][STRT=199,3][TAIL=UPLF][OFFT=0,50,180][ZDNE] :
+Il est plus solide que tu le penses[SPED=2]...[SPED=-1]
+Il sait ce qu’il fait.[ENDN][STRT=51,1][MPOS=90,140][FLIM]Tu sais[SPED=2]...[SPED=-1][ENDN][STRT=158,4][MPOS=90,140][WDTH=0,140,17,-1][FLIM][VIVI] était toujours tout seul.
+Il n’a même pas eu la chance[WAIT=5]
+d’avoir des amis comme ces
+Mages Noirs.[ENDN][STRT=208,2][MPOS=90,30][FLIM]Mais[SPED=2]...[SPED=-1] si les amis qu’il cherche,[WAIT=3]
+lui parlaient mal[WAIT=5] ou le traitaient mal ?[ENDN][STRT=163,4][MPOS=70,140][FLIM]On peut pas se faire d’amis
+en se posant ces questions.[WAIT=5]
+Est-ce que quelqu’un qui fait
+ça est un ami ?[ENDN][STRT=12,1][MPOS=130,30][FLIM][SPED=2]...[SPED=-1][ENDN][STRT=177,2][MPOS=90,130][FLIM]En effet...[WAIT=10] s’il a de la chance[SPED=2]...[SPED=-1][WAIT=5]
+Il pourra trouver[SPED=2]...[SPED=-1][ENDN][STRT=127,3][MPOS=120,30][FLIM]Trouver ?
+Qu’est-ce qu’il pourra
+trouver[SPED=2]...[SPED=-1]?[ENDN][STRT=173,1][MPOS=90,140][FLIM]Le lieu où il rentrera un jour[SPED=2]...[SPED=-1][ENDN][STRT=183,1][MPOS=110,30][FLIM]Le lieu[SPED=2]...[SPED=-1] où il rentrera un jour ?[ENDN][STRT=140,2][MPOS=90,140][FLIM]Oui[SPED=2]...[SPED=-1][WAIT=5]
+Où on rentrera un jour[SPED=2]...[SPED=-1][ENDN][STRT=82,2][MPOS=140,30][WDTH=0,56,16,-1][FLIM][SPED=-1]Dis-moi, [ZDNE], [WAIT=5]
+ce lieu c’est[SPED=2]...[SPED=-1][ENDN][STRT=118,2][MPOS=160,150][FLIM][SPED=-1]Hein ?[WAIT=5]
+T'arrive pas à dormir ?[ENDN][STRT=149,3][MPOS=140,150][FLIM][SPED=-1]Tu veux que je te raconte
+une histoire ?[WAIT=5]
+Ben[SPED=2]...[SPED=-1] il était une fois[SPED=2]...[SPED=-1][ENDN][STRT=191,1][MPOS=100,30][TAIL=UPRF][OFFT=-200,200,0][FLIM]Vraiment, tu n’es jamais sérieux[SPED=2]...[SPED=-1][ENDN][STRT=113,2][MPOS=120,150][TAIL=LOLF][OFFT=-300,300,0][FLIM]Il était une fois[SPED=2]...[SPED=-1][WAIT=5]
+un petit garçon[SPED=2]...[SPED=-1][PAGE]...qui ne savait pas[WAIT=5]
+d’où il venait[SPED=2]...[SPED=-1][ENDN][STRT=18,1][MPOS=130,30][TAIL=UPRF][OFFT=-200,200,0][WDTH=0,18,16,-1][FLIM][ZDNE][SPED=2]...[SPED=-1]?[ENDN][STRT=130,3][MPOS=90,160][FLIM]Depuis son enfance,[WAIT=5]
+ce garçon cherchait[WAIT=3]
+son pays natal[SPED=2]...[SPED=-1][ENDN][STRT=196,4][MPOS=90,160][FLIM]...et la maison où il était né.[WAIT=5]
+Mais il ne les vit jamais. Il dut donc
+les trouver à l’aide de souvenirs
+n’existant que dans sa tête[SPED=2]...[SPED=-1][ENDN][STRT=165,1][MPOS=110,20][FLIM]Pourquoi cette recherche[SPED=2]...[SPED=-1]?[ENDN][STRT=147,3][MPOS=80,160][FLIM]Il voulait juste connaître,[WAIT=5]
+ses parents, [WAIT=10]ses origines
+et lui-même[SPED=2]...[SPED=-1][ENDN][STRT=193,4][MPOS=90,150][FLIM]Et un jour,[WAIT=5]
+il quitta ses parents adoptifs et[WAIT=5]
+partit à la recherche de son pays
+natal[SPED=2]...[SPED=-1][ENDN][STRT=202,3][MPOS=90,160][FLIM]Une lumière bleue[SPED=2]...[SPED=-1][WAIT=5]
+toujours présente dans sa mémoire,
+fut son seul indice[SPED=2]...[SPED=-1][ENDN][STRT=107,1][MPOS=190,20][FLIM]Une lumière bleue ?[ENDN][STRT=196,4][MPOS=70,150][FLIM]Oui, cette lumière bleue était[WAIT=3]
+le seul souvenir de son pays natal.[WAIT=5]
+Il supposa que ce bleu
+était celui de la mer[SPED=2]...[SPED=-1][ENDN][STRT=146,1][MPOS=130,30][FLIM][SPED=-1]Il a réussi à le trouver[SPED=2]...[SPED=-1]?[ENDN][STRT=131,2][MPOS=70,150][FLIM][SPED=-1]Mais attends !
+Ecoute jusqu’au bout[SPED=2]...[SPED=-1][ENDN][STRT=167,3][MPOS=70,140][FLIM][SPED=-1]Mais bon[SPED=2]...[SPED=-1][WAIT=5]
+En fin de compte,
+il dû renoncer à le trouver.[ENDN][STRT=175,3][MPOS=70,140][FLIM][SPED=-1]C’est normal ![WAIT=5]
+Comment la lumière bleue aurait
+pu lui servir à retrouver son pays natal ?[ENDN][STRT=137,2][MPOS=70,140][FLIM][SPED=-1]Alors, il est rentré[WAIT=5] chez
+ses parents adoptifs[SPED=2]...[SPED=-1][WAIT=3][ENDN][STRT=167,2][MPOS=70,120][FLIM][SPED=-1]Et qu’est-ce que ses parents
+lui ont fait ?[ENDN][STRT=151,2][MPOS=120,30][FLIM][SPED=-1]Ils l’ont bien accueilli[SPED=2]...[SPED=-1]
+après sa longue absence ?[ENDN][STRT=96,1][MPOS=70,140][FLIM][SPED=-1]Tu parles ![PAGE]Ils l’ont frappé[SPED=2]...[SPED=-1][ENDN][STRT=29,1][TAIL=UPR][NFOC]Doh ![TIME=30][STRT=37,1][OFFT=50,100,0][TAIL=LOL][NFOC]Baak ![TIME=30][STRT=29,1][OFFT=-100,-200,0][TAIL=UPLF][NFOC]Kah ![TIME=30][STRT=35,1][OFFT=50,100,0][TAIL=LOR][NFOC]Sbaf ![TIME=30][STRT=87,1][MPOS=120,30][FLIM][SPED=-1]Mais pourquoi ?[ENDN][STRT=75,1][MPOS=110,160][FLIM][SPED=-1]Je sais pas[SPED=2]...[SPED=-1][ENDN][STRT=133,1][MPOS=100,160][FLIM][SPED=-1] Mais le plus étonnant...[ENDN][STRT=242,2][MPOS=50,160][FLIM][SPED=-1]c’est que ses parents[WAIT=15][SPED=2]...[SPED=-1]
+ont ri après l’avoir frappé.[PAGE]Incroyable, non ?
+Ils ont ri après l’avoir battu ![PAGE][WAIT=3]Mais, pour je ne sais quelle raison,
+le garçon pensa en les regardant rire[SPED=2]...[SPED=-1][ENDN][STRT=217,1][FLIM][SPED=-1]...que c’était ici qu’il devait rentrer[SPED=2]...[SPED=-1][ENDN][STRT=258,3][FLIM][SPED=-1]En ce moment même, il cherche encore son pays natal.
+Il sait sûrement au fond de lui où il doit rentrer.
+Donc[SPED=2]...[SPED=-1][ENDN][STRT=143,2][MPOS=70,150][WDTH=0,143,17,-1][FLIM][SPED=-1][VIVI] cherche aussi un endroit
+où il rentrera un jour[SPED=2]...[SPED=-1][ENDN][STRT=144,2][MPOS=100,20][FLIM][SPED=-1]Il voudra peut-être
+rester dans ce village[SPED=2]...[SPED=-1]?[ENDN][STRT=157,3][MPOS=80,150][FLIM][SPED=-1]Hum[SPED=2]...[SPED=-1]
+De toute façon, c’est lui qui
+décidera de rester ici ou pas.[ENDN][STRT=89,3][TAIL=UPLF]Mage Noir 288 :
+Ah, te revoilà !
+Tu vas bien ?[ENDN][STRT=170,3][TAIL=UPRF][VIVI] :
+Euh[SPED=2]...[SPED=-1]
+J’ai une question à te poser[SPED=2]...[SPED=-1][ENDN][STRT=133,2][TAIL=UPLF]Mage Noir 288 :
+Quelle est ta question ?[ENDN][STRT=107,4][VIVI] :
+Bien euh[SPED=2]...[SPED=-1]
+Combien d’amis[SPED=2]...[SPED=-1]
+se sont arrêtés[SPED=2]...[SPED=-1]?[ENDN][STRT=138,4][TAIL=UPLF]Mage Noir 288 :
+Il me semble que
+tu connais d’autres mots
+pour ”s’arrêter”.[ENDN][STRT=226,3][TAIL=UPLF]Mage Noir 288 :
+Tu comprends bien le sens du mot ”vie” [WAIT=5]
+et celui du mot ”mort”[SPED=2]...[SPED=-1][ENDN][STRT=150,4][TAIL=UPLF]Mage Noir 288 :
+Oui, tu as raison.
+Ils ne se sont pas arrêtés,
+ils sont morts[SPED=2]...[SPED=-1][ENDN][STRT=31,2][TAIL=UPRF][WDTH=0,8,17,-1][VIVI] :
+Euh[SPED=2]...[SPED=-1][ENDN][STRT=121,3][TAIL=UPLF]Mage Noir 288 :
+Il y a déjà sept amis[SPED=2]...[SPED=-1]
+qui se sont arrêtés[SPED=2]...[SPED=-1][ENDN][STRT=192,3][TAIL=UPLF]Mage Noir 288 :
+Nous n’avons qu’une courte durée
+de fonctionnement[SPED=2]...[SPED=-1][ENDN][STRT=238,4][TAIL=UPLF]Mage Noir 288 :
+Quand j’ai vu un ami s’arrêter,
+j’ai pensé qu’il m’arriverait la même chose
+un jour à moi aussi...[ENDN][STRT=131,3][TAIL=UPLF]Mage Noir 288 :
+Nous fonctionnons
+environ pendant un an[SPED=2]...[SPED=-1][ENDN][STRT=45,2][TAIL=UPRF][WDTH=0,8,17,-1][VIVI] :
+Mais[SPED=2]...[SPED=-1] ![ENDN][STRT=233,4][TAIL=UPLF]Mage Noir 288 :
+Personne ne connaît cette limite dans ce
+village. Si mes amis la connaissaient, ils
+éprouveraient le même sentiment que moi.[ENDN][STRT=154,2][TAIL=UPRF][VIVI] :
+Le même sentiment que toi ?[ENDN][STRT=241,4][TAIL=UPLF]Mage Noir 288 :
+C’est un sentiment de peur[SPED=2]...[SPED=-1]
+Ils auraient peur de s’arrêter...
+et voudraient se dégager de cette peur[SPED=2]...[SPED=-1][ENDN][STRT=226,4][TAIL=UPLF]Mage Noir 288 :
+Mais nous sommes tous heureux de vivre
+dans ce village[SPED=2]...[SPED=-1] Nous nous amusons
+et faisons de belles choses.[ENDN][STRT=166,5][TAIL=UPLF]Mage Noir 288 :
+Oui, j’ai peur[SPED=2]...[SPED=-1]
+Mais plus que ça,
+vivre avec mes amis ici,
+voilà ce qui me rend heureux.[ENDN][STRT=237,4][TAIL=UPLF]Mage Noir 288 :
+Toi aussi, tu commences à comprendre
+ce qu’est ”vivre” après tant d’aventures
+avec tes amis[SPED=2]...[SPED=-1]?[ENDN][STRT=25,2][TAIL=UPRF][WDTH=0,8,17,-1][VIVI] :
+Je[SPED=2]...[SPED=-1][ENDN][STRT=66,2][WDTH=0,8,18,-1][DGGR] :
+C’est vrai ?[ENDN][STRT=222,2]Mage Noir 144 :
+Je crois que c’était dans ces environs.[ENDN][STRT=81,1]Merci à vous ![ENDN][STRT=124,2][WDTH=0,124,18,-1][ZDNE] :
+Qu’est-ce qu’il y a, [DGGR] ?[ENDN][STRT=177,4][DGGR] :
+Ecoute, [ZDNE].
+Il a vu un Dragon d’argent
+au nord-ouest de ce continent.[ENDN][STRT=212,4][DGGR] :
+A [68C0D8][HSHD]Condéa[C8C8C8][HSHD], les Nains m’ont dit qu’il
+s’agissait d’une [68C0D8][HSHD]”Terre sacrée”[C8C8C8][HSHD] dont
+l’entrée est réglementée[SPED=2]...[SPED=-1][ENDN][STRT=229,3]Mage Noir 144 :
+Au fait, un certain Kuja a mentionné
+un soi-disant secret lié à ce continent[SPED=2]...[SPED=-1][ENDN][STRT=66,2][WDTH=0,8,16,-1][ZDNE] :
+C’est vrai ?[ENDN][STRT=134,3]Mage Noir 144 :
+C’était à propos de la
+source de la ”Brume”...[ENDN][STRT=189,3][DGGR] :
+Il doit y avoir des indices là-bas.
+J’espère que Mère[SPED=2]...[SPED=-1][ENDN][STRT=75,2][WDTH=0,8,16,-1][ZDNE] :
+T’as raison[SPED=2]...[SPED=-1][ENDN][STRT=49,2][WDTH=0,8,18,-1,0,49,17,-1][DGGR] :
+Où est [VIVI] ?[ENDN][STRT=116,2][DGGR] :
+S’il veut rester ici[SPED=2]...[SPED=-1][ENDN][STRT=60,2][WDTH=0,8,17,-1][VIVI] :
+Attendez ![ENDN][STRT=10,1][WDTH=0,10,17,-1][VIVI] ?[ENDN][STRT=177,4][VIVI] :
+Ils m’ont demandé de partir à
+l’aventure et de revenir leur
+raconter beaucoup d’histoires.[ENDN][STRT=49,2][WDTH=0,8,18,-1][DGGR] :
+Ah, oui[SPED=2]...[SPED=-1][ENDN][STRT=180,3][WDTH=0,180,18,-1][ZDNE] :
+Zut, [WAIT=3]j’ai pas de bol !
+Avec [DGGR], on aurait pu partir à deux[SPED=2]...[SPED=-1][ENDN][STRT=161,2][QUIN] :
+Qu’est-ce que tu racontes ?[ENDN][STRT=133,3][QUIN] :
+Tu me laisserais crever
+de faim ici, miam ?[ENDN][STRT=191,3][ZDNE] :
+Ah, c’est vrai !
+Je t’avais complètement oubliée[SPED=2]...[SPED=-1][ENDN][STRT=86,2][DGGR] :
+Allez, on y va ![ENDN][STRT=182,3][DGGR] :
+A [68C0D8][HSHD]Condéa[C8C8C8][HSHD] !
+Et après, à la [68C0D8][HSHD]”Terre sacrée”[C8C8C8][HSHD] ![ENDN][STRT=180,2]Mage Noir 24 :
+Nous n’aimons pas trop le soleil.[ENDN][STRT=201,3]Mage Noir 24 :
+Mais c’est joli de voir les rayons
+du soleil percer entre les feuilles[SPED=2]...[SPED=-1][ENDN][STRT=102,2][VIVI] :
+Il y a quelqu’un[SPED=2]...[SPED=-1]?[ENDN][STRT=156,2][ZDNE] :
+Qu’est-ce qui s’est passé ?[ENDN][STRT=125,2][VIVI] :
+Je vais les chercher ![ENDN][STRT=138,2][TAIL=LOLF][OFFT=0,20,0][VIVI] :
+Où sont partis tes amis ?[ENDN][STRT=260,4]Mage Noir 288 :
+Tout le monde est parti avec Kuja[SPED=2]...[SPED=-1]
+Seuls les deux amis qui s’occupent du Chocobébé,
+et moi sommes restés au village[SPED=2]...[SPED=-1][ENDN][STRT=160,2][TAIL=LOLF][OFFT=0,20,0][VIVI] :
+Pourquoi ils ont suivi Kuja ?![ENDN][STRT=139,3]Mage Noir 288 :
+Tous mes amis ont pris
+conscience de la limite[SPED=2]...[SPED=-1][ENDN][STRT=180,4]Mage Noir 288 :
+Kuja leur a promis de prolonger
+leur durée de fonctionnement.
+Il a abusé de leur point faible[SPED=2]...[SPED=-1][ENDN][STRT=110,4][TAIL=LOLF][OFFT=0,20,0][VIVI] :
+Je comprends pas !
+Pourquoi ils font
+confiance à Kuja ?![ENDN][STRT=188,4][TAIL=LOLF][OFFT=0,20,0][VIVI] :
+Ils ont oublié combien il leur avait
+fait du mal ? Il nous traite comme
+des outils[SPED=2]...[SPED=-1][ENDN][STRT=189,4]Mage Noir 288 :
+Nous ne serions que des outils[SPED=2]...[SPED=-1]
+fabriqués pour obéir aux ordres
+des hommes.[ENDN][STRT=133,2][ZDNE] :
+Mais arrête, c’est absurde ![SPED=2]...[SPED=-1][ENDN][STRT=167,2][TAIL=LOLF][OFFT=0,20,0][VIVI] :
+Où Kuja les a-t-il emmenés[SPED=2]...[SPED=-1]?[ENDN][STRT=185,3]Mage Noir 288 :
+Je ne peux pas te le dire[SPED=2]...[SPED=-1]
+Je ne veux pas trahir mes amis[SPED=2]...[SPED=-1][ENDN][STRT=169,2][TAIL=LOLF][OFFT=0,20,0][VIVI] :
+Alors, pourquoi tu restes ici ?[ENDN][STRT=148,3][TAIL=LOLF][OFFT=0,20,0][VIVI] :
+Tu m’as dit qu’il y en avait
+encore deux autres ?[ENDN][STRT=35,2][WDTH=0,8,16,-1,0,35,17,-1][ZDNE] :
+Eh, [VIVI] !![ENDN][STRT=73,2][WDTH=0,8,17,-1][VIVI] :
+Ouvrez-moi ![ENDN][STRT=12,2][WDTH=0,8,16,-1,0,12,17,-1][ZDNE] :
+[VIVI][SPED=2]...[SPED=-1][ENDN][STRT=69,2][WDTH=0,8,17,-1][VIVI] :
+Ouvrez-la[SPED=2]...[SPED=-1][ENDN][STRT=50,1]Cuppiii !![ENDN][STRT=155,1]Ah ! Chocobébé est sorti !![ENDN][STRT=30,1]Ah[SPED=2]...[SPED=-1]![ENDN][STRT=60,2][WDTH=0,8,17,-1][VIVI] :
+Attendez ![ENDN][STRT=93,1][OFFT=0,-80,0]Il... il est sorti[SPED=2]...[SPED=-1][ENDN][STRT=73,1][OFFT=0,-80,0]Il est sorti !![ENDN][STRT=123,3][OFFT=0,-80,0]Mage Noir 111 :
+Vraiment[SPED=2]...[SPED=-1][WAIT=10]
+Il est vraiment sorti[SPED=2]...[SPED=-1][ENDN][STRT=123,2][OFFT=0,-80,0]Mage Noir 33 :
+Il est sorti vraiment[SPED=2]...[SPED=-1][ENDN][STRT=132,3][VIVI] :
+Pourquoi vous êtes pas
+partis avec Kuja[SPED=2]...[SPED=-1]?[ENDN][STRT=183,3][OFFT=0,-80,0]Mage Noir 33 :
+Parce que[SPED=2]...[SPED=-1] nous devions nous
+occuper de l’oeuf de Chocobo[SPED=2]...[SPED=-1][ENDN][STRT=181,4][OFFT=0,-80,0]Mage Noir 111 :
+Nous voulions aller avec eux.
+Mais, [WAIT=3]nos amis[WAIT=3] nous ont demandé
+de nous occuper de l’oeuf[SPED=2]...[SPED=-1][ENDN][STRT=116,3][OFFT=0,-80,0]Mage Noir 33 :
+Je...[WAIT=3] je l’ai gardé et[WAIT=3]
+l’ai couvé[SPED=2]...[SPED=-1][ENDN][STRT=161,3][OFFT=0,-80,0]Mage Noir 111 :
+Je...[WAIT=3] je vais montrer le petit[WAIT=3]
+à nos amis[SPED=2]...[SPED=-1][ENDN][STRT=224,2][OFFT=0,-80,0]Mage Noir 33 :
+Nos amis[SPED=2]...[SPED=-1] seront contents de le voir[SPED=2]...[SPED=-1][ENDN][STRT=101,3][OFFT=0,-80,0]Mage Noir 111 :
+Et nous devons lui
+donner un nom[SPED=2]...[SPED=-1][ENDN][STRT=132,4][OFFT=0,-80,0]Mage Noir 33 :
+Hum[WAIT=3][SPED=2]...[SPED=-1]?
+Qu’est-ce que c’est[SPED=2]...[SPED=-1]?
+C’est bizarre...[ENDN][STRT=132,2][OFFT=0,-80,0]Mage Noir 111 :
+Je...[WAIT=3] je le sens aussi[SPED=2]...[SPED=-1][ENDN][STRT=202,3][OFFT=0,-90,0][VIVI] :
+Tu es resté ici parce que tu voulais
+pas laisser l’oeuf tout seul ?[ENDN][STRT=92,2][OFFT=0,-90,0]Mage Noir 288 :
+Je ne sais pas[SPED=2]...[SPED=-1][ENDN][STRT=211,4][OFFT=0,-90,0]Mage Noir 288 :
+Je ne sais pas pourquoi...
+J’avais vraiment peur de m’arrêter...
+Je voulais avoir recours à Kuja[SPED=2]...[SPED=-1][ENDN][STRT=133,4][OFFT=0,-90,0]Mage Noir 288 :
+Mais[SPED=2]...[SPED=-1] J’ai pensé qu’il
+y avait des choses plus
+importantes...[ENDN][STRT=117,3][OFFT=0,-90,0][FLIM][VIVI] :
+Eh[SPED=2]...[SPED=-1][WAIT=10] Je peux te
+poser une question ?[ENDN][STRT=89,2][OFFT=0,-90,0]Mage Noir 288 :
+Oui ?[ENDN][STRT=111,3][OFFT=0,-90,0][FLIM][VIVI] :
+Je[SPED=2]...[SPED=-1][SPED=-1] Je m’arrêterai
+un jour, moi aussi ?[ENDN][STRT=92,2][OFFT=0,-90,0]Mage Noir 288 :
+Je ne sais pas[SPED=2]...[SPED=-1][ENDN][STRT=230,3][OFFT=0,-90,0]Mage Noir 288 :
+Kuja disait que les prototypes de Mages
+fonctionnaient plus longtemps que nous[SPED=2]...[SPED=-1][ENDN][STRT=119,3][OFFT=0,-90,0][VIVI] :
+Mais on s’arrêtera[SPED=2]...[SPED=-1][WAIT=3]
+quand même un jour ?[ENDN][STRT=200,4][OFFT=0,-90,0][VIVI] :
+Quand mon grand-père est mort[SPED=2]...[SPED=-1][WAIT=5]
+je me suis demandé que voulait dire
+sa mort.[WAIT=5][ENDN][STRT=205,5][OFFT=0,-90,0][WDTH=0,195,17,-1][VIVI] :
+Il m’avait dit : [VIVI], je mourrai un jour,
+mais ce n’est pas une chose triste[SPED=2]...[SPED=-1]
+Alors je pensais que si sa mort me
+rendait triste, c’était de ma faute[SPED=2]...[SPED=-1][ENDN][STRT=146,5][OFFT=0,-90,0][VIVI] :
+Quand on m’a raconté que
+des Mages s’arrêtaient,
+je me suis pas senti
+triste.[WAIT=3] Je savais pas[SPED=2]...[SPED=-1][ENDN][STRT=234,3][OFFT=0,-90,0][VIVI] :
+Qu’est-ce que je dois faire[SPED=2]...[SPED=-1]?[WAIT=10]
+Qu’est-ce que j’ai réellement ressenti[SPED=2]...[SPED=-1]?[ENDN][STRT=235,3][OFFT=0,-90,0][WDTH=0,205,18,-1][VIVI] :
+Quand la mère de m’zelle [DGGR] est morte,[WAIT=5]
+en la regardant pleurer, j’ai pensé que[SPED=2]...[SPED=-1][ENDN][STRT=115,3][OFFT=0,-90,0][VIVI] :
+...c’était ça la vie[SPED=2]...[SPED=-1][WAIT=5]
+et la mort[SPED=2]...[SPED=-1][ENDN][STRT=160,4][OFFT=0,-90,0][VIVI] :
+J’ai pu penser ça[WAIT=5] parce que
+je suis pas une arme et que
+j’ai un coeur à moi...[ENDN][STRT=159,5][OFFT=0,-90,0][VIVI] :
+Je comprends pas beaucoup
+de choses,[WAIT=5] mais je suis
+content d’avoir compris
+un peu ce que je suis[SPED=2]...[SPED=-1][WAIT=5][ENDN][STRT=51,1][TAIL=UPRF][OFFT=0,-90,0]...donc[SPED=2]...[SPED=-1][ENDN][STRT=174,3][OFFT=0,-90,0][VIVI] :
+...je supporte pas ce[WAIT=5] Kuja, qui
+nous traite comme des armes ![ENDN][STRT=224,3][OFFT=0,-90,0][VIVI] :
+Si les Mages Noirs se laissent pas avoir
+par Kuja, ils comprendront[SPED=2]...[SPED=-1][ENDN][STRT=166,2][OFFT=0,-90,0][VIVI] :
+...qu’ils sont pas des armes[SPED=2]...[SPED=-1][ENDN][STRT=162,3][OFFT=0,-90,0]Mage Noir 288 :
+A l’est de ce continent vous
+trouverez le palais de Kuja[SPED=2]...[SPED=-1][ENDN][STRT=243,4][OFFT=0,-90,0]Mage Noir 288 :
+Partez en bateau vers le sud du continent,
+et cherchez l’endroit où débouchent les
+sables mouvants[SPED=2]...[SPED=-1][ENDN][STRT=122,2][OFFT=0,-90,0][VIVI] :
+Merci, [WAIT=5]merci à vous[SPED=2]...[SPED=-1][ENDN][STRT=171,3][OFFT=0,-90,0]Mage Noir 288 :
+Est-ce qu’un jour nous serons
+aussi forts que vous[SPED=2]...[SPED=-1]?[ENDN][STRT=169,2][WDTH=0,140,17,-1]([VIVI] cherche une réponse[SPED=2]...[SPED=-1]
+une réponse à ses questions.)[ENDN][STRT=145,2](Mais moi[SPED=2]...[SPED=-1]
+Qu’est-ce que je fais[SPED=2]...[SPED=-1]?)[ENDN][STRT=182,2](Avec [ZDNE][SPED=2]...[SPED=-1]
+Je pensais que je changerais...)[ENDN][STRT=189,2](Devenir la reine d’Alexandrie
+aurait dû me rendre plus forte...)[ENDN][STRT=220,3](Mais rien n’a changé[SPED=2]...[SPED=-1]
+Je ne connais toujours pas le monde et
+ne sers toujours à rien[SPED=2]...[SPED=-1])[ENDN][STRT=180,3][WDTH=0,180,17,-1][EIKO] :
+Je ne pensais pas que [VIVI] songeait
+à des choses pareilles[SPED=2]...[SPED=-1][ENDN][STRT=44,2][WDTH=0,8,22,-1,0,44,18,-1][EIKO] :
+Hum ? [DGGR] ?[ENDN][STRT=182,3][EIKO] :
+Tu as entendu, [DGGR] ?
+Maintenant il n’est plus peureux.[ENDN][STRT=10,2][WDTH=0,8,22,-1,0,10,18,-1][EIKO] :
+[DGGR] ?[ENDN][STRT=152,2][EIKO] :
+Tu penses à ce qu’il a dit ?[ENDN][STRT=195,3][WDTH=0,82,17,17,-1,0,195,18,-1][EIKO] :
+[VIVI] est toujours [VIVI].
+Personne ne peut te remplacer, [DGGR][SPED=2]...[SPED=-1][ENDN][STRT=140,3][EIKO] :
+Euh[SPED=2]...[SPED=-1]
+C’est rien. T’en fais pas.[ENDN][STRT=33,2][WDTH=0,8,22,-1,0,33,16,-1][EIKO] :
+Ah, [ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=146,2][ZDNE] :
+Oui ? Qu’est-ce qu’il y a ?[ENDN][STRT=67,3][WDTH=0,8,16,-1][ZDNE] :
+Bon[SPED=2]...[SPED=-1][WAIT=20] Allez,[WAIT=5]
+on y va[SPED=2]...[SPED=-1][ENDN][STRT=179,3][VIVI] :
+On va à l’est du continent, là où
+arrivent les sables mouvants ?[ENDN][STRT=135,2][ZDNE] :
+Oui, au palais de Kuja[SPED=2]...[SPED=-1][ENDN][STRT=116,2]Mage Noir 111 :
+Comme il est mignon ![ENDN][STRT=90,2]Mage Noir 33 :
+Il est si mignon ![ENDN][STRT=175,3]Mage Noir 24 :
+Quand je regarde en haut d’ici
+je me sens vraiment chez moi[SPED=2]...[SPED=-1][ENDN][STRT=179,3]Mage Noir 24 :
+Mais j’ai l’impression que
+la couleur du soleil a changé[SPED=2]...[SPED=-1]?[ENDN][STRT=89,2]Mage Noir 239 :
+Bonjour[SPED=2]...[SPED=-1][ENDN][STRT=173,5]Mage Noir 78 :
+Une ”Arme”,
+c’est pour blesser quelqu’un[SPED=2]...[SPED=-1]
+Mais pour blesser quelqu’un...
+la magie ça suffit pas ?[ENDN][STRT=178,4]Mage Noir 78 :
+Si tout le monde était heureux,
+les armes seraient inutiles ?
+Et la magie aussi serait inutile ?[ENDN][STRT=89,2]Mage Noir 192 :
+Bonjour[SPED=2]...[SPED=-1][ENDN][STRT=89,5][TAIL=UPRF][PCHM=3,2][WDTH=1,103,-1,2,139,-1][IMME]Mage Noir 163 :
+Bonjour[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Achat et Vente
+[MOVE=18,0]”Ca”, s’il vous plaît.
+[MOVE=18,0]Rien.[ENDN][STRT=253,3][TAIL=UPRF]Mage Noir 55 :
+Jusqu’à quand[SPED=2]...[SPED=-1]
+nous pourrons nous occuper du Chocobébé ?[ENDN][STRT=250,5]Mage Noir 44 :
+Je[SPED=2]...[SPED=-1] J’ai dû conduire un vaisseau[SPED=2]...[SPED=-1]
+Vraiment[SPED=2]...[SPED=-1] ça m’a rendu triste[SPED=2]...[SPED=-1]
+Parce que ça m’a rappelé quand nous étions
+serrés comme des caisses dans l’entrepôt[SPED=2]...[SPED=-1][ENDN][STRT=248,5][SPED=64]
+Musique de rêve et fantastique pour vous...
+
+Un morceau présenté par Lumière et Son.
+[ENDN][STRT=194,4][PCHC=2,1][IMME]Mage Noir 234 :
+Ah[SPED=2]...[SPED=-1]! Voulez-vous vous reposer ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=225,4]Mage Noir 123 :
+Pourquoi la musique est si jolie
+pour nous qui nous arrêterons sûrement
+un jour[SPED=2]...[SPED=-1]?[ENDN][STRT=260,4][TAIL=LOLF]Mage Noir 56 :
+Je ne comprenais pas ce qu’était la ”mort” et
+cela m’a beaucoup tourmenté...
+Mais j’aime vraiment ce village, moi[SPED=2]...[SPED=-1][ENDN][STRT=198,5]Mage Noir 288 :
+Les uns désespèrent et
+les autres font semblant
+de ne s’inquiéter de rien[SPED=2]...[SPED=-1]
+Mais tout le monde se fait du souci.[ENDN][STRT=247,4]Mage Noir 288 :
+Il nous faudrait trouver
+une raison de vivre même dans une situation
+aussi douloureuse[SPED=2]...[SPED=-1][ENDN]

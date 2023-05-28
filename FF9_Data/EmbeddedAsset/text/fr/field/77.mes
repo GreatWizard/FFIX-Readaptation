@@ -1,0 +1,624 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1,1,199,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Ca me met dans tous mes états !
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=178,5][TAIL=UPR][WDTH=0,8,6,0,-1,0,88,6,1,-1][TEXT=0,0] :
+Une lettre de [TEXT=0,1] !
+Ca doit être pour nous féliciter
+de notre mariage.
+On va la lire ensemble ![ENDN][STRT=258,14][WDTH=0,77,6,1,6,0,-1,0,235,64,7,-1,0,236,64,6,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Cette année, la Fête de la chasse de Lindblum
+a été vraiment magnifique !
+Elle m’a beaucoup impressionnée !
+C’est un jeune homme appelé [ZDNE]
+qui a gagné la compétition avec [NUMB=7] points !!
+
+Et il a battu le record établi l’année dernière
+par Monsieur Bernas qui était de [NUMB=6] points !
+Chaque fois que j’y pense, ça me met dans
+tous mes états !!
+[ENDN][STRT=258,14][WDTH=0,77,6,1,6,0,-1,0,235,64,7,-1,0,236,64,6,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Cette année, la Fête de la chasse de Lindblum
+a été vraiment magnifique !
+Elle m’a beaucoup impressionnée !
+C’est un jeune homme appelé [VIVI]
+qui a gagné la compétition avec [NUMB=7] points !!
+
+Et il a battu le record établi l’année dernière
+par Monsieur Bernas qui était de [NUMB=6] points !
+Chaque fois que j’y pense, ça me met dans
+tous mes états !!
+[ENDN][STRT=272,14][WDTH=0,77,6,1,6,0,-1,0,235,64,7,-1,0,236,64,6,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Cette année, la Fête de la chasse à Lindblum
+a été vraiment magnifique !
+Elle m’a beaucoup impressionnée !
+C’est une femme appelée [FRYA]
+qui a gagné la compétition avec [NUMB=7] points !!
+
+Et elle a battu le record établi l’année dernière
+par Monsieur Bernas qui était de [NUMB=6] points !
+Chaque fois que j’y pense, ça me met dans
+tous mes états !!
+[ENDN][STRT=224,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Elle ne dit rien de notre mariage[SPED=2]...[SPED=-1]
+Mais apparemment, la Fête de la chasse
+a été vraiment amusante ![ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1,1,220,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]A-t-il des cartes du monde entier ?
+[MOVE=18,0]Ce qui est nécessaire...
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=144,3][TAIL=UPR][WDTH=0,8,6,0,-1,0,104,6,1,-1][TEXT=0,0] :
+Merci de m’avoir apporté
+cette lettre de [TEXT=0,1] !![ENDN][STRT=245,13][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Il paraît que Steelskin est venu ici.
+Pourcoubo ”paraît” ?
+Parce coubo je ne l’ai jamais vu.
+Si tu le rencontres, dis-moi comment il est !
+
+Est-ce coubo c’est vrai qu’il a
+des cartes de partout dans
+son sac à dos ? Et que sa sacoche
+est pleine d’objets rares ?
+[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Steelskin ? Je ne l’ai jamais vu,
+moi non plus.[ENDN][STRT=155,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Steelskin est un beau Mog !
+Je l’aime bien.[ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1,0,247,6,1,-1][TEXT=0,0] :
+Une lettre de [TEXT=0,1] ? Quelles sont les nouvelles ?[ENDN][STRT=249,12][WDTH=0,77,6,1,6,0,-1][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Aujourd’hui, on ne reçoit pas de lettre,
+parce coubo l’appareil du Siège de la Mog-
+poste est toujours en panne.
+
+On me raconte coubo cet appareil
+est très fragile.
+On ne sait pas encore ce qui est nécessaire
+pour le faire marcher.
+[ENDN][STRT=163,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Si cet appareil marche,
+on pourra porter ma lettre ?[ENDN][STRT=158,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+On va bientôt découvrir
+le secret de la Mog-poste ![ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=132,2][TAIL=UPRF][WDTH=0,132,20,-1][ZDNE] :
+C’est ici que [FRYA] est née[SPED=2]...[SPED=-1][ENDN][STRT=208,3][TAIL=UPRF][ZDNE] :
+[FRYA] !
+Qu’est-ce que tu fais, dépêche-toi ![ENDN][STRT=206,2][TAIL=UPLF][FRYA] :
+Il y a 5 ans que je suis partie d’ici[SPED=2]...[SPED=-1][ENDN][STRT=228,2][TAIL=UPLF][OFFT=0,80,0][FRYA] :
+Combien de fois ai-je rêvé de ce pays ?[ENDN][STRT=162,3][TAIL=UPLF][OFFT=0,80,0][FRYA] :
+En fait, il n’y a pas eu
+une nuit sans que j’en rêve ![ENDN][STRT=179,2][TAIL=UPLF][OFFT=0,80,0][FRYA] :
+Tout cela me touche profondément[SPED=2]...[SPED=-1][ENDN][STRT=242,2][TAIL=UPLF][OFFT=0,80,0][FRYA] :
+J’ai changé moi aussi depuis tout ce temps.[ENDN][STRT=186,3][TAIL=UPLF][FRYA] :
+Et voilà que je reviens éprouver
+mes talents de Chevalier Dragon.[ENDN][STRT=216,2][TAIL=UPRF][ZDNE] :
+Je ferai ce que je peux pour t’aider ![ENDN][STRT=59,2][TAIL=UPRF][OFFT=0,70,0][WDTH=0,8,17,-1][VIVI] :
+Moi aussi ![ENDN][STRT=59,2][TAIL=UPRF][OFFT=0,70,0][WDTH=0,8,17,-1][NFOC][VIVI] :
+Moi aussi ![INCS][TIME=-1][STRT=93,2][TAIL=UPLF][OFFT=0,-100,0][NFOC][QUIN] :
+Je suis là, miam ![INCS][TIME=-1][STRT=58,2][TAIL=UPRF][WDTH=0,8,16,-1][ZDNE] :
+En avant ![ENDN][STRT=140,3][TAIL=UPLF][FRYA] :
+Finalement, jusqu’où
+suis-je capable d’aller ?[ENDN][STRT=183,3][TAIL=UPLF][FRYA] :
+Mais bon, ce n’est pas le moment
+de se poser des questions ![ENDN][STRT=12,1][TAIL=UPLF][OFFT=50,400,0]...[ENDN][STRT=85,2]Pile :
+Encore vous ?![ENDN][STRT=211,2]Face :
+Vous êtes véritablement impossibles ![ENDN][STRT=86,2][IMME]Pile :
+Il faut en finir ![INCS][TIME=-1][STRT=86,2][IMME]Face :
+Il faut en finir ![INCS][TIME=-1][STRT=35,1][IMME]Tuer ![TIME=20][STRT=35,1][IMME]Tuer ![TIME=20][STRT=193,3]Pile :
+Si nous ne faisons pas mieux, la
+générale va se mettre en colère ![ENDN][STRT=177,3]Face :
+Oui et quand elle est en colère,
+elle est vraiment redoutable ![ENDN][STRT=118,3][TAIL=DEFT][PCHC=2,1][IMME]On va sur le balcon ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[ENDN][STRT=120,2][TAIL=UPRF][OFFT=200,200,0]Soldat de Bloumécia :
+Je vous en supplie[SPED=2]...[SPED=-1][ENDN][STRT=219,3][TAIL=UPRF][OFFT=200,200,0]Soldat de Bloumécia :
+Prenez la cloche de l’autre côté du lit
+et allez au palais. Notre Roi[SPED=2]...[SPED=-1] Il faut...[ENDN][STRT=12,1][TAIL=UPRF][OFFT=200,200,0][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=31,4][PCHC=2,1][WDTH=0,8,16,-1,1,133,-1,2,96,-1][IMME][ZDNE] :
+Ici...?
+[CHOO][MOVE=18,0]Chercher sous le lit.
+[MOVE=18,0]Ne rien faire.[ENDN][STRT=12,2][TAIL=UPRF][WDTH=0,8,20,-1,0,12,16,-1][FRYA] :
+[ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=130,3][TAIL=UPRF][FRYA] :
+Cet escalier mène
+au palais de Bloumécia.[ENDN][STRT=227,3][TAIL=UPRF][FRYA] :
+Quand je vois les ruines qui nous
+entourent, j’ai peur d’aller plus avant[SPED=2]...[SPED=-1][ENDN][STRT=172,3][TAIL=UPLF][ZDNE] :
+On peut pas s’arrêter là !
+On doit découvrir qui ils sont ![ENDN][STRT=206,3][TAIL=UPLF][VIVI] :
+Moi aussi je veux savoir qui sont
+ces mannequins qui me ressemblent[SPED=2]...[SPED=-1][ENDN][STRT=149,3][TAIL=UPLF][WDTH=0,146,17,-1][ZDNE] :
+Tu vois, même notre petit [VIVI]
+veut connaître la vérité ![ENDN][STRT=111,3][TAIL=UPLF][WDTH=0,85,20,-1][VIVI] :
+Tu viens avec nous,
+hein, m’dame [FRYA][SPED=2]...[SPED=-1][ENDN][STRT=12,2][TAIL=UPRF][OFFT=50,50,0][WDTH=0,8,20,-1,0,12,17,-1][FRYA] :
+[VIVI][SPED=2]...[SPED=-1][ENDN][STRT=135,2][TAIL=UPRF][OFFT=50,50,0][FRYA] :
+Tu n’as donc pas peur ?[ENDN][STRT=235,3][TAIL=UPRF][OFFT=50,50,0][FRYA] :
+La vérité que nous allons découvrir te
+précipitera peut-être dans les ténèbres.[ENDN][STRT=32,2][TAIL=UPLF][WDTH=0,8,17,-1][VIVI] :
+Hum...[ENDN][STRT=76,3][TAIL=UPLF][WDTH=0,8,17,-1][VIVI] :
+Peut-être[SPED=2]...[SPED=-1]
+Mais[SPED=2]...[SPED=-1] [WAIT=15]Mais[SPED=2]...[SPED=-1][ENDN][STRT=154,3][TAIL=UPLF][VIVI] :
+Je[SPED=2]...[SPED=-1][WAIT=15]
+Je veux savoir qui je suis ![ENDN][STRT=228,3][TAIL=UPLF][VIVI] :
+Peut-être[SPED=2]...[SPED=-1][WAIT=15]
+Peut-être que je suis pas humain, mais[SPED=2]...[SPED=-1][ENDN][STRT=201,3][TAIL=UPLF][QUIN] :
+Mais qu’est-ce que tu dis ?
+T’as tout d’un petit garçon humain ![ENDN][STRT=12,1][TAIL=UPRF][OFFT=50,50,0][WDTH=0,12,17,-1][VIVI][SPED=2]...[SPED=-1][ENDN][STRT=92,1][IMME]Voilà quelqu’un ![TIME=20][STRT=147,2][TAIL=UPRF]Dan, soldat de Bloumécia :
+Qui êtes-vous ?[ENDN][STRT=194,2][TAIL=UPRF]Dan, soldat de Bloumécia :
+Vous êtes avec les Mages Noirs ?![ENDN][STRT=29,2][TAIL=UPLF][WDTH=0,8,16,-1][ZDNE] :
+Non ![ENDN][STRT=147,3][TAIL=UPRF]Dan, soldat de Bloumécia :
+Ne mens pas ! Il y en
+a un derrière toi ![ENDN][STRT=143,3][TAIL=UPRF][VIVI] :
+Je suis pas comme eux !
+Je tue pas les gens, moi ![ENDN][STRT=63,1][TAIL=UPRF]Vraiment ?![ENDN][STRT=57,1][TAIL=LOLF]Vraiment ![ENDN][STRT=147,2][TAIL=UPRF]Dan, soldat de Bloumécia :
+[FRYA] ?![ENDN][STRT=150,2][TAIL=LOLF][FRYA] :
+Dan, ça faisait longtemps ![ENDN][STRT=147,3][TAIL=UPRF]Dan, soldat de Bloumécia :
+Tu peux le dire !
+Où étais-tu passée ?![ENDN][STRT=221,2][TAIL=UPRF]Dan, soldat de Bloumécia :
+Mais l’heure n’est pas aux retrouvailles[SPED=2]...[SPED=-1]![ENDN][STRT=194,3][TAIL=UPRF]Dan, soldat de Bloumécia :
+Les Mages Noirs seront bientôt là,
+vous devez fuir avec nous ![ENDN][STRT=228,2][TAIL=UPRF]Dan, soldat de Bloumécia :
+Qu’est-ce que vous attendez ? Partez ![ENDN][STRT=80,3][TAIL=UPLF][FRYA] :
+Dis-moi[SPED=2]...[SPED=-1]
+Où est le Roi ?[ENDN][STRT=154,2][TAIL=UPRF]Dan, soldat de Bloumécia :
+Le Roi ?! J'en sais rien ![ENDN][STRT=193,3][TAIL=UPRF]Dan, soldat de Bloumécia :
+Pour l’instant, la survie de ma
+famille importe plus que la sienne ![ENDN][STRT=201,3][TAIL=UPRF]Dan, soldat de Bloumécia :
+Oublie le Roi, [FRYA] ! Pars !
+Tu ne connais pas les Mages Noirs ![ENDN][STRT=212,4][TAIL=UPLF][FRYA] :
+Mon pays et mon roi sont importants
+à mes yeux ! Je ne peux plus reculer.
+Au palais, vite ![ENDN][STRT=181,4][PCHC=2,1][IMME][ZDNE] :
+Si je fais tomber cette statue...
+[CHOO][MOVE=18,0]J’essaye de la pousser.
+[MOVE=18,0]C’est même pas la peine.[ENDN][STRT=173,2][ZDNE] :
+Rien à faire[SPED=2]...[SPED=-1] Elle bouge pas ![ENDN][STRT=83,2][TAIL=UPLF]Oueil :
+Vite, partons ![ENDN][STRT=147,3][TAIL=UPRF][OFFT=200,200,0]Gal :
+Je ne peux pas marcher[SPED=2]...[SPED=-1]
+Pars sans moi[SPED=2]...[SPED=-1][ENDN][STRT=45,2][TAIL=UPLF]Oueil :
+Jamais ![ENDN][STRT=228,3][TAIL=UPLF]Oueil :
+Tu as oublié la promesse que nous avons
+faite devant le seigneur Guismar ?[ENDN][STRT=85,2][TAIL=UPRF][OFFT=200,200,0]Gal :
+Non, bien sûr[SPED=2]...[SPED=-1][ENDN][STRT=161,3][TAIL=UPRF][OFFT=200,200,0]Gal :
+Tout ce que je veux pour le
+moment, c’est que tu vives[SPED=2]...[SPED=-1][ENDN][STRT=144,3][TAIL=UPRF][OFFT=200,200,0]Gal :
+Et que tu prennes soin des
+enfants que tu portes[SPED=2]...[SPED=-1][ENDN][STRT=54,1][TAIL=UPLF]Tais-toi ![ENDN][STRT=165,3][TAIL=UPRF][ZDNE] :
+Vous pouvez pas rester ici[SPED=2]...[SPED=-1]
+Partez, allez à Lindblum ![ENDN][STRT=160,3][TAIL=UPRF][ZDNE] :
+Là-bas le roi Cid vous
+prendra sous sa protection.[ENDN][STRT=135,3][TAIL=UPLF]Oueil :
+Mon mari est blessé,
+il ne peut pas marcher ![ENDN][STRT=136,3][TAIL=UPLF]Oueil :
+Comment pourrions-nous
+aller à Lindblum[SPED=2]...[SPED=-1]?![ENDN][STRT=60,1][TAIL=UPRF][IMME]Attention ![TIME=20][STRT=111,2][TAIL=UPRF][ZDNE] :
+Ouf ! C’était juste ![ENDN][STRT=125,3][TAIL=UPRF][OFFT=200,200,0]Gal :
+Tu m’as sauvé la vie[SPED=2]...[SPED=-1]
+Merci[SPED=2]...[SPED=-1][ENDN][STRT=40,2][TAIL=UPLF]Oueil :
+Gaaal ![ENDN][STRT=116,2][TAIL=UPLF]Glay :
+Oueil ! Gal ! Ca va ?![ENDN][STRT=179,2][TAIL=UPRF][OFFT=200,200,0]Gal :
+Nous sommes toujours vivants...[ENDN][STRT=200,3][TAIL=UPRF][OFFT=200,200,0]Gal :
+Tu pourrais m’aider ?
+Je ne peux pas marcher tout seul[SPED=2]...[SPED=-1][ENDN][STRT=54,2][TAIL=UPLF]Glay :
+Bien sûr ![ENDN][STRT=256,3][TAIL=UPLF]Gal :
+Merci encore[SPED=2]...[SPED=-1]
+Viens nous voir quand nos enfants seront nés[SPED=2]...[SPED=-1][ENDN][STRT=153,2][TAIL=UPRF][ZDNE] :
+Promis, j’y manquerai pas ![ENDN][STRT=103,3][TAIL=UPLF][FRYA] :
+Reste-t-il des
+armes utilisables ?[ENDN][STRT=138,2][TAIL=UPRF][FRYA] :
+Cette lance peut-être[SPED=2]...[SPED=-1][ENDN][STRT=148,3][TAIL=UPRF][FRYA] :
+Hum... Elle est légère...
+La bonne lance que voilà ![ENDN][STRT=222,3][TAIL=UPLF][ZDNE] :
+Parfait ! Maintenant que tu l’as,
+on va faire leur fête aux Mages Noirs ![ENDN][STRT=157,3][TAIL=UPLF][WDTH=0,157,17,-1][ZDNE] :
+Désolé[SPED=2]...[SPED=-1]
+Je disais pas ça pour toi, [VIVI] ![ENDN][STRT=51,2][TAIL=UPRF][WDTH=0,8,17,-1][VIVI] :
+Je sais[SPED=2]...[SPED=-1][ENDN][STRT=36,1][TAIL=UPRF]Mais[SPED=2]...[SPED=-1][ENDN][STRT=100,2][TAIL=UPRF][VIVI] :
+Non[SPED=2]...[SPED=-1] C’est rien ![ENDN][STRT=12,1][TAIL=UPLF][WDTH=0,12,17,-1][VIVI][SPED=2]...[SPED=-1][ENDN][STRT=175,3]Steelskin :
+Oh, il y a déjà quelqu’un ?
+Tss ! Tu as été le plus rapide ![ENDN][STRT=233,3]Steelskin :
+Mais ce jeune homme acceptera sûrement
+de m’acheter quelque chose, non ?[ENDN][STRT=165,2]Steelskin :
+Je suis trempé jusqu’aux os ![ENDN][STRT=119,5][PCHC=2,1][WDTH=0,84,14,1,14,2,-1,0,119,14,3,64,0,-1][IMME]Steelskin :
+Je vends 1 [ITEM=1], 1 [ITEM=2]
+et 1 [ITEM=3] pour [C8B040][HSHD][NUMB=0] gils[C8C8C8][HSHD] les 3.
+[CHOO][MOVE=18,0]J’achète.
+[MOVE=18,0]Trop cher ![ENDN][STRT=217,4][WDTH=0,138,14,1,-1,0,42,14,2,14,3,-1][IMME]Steelskin :
+Je pensais te vendre 1 [ITEM=1],
+1 [ITEM=2] et 1[ITEM=3],
+mais je vois que tu n’en as pas besoin.[ENDN][STRT=209,2][IMME]Steelskin :
+Eh, mais tu n’as pas assez d’argent ![ENDN][STRT=125,3]Steelskin :
+Merci, je vais pouvoir
+continuer à voyager ![ENDN][STRT=93,2][TAIL=UPR][ZDNE] :
+Ils sont déjà là ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,91,20,-1][ZDNE] :
+[FRYA], vu la situation,
+je pense que le Roi[SPED=2]...[SPED=-1][ENDN][STRT=12,5][TAIL=UPR][PCHC=3,2][WDTH=0,8,16,-1,0,12,20,-1,1,78,-1,2,136,-1,3,205,18,-1][IMME][ZDNE] :
+[FRYA]...
+[CHOO][MOVE=18,0]Lui parler.
+[MOVE=18,0]La laisser tranquille.
+[MOVE=18,0]Pardon, mais je m’inquiète pour [DGGR].[ENDN][STRT=205,2][TAIL=UPR][ZDNE] :
+Je sais pas trop quoi te dire, mais[SPED=2]...[SPED=-1][ENDN][STRT=186,2][TAIL=UPR][ZDNE] :
+Je comprends ce que tu ressens.[ENDN][STRT=12,1][TAIL=UPR]...[ENDN][STRT=167,3][TAIL=UPR][WDTH=0,167,18,-1][ZDNE] :
+J’ai trouvé aucune trace de [DGGR].
+Elle a pas dû venir ici[SPED=2]...[SPED=-1][ENDN][STRT=140,2][TAIL=UPR][ZDNE] :
+Où elle est maintenant[SPED=2]...[SPED=-1]?[ENDN][STRT=79,2][TAIL=UPR][WDTH=0,8,16,-1,0,79,17,-1][ZDNE] :
+[VIVI] [QUIN], venez par là.[ENDN][STRT=93,1][TAIL=UPR][IMME]Il y a quelqu’un ![TIME=20][STRT=9,1][TAIL=UPR][WDTH=0,9,20,-1][IMME][FRYA] ![TIME=20][STRT=164,3][TAIL=UPR][FRYA] :
+Il y a quelqu’un à l’intérieur !
+Montez vite ![ENDN][STRT=214,3][TAIL=UPR][ZDNE] :
+Elle en a de bonnes elle, on peut pas
+monter aussi facilement que ça nous[SPED=2]...[SPED=-1][ENDN][STRT=189,2][TAIL=UPR][ZDNE] :
+Peut-être qu’en passant par là[SPED=2]...[SPED=-1][ENDN][STRT=86,2][TAIL=UPR][ZDNE] :
+Allez, on y va ![ENDN][STRT=32,2][TAIL=UPR][WDTH=0,8,17,-1][VIVI] :
+Hum[SPED=2]...[SPED=-1][ENDN][STRT=148,2][TAIL=UPR][OFFT=0,200,0][ZDNE] :
+Ouais[SPED=2]...[SPED=-1] C’est pas gagné...[ENDN][STRT=156,3][TAIL=UPR][OFFT=0,200,0][ZDNE] :
+Essayez de trouver un moyen
+d’entrer et rejoignez-nous ![ENDN][STRT=212,3][TAIL=UPL][QUIN] :
+Il y a sûrement à manger à l’intérieur,
+on vous rejoint bientôt, miam ![ENDN][STRT=78,1][TAIL=UPL]Mais, c’est...![ENDN][STRT=75,1][TAIL=UPR]Evidemment[SPED=2]...[SPED=-1][ENDN][STRT=155,2][TAIL=UPL][ZDNE] :
+Comment ça ”évidemment” ?[ENDN][STRT=215,4][TAIL=UPR][FRYA] :
+J’avais entendu dire que Branet avait
+des vues sur Bloumécia, c’est pour ça
+que je suis revenue.[ENDN][STRT=222,3][TAIL=UPL][ZDNE] :
+A côté d’elle, c’est Béatrix.
+Elle commande les armées d’Alexandrie.[ENDN][STRT=170,2][TAIL=UPR][FRYA] :
+Voici donc la fameuse Béatrix[SPED=2]...[SPED=-1][ENDN][STRT=242,4][TAIL=UPR][FRYA] :
+J’ai entendu dire que son seul nom suffisait
+à calmer les enfants...
+Mais je ne l’avais jamais vue.[ENDN][STRT=45,1][TAIL=UPR]Béatrix[SPED=2]...[SPED=-1][ENDN][STRT=43,3][TAIL=LOR]Béatrix ?
+
+[INCS][TIME=-1][STRT=92,1][TAIL=UPL]C’est ça, Béatrix.[INCS][TIME=-1][STRT=203,2][TAIL=UPL]Il y a de nombreuses personnes plus
+fortes que moi de par le monde.[ENDN][STRT=136,3][TAIL=UPL]Il semblerait que Béatrix
+d’Alexandrie soit la plus
+douée d’entre elles.[ENDN][STRT=236,3][TAIL=LOR]Maître Fratley, êtes-vous en train de me
+dire que vous partez en me laissant ici ?
+[ENDN][STRT=101,2][TAIL=UPL][WDTH=0,101,20,-1]Oui[SPED=2]...[SPED=-1]
+Comprends-moi, [FRYA] ![ENDN][STRT=233,3][TAIL=UPL]Bloumécia est en paix pour le moment,
+mais les autres royaumes préparent déjà
+leurs armées.[ENDN][STRT=229,2][TAIL=UPL]Comment pourrais-je assurer
+notre protection avec une seule lance[SPED=2]...[SPED=-1][ENDN][STRT=210,3][TAIL=UPL]Je veux parcourir le monde et
+rencontrer de puissants adversaires
+avant qu’il ne soit trop tard.[ENDN][STRT=211,3][TAIL=LOR]Maître Fratley[SPED=2]...[SPED=-1]
+J’ai peur de ne pouvoir vivre sans vous[SPED=2]...[SPED=-1]
+[ENDN][STRT=99,2][TAIL=UPL][WDTH=0,99,20,-1]Ne t’inquiète pas,
+[FRYA], tu t’en sortiras.[ENDN][STRT=165,2][TAIL=UPL]Tu dois croire en ta force et
+en ton destin ![ENDN][STRT=201,2][TAIL=UPL]Quand j’aurai fait le tour du monde,
+je reviendrai à Bloumécia ![ENDN][STRT=183,2][TAIL=LOR]Puis-je véritablement y croire ?
+[ENDN][STRT=159,1][TAIL=UPL]Bien sûr ! Je te le promets ![ENDN][STRT=98,1]Maître Fratley[SPED=2]...[SPED=-1][ENDN][STRT=144,1]Vous n’êtes pas revenu[SPED=2]...[SPED=-1][ENDN][STRT=189,1]On a dit que vous aviez été tué[SPED=2]...[SPED=-1][ENDN][STRT=107,1]Je ne l’ai pas cru ![ENDN][STRT=122,1]Je ne l’ai jamais cru ![ENDN][STRT=216,2]Je ne voulais pas croire à votre mort
+sans l’avoir constatée par moi-même ![ENDN][STRT=168,2]Alors je suis partie à travers
+le monde à mon tour[SPED=2]...[SPED=-1][ENDN][STRT=56,2][TAIL=UPL][WDTH=0,8,16,-1,0,56,20,-1][ZDNE] :
+[FRYA] ? Ca va ?[ENDN][STRT=105,2][TAIL=UPR][FRYA] :
+Oui, ce n’est rien ![ENDN][STRT=92,3][TAIL=UPR][FRYA] :
+Juste quelques
+souvenirs douloureux.[ENDN][STRT=100,3][TAIL=UPL][ZDNE] :
+Tu l'as toujours pas
+oublié hein[SPED=2]...[SPED=-1]?[ENDN][STRT=92,2][TAIL=UPL][ZDNE] :
+Voilà quelqu’un ![ENDN][STRT=120,3][TAIL=UPR]Mystérieux inconnu :
+Cette pluie éternelle n’est-elle
+pas fantastique[SPED=2]...[SPED=-1]?[ENDN][STRT=125,3][TAIL=UPR]Mystérieux inconnu :
+Sublime ![WAIT=3] Elle vient
+bénir notre victoire[SPED=2]...[SPED=-1][ENDN][STRT=158,4][TAIL=UPL]Branet :
+Kuja !
+Bloumécia est tombée grâce
+à tes Mages Noirs ![ENDN][STRT=134,3][TAIL=UPL]Branet :
+Mais le roi de Bloumécia
+reste introuvable ![ENDN][STRT=189,3][TAIL=UPL]Branet :
+Si on ne l’arrête pas, les rats
+vont se rassembler et répliquer ![ENDN][STRT=70,3][TAIL=UPL]Branet :
+Qu’en est-il,
+Béatrix ?![ENDN][STRT=144,3][TAIL=UPL]Béatrix :
+Pile et Face sont en train
+de fouiller la ville.[ENDN][STRT=138,3][TAIL=UPL]Béatrix :
+Je vais moi-même me
+joindre aux recherches.[ENDN][STRT=121,2][TAIL=UPR]Kuja :
+N’est-ce pas inutile ?[ENDN][STRT=50,1][TAIL=UPL]Plaît-il ?[ENDN][STRT=183,4][TAIL=UPR]Kuja :
+Vous ne le saviez pas ?
+En cas de tremblement de terre,
+les rats ont tôt fait de fuir.[ENDN][STRT=155,3][TAIL=UPR]Kuja :
+Cette fois, ils seront partis
+dans un nuage de sable[SPED=2]...[SPED=-1][ENDN][STRT=202,3][TAIL=UPR]Kuja :
+Ils seront partis la queue entre
+les jambes, le Roi comme les autres.[ENDN][STRT=150,3][TAIL=UPL]Branet :
+Un nuage de sable[SPED=2]...[SPED=-1]
+Il est à Clayra, c’est ça ?![ENDN][STRT=119,3][TAIL=UPL]Branet :
+Si c’est le cas,
+c’est plus embêtant ![ENDN][STRT=49,2][TAIL=UPL]Béatrix :
+Clayra[SPED=2]...[SPED=-1][ENDN][STRT=204,3][TAIL=UPL]Béatrix :
+Mes troupes pourraient entrer dans
+la colonne de sable et remonter[SPED=2]...[SPED=-1][ENDN][STRT=116,3][TAIL=UPL]Branet :
+S’ils sont à Clayra,
+il n’y a plus rien à faire ![ENDN][STRT=161,3][TAIL=UPL]Branet :
+Kuja ! Tu ne pourrais pas
+nous aider encore une fois ?[ENDN][STRT=160,4][TAIL=UPR]Kuja :
+Ne vous inquiétez pas.
+Je ferai ce qu’il faut pour
+que votre gloire soit totale.[ENDN][STRT=205,4][TAIL=UPR]Kuja :
+Générale, je ne vous demanderai
+qu’une chose : pourriez-vous réunir
+vos troupes aux abords de Clayra ?[ENDN][STRT=186,3][TAIL=UPR]Kuja :
+Les rats risquent de résister et
+les Mages Noirs ne suffiront pas.[ENDN][STRT=177,4][TAIL=UPL]Branet :
+Voilà quelqu’un de prometteur !
+Notre association n'a aucune raison
+de craindre qui que ce soit. ![ENDN][STRT=62,2][TAIL=UPL][WDTH=0,8,16,-1][ZDNE] :
+Tu parles ![ENDN][STRT=183,3][TAIL=UPR][FRYA] :
+Hum[SPED=2]...[SPED=-1]
+Qui est cet odieux personnage ?[ENDN][STRT=102,2][TAIL=UPL][ZDNE] :
+Je l’ai jamais vu[SPED=2]...[SPED=-1][ENDN][STRT=121,3][TAIL=UPL][ZDNE] :
+Clayra, c’est pas une
+ville imaginaire ?[ENDN][STRT=243,3][TAIL=UPR][FRYA] :
+Non, mais il y a plus de 100 ans qu’elle n’a
+pas eu de contact avec le reste du monde.[ENDN][STRT=187,3][TAIL=UPR][FRYA] :
+Si le Roi s’est réfugié là-bas,
+il est en sécurité pour le moment.[ENDN][STRT=176,3][TAIL=UPL][ZDNE] :
+Qu’est-ce que tu veux dire ?
+C’est quoi cette ville à la fin ?![ENDN][STRT=176,3][TAIL=UPR][FRYA] :
+Le peuple de Clayra est
+le même que celui de Bloumécia.[ENDN][STRT=194,3][TAIL=UPR][FRYA] :
+Ils ont quitté Bloumécia suite à un
+petit conflit, il y a très longtemps.[ENDN][STRT=246,3][TAIL=UPR][FRYA] :
+Il semblerait que ce soit une ville tranquille,
+isolée au milieu d’une tempête de sable[SPED=2]...[SPED=-1][ENDN][STRT=92,3][TAIL=UPL][ZDNE] :
+[FRYA] !
+Voilà quelqu’un ![ENDN][STRT=45,2][TAIL=UPL][WDTH=0,8,16,-1][ZDNE] :
+Oh non ![TIME=20][STRT=120,2][TAIL=UPR][FRYA] :
+Nous devons y aller ![TIME=20][STRT=162,3][TAIL=UPR]Soldat de Bloumécia :
+Je ne vous laisserai pas
+détruire la ville impunément ![ENDN][STRT=148,3][TAIL=UPL]Béatrix :
+On m’appelle Béatrix,
+est-ce moi que tu défies ?[ENDN][STRT=120,2][TAIL=UPR]Soldat de Bloumécia :
+Bé... Béatrix ![ENDN][STRT=194,3][TAIL=UPL]Béatrix :
+Voyons jusqu’où va ton courage !
+Je te préviens, je suis sans pitié ![ENDN][STRT=93,2][TAIL=UPR][ZDNE] :
+Béatrix ! Arrête ![ENDN][STRT=109,3][TAIL=UPL][FRYA] :
+C’est moi que
+tu dois combattre ![ENDN][STRT=151,3][TAIL=UPL][FRYA] :
+Nous nous occupons d’eux,
+allez auprès du Roi ![ENDN][STRT=129,3][TAIL=UPR][WDTH=0,129,20,-1]Soldat de Bloumécia :
+Pardonnez-moi Dame [FRYA] !
+Je vous en prie ![ENDN][STRT=214,3]Béatrix :
+Hahaha[SPED=2]...[SPED=-1]
+Voilà des gens que j’ai plaisir à voir ![ENDN][STRT=177,3]Béatrix :
+Au vu de mon expérience,
+vous n’êtes que de la vermine ![ENDN][STRT=87,3]Béatrix :
+Pff...
+De la vermine[SPED=2]...[SPED=-1][ENDN][STRT=221,3]Béatrix :
+Je ne trouverai donc pas d’adversaire
+digne de moi ici[SPED=2]...[SPED=-1]?[ENDN][STRT=251,3][TAIL=UPL]Branet :
+Dépêchez-vous Béatrix !
+Nous devons préparer l’invasion de Clayra ![ENDN][STRT=83,2][TAIL=UPR]Béatrix :
+A vos ordres ![ENDN][STRT=131,3][TAIL=UPL]Kuja :
+Les rats[SPED=2]...[SPED=-1]
+sont sans importance[SPED=2]...[SPED=-1][ENDN][STRT=217,2][TAIL=UPL]Kuja :
+Seul ce jeune garçon est un problème.[ENDN][STRT=110,2][TAIL=UPLF][WDTH=0,110,20,-1][ZDNE] :
+[FRYA], tu peux te lever ?[ENDN][STRT=191,2][TAIL=UPRF][FRYA] :
+Je dois encore en être capable[SPED=2]...[SPED=-1][ENDN][STRT=107,2][TAIL=UPLF][ZDNE] :
+Force pas surtout.[ENDN][STRT=50,2][TAIL=UPLF][WDTH=0,8,16,-1,0,50,17,-1][ZDNE] :
+[VIVI], ça va ?[ENDN][STRT=72,2][TAIL=UPRF][WDTH=0,8,17,-1][VIVI] :
+Hum[SPED=2]...[SPED=-1] Ca va.[ENDN][STRT=190,3][TAIL=UPLF][ZDNE] :
+Ils sont partis pour Clayra[SPED=2]...[SPED=-1][WAIT=5]
+Qu’est-ce qu’on fait, on les suit ?[ENDN][STRT=120,3][TAIL=UPRF][FRYA] :
+Bien sûr !
+Je dois aller là-bas ![ENDN][STRT=172,2][TAIL=UPLF][ZDNE] :
+C’est bien ce que je pensais...[ENDN][STRT=129,2][TAIL=UPLF][WDTH=0,129,17,-1][ZDNE] :
+Et toi [VIVI], tu viens aussi ?[ENDN][STRT=160,4][TAIL=UPRF][VIVI] :
+Euh[SPED=2]...[SPED=-1] Si je viens avec vous,
+j’apprendrai des choses
+sur les Mages Noirs[SPED=2]...[SPED=-1]?[ENDN][STRT=215,3][TAIL=UPLF][ZDNE] :
+On apprendra sûrement quelque chose
+en suivant Branet et ce Kuja ![ENDN][STRT=87,2][TAIL=UPRF][VIVI] :
+Alors je viens ![ENDN][STRT=219,3][QUIN] :
+Clayra[SPED=2]...[SPED=-1][WAIT=10] C’est appétissant comme nom,
+je viens aussi, miam ![ENDN][STRT=70,3][TAIL=UPRF][WDTH=0,8,17,-1,0,70,18,-1][NFOC][VIVI] :
+Hé[SPED=2]...[SPED=-1][WAIT=30]
+Et m’zelle [DGGR][SPED=2]...[SPED=-1][INCS][TIME=-1][STRT=91,2][TAIL=UPLF][NFOC][ZDNE] :
+T’inquiète pas...[INCS][TIME=-1][STRT=90,2][TAIL=UPLF][ZDNE] :
+Je l’oublie pas ![ENDN][STRT=185,3][TAIL=UPLF][ZDNE] :
+Elle est pas venue avec nous,
+mais on la retrouvera sûrement ![ENDN][STRT=76,2][TAIL=UPLF][WDTH=0,8,16,-1][ZDNE] :
+On est parti ![ENDN][STRT=156,3][TAIL=UPRF][FRYA] :
+Clayra est protégée
+par une tempête de sable[SPED=2]...[SPED=-1][ENDN][STRT=181,4][TAIL=UPRF][FRYA] :
+On dit qu’elle est dans [68C0D8][HSHD]le désert
+à l’ouest de Bloumécia[C8C8C8][HSHD] mais,
+pourrons-nous y pénétrer[SPED=2]...[SPED=-1]?[ENDN][STRT=137,3][TAIL=UPLF][ZDNE] :
+T’inquiète pas, on verra
+bien sur place ![ENDN][STRT=93,1][WDTH=0,93,18,-1][NFOC][SPED=4][DGGR] ![WAIT=20] Où t’es allée ?[INCS][TIME=-1][STRT=0,2][PCHC=2,1][WDTH=1,118,-1,2,127,-1][IMME][CHOO][MOVE=18,0]Pousser la porte.
+[MOVE=18,0]Passer mon chemin.[ENDN][STRT=100,1][IMME]Elle s’ouvre pas ![ENDN][STRT=0,2][PCHC=2,1][WDTH=1,150,-1,2,96,-1][IMME][CHOO][MOVE=18,0]Faire sonner la cloche.
+[MOVE=18,0]Ne rien faire.[ENDN][STRT=188,2][IMME]Votre cloche et celle de la porte
+sonnent à l’unisson ![ENDN][STRT=227,1][IMME]Votre cloche est tombée en poussière...[ENDN][STRT=219,1][IMME]Vous avez trouvé une [C8B040][HSHD]Cloche Guismar[C8C8C8][HSHD] ![ENDN][STRT=264,1][IMME]Vous avez trouvé une [C8B040][HSHD]Cloche Guismar de luxe[C8C8C8][HSHD] ![ENDN][STRT=112,1][IMME]On peut pas sortir ![ENDN][STRT=65,1][TAIL=LOR][D06050][HSHD] SE : RING ♪[TIME=60][STRT=178,2]Toutes les scènes se reportant
+à Bloumécia sont terminées ![ENDN][STRT=90,1][B880E0][HSHD]BTL 015 : Béatrix[ENDN][STRT=125,1][B880E0][HSHD]FMV017 : Kuja s’en va[ENDN][STRT=129,1]Insérez le [B880E0][HSHD]Disque No 2[C8C8C8][HSHD].[ENDN]

@@ -1,0 +1,510 @@
+[STRT=69,9][TBLE=41,82,88,94,100,108,117,123,130,136,143,150,155,167,174,180,186,193,201,210,216,223,231,241,250,257,263,273,280,286,293,305,312,319,326,335,343,351,358,367,377,389,]Rubis
+Coubo
+Mogta
+Mogiano
+Moglière
+Mogpy
+Mogice
+Geumo
+Geumop
+Mogdon
+Mokk
+Mogtesquieu
+Mogmix
+Hatra
+Glimo
+Nazuna
+Mogrich
+Mogovsky
+Mogna
+Mogton
+Cellino
+Mognosuke
+Mogrilla
+Koubbo
+Momog
+Mognoshin
+Suzuna
+Moggi
+Mogvin
+Mogtherlant
+Mimosa
+Mogère
+Mogran
+Mogtaron
+Geumora
+Mogrice
+Mogroc
+Mogueréo
+Steelskin
+Hartemision
+Mogend[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=7,3][TBLE=3,6,8,10,]A
+B
+C[ENDN][STRT=159,9][MPOS=20,16][PCHM=7,6][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu me veux ?
+[CHOO][MOVE=18,0]Sauvegarde
+[MOVE=18,0]Tente
+[MOVE=18,0]Mog-poste
+[MOVE=18,0]Mog-boutique
+[MOVE=18,0]Former l’équipe
+[MOVE=18,0][B880E0][HSHD]DEBUG[C8C8C8][HSHD]
+[MOVE=18,0]Annuler[TIME=-1][STRT=140,4][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]On sauvegarde, coubo ?
+[CHOO][MOVE=18,0]Oui
+[MOVE=18,0]Non[TIME=-1][STRT=166,5][MPOS=30,26][PCHC=2,1][WDTH=0,10,6,0,-1,0,150,64,7,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Tu veux te reposer, coubo ?
+[FEED=4](Tente(s) restante(s) = [NUMB=7])[FEED=4]
+[CHOO][MOVE=18,0]Oui, un peu.
+[MOVE=18,0]Pas question.[TIME=-1][STRT=127,2][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Tu n’as pas de Tente ![ENDN][STRT=128,1][TAIL=UPR][IMME]Allez, on sauvegarde ![TIME=20][STRT=166,5][MPOS=30,26][PCHM=3,2][WDTH=0,10,6,0,-1,1,137,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Qu’est-ce que tu vas faire ?
+[CHOO][MOVE=18,0]Donner une lettre à [TEXT=0,0].
+[MOVE=18,0]Lire les lettres reçues.
+[MOVE=18,0]Annuler.[TIME=-1][STRT=156,1][IMME][B880E0][HSHD]ERREUR : COMMANDE DE MOG[ENDN][STRT=253,2][IMME][B880E0][HSHD]Vous avez de vieilles lettres.
+Elles seront effacées sans votre permission.[ENDN][STRT=214,1][TAIL=LOL][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=LOL][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=LOL][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=214,1][TAIL=UPR][IMME][FEED=4]Vous n’avez aucune lettre à donner.[FEED=4][TIME=-1][STRT=178,1][TAIL=UPR][WDTH=0,178,6,2,6,3,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,2][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=178,3][TAIL=UPR][WDTH=0,178,6,2,6,3,-1,0,178,6,4,6,5,-1,0,178,6,6,6,7,-1][IMME][FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].[FEED=4]
+[FEED=4]Vous portez une lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].[FEED=4][TIME=-1][STRT=151,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a longtemps que
+je n’ai pas eu de courrier.[ENDN][STRT=147,4][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a de moins en moins de
+courrier en ce moment.
+Mais pourcoubo ?[ENDN][STRT=176,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Hartemision commence à porter
+notre courrier ![ENDN][STRT=126,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo pour
+ce que tu as fait ![ENDN][STRT=46,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Holala[SPED=2]...[SPED=-1][ENDN][STRT=212,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mog-poste... coubooom... coubooom ![ENDN][STRT=230,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Qu’est-ce que ça veut dire Mog-poste ?[ENDN][STRT=105,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo ![ENDN][STRT=120,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci pour ton aide !
+Garde ça ![ENDN][STRT=247,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ecoubo, j’aurais une chose à te demander ![ENDN][STRT=167,4][TAIL=UPR][PCHC=2,1][WDTH=0,8,6,0,-1,0,167,6,1,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre à [TEXT=0,1] ?
+[CHOO][MOVE=18,0]OK !
+[MOVE=18,0]Pas possible.[ENDN][STRT=232,3][TAIL=UPR][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Je voudrais te confier une lettre, mais
+on dirait que tu ne peux plus en porter...[ENDN][STRT=108,5][PCHC=4,3][WDTH=1,142,6,2,6,3,-1,2,143,6,4,6,5,-1,3,144,6,6,6,7,-1,4,162,-1][IMME]Jeter des lettres ?
+[CHOO][MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,2][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,3][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,4][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,5][C8C8C8][HSHD].
+[MOVE=18,0]Jeter la lettre de [68C0D8][HSHD][TEXT=0,6][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,7][C8C8C8][HSHD].
+[MOVE=18,0]Je ne veux pas en jeter.[ENDN][STRT=61,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Dommage[SPED=2]...[SPED=-1][ENDN][STRT=128,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je suis triste, coubo[SPED=2]...[SPED=-1][ENDN][STRT=202,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Je vais t’explicoubo la Mog-poste ![ENDN][STRT=174,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de communication par courrier
+entre Mog ![ENDN][STRT=186,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste, c’est un réseau
+de distribution des lettres utilisé
+par les Mog ![ENDN][STRT=254,5][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Par exemple, grâce à cet excellent système,
+un Mog peut envoyer une lettre d’amour
+à sa copine Mog et elle peut à son tour
+lui répondre : Je suis désolée mais...[ENDN][STRT=147,4][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais en ce moment,
+il y a de moins en moins de
+Mog facteurs...[ENDN][STRT=163,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Alors, je voudrais te confier
+ma lettre ![ENDN][STRT=152,5][PCHC=3,2][WDTH=0,8,6,0,-1,2,162,-1,3,206,-1][IMME][TEXT=0,0] :
+Peux-tu porter ma lettre ?
+[CHOO][MOVE=18,0]OK, j’accepte.
+[MOVE=18,0]Non, je n’ai pas le temps.
+[MOVE=18,0]Dis-moi ce qu’est la Mog-poste ![ENDN][STRT=239,6][PCHC=3,2][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Mais tu exagères ! Si tu portais ma lettre,
+ce serait très gentil !
+[CHOO][MOVE=18,0]D’accord.
+[MOVE=18,0]N’insiste pas !
+[MOVE=18,0]Redis-moi ce qu’est la Mog-poste ![ENDN][STRT=176,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+La Mog-poste ? C’est quoi ?
+J’en ai jamais entendu parler...[ENDN][STRT=172,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Mais, ça a l’air intéressant.
+Puis-je te confier une lettre ?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Lettre 00
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=196,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Tu tombes bien !
+Je voudrais te confier une lettre ![ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Je suis en colère !
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=265,5][TAIL=UPR][WDTH=0,8,6,0,-1,0,247,6,1,-1][TEXT=0,0] :
+Merci de m’avoir apporté cette lettre de [TEXT=0,1] !
+Ces derniers jours, Hartemision ne porte
+plus les lettres. J’étais très triste sans lettre.
+Je vais la lire ![ENDN][STRT=260,12][WDTH=0,77,6,1,6,0,-1,0,146,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+En ce moment, il y a vraiment peu de courrier.
+Pourcoubo ?
+
+Eh, [TEXT=0,0], je peux te demander
+d’aller faire une réclamation
+au Siège de la Mog-poste ?
+
+Je suis vraiment en colère !!
+[ENDN][STRT=240,4][TAIL=UPR][WDTH=0,8,6,0,-1,0,139,6,1,-1][TEXT=0,0] :
+Quand elle s’énerve,
+[TEXT=0,1] est vraiment affreuse[SPED=2]...[SPED=-1]
+Mais où est-il le Siège de la Mog-poste[SPED=2]...[SPED=-1]?[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Lettre 00
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=191,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ah, tu tombes bien !!
+Je voudrais te confier une lettre.[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1,1,166,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Steelskin se met en action
+[MOVE=18,0]Lettre 01
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=259,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Merci beaucoubo !
+Je suis très heureux d’avoir reçu une lettre ![ENDN][STRT=221,14][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+J’ai entendu dire que
+Steelskin avait commencé à
+examiner la raison pour laquelle
+les courriers ne sont plus transportés.
+
+Il devrait finir par nous
+dévoiler la vérité !
+On attend beaucoup de lui.
+Mais pourquoi Hartemison
+ne porte-elle plus les lettres ?
+[ENDN][STRT=178,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il doit bien y avoir une raison...[ENDN][STRT=157,2][MPOS=30,26][PCHM=16,15][WDTH=0,10,6,0,-1,1,210,-1][IMME][FEED=2][TEXT=0,0] :
+[FEED=4]Quelle lettre veux-tu lire ?
+[CHOO][MOVE=18,0]Où est le Siège de la Mog-poste ?
+[MOVE=18,0]Parce que c’est rare
+[MOVE=18,0]Lettre 02
+[MOVE=18,0]Lettre 03
+[MOVE=18,0]Lettre 04
+[MOVE=18,0]Lettre 05
+[MOVE=18,0]Lettre 06
+[MOVE=18,0]Lettre 07
+[MOVE=18,0]Lettre 08
+[MOVE=18,0]Lettre 09
+[MOVE=18,0]Lettre 10
+[MOVE=18,0]Lettre 11
+[MOVE=18,0]Lettre 12
+[MOVE=18,0]Lettre 13
+[MOVE=18,0]Lettre 14
+[MOVE=18,0]C’est pas le moment ![TIME=-1][STRT=168,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ah ! Une lettre pour moi ?!
+C’est rare ! Je suis heureux ![ENDN][STRT=269,13][WDTH=0,77,6,1,6,0,-1,0,82,6,0,-1,0,105,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+Salut [TEXT=0,0], ça va ?
+En ce moment, parmi les Mog de Lindblum,
+une polémique fait rage à propos
+de l’emplacement du Siège de la Mog-poste.
+On discute beaucoup mais personne ne peut
+répondre à cette question pour l’instant.
+[TEXT=0,0], tu sais où c’est ?
+On m’a raconté que le Siège se trouvait
+facilement mais qu’on ne pouvait pas y entrer[SPED=2]...[SPED=-1]
+[ENDN][STRT=247,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Pour entrer dans le Siège de la Mog-Poste,
+il faudrait le visiter avec un Chocobo.[ENDN][STRT=149,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ah ! Une lettre pour moi ?!
+Merci beaucoubo ![ENDN][STRT=218,10][WDTH=0,77,6,1,6,0,-1][SPED=255][ICON=27][XTAB=0][YADD=16][ICON=28][YADD=8][XTAB=0][ICON=29][YSUB=8][FEED=4][SPED=3]Lettre de [68C0D8][HSHD][TEXT=0,1][C8C8C8][HSHD] à [68C0D8][HSHD][TEXT=0,0][C8C8C8][HSHD]
+
+
+On m’a raconté que l’appareil du Siège
+s’était arrêté.
+Il doit lui manquer de ça !
+
+Mais où on peut en trouver ?
+En réalité, c’est tellement rare...
+[ENDN][STRT=66,2][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+”Ca”[SPED=2]...[SPED=-1] Ah ![ENDN][STRT=191,3][TAIL=UPR][WDTH=0,8,6,0,-1][TEXT=0,0] :
+On va bientôt découvrir le secret
+du Siège de la Mog-poste ![ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=235,2][ZDNE] :
+On peut vraiment faire confiance à Kuja ?[ENDN][STRT=12,1][CENT=12]...[ENDN][STRT=108,2][ZDNE] :
+Eh ! Tu m’entends ?[ENDN][STRT=123,2]Pile :
+Ca ne servira à rien ![ENDN][STRT=165,2]Face :
+Il ne répond qu’à nos ordres.[ENDN][STRT=188,3][ZDNE] :
+Quels sales bouffons[WAIT=5][SPED=2]...[SPED=-1]!!
+Après Branet, vous servez Kuja ?![ENDN][STRT=214,2]Pile :
+Faites attention à ce que vous dites ![ENDN][STRT=203,2]Face :
+Comme si nous étions des méchants ![ENDN][STRT=142,2]Pile :
+Ne dites pas de bêtises ![ENDN][STRT=201,3]Face :
+C’est nous qui veillons sur vos amis.
+Ne l’oubliez pas ![ENDN][STRT=83,1]Sales types[SPED=2]...[SPED=-1]![ENDN][STRT=197,3]Pile :
+Les Mages Noirs ont été créés
+pour être des machines de guerre.[ENDN][STRT=225,3]Face :
+Les trois Valseurs étaient de vraies armes.
+Chacun d’eux avaient son propre ego[SPED=2]...[SPED=-1][ENDN][STRT=185,4]Face :
+Par contre, ces Mages n’ont pas
+d’ego particulier. Ils ne font que
+suivre nos ordres.[ENDN][STRT=259,4]Pile :
+En plus, les Mages sont fabriqués en série
+et sont programmés pour fonctionner pendant
+une durée limitée.[ENDN][STRT=115,3]Face :
+Ils ne sont utiles que
+lors des combats.[ENDN][STRT=205,3]Pile :
+Cela nous étonnerait que ces outils
+puissent avoir peur de mourir.[ENDN][STRT=254,3]Face :
+Ce serait amusant...
+Mais les Mages Noirs ne sont que des outils.[ENDN][STRT=228,2][ZDNE] :
+Vous vous croyez si différents d’eux[SPED=2]...[SPED=-1]?[ENDN][STRT=158,2]Face :
+Qu’est-ce que vous dites ?![ENDN][STRT=194,2]Pile :
+Comment osez-vous nous dire ça ?[ENDN][STRT=208,4][ZDNE] :
+Comme vous êtes que les instruments
+de la volonté de quelqu’un d’autre,
+vous êtes aussi vides que les Mages Noirs.[ENDN][STRT=175,2][ZDNE] :
+Est-ce que je me suis trompé ?[ENDN][STRT=227,4]Pile :
+Très bien.
+Nous allons vous faire taire !
+Pour que vous ne puissiez plus médire !![ENDN][STRT=140,2]Face :
+Vous allez le regretter ![ENDN][STRT=118,3][ZDNE] :
+Mais bon.
+On va se reposer un peu.[ENDN][STRT=224,2][ZDNE] :
+Pilotez avec prudence, s’il vous plaît ![ENDN][STRT=118,2][ZDNE] :
+C’est[SPED=2]...[SPED=-1] une étoile[SPED=2]...[SPED=-1]?[ENDN][STRT=73,2][WDTH=0,8,22,-1][EIKO] :
+Des lettres ?[ENDN][STRT=164,3][STNR] :
+Hum...
+Des lettres holographiées[SPED=2]...[SPED=-1]?[ENDN][STRT=193,3][VIVI] :
+Dis-moi, [ZDNE],
+qu’est-ce que c’est cette image ?[ENDN][STRT=153,3][FRYA] :
+C’est[SPED=2]...[SPED=-1] comme des lettres.
+Mais quel genre de lettre ?[ENDN][STRT=153,2][QUIN] :
+Qu’est-ce qui est apparu ?[ENDN][STRT=158,2][ZDNE] :
+”Terra[SPED=2]...[SPED=-1] planète mère[SPED=2]...[SPED=-1]” ?[ENDN][STRT=180,3][ZDNE] :
+Hum[SPED=2]...[SPED=-1] J’arrive pas à déchiffrer
+toute la phrase[SPED=2]...[SPED=-1][ENDN][STRT=10,1][NFOC][IMME][CENT=10]!![ENDN][STRT=119,3][STNR] :
+Tu peux vraiment lire
+ce qui est écrit ?[ENDN][STRT=178,2][VIVI] :
+Tu peux comprendre ces mots ?[ENDN][STRT=129,3][WDTH=0,106,16,-1][FRYA] :
+Tu as vraiment compris
+ce qui est écrit, [ZDNE] ?[ENDN][STRT=123,2][QUIN] :
+Tu peux lire ? Super ![ENDN][STRT=133,2][AMRT] :
+Tu dis n’importe quoi...![ENDN][STRT=174,3][ZDNE] :
+Je lis pas cette phrase[SPED=2]...[SPED=-1]
+c’est plutôt elle qui me parle[SPED=2]...[SPED=-1][ENDN][STRT=213,2][ZDNE] :
+J’ai une sensation vraiment étrange[SPED=2]...[SPED=-1][ENDN][STRT=142,2][TAIL=LOLF][ZDNE] :
+”Vaisseau[SPED=2]...[SPED=-1] antique[SPED=2]...[SPED=-1]” ?[ENDN][STRT=179,2][TAIL=LOLF][ZDNE] :
+”le plus ancien[SPED=2]...[SPED=-1] du monde[SPED=2]...[SPED=-1]” ?[ENDN][STRT=159,2][TAIL=LOLF][ZDNE] :
+”Vaisseau[SPED=2]...[SPED=-1] de[SPED=2]...[SPED=-1] combat” ?[ENDN][STRT=273,2][TAIL=LOLF][ZDNE] :
+”Architecture[SPED=2]...[SPED=-1] navale[SPED=2]...[SPED=-1] de très bas niveau”[SPED=2]...[SPED=-1][ENDN][STRT=211,3][TAIL=UPLF][ZDNE] :
+”Vaisseau armé[SPED=2]...[SPED=-1] premier exemplaire
+[SPED=2]...[SPED=-1]Invincible” ?[ENDN][STRT=141,2][ZDNE] :
+”Proto[SPED=2]...[SPED=-1] type[SPED=2]...[SPED=-1] raté[SPED=2]...[SPED=-1]”[ENDN][STRT=273,2][TAIL=UPLF][ZDNE] :
+”Vaisseau armé[SPED=2]...[SPED=-1] Invincible[SPED=2]...[SPED=-1] premier modèle” ?[ENDN][STRT=262,2][TAIL=UPLF][ZDNE] :
+”Actuellement[SPED=2]...[SPED=-1] utilisé[SPED=2]...[SPED=-1] modèle[SPED=2]...[SPED=-1] amélioré[SPED=2]...[SPED=-1]”[ENDN][STRT=157,2][ZDNE] :
+Ah, les lettres ont disparu ![ENDN][STRT=22,1]Ah ![ENDN][STRT=18,1][SPED=2]...[SPED=-1]?[ENDN][STRT=175,2][TAIL=LOLF][ZDNE] :
+”Naissance[SPED=2]...[SPED=-1] de[SPED=2]...[SPED=-1] la ville[SPED=2]...[SPED=-1]” ?[ENDN][STRT=184,2][ZDNE] :
+Hum ? Elles ont encore disparu[SPED=2]...[SPED=-1][ENDN][STRT=144,3][TAIL=LOLF][ZDNE] :
+”Périodes[SPED=2]...[SPED=-1] prospères[SPED=2]...[SPED=-1]
+pour la ville[SPED=2]...[SPED=-1]”[ENDN][STRT=211,3][ZDNE] :
+”Trop[SPED=2]...[SPED=-1] florissante[SPED=2]...[SPED=-1]
+Epuisée[SPED=2]...[SPED=-1] En voie de disparition[SPED=2]...[SPED=-1]” ?[ENDN][STRT=211,3][TAIL=LOLF][ZDNE] :
+”En pleine[SPED=2]...[SPED=-1] prospérité[SPED=2]...[SPED=-1] les villes[SPED=2]...[SPED=-1]
+existaient sur[SPED=2]...[SPED=-1] Terra[SPED=2]...[SPED=-1]”[ENDN][STRT=124,4][TAIL=LOLF][ZDNE] :
+”Bientôt[SPED=2]...[SPED=-1] les villes[SPED=2]...[SPED=-1]
+s’affaibliront[SPED=2]...[SPED=-1] et
+disparaîtront[SPED=2]...[SPED=-1]”[ENDN][STRT=205,2][TAIL=LOLF][ZDNE] :
+Mais qu’est-ce que c’est ce truc[SPED=2]...[SPED=-1]?[ENDN][STRT=139,2][ZDNE] :
+C’est quoi cette salle[SPED=2]...[SPED=-1]?[ENDN][STRT=277,3][EIKO] :
+C’est comme s’ils nous regardaient [WAIT=3]méchamment[SPED=2]...[SPED=-1]
+Je [WAIT=3]J’ai un peu peur[SPED=2]...[SPED=-1][ENDN][STRT=160,2][STNR] :
+Vraiment, [WAIT=5]c’est sinistre ici[SPED=2]...[SPED=-1][ENDN][STRT=196,3][VIVI] :
+Cette salle est étrange[SPED=2]...[SPED=-1]
+Pourquoi il y a autant de visages ?[ENDN][STRT=180,3][FRYA] :
+Ca a l’air vraiment glauque ici[SPED=2]...[SPED=-1]
+Il y a plein de visages[SPED=2]...[SPED=-1][ENDN][STRT=176,4][QUIN] :
+Mais qu’est-ce que c’est ici[SPED=2]...[SPED=-1]?
+C’est pas bien !
+On va s’en aller tout de suite ![ENDN][STRT=58,1]&%*=+x[SPED=2]...[SPED=-1][ENDN][STRT=113,2][STNR] :
+Encore un monstre ![ENDN][STRT=36,2][WDTH=0,8,17,-1][VIVI] :
+Aaah ![ENDN][STRT=106,2][FRYA] :
+Encore un ennemi ?[ENDN][STRT=99,3][QUIN] :
+Ca m’a surpris !
+Ca m’a fait peur ![ENDN][STRT=124,2][AMRT] :
+Qu’est-ce que c’est ?[ENDN][STRT=185,2][ZDNE] :
+Attendez ![WAIT=5] Il dit quelque chose[SPED=2]...[SPED=-1][ENDN][STRT=234,2][CENT=61]Visiteurs[SPED=2]...[SPED=-1]
+[CENT=234]Montez sur la pierre juste devant vous[SPED=2]...[SPED=-1][ENDN][STRT=126,3][VIVI] :
+Cette fois j’ai compris
+ce qu’il a dit ![ENDN][STRT=188,3][FRYA] :
+Hum... je comprends parfaitement
+ce qu’il dit...[ENDN][STRT=90,2][QUIN] :
+Je l’ai compris ![ENDN][STRT=151,2][AMRT] :
+Oui, j’ai compris, moi aussi.[ENDN][STRT=210,3][ZDNE] :
+Je pense qu’il transmet ses messages
+directement à nos consciences[SPED=2]...[SPED=-1][ENDN][STRT=164,2][ZDNE] :
+Allez, on monte sur la pierre.[ENDN][STRT=142,1]Visiteurs, écoutez bien[SPED=2]...[SPED=-1][ENDN][STRT=183,2]Je vais vous raconter la genèse
+de notre civilisation[SPED=2]...[SPED=-1][ENDN][STRT=219,2][CENT=186]La dégénérescence des espèces
+[CENT=219]n’avait aucune importance pour nous[SPED=2]...[SPED=-1][ENDN][STRT=243,2][CENT=243]Toutes espèces animales et végétales et...
+[CENT=141]tant que... disparurent[SPED=2]...[SPED=-1][ENDN][STRT=194,2][CENT=194]C’était à cause du ”vieillissement”
+[CENT=128]de... de notre Terra[SPED=2]...[SPED=-1][ENDN][STRT=198,2][CENT=198]Pour vaincre ce vieillissement de...
+[CENT=157]devint notre seule mission[SPED=2]...[SPED=-1][ENDN][STRT=234,2]...pour elle nous réunîmes les meilleures
+technologies de la civilisation de Terra[SPED=2]...[SPED=-1][ENDN][STRT=138,2][CENT=138]Le premier essai eut lieu
+[CENT=118]sur le continent de[SPED=2]...[SPED=-1][ENDN][STRT=129,1]Cependant, il échoua[SPED=2]...[SPED=-1][ENDN][STRT=251,3][CENT=251]Après le premier essai raté, nous trouvâmes
+[CENT=161]un élément indispensable : ...
+[CENT=150]Nous précisâmes la cible[SPED=2]...[SPED=-1][ENDN][STRT=253,2][CENT=134]Au prix de quatre sacrifices,
+[CENT=253]nous gagnâmes enfin l’éternelle prospérité[SPED=2]...[SPED=-1][ENDN][STRT=230,3]Pourtant, ...ne se réveille toujours pas
+alors que toutes les espèces animales et
+végétales sont ressuscitées[SPED=2]...[SPED=-1][ENDN][STRT=189,2]Nous espérons que la technologie
+se sera bien développée[SPED=2]...[SPED=-1][ENDN][STRT=190,3][CENT=190]Pour raconter l’histoire de Terra
+[CENT=152]d’une génération à l’autre,
+[CENT=146]nous avons été[SPED=2]...[SPED=-1] créés[SPED=2]...[SPED=-1][ENDN][STRT=188,3][WDTH=0,188,16,-1][EIKO] :
+Qu’est-ce que c’est ici ?
+[ZDNE] a pu lire des lettres inconnues[SPED=2]...[SPED=-1][ENDN][STRT=79,3][WDTH=0,8,19,-1,0,64,16,-1][STNR] :
+[ZDNE], c’est quoi
+cet endroit ?![ENDN][STRT=134,3][WDTH=0,134,16,-1][VIVI] :
+[ZDNE], pourquoi t’es le seul à
+pouvoir lire les mots ?[ENDN][STRT=252,4][FRYA] :
+[ZDNE], quel est cet endroit ?
+Toi seul es capable de déchiffrer
+ces lettres énigmatiques, c’est mystérieux[SPED=2]...[SPED=-1][ENDN][STRT=225,2][QUIN] :
+Alors pourquoi t’as pu lire ces lettres ?[ENDN][STRT=181,4][ZDNE] :
+J’en sais rien[SPED=2]...[SPED=-1]
+Mais c’est pas le moment !
+On est là pour sauver nos amis ![ENDN][STRT=117,3][ZDNE] :
+Dépêchons-nous
+de trouver ce truc ![ENDN][STRT=133,2][TAIL=LORF][ZDNE] :
+L’air a un peu changé[SPED=2]...[SPED=-1][ENDN][STRT=111,3][TAIL=LORF][ZDNE] :
+C’est comme l’étoile
+de tout à l’heure[SPED=2]...[SPED=-1][ENDN][STRT=144,2][TAIL=LORF][ZDNE] :
+Quoi ? Une autre étoile ?![ENDN][STRT=165,2][ZDNE] :
+Qu’est-ce que ça veut dire ?[ENDN][STRT=130,2][ZDNE] :
+Hum ? C’est l’entrée[SPED=2]...[SPED=-1]?[ENDN][STRT=41,1]Humpf ![ENDN][STRT=64,1]Ouvre-toi ![ENDN][STRT=120,3][ZDNE] :
+Comment on va ouvrir
+une porte pareille[SPED=2]...[SPED=-1]?[ENDN][STRT=92,3][ZDNE] :
+Hum...
+On est attendu ?[ENDN][STRT=152,3][ZDNE] :
+On est très heureux d’être
+aussi bien accueilli[SPED=2]...[SPED=-1][ENDN][STRT=165,2][TAIL=LOLF][OFFT=0,250,0][ZDNE] :
+C’est ça ce que veut Kuja[SPED=2]...[SPED=-1]?[ENDN][STRT=196,2][TAIL=LOLF][OFFT=0,250,0][ZDNE] :
+Allez, on le prend et on se tire ![ENDN][STRT=163,2][ZDNE] :
+Quelque chose vient par ici ![ENDN][STRT=121,3][TAIL=LOLF][OFFT=0,250,0][ZDNE] :
+Il faut vite retourner
+au Palais du Désert[SPED=2]...[SPED=-1][ENDN][STRT=10,1][TAIL=LOLF][OFFT=0,250,0][CENT=10]!![ENDN][STRT=137,3][ZDNE] :
+On dirait un mécanisme...
+Hum... ça marche pas[SPED=2]...[SPED=-1][ENDN][STRT=172,2][ZDNE] :
+Il y a un bouton quelque part ?[ENDN][STRT=94,2][ZDNE] :
+Ca marche pas[SPED=2]...[SPED=-1][ENDN][STRT=117,3][ZDNE] :
+Il y a peut-être
+un ordre à suivre[SPED=2]...[SPED=-1]?[ENDN][STRT=136,4][TAIL=LOLF][ZDNE] :
+Je vois...
+Il faut les manier
+dans un certain ordre[SPED=2]...[SPED=-1][ENDN][STRT=113,2][TAIL=LOLF][ZDNE] :
+Génial ! Ca marche ![ENDN][STRT=127,2][ZDNE] :
+La porte est scellée[SPED=2]...[SPED=-1][ENDN][STRT=216,2][ZDNE] :
+On arrivera pas à l’ouvrir comme ça[SPED=2]...[SPED=-1][ENDN][STRT=155,2][ZDNE] :
+Cette boule a l’air louche[SPED=2]...[SPED=-1][ENDN][STRT=94,2][ZDNE] :
+Ca marche pas[SPED=2]...[SPED=-1][ENDN][STRT=209,3][ZDNE] :
+Qu’est-ce que c’est ce truc étrange
+au plafond[SPED=2]...[SPED=-1]?[ENDN][STRT=239,4][ZDNE] :
+L’arabesque sous mes pieds,
+et cet objet au plafond, c’est un peu trop
+pour éclairer cette salle[SPED=2]...[SPED=-1][ENDN][STRT=12,1][TAIL=UPRF][CENT=12]??[ENDN][STRT=236,4]Steelskin :
+Je trouve qu’il y a quelque chose
+de louche dans l’affaire de la Mog-poste.
+A quoi elle rêve, Hartemision[SPED=2]...[SPED=-1]?[ENDN][STRT=119,5][PCHC=2,1][WDTH=0,119,14,1,14,2,14,3,-1,0,88,64,0,-1][IMME]Steelskin :
+Je vends 1 [ITEM=1], 1 [ITEM=2] et 1 [ITEM=3],
+pour [C8B040][HSHD][NUMB=0] gils[C8C8C8][HSHD] les 3.
+[CHOO][MOVE=18,0]J’achète.
+[MOVE=18,0]J’en veux pas.[ENDN][STRT=215,4][WDTH=0,138,14,1,-1,0,42,14,2,14,3,-1][IMME]Steelskin :
+Je pensais te vendre 1 [ITEM=1],
+1 [ITEM=2] et 1 [ITEM=3]
+mais apparemment, t’en as pas besoin.[ENDN][STRT=199,2][IMME]Steelskin :
+Eh ! Mais t’as pas assez d’argent ![ENDN][STRT=128,3]Steelskin :
+Merci, ça me paiera
+mon prochain voyage ![ENDN]

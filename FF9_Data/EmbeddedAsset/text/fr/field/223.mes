@@ -1,0 +1,148 @@
+[STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=10,1][NFOC][CENT=10]!![TIME=30][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=148,2][MPOS=5,50][FLIM][SPED=8]Mais[SPED=2]...[SPED=-1]
+qu’est-ce que je fais ici ?[ENDN][STRT=204,2][MPOS=5,50][FLIM][SPED=8]Je suis allé jusqu’à me ranger
+aux côtés d’une bande de voleurs[SPED=2]...[ENDN][STRT=123,3][MPOS=5,50][WDTH=0,103,19,-1][FLIM][SPED=8]Non[SPED=2]... [SPED=8]
+Edward Adelbert [STNR],
+tu dois rester calme ![ENDN][STRT=205,2][MPOS=5,50][FLIM][SPED=8]Protéger la Princesse et la ramener
+à Alexandrie, telle est ta mission[SPED=2]...[SPED=-1][ENDN][STRT=191,2][MPOS=5,50][FLIM][SPED=8]Comment Sa Majesté pourrait-elle
+se tromper[SPED=2]...[SPED=-1]?[ENDN][STRT=183,2][MPOS=5,50][FLIM][SPED=8]Il s’agit maintenant d’une affaire
+très importante, je crois[SPED=2]...[SPED=-1][ENDN][STRT=147,1][MPOS=5,50][FLIM]Ne suis-je qu’un pantin[SPED=2]...[SPED=8]?[ENDN][STRT=129,2][MPOS=5,50][FLIM][SPED=8]Mais non !
+Ce n’est pas possible ![ENDN][STRT=176,2][MPOS=5,50][FLIM][SPED=8]Je suis trop bête
+pour comprendre Sa Majesté[SPED=2]...[SPED=-1][ENDN][STRT=202,2][MPOS=5,50][FLIM][SPED=8]Je ne dois pas croire
+ce que disent ces maudits bandits[SPED=2]...[SPED=-1][ENDN][STRT=186,3][MPOS=5,50][FLIM][SPED=8]Tout ce que je dois faire,
+c’est protéger la Princesse et[SPED=2]...[SPED=-1]
+la ramener à Alexandrie[SPED=2]...[SPED=-1][ENDN][STRT=174,1][MPOS=5,50][FLIM][SPED=8]Je ne reverrai plus jamais ce truand[SPED=2]...[SPED=-1][ENDN][STRT=221,3][MPOS=5,20][FLIM][SPED=8]Oui[SPED=2]...[SPED=8] C’est toujours lui
+que l’on doit accuser de tous les maux.
+Il a enlevé la Princesse et[SPED=2]...[TIME=60][STRT=165,4][MPOS=112,95][FLIM]Tout ça, c’est de la faute
+de [ZDNE][SPED=2]...[SPED=8][WAIT=3]
+C’est parce qu’il m’a traité...
+comme une enfant[SPED=2]...[ENDN][STRT=185,3][MPOS=112,95][FLIM][SPED=8]C’est à cause de ça que je dois
+chercher des aiguilles de platine
+dans un endroit aussi terrible[SPED=2]...[ENDN][STRT=123,3][MPOS=112,95][FLIM][SPED=2]...[SPED=8] Mais[SPED=2]...[SPED=8]
+Comment ai-je pu dire
+une chose pareille...[ENDN][STRT=137,2][MPOS=112,95][FLIM][SPED=8]Pour sauver Frank ?[WAIT=3]
+Parce qu’il m’a sauvée ?[ENDN][STRT=137,4][MPOS=112,95][FLIM][SPED=8]Oui, tout à fait.
+Je dois sauver celui
+qui m’a sauvée !
+Rien n’est plus naturel[SPED=2]...[SPED=-1][ENDN][STRT=111,3][MPOS=112,95][FLIM]Mais[SPED=2]...[SPED=8] Je...[WAIT=3]
+je n’y avais encore
+jamais pensé[SPED=2]...[SPED=-1][ENDN][STRT=249,4]Totto :
+En lisant des chroniques vieilles de 500 ans,
+j’ai rencontré deux termes qui ont fortement
+attiré mon attention[SPED=2]...[SPED=-1][ENDN][STRT=161,3]Totto :
+L’un est ”Perle”[SPED=2]...[SPED=-1]
+et l’autre est ”Invokeurs”[SPED=2]...[SPED=-1][ENDN][STRT=243,3]Totto :
+[SPED=2]...[SPED=-1]Cependant ces deux termes ne sont plus
+utilisés dans les chroniques postérieures[SPED=2]...[SPED=-1][ENDN][STRT=264,4]Totto :
+D’après l’archéologue Frédérick Hache,
+le terme de ”Perle” désigne le pendentif que
+reçoit l’héritier de la couronne d’Alexandrie[SPED=2]...[SPED=-1][ENDN][STRT=182,3]Totto :
+Cependant vu sa forme, peut-on
+vraiment parler de ”Perle”[SPED=2]...[SPED=-1]?[ENDN][STRT=241,4]Totto :
+Il existe aussi plein d’études intéressantes
+sur les rapports entre les ”Pierres” et
+les ”Chimères”[SPED=2]...[SPED=-1][ENDN][STRT=84,2]Grenat :
+Maître Totto ![ENDN][STRT=93,2]Totto :
+Ah ! Princesse[SPED=2]...[SPED=-1][ENDN][STRT=168,3]Grenat :
+Vous lisez toujours des livres
+aussi compliqués ?[ENDN][STRT=220,3]Totto :
+Hahaha ! J’ai lu presque tous les livres
+de cette bibliothèque.[ENDN][STRT=195,3]Totto :
+Dans un endroit aussi tranquille,
+je peux donner forme à mes idées.[ENDN][STRT=182,3]Grenat :
+Ah bon[SPED=2]...[SPED=-1] Moi, je n’aime pas trop
+les livres difficiles[SPED=2]...[SPED=-1][ENDN][STRT=271,4]Totto :
+En tant que princesse d’Alexandrie,
+vous avez besoin d’un minimum de connaissances
+dans divers domaines[SPED=2]...[SPED=-1][ENDN][STRT=165,3][TAIL=UPLF]Grenat :
+Bien[SPED=2]...[SPED=-1]
+Ce livre-là m’a beaucoup plu.[ENDN][STRT=139,3][TAIL=UPLF]Grenat :
+Quel est son titre déjà ?
+Humm[SPED=2]...[SPED=-1][ENDN][STRT=253,3]Totto :
+”Je veux être ton oisillon” de Sire Hayvon[SPED=2]...[SPED=-1]
+C’est ça ?[ENDN][STRT=203,4]Grenat :
+Oui, c’est ça, Maître !
+Je ne m’ennuie jamais avec ce livre.
+Il est si romantique et si noble ![ENDN][STRT=52,1][NFOC]Hahaha[SPED=2]...[SPED=-1][TIME=35][STRT=227,2][TAIL=UPLF]Grenat :
+Dites-moi Maître, qu’est-ce que c’est ?[ENDN][STRT=177,3][TAIL=UPRF]Totto :
+C’est une Gaïa-sphère[SPED=2]...[SPED=-1]
+Cela représente notre planète.[ENDN][STRT=214,3][TAIL=UPLF]Grenat :
+Gaïa[SPED=2]...[SPED=-1] sphère ?
+Nous habitons un château aussi rond ?[ENDN][STRT=183,3]Totto :
+Hahaha[SPED=2]...[SPED=-1] Nous ne sommes pas
+à l’intérieur, mais à l’extérieur ![ENDN][STRT=12,1][TAIL=UPLF][CENT=12]??[ENDN][STRT=253,6][FLIM]Totto :
+Hum... Une théorie veut que chaque étoile ait
+sa propre force et sa propre vie...
+Elle est à l’origine de la vision fantastique
+de la relation entre les ”Pierres” et
+les ”Chimères”[SPED=2]...[SPED=-1][ENDN][STRT=177,2][TAIL=LOLF]Totto :
+Cette relation doit donc être[SPED=2]...[SPED=-1][ENDN][STRT=206,4][TAIL=LOLF]Totto :
+[SPED=2]...[SPED=-1]Ah !
+Excusez-moi, Princesse !
+C’est une de mes mauvaises manies[SPED=2]...[SPED=-1][ENDN][STRT=171,2]Grenat :
+Ne vous excusez pas, Maître.[ENDN][STRT=114,3]Grenat :
+Dites-moi Maître,
+où est ma chambre ?[ENDN][STRT=248,3][TAIL=LOLF]Totto :
+Hum... votre chambre est un peu trop petite
+pour la localiser sur ce globe[SPED=2]...[SPED=-1][ENDN][STRT=184,2]Grenat :
+Le château d’Alexandrie, alors ?[ENDN][STRT=222,2][TAIL=LOLF]Totto :
+Lui, nous devrions pouvoir le trouver[SPED=2]...[SPED=-1][TIME=30][STRT=212,2]Grenat :
+Et puis, le château de mon oncle Cid ?[TIME=60][STRT=124,2][DGGR] :
+Cela fait déjà 8 ans[SPED=2]...[SPED=-1][ENDN][STRT=146,2][TAIL=UPLF]Totto :
+Que le temps passe vite[SPED=2]...[SPED=-1][ENDN][STRT=239,3][TAIL=UPLF]Totto :
+Je suis toujours un pauvre savant
+qui collectionne des déchets de ce type...[ENDN][STRT=153,3][DGGR] :
+Comment avez-vous trouvé
+cette Gaïa-sphère ?[ENDN][STRT=239,5][TAIL=UPLF]Totto :
+Elle est très vieille[SPED=2]...[SPED=-1]
+Elle est abîmée comme vous le remarquez,
+mais elle est encore pratique
+pour mes recherches astronomiques.[ENDN][STRT=202,3][TAIL=UPLF]Totto :
+Observer les étoiles depuis Gaïa
+est une chose vraiment fantastique.[ENDN][STRT=76,2][WDTH=0,8,18,-1][DGGR] :
+Oui, Maître[SPED=2]...[SPED=-1][ENDN][STRT=261,3][TAIL=UPLF]Totto :
+Ecoutez Princesse[SPED=2]...[SPED=-1]
+Je sais bien que ça ne me regarde pas, mais[SPED=2]...[SPED=-1][ENDN][STRT=194,4][TAIL=UPLF]Totto :
+Je suis toujours prêt à donner
+le meilleur de moi-même pour vous,
+Princesse.[ENDN][STRT=225,4][TAIL=UPLF]Totto :
+Si vous avez des ennuis, venez me voir.
+Je vous aiderai dans la mesure
+de mes pauvres moyens[SPED=2]...[SPED=-1][ENDN][STRT=87,2][DGGR] :
+Maître Totto[SPED=2]...[SPED=-1][ENDN]

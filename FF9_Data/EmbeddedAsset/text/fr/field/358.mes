@@ -1,0 +1,1328 @@
+[STRT=44,3][TBLE=3,6,14,20,]Chimomo
+Mocha
+Momnol[ENDN][STRT=25,1]Test[ENDN][STRT=26,1]Nulle[ENDN][STRT=203,5][TAIL=DEFT][WDTH=0,115,64,0,64,1,-1][IMME][D06050][HSHD]Erreur [C8B040][HSHD]Entrer Scénario Compteur ()
+[68C0D8][HSHD]Vieux = [NUMB=0], Nouveau = [NUMB=1]
+Choisir une séquance = [NUMB=2][C8C8C8][HSHD]
+[DBTN=START]: Ecraser
+[DBTN=SELECT]: Sauter[TIME=-1][STRT=108,2][TAIL=DEFT][IMME][D06050][HSHD]Erreur [C8B040][HSHD]ENV PLAY ()
+[68C0D8][HSHD]fente = [NUMB=2][ENDN][STRT=95,3][TAIL=DEFT][WDTH=0,95,14,0,-1][IMME][MOVE=18,0]
+[CENT=95,14,0][MOVE=18,0]Obtenu : [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=131,3][TAIL=DEFT][WDTH=0,131,14,0,-1][IMME][MOVE=18,0]
+[CENT=131,14,0][MOVE=18,0]Obtenu : [C8B040][HSHD]Carte[C8C8C8][HSHD] [ITEM=0] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=128,3][TAIL=DEFT][WDTH=0,128,64,0,-1][IMME][MOVE=18,0]
+[CENT=128,64,0][MOVE=18,0]Obtenu : [C8B040][HSHD][NUMB=0] gil(s)[C8C8C8][HSHD] ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=213,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Impossible d’avoir plus de gils ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=44,14,0][MOVE=18,0][ITEM=0] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=205,4][TAIL=DEFT][IMME][MOVE=18,0]
+[CENT=82][MOVE=18,0][C8B040][HSHD]Cartes[C8C8C8][HSHD] :[MOVE=18,0]
+[CENT=205][MOVE=18,0]Impossible d’en prendre plus ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=102,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]C’est vide ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=135,3][TAIL=DEFT][IMME][MOVE=18,0]
+[MOVE=18,0]Il n’y a plus rien ![MOVE=18,0]
+[MOVE=18,0][ENDN][STRT=111,1][TAIL=LOR][CENT=111][B880E0][HSHD][MOVE=18,0]SAUTE[MOVE=18,0]FMV[MOVE=18,0][ENDN][STRT=204,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV ![MOVE=18,0]
+[ENDN][STRT=205,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PM ![MOVE=18,0]
+[ENDN][STRT=239,3][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[ENDN][STRT=239,4][IMME][68C0D8][HSHD]
+[MOVE=18,0]Récupération de tous les PV et PM ![MOVE=18,0]
+[MOVE=18,0]Guérison de toutes les anomalies ![MOVE=18,0]
+[ENDN][STRT=235,6][IMME][D06050][HSHD]
+Erreur[MOVE=18,0]Equipe effacée
+[MOVE=18,0]Votre équipe n’a plus de membre.
+[MOVE=18,0]Pour changer un membre de l’équipe,
+[MOVE=18,0]utilisez les macro ou les PAETY SET[MOVE=18,0]
+[ENDN][STRT=42,1]Djidane[ENDN][STRT=18,1]???[ENDN][STRT=38,1]Grenat[ENDN][STRT=35,1]Dagga[ENDN][STRT=20,1]Bibi[ENDN][STRT=41,1]Steiner[ENDN][STRT=39,1]Freyja[ENDN][STRT=42,1]Kweena[ENDN][STRT=24,1]Eiko[ENDN][STRT=40,1]Tarask[ENDN][STRT=23,1]Cina[ENDN][STRT=40,1]Markus[ENDN][STRT=33,1]Frank[ENDN][STRT=33,1]Béatrix[ENDN][STRT=122,1][PCHM=16,15][WDTH=1,130,17,-1,2,131,18,-1,3,132,22,-1,4,99,22,-1,5,141,22,-1][IMME]Choisissez une scène.
+[CHOO][MOVE=18,0]Les états d’âme de [VIVI]
+[MOVE=18,0]Les états d’âme de [DGGR]
+[MOVE=18,0]Les états d’âme de [EIKO]
+[MOVE=18,0]La cuisine de [EIKO]
+[MOVE=18,0]La cuisine de [EIKO] (suite)
+[MOVE=18,0]ATE-05
+[MOVE=18,0]ATE-06
+[MOVE=18,0]ATE-07
+[MOVE=18,0]ATE-08
+[MOVE=18,0]ATE-09
+[MOVE=18,0]ATE-10
+[MOVE=18,0]ATE-11
+[MOVE=18,0]ATE-12
+[MOVE=18,0]ATE-13
+[MOVE=18,0]ATE-14
+[MOVE=18,0]Annuler[ENDN][STRT=111,1][WDTH=0,111,17,-1][IMME][CENT=111,17]Les états d’âme de [VIVI][ENDN][STRT=111,1][WDTH=0,111,18,-1][IMME][CENT=111,18]Les états d’âme de [DGGR][ENDN][STRT=111,1][WDTH=0,111,22,-1][IMME][CENT=111,22]Les états d’âme de [EIKO][ENDN][STRT=77,1][WDTH=0,77,22,-1][IMME][CENT=77,22]La cuisine de [EIKO][ENDN][STRT=118,1][WDTH=0,118,22,-1][IMME][CENT=118,22]La cuisine de [EIKO] (suite)[ENDN][STRT=9,1][WDTH=0,9,16,-1][ZDNE] ![ENDN][STRT=130,3][EIKO] :
+C’est Madahine-salee !
+C’est chez moi ![ENDN][STRT=189,3][EIKO] :
+C’est Madahine-salee, le village
+des Invokeurs et c’est chez moi ![ENDN][STRT=155,2][ZDNE] :
+Le village des Invokeurs[SPED=2]...[SPED=-1]?[ENDN][STRT=142,3][ZDNE] :
+C’est ici[SPED=2]...[SPED=-1]?
+[C8C8C8][HSHD](C’est un tas de ruines !)[ENDN][STRT=10,1][WDTH=0,10,18,-1][DGGR] ?[ENDN][STRT=190,2]Il a dû se passer quelque chose[SPED=2]...[SPED=-1]
+Ce ne sont plus que des ruines[SPED=2]...[SPED=-1][ENDN][STRT=43,1][NFOC]Coubo ![TIME=45][STRT=143,2][EIKO] :
+Mocha ! Moko ! Chimomo ![ENDN][STRT=111,2][EIKO] :
+Momnol ! Moriçone ![ENDN][STRT=103,2][EIKO] :
+Moug est pas là ?![ENDN][STRT=125,3][EIKO] :
+Elle s’est[SPED=2]...[SPED=-1] faite
+manger pour de vrai ?[ENDN][STRT=52,1]MOUUUG ![ENDN][STRT=46,1]Coubo[SPED=2]...[SPED=-1][ENDN][STRT=126,1]Cou, Coubo[SPED=2]...[SPED=-1] Coubopo[ENDN][STRT=151,2][EIKO] :
+Non, je suis pas en colère.[ENDN][STRT=181,3][EIKO] :
+Mais il faut plus me laisser toute
+seule, t’as bien compris ?![ENDN][STRT=43,1]Coubo ![ENDN][STRT=41,1][TAIL=UPLF]Oumpf ![ENDN][STRT=61,3][WDTH=0,8,22,-1,0,9,16,-1][EIKO] :
+[ZDNE] !
+Tu viens ?![ENDN][STRT=106,3][DGGR] :
+Je ne suis pas tout
+à fait à l’aise[SPED=2]...[SPED=-1][ENDN][STRT=70,2][WDTH=0,8,18,-1,0,70,16,-1][DGGR] :
+[ZDNE], où tu vas ?[ENDN][STRT=116,3][ZDNE] :
+Je vais juste
+jeter un coup d’oeil.[ENDN][STRT=95,2][DGGR] :
+Fais attention[SPED=2]...[SPED=-1]![ENDN][STRT=144,2][ZDNE] :
+Je reviens tout de suite ![ENDN][STRT=149,1]Le village des Invokeurs[SPED=2]...[SPED=-1][ENDN][STRT=274,3][DGGR] :
+Il y a longtemps, j’ai lu quelque chose sur
+un peuple apte à commander des Chimères[SPED=2]...[SPED=-1][ENDN][STRT=84,1]Les Chimères[SPED=2]...[SPED=-1][ENDN][STRT=215,3][DGGR] :
+Ca ne m’a pas fait plaisir d’apprendre
+que j’en avais en moi[SPED=2]...[SPED=-1][ENDN][STRT=147,4][DGGR] :
+Mère m’a arrêtée pour me
+les prendre et s’en
+servir comme arme[SPED=2]...[SPED=-1][ENDN][STRT=237,5][DGGR] :
+J’ai même pensé que je n’avais pas besoin
+de mes Chimères puisque leur puissance
+aveuglait Mère et que Kuja s’en servait
+pour ses sinistres desseins[SPED=2]...[SPED=-1][ENDN][STRT=251,4][DGGR] :
+Mais[SPED=2]...[SPED=-1] Quand on me les a enlevées,
+j’ai eu l’impression de perdre une partie
+de moi-même[SPED=2]...[SPED=-1][ENDN][STRT=169,4][DGGR] :
+Pourquoi[SPED=2]...[SPED=-1]
+Pourquoi est-ce que je pense
+à tout cela ici et maintenant ?[ENDN][STRT=201,4][DGGR] :
+Ce vent, ce paysage[SPED=2]...[SPED=-1]
+Toutes ces pensées qui me viennent
+à l’esprit[SPED=2]...[SPED=-1] Que m’arrive-t-il ?[ENDN][STRT=9,1][WDTH=0,9,18,-1][DGGR] ![ENDN][STRT=222,4][ZDNE] :
+Viens voir !
+Ils veulent nous montrer quelque
+chose à propos de la magie chimérique.[ENDN][STRT=124,1]Qu’est-ce que c’est ?[ENDN][STRT=151,3][ZDNE] :
+Ils appellent ça :
+”Le mur des invokations” ![ENDN][STRT=141,3][DGGR] :
+[ZDNE][SPED=2]...[SPED=-1]
+Je voudrais revenir ici...[ENDN][STRT=183,3][DGGR] :
+Quand j’ai vu le mur, la première
+fois, j’ai eu un peu peur[SPED=2]...[SPED=-1][ENDN][STRT=266,3][DGGR] :
+Mais dès que j’ai vu les fresques, bizarrement,
+je me suis sentie tout à fait rassurée.[ENDN][STRT=191,2][DGGR] :
+Je voudrais les regarder encore.[ENDN][STRT=137,3][ZDNE] :
+Si tu veux, on repassera
+en rentrant de l’Ifa[SPED=2]...[SPED=-1][ENDN][STRT=43,1]Merci[SPED=2]...[SPED=-1][ENDN][STRT=217,3][WDTH=0,171,21,-1][ZDNE] :
+[QUIN] a pas l’air de vouloir arrêter
+de pêcher. On peut pas la laisser ici[SPED=2]...[SPED=-1][ENDN][STRT=68,3][WDTH=0,8,18,-1,0,40,22,-1][DGGR] :
+Tu fais ça[SPED=2]...[SPED=-1]
+pour [EIKO] ?[ENDN][STRT=167,4][ZDNE] :
+[EIKO] ? Elle a 6 ans !
+Elle fait la fière, mais
+je suis sûr qu’elle est triste ![ENDN][STRT=123,3][VIVI] :
+On l’a pas encore vue
+aujourd’hui[SPED=2]...[SPED=-1][ENDN][STRT=90,1]C’est vrai, ça[SPED=2]...[SPED=-1][ENDN][STRT=9,1][WDTH=0,9,22,-1][EIKO] ![ENDN][STRT=62,1]Héhéhéhé ![ENDN][STRT=229,3][EIKO] :
+Si je n’appelle pas de Chimère, on
+pourra pas aller à l’Ifa, vous le saviez ?[ENDN][STRT=117,2][ZDNE] :
+Tu viens avec nous ?[ENDN][STRT=134,2][EIKO] :
+Tu veux que je vienne ?[ENDN][STRT=69,3][WDTH=0,8,16,-1][ZDNE] :
+Bien sûr que
+je le veux ![ENDN][STRT=196,3][EIKO] :
+J’ai pas le choix !
+On sera ”amis” pendant ce temps ![ENDN][STRT=41,3][WDTH=0,8,22,-1,0,16,17,-1,0,41,18,-1][EIKO] :
+[VIVI] et
+[DGGR] aussi ![ENDN][STRT=119,3][EIKO] :
+L’[68C0D8][HSHD]Ifa[C8C8C8][HSHD] est avant
+la Passe de Condéa ![ENDN][STRT=72,1]On s’en va !![ENDN][STRT=146,3][WDTH=0,88,16,-1][DGGR] :
+[ZDNE], tu es vraiment
+gentil avec tout le monde.[ENDN][STRT=112,3][WDTH=0,76,18,-1][ZDNE] :
+Il y a quelque chose
+qui va pas, [DGGR] ?[ENDN][STRT=225,3][DGGR] :
+Non, non[SPED=2]...[SPED=-1]
+C’est justement ce que j’aime chez toi ![ENDN][STRT=84,3][WDTH=0,55,18,-1][VIVI] :
+M’zelle [DGGR][SPED=2]...[SPED=-1]
+m’a fait peur...[ENDN][STRT=70,2][WDTH=0,8,16,-1][ZDNE] :
+A toi aussi[SPED=2]...[SPED=-1][ENDN][STRT=185,4]Moriçone :
+Nous vous confions
+[EIKO], coubo.
+N’hésitez pas à venir nous voir ![ENDN][STRT=135,2][ZDNE] :
+Faites-nous confiance ![ENDN][STRT=193,3][ZDNE] :
+Au fait, [VIVI][SPED=2]...[SPED=-1]
+T’as eu la réponse à ta question ?[ENDN][STRT=32,1]Hum...[ENDN][STRT=55,2][WDTH=0,8,17,-1][VIVI] :
+Je viens ![ENDN][STRT=42,1]Génial ![ENDN][STRT=76,1]On est parti ![ENDN][STRT=208,2][TAIL=UPRF][EIKO] :
+C’est compris ? Je compte sur vous ![ENDN][STRT=123,1][NFOC]Fais-nous confiance ![TIME=30][STRT=127,2][EIKO] :
+Moug, viens avec moi ![ENDN][STRT=43,1]Coubo ![ENDN][STRT=67,3][WDTH=0,8,22,-1][EIKO] :
+Bien !
+A ta place ![ENDN][STRT=43,1]Coubo ![ENDN][STRT=139,3][ZDNE] :
+Le petit Mog[SPED=2]...[SPED=-1] est entré
+dans ta poche ?![ENDN][STRT=156,3][EIKO] :
+C’est ”Moug” !
+Elle est toujours avec moi ![ENDN][STRT=87,3][WDTH=0,46,16,-1][EIKO] :
+[ZDNE], viens !
+Assieds-toi là ![ENDN][STRT=96,1]Euh... D’accord ![ENDN][STRT=96,3][EIKO] :
+Tu sais quoi ?
+Tu m’intéresses ![ENDN][STRT=39,1]Alors ?[ENDN][STRT=139,3][ZDNE] :
+Je... Moi aussi, j’ai plein
+de questions à te poser.[ENDN][STRT=71,1]C’est vrai ?![ENDN][STRT=158,2][ZDNE] :
+Par exemple, les Chimères[SPED=2]...[SPED=-1][ENDN][STRT=136,5][EIKO] :
+Tu viens d’où ?!
+T’as quel âge ?!
+Qu’est-ce que tu fais ?!
+Où tu vas ?![SIGL=1][ENDN][STRT=95,2][ZDNE] :
+Non, je voulais[SPED=2]...[SPED=-1][ENDN][STRT=190,5][EIKO] :
+C’est quoi ton plat préféré ?!
+C’est quoi ta Chimère préférée ?!
+C’est qui ton Mog préféré ?!
+C’est qui ta fille préférée ?![SIGL=1][TIME=-1][STRT=170,3][EIKO] :
+C’est la première fois que
+je vois quelqu’un comme toi[SPED=2]...[SPED=-1]![ENDN][STRT=10,1][WDTH=0,10,18,-1][DGGR] ?[ENDN][STRT=117,3][ZDNE] :
+Qu’est-ce que t’as ?
+Ca va pas ?[ENDN][STRT=79,3][OFFT=0,96,0][WDTH=0,8,18,-1][DGGR] :
+Non, non...
+Je vais bien...[ENDN][STRT=113,3][ZDNE] :
+T’es sûre,
+t’as pas de fièvre ?[ENDN][STRT=22,1][OFFT=0,96,0][TAIL=LOLF][NFOC]Ah ![TIME=20][STRT=184,3][ZDNE] :
+Non, c’est pas ça.[WAIT=10]
+Tu serais pas jalouse, des fois ?[ENDN][STRT=131,2][OFFT=0,90,0][TAIL=LOLF][DGGR] :
+Pourquoi le serais-je ?[ENDN][STRT=153,3][WDTH=0,71,16,18,-1][EIKO] :
+[ZDNE], [DGGR], vous êtes
+vraiment que des copains ?[ENDN][STRT=111,3][EIKO] :
+Parce que des fois,
+on dirait pas[SPED=2]...[SPED=-1][ENDN][STRT=73,2][WDTH=0,8,16,-1][ZDNE] :
+A vrai dire[SPED=2]...[SPED=-1][ENDN][STRT=167,2][ZDNE] :
+On est pas juste des copains.[ENDN][STRT=125,3][EIKO] :
+Ah bon ?
+Vous êtes quoi alors ?[ENDN][STRT=104,2][ZDNE] :
+On est des ”amis”.[ENDN][STRT=59,2][WDTH=0,8,22,-1][EIKO] :
+Des amis[SPED=2]...[SPED=-1][ENDN][STRT=51,1]C’est ça.[ENDN][STRT=119,3][WDTH=0,119,17,-1][ZDNE] :
+Et [VIVI] aussi est un ami[SPED=2]...[SPED=-1]
+[VIVI][SPED=2]...[SPED=-1]?![ENDN][STRT=141,3][EIKO] :
+C’est comme[SPED=2]...[SPED=-1] moi avec
+Moug et les autres Mog ?[ENDN][STRT=151,2][ZDNE] :
+Euh... C’est à peu près ça.[ENDN][STRT=101,2]Mocha :
+C’est fini, coubo ![ENDN][STRT=79,3][WDTH=0,8,22,-1][EIKO] :
+Merci Mocha !
+J’arrive ![ENDN][STRT=138,4][EIKO] :
+[ZDNE] !
+Je vais faire à manger,
+alors tu restes là, hein ![ENDN][STRT=213,3][ZDNE] :
+On a encore beaucoup de questions[SPED=2]...[SPED=-1]
+On reste ?[ENDN][STRT=28,2][OFFT=0,96,0][TAIL=LOLF][WDTH=0,8,18,-1][DGGR] :
+Oui[SPED=2]...[SPED=-1][ENDN][STRT=112,3][EIKO] :
+Je vous appellerai,
+allez pas trop loin ![ENDN][STRT=132,3][OFFT=0,96,0][DGGR] :
+Je crois que[SPED=2]...[SPED=-1]
+je suis un peu fatiguée.[ENDN][STRT=105,3][ZDNE] :
+C’est vraiment des
+ruines tout ça.[ENDN][STRT=162,3][ZDNE] :
+On dirait que ça a été démoli
+il y a une dizaine d’années[SPED=2]...[SPED=-1][ENDN][STRT=206,3][ZDNE] :
+Ca a rien à voir, mais je me demande
+ce que [EIKO] nous prépare.[ENDN][STRT=129,4][WDTH=0,80,22,-1]Moko :
+[EIKO] et son peuple
+ont toujours gardé
+le mur des invokations.[ENDN][STRT=116,3][WDTH=0,107,22,-1]Moko :
+Et nous autres, Mog,
+gardons [EIKO] et le mur.[ENDN][STRT=163,2]Moko :
+Qu’est-ce que vous faites ?![ENDN][STRT=75,3][WDTH=0,8,16,-1,0,75,22,-1][ZDNE] :
+Et où sont
+les amis de [EIKO] ?[ENDN][STRT=64,3]Moko :
+Je ne vous
+dirai rien[SPED=2]...[SPED=-1][ENDN][STRT=78,3]Moko :
+Merci de nous
+avoir aidés[SPED=2]...[SPED=-1][ENDN][STRT=174,2][WDTH=0,174,22,-1]Moko :
+[EIKO] va-t-elle nous abandonner[SPED=2]...[SPED=-1]?[ENDN][STRT=196,3]Moko :
+Oh, mais je sais bien qu’avec vous,
+elle ne craint rien[SPED=2]...[SPED=-1]![ENDN][STRT=18,1][WDTH=0,18,17,-1][VIVI][SPED=2]...[SPED=-1]?[ENDN][STRT=93,3][TAIL=UPL][ZDNE] :
+Qu’est-ce t’as ?
+Ca va pas ?[ENDN][STRT=143,3][OFFT=64,-64,0][VIVI] :
+Non, non, je réfléchissais
+un peu, c’est tout[SPED=2]...[SPED=-1][ENDN][STRT=153,3][TAIL=UPL][ZDNE] :
+Ah bon[SPED=2]...[SPED=-1] Tu sais, c’est pas
+bon de trop réfléchir[SPED=2]...[SPED=-1][ENDN][STRT=39,3][OFFT=64,-64,0][WDTH=0,8,17,-1,0,39,16,-1][VIVI] :
+Hum[SPED=2]...[SPED=-1]
+Merci [ZDNE].[ENDN][STRT=95,3][OFFT=64,-64,0][VIVI] :
+Je vais rester là
+encore un peu.[ENDN][STRT=56,2][OFFT=64,-64,0][WDTH=0,8,17,-1,0,56,22,-1][VIVI] :
+J’ai aidé [EIKO].[ENDN][STRT=149,3][OFFT=64,-64,0][VIVI] :
+Pendant ce temps, j’ai
+oublié les autres choses[SPED=2]...[SPED=-1][ENDN][STRT=106,1]Un instant, coubo ![ENDN][STRT=147,4][WDTH=0,140,22,-1]Moriçone :
+[EIKO] est en train de cuisiner,
+nous vous appellerons
+quand le repas sera prêt.[ENDN][STRT=145,4][WDTH=0,107,22,-1]Moriçone :
+Vous devez patienter
+encore un peu. [EIKO] dit
+que ce sera bientôt prêt.[ENDN][STRT=177,4]Moriçone :
+En attendant, je vais,
+exceptionnellement, vous
+montrer le mur des invokations.[ENDN][STRT=118,2]Moriçone :
+Par ici, je vous prie.[ENDN][STRT=78,1]Couboooooo ![ENDN][STRT=111,2]Moug :
+Coubocoubocoubo ![ENDN][STRT=57,2]Moug :
+Coubope ![ENDN][STRT=97,4][WDTH=0,53,22,-1][VIVI] :
+Pourquoi [EIKO]
+est-elle toujours
+contente[SPED=2]...[SPED=-1][ENDN][STRT=12,1][WDTH=0,12,17,-1][VIVI][SPED=2]...[SPED=-1][ENDN][STRT=118,3][ZDNE] :
+Qu’est-ce que t’as ?
+Tu peux pas dormir ?[ENDN][STRT=114,4][VIVI] :
+Je voudrais arrêter
+de réfléchir, mais
+j’y arrive pas[SPED=2]...[SPED=-1][ENDN][STRT=146,4][WDTH=0,84,16,-1][VIVI] :
+[ZDNE], je comprends
+quand tu dis qu’il faut
+pas trop réfléchir, mais[SPED=2]...[SPED=-1][ENDN][STRT=157,3][ZDNE] :
+C’est parce que moi, je suis
+moi et toi, t’es toi...[ENDN][STRT=159,3][ZDNE] :
+C’est pas grave[SPED=2]...[SPED=-1]
+Ca sert à rien de te forcer.[ENDN][STRT=135,3][VIVI] :
+Mais, je veux arrêter[SPED=2]...[SPED=-1]
+Je veux plus penser[SPED=2]...[SPED=-1][ENDN][STRT=190,3][VIVI] :
+Qu’est-ce que je vais faire,
+si ça continue[SPED=2]...[SPED=-1]? Ca me fait peur.[ENDN][STRT=175,3][ZDNE] :
+Quels que soient notre passé,
+nos angoisses et nos espoirs[SPED=2]...[SPED=-1][ENDN][STRT=250,3][ZDNE] :
+Tout ce qu’on peut faire, c’est choisir
+de faire ou de ne pas faire quelque chose[SPED=2]...[SPED=-1][ENDN][STRT=221,4][ZDNE] :
+Pour toutes les angoisses,
+il n’y a que deux solutions, pas vrai ?
+C’est normal que ça te prenne la tête ![ENDN][STRT=132,3][TAIL=UPLF][ZDNE] :
+Et puis[SPED=2]...[SPED=-1]
+pour que ça s’arrête...[ENDN][STRT=162,3][TAIL=UPLF][ZDNE] :
+...il suffit de décider si on le
+fait ou si on le fait pas ![ENDN][STRT=181,3][TAIL=UPLF][WDTH=0,175,17,-1][ZDNE] :
+Je dis pas que c’est facile, mais
+tu peux le faire à ton rythme, [VIVI].[ENDN][STRT=12,2][WDTH=0,8,17,-1,0,12,16,-1][VIVI] :
+[SPED=2]...[SPED=-1][ZDNE][ENDN][STRT=158,3][TAIL=UPLF][ZDNE] :
+Tu sais[SPED=2]...[SPED=-1] des fois je décide
+de défendre tel ou tel truc.[ENDN][STRT=210,3][TAIL=UPLF][ZDNE] :
+Je sais pas si j’en suis capable,
+mais c’est pas grave, je l’ai décidé ![ENDN][STRT=107,4][EIKO] :
+Ouiiiii !
+J’en étais sûre !
+Je l’avais bien vu ![ENDN][STRT=106,3][WDTH=0,74,16,-1][EIKO] :
+[ZDNE] est vraiment
+quelqu’un de bien ![ENDN][STRT=184,4][EIKO] :
+Il a raison !
+Entre ”faire” et ”ne pas faire”,
+il ne faut pas hésiter ![ENDN][STRT=82,3][WDTH=0,41,16,-1][EIKO] :
+Je veux partir
+avec [ZDNE] ![ENDN][STRT=167,3][TAIL=UPLF][WDTH=0,143,17,-1][ZDNE] :
+[VIVI], tu veux que je te donne
+un truc pour avoir le moral ?![ENDN][STRT=57,1]Ou... Oui...[ENDN][STRT=215,3][TAIL=UPLF][ZDNE] :
+C’est un très vieux truc pour prouver
+son amitié à un compagnon d’arme ![ENDN][STRT=32,1]Hum...[ENDN][STRT=52,3][TAIL=UPLF][WDTH=0,8,16,-1,0,35,17,-1][ZDNE] :
+Allez [VIVI],
+viens là ![ENDN][STRT=153,4][TAIL=UPLF][ZDNE] :
+Regarde comme ça fait du
+bien de se laisser aller
+sous les étoiles comme ça ![ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=43,1]Pssss...[ENDN][STRT=70,1]Psssssssss ![ENDN][STRT=88,1]Pssssssssssss ![ENDN][STRT=43,1]Aaaah ![ENDN][STRT=88,3]Moko :
+Vous ne pouvez
+pas entrer ici ![ENDN][STRT=161,3][ZDNE] :
+On peut pas y aller[SPED=2]...[SPED=-1]
+Mais on peut en sortir, non ?[ENDN][STRT=49,1]Coubo ?![ENDN][STRT=198,3][QUIN] :
+[ZDNE], c’est nul ici, miam !
+Il y a que des pierres et du sable ![ENDN][STRT=238,3][QUIN] :
+J’ai déjà mangé des roses des vents, mais
+le sable d’ici n’est pas comestible, miam ![ENDN][STRT=124,2][QUIN] :
+L’eau est belle, miam ![ENDN][STRT=44,1]Plaouf ![ENDN][STRT=164,3][ZDNE] :
+T’inquiète, le mieux c’est
+de pas s’occuper d’elle ![ENDN][STRT=182,2]Moko :
+Vous ne pouvez pas entrer ici[SPED=2]...[SPED=-1][ENDN][STRT=10,1][NFOC][CENT=10]!![TIME=12][STRT=112,2]Moriçone :
+Il s’appelle ”Moko”.[ENDN][STRT=143,3]Moriçone :
+Il est très fier de garder
+le mur des invokations.[ENDN][STRT=157,4][WDTH=0,119,22,-1]Moriçone :
+Il n’accepte pas que [EIKO]
+ait décidé de laisser
+des étrangers voir le mur[SPED=2]...[SPED=-1][ENDN][STRT=199,4][WDTH=0,150,22,-1]Moriçone :
+Il n’a pas l’habitude des étrangers,
+mais il s’y fera...
+Les amis de [EIKO] sont nos amis.[ENDN][STRT=67,3][WDTH=0,8,16,-1][ZDNE] :
+Et c’est[SPED=2]...[SPED=-1]
+si terrible ?[ENDN][STRT=164,4]Moriçone :
+Les Invokeurs gardent le mur
+des invokations depuis des
+générations, coubo.[ENDN][STRT=90,2][ZDNE] :
+Les Invokeurs[SPED=2]...[SPED=-1][ENDN][STRT=117,4][WDTH=0,77,18,-1][ZDNE] :
+Je vais chercher
+[DGGR], elle connaît
+la magie chimérique ![ENDN][STRT=212,3][WDTH=0,165,18,-1][ZDNE] :
+[DGGR] connaît la magie chimérique,
+elle peut venir voir le mur elle aussi ?[ENDN][STRT=61,1]Comment ?![ENDN][STRT=94,2]Moriçone :
+Je vous attends.[ENDN][STRT=99,2]Moriçone :
+Je vous en prie...[ENDN][STRT=160,2]Moriçone :
+Voici le mur des invokations.[ENDN][STRT=155,4][TAIL=UPLF][VIVI] :
+288 m’a dit que je savais
+ce que ”vivre” et ”mourir”
+signifient vraiment[SPED=2]...[SPED=-1][ENDN][STRT=268,3][TAIL=UPLF][VIVI] :
+Mais je sais juste que ”s’arrêter” et ”mourir”,
+c’est pas pareil[SPED=2]...[SPED=-1][ENDN][STRT=200,3][TAIL=UPLF][VIVI] :
+En fait, je comprends pas bien
+ce que c’est ”vivre” et ”mourir”[SPED=2]...[SPED=-1][ENDN][STRT=207,3][TAIL=UPLF][VIVI] :
+C’est comme venir de quelque part[SPED=2]...[SPED=-1]
+et retourner quelque part[SPED=2]...[SPED=-1][ENDN][STRT=121,3][TAIL=UPLF][VIVI] :
+Si c’est ça ”vivre”[SPED=2]...[SPED=-1]
+d’où je viens, moi[SPED=2]...[SPED=-1]?[ENDN][STRT=102,2][TAIL=UPLF][VIVI] :
+Et[SPED=2]...[SPED=-1] où je vais[SPED=2]...[SPED=-1]?[ENDN][STRT=71,3][TAIL=UPLF][WDTH=0,8,17,-1][VIVI] :
+Mais...
+Je tremble[SPED=2]...[SPED=-1][ENDN][STRT=84,3][TAIL=UPLF][VIVI] :
+Qu’est-ce[SPED=2]...[SPED=-1]
+qu’il m’arrive ?[ENDN][STRT=129,3][EIKO] :
+Merci pour le ménage !
+C’est parfait ![ENDN][STRT=143,3][WDTH=0,97,16,-1][EIKO] :
+Maintenant, [ZDNE] peut
+venir, j’aurai pas honte ![ENDN][STRT=177,2][EIKO] :
+Maintenant c’est pour de vrai ![ENDN][STRT=153,4][WDTH=0,92,16,-1][EIKO] :
+J’ai bien vu que [ZDNE]
+et [DGGR] sont pas
+encore vraiment amoureux.[ENDN][STRT=111,3][WDTH=0,85,18,-1][EIKO] :
+[DGGR] est trop bête,
+elle comprend pas ![ENDN][STRT=123,4][EIKO] :
+Si je fais tout bien
+comme il faut, je peux
+me mettre entre eux ![ENDN][STRT=157,4][WDTH=0,109,16,-1][EIKO] :
+Il faut que je fasse bien
+à manger pour que [ZDNE]
+en reveuille tous les jours ![ENDN][STRT=145,3]Mocha :
+Bien sûr ! Si tout est bon,
+ça marchera, peut-être.[ENDN][STRT=207,3]Momnol :
+Mais si la cuisine de [EIKO]
+n’est pas bonne, c’est l’échecoubo ![ENDN][STRT=120,3]Momnol :
+En plus, les réserves
+sont presque vides[SPED=2]...[SPED=-1][ENDN][STRT=175,4][EIKO] :
+Je sais tout ça !
+Je veux pas que ça rate,
+alors vous allez m’aider, hein ?[ENDN][STRT=50,2]Mocha :
+Pardon ?[ENDN][STRT=60,2]Chimomo :
+Coubope...[ENDN][STRT=100,2]Momnol :
+Je suis fatigoupo.[ENDN][STRT=64,1]Aidez-moi ![ENDN][STRT=179,3][EIKO] :
+Je vais faire ma spécialité :
+un ragoût de pommes de terre ![ENDN][STRT=62,3]Momnol :
+Oh oui !
+C’est bon ![ENDN][STRT=99,4][TAIL=UPRF]Mocha :
+Le dernier était
+si fade que j’ai
+eu mal à la tête[SPED=2]...[SPED=-1][ENDN][STRT=123,2]Chimomo :
+Seulement un ragoût ?[ENDN][STRT=125,4][EIKO] :
+C’est vrai...
+Je voudrais bien faire
+autre chose, mais[SPED=2]...[SPED=-1][ENDN][STRT=69,2]Chimomo :
+Du poisson ?[ENDN][STRT=124,3]Chimomo :
+On le pêche, on le fait
+griller, c’est bon ![ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=70,2][WDTH=0,8,22,-1][EIKO] :
+Bonne idée ![ENDN][STRT=154,4][EIKO] :
+Bon ! Au menu,
+ragoût de pommes de terre
+et poisson grillé ![ENDN][STRT=41,1]Alors[SPED=2]...[SPED=-1][ENDN][STRT=127,5][PCHC=3,-1][WDTH=1,19,6,0,-1,2,20,6,1,-1,3,21,6,2,-1][IMME][EIKO] :
+Qui va aller pêcher[SPED=2]...[SPED=-1]?
+[CHOO][MOVE=18,0][TEXT=0,0]
+[MOVE=18,0][TEXT=0,1]
+[MOVE=18,0][TEXT=0,2][ENDN][STRT=114,2][WDTH=0,114,6,0,-1][EIKO] :
+[TEXT=0,0], je compte sur toi ![ENDN][STRT=43,1]Coubo ![ENDN][STRT=132,5][PCHC=2,-1][WDTH=1,19,6,0,-1,2,20,6,1,-1][IMME][EIKO] :
+Qui va aller chercher
+les pommes de terre[SPED=2]...[SPED=-1]?
+[CHOO][MOVE=18,0][TEXT=0,0]
+[MOVE=18,0][TEXT=0,1][ENDN][STRT=97,3][WDTH=0,79,6,0,-1][EIKO] :
+[TEXT=0,0], toi tu restes
+ici pour m’aider ![ENDN][STRT=117,4][PCHC=2,1][WDTH=1,175,-1][IMME][EIKO] :
+Est-ce que ça va[SPED=2]...[SPED=-1]?
+[CHOO][MOVE=18,0]Tout le monde à son poste !
+[MOVE=18,0]On recommence ![ENDN][STRT=56,2][WDTH=0,8,22,-1][EIKO] :
+On y va !![ENDN][STRT=79,2][WDTH=0,8,22,-1][EIKO] :
+Grand-père[SPED=2]...[SPED=-1][ENDN][STRT=176,2][EIKO] :
+Je veux pas être toute seule...[ENDN][STRT=97,3][EIKO] :
+Alors[SPED=2]...[SPED=-1] aide-moi,
+s’il te plaît ![ENDN][STRT=93,3][EIKO] :
+Au fait,
+on est combien ?[ENDN][STRT=45,3][WDTH=0,8,22,-1,0,36,16,-1][EIKO] :
+Il y a [ZDNE],
+et moi...[ENDN][STRT=129,3][EIKO] :
+Il y a [VIVI],
+le garçon tout triste[SPED=2]...[SPED=-1][ENDN][STRT=134,3][WDTH=0,97,18,-1][EIKO] :
+Il faut quand même faire
+à manger pour [DGGR][SPED=2]...[SPED=-1][ENDN][STRT=138,4][EIKO] :
+Et puis il y a aussi Moug,
+Moko, Mocha, Chimomo,
+Momnol et Moriçone ![ENDN][STRT=211,4][EIKO] :
+Mets une dose d’eau par personne
+dans la casserole et allume
+la cuisinière, je vais faire à manger ![ENDN][STRT=43,1]Coubo ![ENDN][STRT=216,5][NANI][WDTH=0,8,6,0,-1][IMME][TEXT=0,0] :
+Euh[SPED=2]...[SPED=-1] Il y a combien de personnes ?
+[NUMB=1] Personnes
+←→ : Modifier le nombre de personnes
+[DBTN=CROSS][MOBI=260] : Confirmer[MOVE=18,0][DBTN=CIRCLE][MOBI=261] : Redemander[TIME=-1][STRT=49,4][TAIL=UPRF][WDTH=0,8,22,-1,0,36,16,-1,0,24,17,18,-1][EIKO] :
+Il y a [ZDNE],
+et moi et
+[VIVI] et [DGGR].[ENDN][STRT=136,4][TAIL=UPRF][EIKO] :
+Et puis vous tous, Moug,
+Moko, Mocha, Chimomo,
+Momnol et Moriçone ![ENDN][STRT=123,4][PCHC=2,1][WDTH=0,8,6,0,-1,0,123,64,1,-1,2,182,-1][IMME][TEXT=0,0] :
+Ca fait [NUMB=1] personne(s) !
+[CHOO][MOVE=18,0]On y va !
+[MOVE=18,0]Recomptons encore une fois.[ENDN][STRT=101,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Il y a trop d’eau ![ENDN][STRT=44,1]Coubo ?[ENDN][STRT=165,4][EIKO] :
+Des pommes de terre ♪
+Des belles citrouilles ♪
+Et des noix et des amandes ♪[ENDN][STRT=178,5][PCHC=2,1][IMME][EIKO] :
+Qu’est-ce qu’on fait du puluche
+qu’on a trouvé à Condéa ?
+[CHOO][MOVE=18,0]On le met dans la casserole.
+[MOVE=18,0]Surtout pas ![ENDN][STRT=40,2][WDTH=0,8,22,-1][EIKO] :
+Merci ![ENDN][STRT=70,2][WDTH=0,8,22,-1][EIKO] :
+C’est parti ![ENDN][STRT=164,3][EIKO] :
+Un peu de ci, un peu de ça ♪
+Du sel, du poivre et tralala ♪[ENDN][STRT=220,4][EIKO] :
+De jolies pommes de terre ♪
+Des beaux potirons, ronron ♪
+Et encore un peu de sel et de poivre ♪[ENDN][STRT=165,2][EIKO] :
+Et des noix et des amandes ♪[ENDN][STRT=125,2][EIKO] :
+Un puluche croquant ♪[ENDN][STRT=62,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+J’en ai un ![ENDN][STRT=99,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Ah[SPED=2]...[SPED=-1] Il est lourd ![ENDN][STRT=47,4][PCHC=2,1][WDTH=0,8,22,-1,1,252,-1,2,242,6,0,-1][IMME][EIKO] :
+Ca va ?!
+[CHOO][MOVE=18,0]Laisse-le partir, on en prendra un autre.
+[MOVE=18,0][TEXT=0,0], surveille la casserole, je vais l’aider.[ENDN][STRT=200,4][WDTH=0,9,6,0,-1][EIKO] :
+[TEXT=0,0] !
+C’est pas normal !
+Laisse-le, on en prendra un autre ![ENDN][STRT=68,2][WDTH=0,8,6,0,-1][TEXT=0,0] :
+D’accoubo ![ENDN][STRT=123,2][EIKO] :
+Mmmmh ! Ca sent bon ![ENDN][STRT=160,3][EIKO] :
+C’est bizarre[SPED=2]...[SPED=-1]
+Ca devrait déjà être prêt[SPED=2]...[SPED=-1][ENDN][STRT=143,2][EIKO] :
+Qu’est-ce qui se passe[SPED=2]...[SPED=-1][ENDN][STRT=101,3][EIKO] :
+C’est bizarre[SPED=2]...[SPED=-1]
+Ca sent le brûlé[SPED=2]...[SPED=-1][ENDN][STRT=129,3][WDTH=0,72,6,0,-1][EIKO] :
+[TEXT=0,0], touille pour
+que ça accroche pas ![ENDN][STRT=92,2][EIKO] :
+C’est un gros[SPED=2]...[SPED=-1]![ENDN][STRT=110,3][EIKO] :
+A ”3”, on tire de
+toutes nos forces ![ENDN][STRT=56,2][WDTH=0,8,22,-1][FLIM][EIKO] :
+1 ![WAIT=10] 2 ![WAIT=10] 3 ![TIME=10][STRT=100,1]AAAAAAAAAAAAH ![ENDN][STRT=111,3][TAIL=LORF][QUIN] :
+T’utilises de bonnes
+choses, miam ![ENDN][STRT=141,3][TAIL=LORF][QUIN] :
+T’utilises pas
+de bonnes choses, miam ![ENDN][STRT=151,4][EIKO] :
+Eh mais[SPED=2]...[SPED=-1]
+Je te reconnais[SPED=2]...[SPED=-1]
+C'est toi qui[SPED=2]...[SPED=-1][ENDN][STRT=102,3][WDTH=0,102,16,-1][EIKO] :
+C’est toi qui a poursuivi Moug !!![ENDN][STRT=163,3][TAIL=LORF][WDTH=0,141,16,-1][QUIN] :
+Mais, j'ai pas réussi à l'attraper, miam ![ENDN][STRT=83,3][TAIL=LORF][WDTH=0,54,16,-1][QUIN] :
+J'ai pas réussi à l'attraper, miam ![ENDN][STRT=55,3][TAIL=LORF][WDTH=0,8,21,-1,0,9,21,-1][QUIN] :
+Moi, c’est
+[QUIN] ![ENDN][STRT=176,3][EIKO] :
+Hum[SPED=2]...[SPED=-1]![WAIT=10]
+[SIGL=1][QUIN]...[ENDN][STRT=68,1][WDTH=0,68,22,-1]Moi, c’est [EIKO] ![ENDN][STRT=132,3][TAIL=UPL][EIKO] :
+(Moug, tu sors pas tant
+qu’elle est là, compris ?!)[ENDN][STRT=53,1][TAIL=UPR][OFFT=0,128,0](Coubo !)[ENDN][STRT=107,2][TAIL=LORF][QUIN] :
+Ca sent bon, miam ![ENDN][STRT=71,2][TAIL=LORF][WDTH=0,8,22,-1][EIKO] :
+Pas touche ![ENDN][STRT=131,2][TAIL=UPLF][QUIN] :
+Le feu est trop faible ![ENDN][STRT=141,2][TAIL=LORF][EIKO] :
+Tu sais faire à manger ?![ENDN][STRT=130,3][TAIL=UPLF][QUIN] :
+Je connais tout
+ce qui se mange, miam ![ENDN][STRT=105,5][TAIL=LORF][PCHC=2,1][WDTH=1,164,-1,2,220,-1][IMME][EIKO] :
+C’est...
+C’est une chance !
+[CHOO][MOVE=18,0]Je lui demande de goûter.
+[MOVE=18,0]Surtout pas, y’en aura plus après ![ENDN][STRT=32,2][TAIL=UPLF][WDTH=0,8,21,-1][QUIN] :
+Hum[SPED=2]...[SPED=-1][ENDN][STRT=133,3][TAIL=UPLF][QUIN] :
+Je sais combien nous
+sommes dans ce village.[ENDN][STRT=170,3][TAIL=UPLF][WDTH=0,52,16,17,18,-1][QUIN] :
+Il y a [ZDNE], [VIVI], [DGGR],
+les Mog, toi et moi, ça fait 11.[ENDN][STRT=137,2][TAIL=UPLF][WDTH=0,137,64,1,-1][QUIN] :
+Et il y a à manger pour [NUMB=1].[ENDN][STRT=114,3][TAIL=UPLF][QUIN] :
+Ca suffit pas, miam !
+Il y a rien pour moi ![ENDN][STRT=132,3][TAIL=UPLF][QUIN] :
+Ca suffit pas !
+Ca commence à brûler ![ENDN][STRT=123,2][TAIL=UPLF][QUIN] :
+C’est suffisant, miam ![ENDN][STRT=104,2][TAIL=UPLF][QUIN] :
+Il y a trop d’eau[SPED=2]...[SPED=-1][ENDN][STRT=138,3][TAIL=UPLF][QUIN] :
+Si je mange, il y en aura
+pas pour tout le monde ![ENDN][STRT=179,3][TAIL=UPLF][QUIN] :
+Avec cette cuisinière, on
+peut cuisiner que pour 9, miam ![ENDN][STRT=98,3][TAIL=UPLF][QUIN] :
+C’est toujours
+pas assez, miam ![ENDN][STRT=45,1][TAIL=LORF]Oh non ![ENDN][STRT=88,2][TAIL=UPLF][QUIN] :
+Courage, miam ![ENDN][STRT=224,2][QUIN] :
+Il faut prendre plein de poissons, miam ![ENDN][STRT=142,3][TAIL=UPLF][QUIN] :
+Je vais te dire un secret
+pour bien cuisiner, miam ![ENDN][STRT=149,2][TAIL=UPLF][QUIN] :
+Il faut en faire beaucoup ![ENDN][STRT=121,3][TAIL=UPLF][QUIN] :
+Surtout si tu as
+des invités surprise ![ENDN][STRT=133,3][TAIL=UPLF][QUIN] :
+Quelqu’un qui a faim
+mange beaucoup, miam ![ENDN][STRT=124,3][TAIL=UPLF][QUIN] :
+Il y a rien pour moi,
+je peux pas cuisiner ![ENDN][STRT=203,3][TAIL=UPLF][QUIN] :
+Il y en a pour plus de 10 personnes,
+c’est très bien, miam ![ENDN][STRT=119,3][TAIL=UPLF][QUIN] :
+Il y a que ça
+comme ragoût, miam ?[ENDN][STRT=130,3][WDTH=0,102,6,0,-1][EIKO] :
+[TEXT=0,0] est allé chercher
+des pommes de terre...[ENDN][STRT=161,3][TAIL=UPLF][QUIN] :
+Il faut augmenter la flamme[SPED=2]...[SPED=-1]
+C’est le principal, miam ![ENDN][STRT=66,3][WDTH=0,8,22,-1][EIKO] :
+On peut pas
+le faire[SPED=2]...[SPED=-1][ENDN][STRT=43,1][TAIL=UPLF]Hummm ![ENDN][STRT=112,2][TAIL=UPLF][QUIN] :
+J’ai une idée, miam ![ENDN][STRT=253,3][TAIL=UPLF][QUIN] :
+[VIVI] connaît la magie noire, miam !
+La magie de feu pourra nous aider, miam ![ENDN][STRT=105,2][EIKO] :
+Rajoute de l’eau[SPED=2]...[SPED=-1][ENDN][STRT=195,3][EIKO] :
+Le feu est pas assez fort[SPED=2]...[SPED=-1]
+Mais la cuisinière est au maximum[SPED=2]...[SPED=-1][ENDN][STRT=206,3][EIKO] :
+On a bien fait de baisser le feu, mais
+maintenant il est plus assez fort[SPED=2]...[SPED=-1][ENDN][STRT=79,2]Momnol :
+Je m’endors...[ENDN][STRT=166,2][EIKO] :
+On va laisser cuire le ragoût.[ENDN][STRT=117,2][WDTH=0,117,17,-1][EIKO] :
+Qu’est-ce qu’il a [VIVI][SPED=2]...[SPED=-1]?[ENDN][STRT=165,3][EIKO] :
+C’est vrai ! C’est un magicien !
+Il peut nous aider ![ENDN][STRT=147,3][EIKO] :
+Après[SPED=2]...[SPED=-1] Ca serait bien
+si on avait des poissons[SPED=2]...[SPED=-1][ENDN][STRT=245,2][QUIN] :
+Il y a plein de poissons appétissants, miam ![ENDN][STRT=278,4]Moriçone :
+Tous les Invokeurs dessinaient les Chimères qu’ils
+découvraient en étudiant la magie chimérique.
+C’est ainsi qu’est né le mur des invokations.[ENDN][STRT=235,2][DGGR] :
+Toutes ces Chimères existent vraiment[SPED=2]...[SPED=-1]?[ENDN][STRT=43,1]Coubo ![ENDN][STRT=127,3]Moriçone :
+Pour les Invokeurs
+cet endroit est sacré.[ENDN][STRT=105,4][WDTH=0,81,22,-1]Moriçone :
+[EIKO] vient prier et
+mettre de l’encens
+tous les jours.[ENDN][STRT=169,2][DGGR] :
+Et ça, qu’est-ce que c’est[SPED=2]...[SPED=-1]?[ENDN][STRT=136,2][DGGR] :
+Celle-ci c’est[SPED=2]...[SPED=-1] Atomos.[ENDN][STRT=133,2][DGGR] :
+Et là, c’est[SPED=2]...[SPED=-1] Bahamut ![ENDN][STRT=109,2][WDTH=0,109,18,-1][ZDNE] :
+Qu’est-ce qui y’a [DGGR]?[ENDN][STRT=25,2][WDTH=0,8,18,-1][DGGR] :
+Je[SPED=2]...[SPED=-1][ENDN][STRT=183,2][ZDNE] :
+Tu les retrouveras[SPED=2]...[SPED=-1] C’est sûr ![ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=52,1]On y va ?[ENDN][STRT=169,3][DGGR] :
+Je voudrais[SPED=2]...[SPED=-1]
+les regarder encore un peu[SPED=2]...[SPED=-1][ENDN][STRT=81,1]Je comprends.[ENDN][STRT=127,3][DGGR] :
+Il y en a beaucoup que
+je ne connais pas[SPED=2]...[SPED=-1][ENDN][STRT=239,4]Moriçone :
+Les Invokeurs vénèrent la nature et
+appellent notre planète Gaïa. Ils pensent
+que les Chimères sont là pour la protéger.[ENDN][STRT=216,4]Moriçone :
+En étudiant la magie chimérique,
+ils faisaient corps avecoubo la nature
+et avecoubo notre planète.[ENDN][STRT=259,4]Moriçone :
+Les Invokeurs sont arrivés sur cette planète,
+il y a 500 ans[SPED=2]...[SPED=-1]
+Mais aujourd’hui[SPED=2]...[SPED=-1][ENDN][STRT=71,1]Coubooopo ![ENDN][STRT=99,3][WDTH=0,30,16,-1][EIKO] :
+Ah, [ZDNE] !
+Sois le bienvenu ![ENDN][STRT=73,1]Assieds-toi ![ENDN][STRT=90,1]Waoh ! A table ![ENDN][STRT=114,1][TAIL=UPLF]Mmh, ça a l’air bon ![ENDN][STRT=128,1]Oh ! Ca doit être bon ![ENDN][STRT=81,3][WDTH=0,81,22,-1][ZDNE] :
+T’as tout fait
+toute seule, [EIKO] ?[ENDN][STRT=119,2][ZDNE] :
+T’en fais beaucoup[SPED=2]...[SPED=-1][ENDN][STRT=145,3][TAIL=UPLF][ZDNE] :
+Je suis désolé, mais on va
+manger à toute vitesse ![ENDN][STRT=143,3][WDTH=0,136,21,-1][EIKO] :
+Une personne bizarre m’a aidé.
+Je crois qu’elle s’appelle [QUIN].[ENDN][STRT=186,3][ZDNE] :
+Elle t’a aidée sans rien manger[SPED=2]...[SPED=-1]
+J’en reviens pas ![ENDN][STRT=80,3][WDTH=0,22,17,-1][EIKO] :
+[VIVI] m’a
+un peu aidée ![ENDN][STRT=98,2][WDTH=0,98,17,-1][EIKO] :
+[VIVI] aussi m’a aidée ![ENDN][STRT=31,1]Euh...[ENDN][STRT=91,3][WDTH=0,62,16,-1][EIKO] :
+Hum ! Je l’ai fait
+pour toi, [ZDNE] ![ENDN][STRT=66,1][TAIL=UPLF]On mange ?![ENDN][STRT=63,1]C’est bon ?[ENDN][STRT=182,3][OFFT=64,64,0][ZDNE] :
+C’est super bon !
+Tu devrais ouvrir une auberge ![ENDN][STRT=147,2][OFFT=64,64,0][ZDNE] :
+Ton ragoût est délicieux ![ENDN][STRT=96,3][OFFT=64,64,0][ZDNE] :
+Ton ragoût est[SPED=2]...[SPED=-1]
+s... spécial...[ENDN][STRT=154,2][OFFT=64,64,0][ZDNE] :
+Ton poisson est succulent ![ENDN][STRT=151,3][OFFT=64,64,0][ZDNE] :
+Le poisson était très bon !
+J’en reveux bien ![ENDN][STRT=168,4][OFFT=64,64,0][ZDNE] :
+Le poisson est[SPED=2]...[SPED=-1] meilleur que
+ce qu’on pourrait croire.
+Mais il a beaucoup d’arêtes...[ENDN][STRT=126,3][OFFT=64,64,0][WDTH=0,94,22,-1][ZDNE] :
+Au fait, [EIKO], où sont
+les autres Invokeurs ?[ENDN][STRT=249,3][OFFT=64,64,0][ZDNE] :
+On en a pas vu un seul[SPED=2]...[SPED=-1]
+Ils sont tous dans des souterrains, ou quoi ?[ENDN][STRT=129,3][EIKO] :
+Dans des souterrains ?
+Hum... Oui, c’est ça ![ENDN][STRT=89,3][EIKO] :
+Ils dorment tous
+sous la terre ![ENDN][STRT=42,1][OFFT=64,64,0]Quoi[SPED=2]...[SPED=-1]?[ENDN][STRT=153,2][EIKO] :
+Je suis la seule survivante.[ENDN][STRT=182,3][EIKO] :
+Grand-père est mort il y a 1 an.
+Depuis j’habite avec les Mog.[ENDN][STRT=41,1][OFFT=-64,64,0]C’est[SPED=2]...[SPED=-1][ENDN][STRT=107,3][EIKO] :
+C’est pas grave !
+Je suis pas triste ![ENDN][STRT=43,1][NFOC]Coubo ![TIME=30][STRT=147,3][EIKO] :
+4 ans avant ma naissance,
+ça fait 10 ans, c’est ça ?[ENDN][STRT=194,3][EIKO] :
+Il y a eu une catastrophe.
+Tout le monde a été tué ou blessé.[ENDN][STRT=165,3][EIKO] :
+Mais je suis née, et mon papa
+et ma maman m’aimaient.[ENDN][STRT=181,3][EIKO] :
+Mais ils sont morts quand j’étais
+petite, alors je les ai oubliés.[ENDN][STRT=52,1][OFFT=64,64,0]Je vois[SPED=2]...[SPED=-1][ENDN][STRT=201,3][EIKO] :
+Quand j’aurai 16 ans,
+je pourrai contrôler les Chimères...[ENDN][STRT=176,3][EIKO] :
+...et alors, je pourrai partir
+avec mes Chimères préférées ![ENDN][STRT=147,3][WDTH=0,127,16,-1][EIKO] :
+Et en plus j’aurai presque
+le même âge que toi, [ZDNE] ![ENDN][STRT=117,3][OFFT=64,64,0][ZDNE] :
+Mais tu connais déjà
+la magie chimérique ![ENDN][STRT=273,4][EIKO] :
+Oui mais[SPED=2]...[SPED=-1]
+Tant qu’il n’est pas mûr, un Invokeur peut pas
+choisir les Chimères avec lesquelles il s’associe.[ENDN][STRT=223,3][EIKO] :
+Avant 16 ans, on peut pas garder
+ou abandonner les Chimères qu’on veut.[ENDN][STRT=150,3][EIKO] :
+Ce sont elles qui
+choisissent leur Invokeur ![ENDN][STRT=106,3][OFFT=-64,64,0][DGGR] :
+Et comment fait-on
+pour les choisir ?[ENDN][STRT=257,4][EIKO] :
+Comment on fait[SPED=2]...[SPED=-1]
+Bah, avec la corne !
+On parle aux les Chimères avec notre corne ![ENDN][STRT=247,3][WDTH=0,186,18,-1][EIKO] :
+C’est bizarre... [DGGR], comment tu fais
+pour parler avec les Chimères sans corne ?[ENDN][STRT=12,1][OFFT=-64,64,0][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=208,4][EIKO] :
+”Etre né sous une mauvaise étoile”,
+tu trouves pas que cette expression
+me va bien ?[ENDN][STRT=33,1][OFFT=64,64,0]Hein ?[ENDN][STRT=235,3][EIKO] :
+Je suis restée ici pour croiser ton étoile,
+[ZDNE]. Pour que ta lumière m’[SPED=2]...[SPED=-1][ENDN][STRT=62,1][NFOC]Ah ! Aaah ![TIME=30][STRT=159,3][TAIL=UPLF][EIKO] :
+Quoi encore ?!
+C’était pourtant bien parti ![ENDN][STRT=100,3][VIVI] :
+Je...[SPED=2]...[SPED=-1]
+J’ai vu des poils ![ENDN][STRT=90,1][OFFT=64,64,0]Des puluches[SPED=2]...[SPED=-1][WAIT=20]?[ENDN][STRT=140,2][EIKO] :
+Il y en a plein à Condéa ![ENDN][STRT=12,1][NFOC][CENT=12][SPED=2]...[SPED=-1][TIME=45][STRT=144,3][OFFT=64,64,0][ZDNE] :
+On va manger le poisson !
+Il est bon le poisson ![ENDN][STRT=248,3][OFFT=-64,64,0][DGGR] :
+C’est une réplique de ”Prière à une étoile”,
+la pièce de Lord Hayvon, non[SPED=2]...[SPED=-1]?[ENDN][STRT=128,3][EIKO] :
+Comment t’as deviné ?!
+Ah ! Zuteuh ![ENDN][STRT=99,1][TAIL=UPLF]C’était très bon ![ENDN][STRT=126,4][TAIL=UPRF][OFFT=64,64,0][WDTH=0,126,22,-1][ZDNE] :
+(Comment [EIKO] connaît ça,
+alors qu’elle vit aussi
+loin de tout[SPED=2]...[SPED=-1]?)[ENDN][STRT=99,1]C’était très bon ![ENDN][STRT=94,1]J’ai bien mangé ![ENDN][STRT=71,1][TAIL=UPLF]C’était bon ![ENDN][STRT=159,3][TAIL=UPRF][EIKO] :
+Alors, tu voudras en manger
+tous les jours ?[ENDN][STRT=213,3][TAIL=UPLF][ZDNE] :
+Oublie ça [EIKO] !
+J’ai pas mal de questions à te poser ![ENDN][STRT=66,1][TAIL=UPRF]Oublie ça ?![ENDN][STRT=97,3][TAIL=UPRF][EIKO] :
+C’est pas poli
+du tout, du tout ![ENDN][STRT=147,3][TAIL=UPRF][WDTH=0,126,16,-1][EIKO] :
+[ZDNE] ! Débarrasse la table
+et apporte les assiettes ![ENDN][STRT=192,2][WDTH=0,192,22,-1][VIVI] :
+[EIKO] a beaucoup d’énergie, pas vrai ?[ENDN][STRT=253,3][DGGR] :
+Il y a de très vieux livres, ici. Regarde,
+on ne peut même plus lire le titre de celui-ci.[ENDN][STRT=217,3][DGGR] :
+Je crois que c’est
+”Prière à une étoile” de Lord Hayvon.[ENDN][STRT=257,4][DGGR] :
+C’est dans cette pièce qu’il y a la phrase
+que t’a dite [EIKO] tout à l’heure :
+”Je suis restée ici pour croiser ton étoile[SPED=2]...[SPED=-1]”[ENDN][STRT=149,4][DGGR] :
+Regarde ça !
+C’est la première édition !
+Il y a la même au château ![ENDN][STRT=179,3][DGGR] :
+Ce livre a plus de 500 ans !
+Comment a-t-il pu arriver ici[SPED=2]...[SPED=-1]![ENDN][STRT=88,3][DGGR] :
+Il n’y a rien sur
+les Invokations.[ENDN][STRT=250,5][PCHC=2,1][IMME]Momnol :
+Vous devriez vous reposer avant de partir.
+Ca fait du bien de dormir, coubo.
+[CHOO][MOVE=18,0]On se repose.
+[MOVE=18,0]C’est pas la peine.[ENDN][STRT=188,3][WDTH=0,188,16,-1][DGGR] :
+C’est fort aimable de votre part.
+[ZDNE], reposons-nous avant de partir.[ENDN][STRT=179,5][PCHC=2,1][IMME]Momnol :
+Vous ne dormez pas ?
+On se sent mieux quand on dort.
+[CHOO][MOVE=18,0]Je vais me coucher.
+[MOVE=18,0]J’ai pas sommeil.[ENDN][STRT=214,3][WDTH=0,8,6,0,-1][TEXT=0,0] :
+Elle arrête pas de me dire d’attraper
+du poisson, j’en ai marre[SPED=2]...[SPED=-1]![ENDN][STRT=62,2][WDTH=0,8,21,-1,0,62,16,-1][QUIN] :
+Euréka ! [ZDNE] ![ENDN][STRT=231,3][QUIN] :
+La mer est la même mer, mais les poissons
+sont pas les mêmes que chez nous, miam ![ENDN][STRT=186,2][QUIN] :
+Attrape-en un autre, vite, miam ![ENDN][STRT=153,3][WDTH=0,153,18,-1,0,96,16,-1][EIKO] :
+Il y a pas que [DGGR] qu’est bête.
+[ZDNE] aussi est bête[SPED=2]...[SPED=-1][ENDN][STRT=133,3][EIKO] :
+Ils s’aiment pas encore,
+ou je m’y connais pas[SPED=2]...[SPED=-1][ENDN][STRT=144,2][EIKO] :
+Mais c’est bien pour moi ![ENDN][STRT=182,2][ZDNE] :
+Y’a quelque chose qui va pas[SPED=2]...[SPED=-1]?[ENDN][STRT=78,2][WDTH=0,8,22,-1][EIKO] :
+La vaisselle[SPED=2]...[SPED=-1][ENDN][STRT=126,3][EIKO] :
+Merci, [ZDNE].
+Tu peux poser ça ici ?[ENDN][STRT=131,3][ZDNE] :
+Tu veux pas me dire ce
+que tu sais sur l’Ifa ?[ENDN][STRT=254,2][EIKO] :
+Pourquoi tu veux savoir des choses dessus ?[ENDN][STRT=84,2][ZDNE] :
+On doit y aller.[ENDN][STRT=250,3][EIKO] :
+Je crois qu’il est protégé par des Chimères,
+alors on peut pas y aller[SPED=2]...[SPED=-1][ENDN][STRT=235,3][ZDNE] :
+Protégé ?
+Et tu sais comment retirer la protection ?[ENDN][STRT=94,2][EIKO] :
+Pas tout à fait[SPED=2]...[SPED=-1][ENDN][STRT=165,2][EIKO] :
+[C8C8C8][HSHD](Il comprend vite, des fois[SPED=2]...[SPED=-1])[ENDN][STRT=231,4][EIKO] :
+C’est arrivé avant que je naisse, mais
+il paraît qu’on y a enfermé des Chimères
+qu’on avait pas réussi à invoquer[SPED=2]...[SPED=-1][ENDN][STRT=169,3][EIKO] :
+C’est la coutume d’y enfermer
+les Chimères avortées.[ENDN][STRT=140,2][ZDNE] :
+Les Chimères avortées[SPED=2]...[SPED=-1][ENDN][STRT=185,3][EIKO] :
+Pour les enfermer, il faut utiliser
+le pouvoir d’une autre Chimère.[ENDN][STRT=167,4][EIKO] :
+Il paraît que les Chimères
+qui sont enfermées sont
+très grandes et très fortes ![ENDN][STRT=206,2][ZDNE] :
+Avec le pouvoir d’autres Chimères[SPED=2]...[SPED=-1][ENDN][STRT=136,3][WDTH=0,96,22,-1][ZDNE] :
+[EIKO], tu voudrais pas
+retirer la protection[SPED=2]...[SPED=-1]?[ENDN][STRT=160,3][EIKO] :
+Je...
+Je peux pas, c’est interdit ![ENDN][STRT=205,4][ZDNE] :
+Je te demande pas de faire
+quelque chose de mal[SPED=2]...[SPED=-1]
+Bah, on trouvera bien une solution[SPED=2]...[SPED=-1][ENDN][STRT=78,3][WDTH=0,8,22,-1][EIKO] :
+Mais... Mais...
+Y'en a pas ![ENDN][STRT=38,2][WDTH=0,8,16,-1][ZDNE] :
+Non[SPED=2]...[SPED=-1]?[ENDN][STRT=37,2][WDTH=0,8,22,-1][EIKO] :
+Non[SPED=2]...[SPED=-1]![ENDN][STRT=67,2][WDTH=0,8,22,-1][EIKO] :
+C’est nous ![ENDN][STRT=134,2][EIKO] :
+C’EEEEST NOUUUUUUS !![ENDN][STRT=43,1]Coubo ![ENDN][STRT=43,1]Coubo ![ENDN][STRT=140,3][OFFT=32,0,0][EIKO] :
+Moko m’a tout dit,
+qu’est-ce qui se passe ?[ENDN][STRT=112,2][TAIL=UPL][OFFT=-64,0,0]Moriçone :
+Venez voir, coubo ![ENDN][STRT=43,1][NFOC]Coubo ![TIME=-1][STRT=31,2][TAIL=UPL][WDTH=0,8,16,-1,0,31,22,-1][ZDNE] :
+Hé, [EIKO] ![ENDN][STRT=96,2][TAIL=UPL][ZDNE] :
+On va avec elle ![ENDN][STRT=197,3]Moriçone :
+C’est ennuyeux[SPED=2]...[SPED=-1]
+Quelqu’un a dérobé notre trésor[SPED=2]...[SPED=-1][ENDN][STRT=167,3]Mocha :
+J’ai vu quelqu’un avec
+une espèce de grande hache.[ENDN][STRT=160,3]Chimomo :
+J’avais juste fini de pêcher.
+Je dormais[SPED=2]...[SPED=-1][ENDN][STRT=123,3]Moko :
+Bon sang !
+Je m’en veux, coubo ![ENDN][STRT=66,3]Momnol :
+Je dormais,
+j’ai rien vu.[ENDN][STRT=53,2][TAIL=UPRF][OFFT=0,-240,0]Moug :
+Couboo[SPED=2]...[SPED=-1][ENDN][STRT=129,1][WDTH=0,129,22,-1][EIKO], qu’est-ce que t’as ?![ENDN][STRT=101,2][TAIL=UPLF][EIKO] :
+Notre tré... sor[SPED=2]...[SPED=-1][ENDN][STRT=127,3][TAIL=UPLF][EIKO] :
+La pierre[SPED=2]...[SPED=-1] précieuse
+du village a[SPED=2]...[SPED=-1][WAIT=10] disparu.[ENDN][STRT=79,2][TAIL=LOLF][WDTH=0,8,22,-1][EIKO] :
+Grand-père[SPED=2]...[SPED=-1][ENDN][STRT=264,3][TAIL=LOLF][EIKO] :
+...l’aimait beaucoup, il disait : ”C’est la preuve
+de notre existence sur cette planète”[SPED=2]...[SPED=-1][ENDN][STRT=139,3][TAIL=UPLF][OFFT=-64,0,0][ZDNE] :
+Tu sais, tu peux pleurer,
+si tu veux[SPED=2]...[SPED=-1][ENDN][STRT=158,4][TAIL=UPLF][EIKO] :
+Je vais pas pleurer !
+Je suis plus une gamine moi !
+Ca sert à rien de pleurer ![ENDN][STRT=193,3][TAIL=UPLF][ZDNE] :
+D’accord, d’accord[SPED=2]...[SPED=-1]
+Allez, on va chercher des indices.[ENDN][STRT=113,2][DGGR] :
+Je vais vous aider ![ENDN][STRT=41,1]C’est[SPED=2]...[SPED=-1][ENDN][STRT=60,1]ma faute[SPED=2]...[SPED=-1][ENDN][STRT=33,1][MPOS=64,80][C8C8C8][HSHD]Snif[SPED=2]...[SPED=-1][ENDN][STRT=33,1][MPOS=224,128][C8C8C8][HSHD]Snif[SPED=2]...[SPED=-1][ENDN][STRT=191,3][EIKO] :
+J’ai pas tenu ma promesse,
+j’ai retiré la protection de l’Ifa[SPED=2]...[SPED=-1][ENDN][STRT=120,3][EIKO] :
+C’était[SPED=2]...[SPED=-1] si important
+pour tout le monde[SPED=2]...[SPED=-1][ENDN][STRT=10,1][WDTH=0,10,22,-1][EIKO] ?[ENDN][STRT=130,3][TAIL=UPLF][ZDNE] :
+C’est pas de ta faute !
+T’y es pour rien ![ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=198,3][TAIL=UPLF][OFFT=0,96,0][ZDNE] :
+Et puis c’est à cause de nous que
+t’as retiré la protection de l’Ifa.[SPED=2]...[SPED=-1][ENDN][STRT=156,3][TAIL=UPLF][OFFT=0,96,0][ZDNE] :
+Mais le vrai méchant,
+c’est le voleur, c’est tout ![ENDN][STRT=178,2][TAIL=UPLF][OFFT=0,96,0][ZDNE] :
+Allez, viens on va le chercher ![ENDN][STRT=69,1]D’accord[SPED=2]...[SPED=-1]![ENDN][STRT=139,3][TAIL=UPLF][EIKO] :
+Et... Je pleurais pas !
+Je suis une grande, moi ![ENDN][STRT=214,3][TAIL=LOLF][OFFT=-30,100,0][ZDNE] :
+Il y a pas que les gosses qui pleurent.
+Quand on est grand, on pleure aussi.[ENDN][STRT=122,2][TAIL=UPLF][EIKO] :
+C’est fini maintenant ![ENDN][STRT=154,3][TAIL=UPLF][EIKO] :
+Je vais prier Grand-père
+et les autres ! Je reviens ![ENDN][STRT=109,3][TAIL=LOLF][OFFT=-30,100,0][WDTH=0,101,18,-1][ZDNE] :
+[DGGR], toi aussi tu peux
+pleurer, si tu veux.[ENDN][STRT=118,3][TAIL=LOLF][OFFT=-30,100,0][ZDNE] :
+Je serai toujours
+là pour te consoler ![ENDN][STRT=43,2][TAIL=UPLF][WDTH=0,8,18,-1][DGGR] :
+Merci[SPED=2]...[SPED=-1][ENDN][STRT=53,2][TAIL=UPLF][WDTH=0,8,18,-1,0,53,16,-1][DGGR] :
+Et toi [ZDNE][SPED=2]...[SPED=-1]?[ENDN][STRT=33,1]Hein ?[ENDN][STRT=138,3][TAIL=UPLF][DGGR] :
+Qu’est-ce que tu ferais,
+si ça t’arrivait ?[ENDN][STRT=145,3][TAIL=UPRF][ZDNE] :
+Bah ! Je viendrais te voir
+pour me faire consoler ![ENDN][STRT=65,1][TAIL=UPLF]Ca suffit[SPED=2]...[SPED=-1]![ENDN][STRT=141,2][TAIL=UPRF][ZDNE] :
+Ah ? T’es pas d’accord ?[ENDN][STRT=31,1]Grr[SPED=2]...[SPED=-1][ENDN][STRT=39,1]Héhé[SPED=2]...[SPED=-1][ENDN][STRT=10,1][NFOC][CENT=10]!![TIME=-1][STRT=10,1][CENT=10]!![ENDN][STRT=146,3][TAIL=LOLF][OFFT=0,100,0][WDTH=0,146,22,-1][DGGR] :
+Tu as entendu ?
+On aurait dit la voix de [EIKO][SPED=2]...[SPED=-1][ENDN][STRT=151,3][TAIL=LOLF][OFFT=-40,100,0][ZDNE] :
+C’est ça !
+Le voleur était encore là ![ENDN][STRT=174,4][TAIL=UPLF][WDTH=0,174,22,-1][VIVI] :
+[ZDNE] ! Je l’ai vue !
+On l’a vue sur la Route
+des Fossiles ! Elle a attrapé [EIKO] ![ENDN][STRT=163,2][TAIL=UPLF][VIVI] :
+Le... le mur des invokations ![ENDN][STRT=51,1]On y va ![ENDN][STRT=143,3][WDTH=0,126,22,-1]Moriçone :
+C’est très dur pour [EIKO][SPED=2]...[SPED=-1]
+Je suis vraiment désolé[SPED=2]...[SPED=-1][ENDN][STRT=165,3]Moriçone :
+Si nous pouvons vous aider,
+n’hésitez pas à nous le dire ![ENDN][STRT=45,8][PCHM=6,5][WDTH=0,8,16,-1,1,165,-1,2,143,-1,3,98,-1,4,117,-1,5,158,-1,6,84,-1][IMME][ZDNE] :
+Eh bin[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Comment ça se présente ?
+[MOVE=18,0]On va la sortir de là !
+[MOVE=18,0]Où est Moug ?
+[MOVE=18,0]Régénère-nous !
+[MOVE=18,0]Montre-nous le coffre !
+[MOVE=18,0]Deux minutes ![ENDN][STRT=114,8][PCHM=6,5][WDTH=1,165,-1,2,143,-1,5,158,-1][IMME][ZDNE] :
+Si on y arrive pas[SPED=2]...[SPED=-1]
+[CHOO][MOVE=18,0]Comment ça se présente ?
+[MOVE=18,0]On va la sortir de là !
+[MOVE=18,0]Où est Moug ?
+[MOVE=18,0]Régénère-nous !
+[MOVE=18,0]Montre-nous le coffre !
+[MOVE=18,0]Deux minutes ![ENDN][STRT=114,2]Moko :
+C’est notre trésor ![ENDN][STRT=143,2][WDTH=0,143,22,-1]Chimomo :
+Utilisez-le pour [EIKO], coubo ![ENDN][STRT=116,2][TAIL=UPL][ZDNE] :
+Moug est avec elle ?[ENDN][STRT=142,2]Moriçone :
+Non, il est derrière moi[SPED=2]...[SPED=-1][ENDN][STRT=46,1]Coubo[SPED=2]...[SPED=-1][ENDN][STRT=122,3][TAIL=UPL][WDTH=0,118,22,-1][ZDNE] :
+Moug, il va falloir que
+tu m’aides à sauver [EIKO].[ENDN][STRT=70,2]Moug :
+Cou Coubo[SPED=2]...[SPED=-1][ENDN][STRT=91,3][TAIL=UPL][ZDNE] :
+T’inquiète pas,
+tu risques rien ![ENDN][STRT=62,2]Moug :
+Cou[SPED=2]...[SPED=-1] po[SPED=2]...[SPED=-1][ENDN][STRT=88,3]Moriçone :
+Il ne peut pas[SPED=2]...[SPED=-1]
+Il tremble trop.[ENDN][STRT=229,3][TAIL=UPL][ZDNE] :
+Ah[SPED=2]...[SPED=-1]
+Tant pis, on va se débrouiller tout seul ![ENDN][STRT=145,3][TAIL=UPL][ZDNE] :
+Il y a peut-être quelque
+chose d’utile là-dedans[SPED=2]...[SPED=-1][ENDN][STRT=101,3][TAIL=UPL][ZDNE] :
+Je peux regarder
+ce coffre ?[ENDN][STRT=114,3][TAIL=UPL][ZDNE] :
+Je peux en
+regarder un autre ?[ENDN][STRT=54,2][WDTH=0,54,22,-1][IMME]Chimomo :
+Sauvez [EIKO] ![ENDN][STRT=184,3]Moko :
+Encoubo un humain sans corne[SPED=2]...[SPED=-1]
+C’est un de vos amis, c’est ça ?![ENDN][STRT=132,3]Moko :
+Gare à vous, si vous ne
+la sauvez pas, coubo ![ENDN][STRT=76,4]Momnol :
+Coubo faire ?
+Coubo faire ?
+Coubo faire ?[ENDN][STRT=86,1][TAIL=UPL]Allez, on y va ![ENDN][STRT=141,3][TAIL=UPLF][EIKO] :
+C’est pas bien de traiter
+les femmes comme ça ![ENDN][STRT=206,3][TAIL=LORF]Lamie :
+C’est quoi ces petites ailes ?
+C’est utile pour te faire léviter ?[ENDN][STRT=214,3][TAIL=UPLF][EIKO] :
+C’est un cadeau de Grand-père !
+Les touche pas avec tes mains sales ![ENDN][STRT=107,4][TAIL=LORF]Lamie :
+Quelle pipelette !
+Calme-toi ! Ils vont
+bientôt arriver ![ENDN][STRT=127,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+Oh ! Mais voilà
+ton chevalier servant.[ENDN][STRT=83,3][ZDNE] :
+Qu’est-ce que
+tu lui as fait ?![ENDN][STRT=143,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+Elle parlait trop,
+je lui ai donné un sédatif.[ENDN][STRT=191,3][ZDNE] :
+Un sédatif[SPED=2]...[SPED=-1]?
+C’est pour ça qu’elle dort si bien.[ENDN][STRT=131,4][DGGR] :
+Si c’est mon pendentif
+qui vous intéresse,
+prenez-vous en à moi ![ENDN][STRT=163,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+Ah mais, je veux bien
+améliorer mes performances.[ENDN][STRT=159,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+Vous me donnez le pendentif
+et je vous rends la gamine.[ENDN][STRT=180,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+Où il est[SPED=2]...[SPED=-1]?
+Tu l’as toujours autour du cou ![ENDN][STRT=102,2][ZDNE] :
+Elle me l’a confié ![ENDN][STRT=131,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+Très bien, chevalier !
+Viens ici tout de suite ![ENDN][STRT=183,3][ZDNE] :
+Juste une chose, c’est toi qui
+as volé le trésor de ce village ?[ENDN][STRT=117,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+La reine Branet veut
+le pendentif royal[SPED=2]...[SPED=-1][ENDN][STRT=108,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+...et nous trouvons
+la même pierre ici ![ENDN][STRT=152,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+C’était une bonne occasion
+de doubler la mise ![ENDN][STRT=79,2][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+Le pendentif ![ENDN][STRT=106,3][WDTH=0,85,22,-1][ZDNE] :
+([EIKO] est endormie,
+ça va pas m’aider)[ENDN][STRT=185,2][IMME][ZDNE] :
+(Il faut que je la déconcentre[SPED=2]...[SPED=-1])[ENDN][STRT=38,1]Raté[SPED=2]...[SPED=-1][ENDN][STRT=52,1][TAIL=UPLF][OFFT=-640,0,0]Attends ![ENDN][STRT=140,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+T’as peut-être un plan[SPED=2]...[SPED=-1]
+Reste où t’es ![ENDN][STRT=131,2][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+Eh, toi ! Le Mage Noir ![ENDN][STRT=59,2][WDTH=0,8,17,-1][VIVI] :
+Qui ? Moi ?[ENDN][STRT=110,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+Prends le pendentif
+et apporte-le moi ![ENDN][STRT=113,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+Faites ce que je dis
+ou je la tue ![ENDN][STRT=12,2][WDTH=0,8,17,-1,0,12,16,-1][VIVI] :
+[ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=114,2][WDTH=0,114,17,-1][ZDNE] :
+Je compte sur toi [VIVI][SPED=2]...[SPED=-1][ENDN][STRT=32,2][WDTH=0,8,17,-1][VIVI] :
+Hum[SPED=2]...[SPED=-1][ENDN][STRT=82,3][TAIL=UPLF][OFFT=-640,0,0]Lamie :
+HAHAHAHAHA[SPED=2]...[SPED=-1]
+Je suis riche ![ENDN][STRT=52,1][TAIL=UPC]Attends ![ENDN][STRT=22,1][NFOC]Ah ![TIME=30][STRT=30,1][NFOC]Wah ![TIME=30][STRT=29,1][NFOC]Aah ![TIME=30][STRT=118,3][ZDNE] :
+Je te connais pas,
+mais je te remercie ![ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=63,1]Ouaaaaah ![ENDN][STRT=104,2]Salut !
+Tu peux te lever ?[ENDN][STRT=180,3][EIKO] :
+[ZDNE] ?
+Tu regardes les dames dormir[SPED=2]...[SPED=-1][ENDN][STRT=10,1][CENT=10]!![ENDN][STRT=131,2][EIKO] :
+C’est qui cette vieille ?[ENDN][STRT=91,3]Lamie :
+Sale gamine !
+Qui est vieille ?![ENDN][STRT=85,2][EIKO] :
+Bah, c’est toi ![ENDN][STRT=169,3][ZDNE] :
+On dirait qu’il y a un imprévu !
+Rends-nous la pierre ![ENDN][STRT=74,3]Lamie :
+Que signifie,
+Le Rouge[SPED=2]...[SPED=-1]?![ENDN][STRT=151,3]Lamie :
+A quoi joue le plus
+célèbre des mercenaires ?[ENDN][STRT=119,2][DGGR] :
+Je vous reconnais[SPED=2]...[SPED=-1]![ENDN][STRT=213,3][DGGR] :
+J’ai vu un avis de recherche à Tréno,
+la récompense était très élevée[SPED=2]...[SPED=-1][ENDN][STRT=188,3]Le Rouge :
+Je ne suis pas venu vous aider[SPED=2]...[SPED=-1]
+Je ne voulais pas salir le combat.[ENDN][STRT=79,1]Comment ça ?![ENDN][STRT=164,2]Le Rouge :
+Laisse la perle et disparais ![ENDN][STRT=146,3]Lamie :
+Comment ?!
+Ce contrat est à nous deux[SPED=2]...[SPED=-1][ENDN][STRT=225,3][TAIL=UPLF]Le Rouge :
+Je n’ai pas pour habitude de m’associer
+avec des lâches, c’est tout[SPED=2]...[SPED=-1][ENDN][STRT=217,2]Le Rouge :
+Mais, peut-être[SPED=2]...[SPED=-1] Veux-tu te battre ?[ENDN][STRT=101,3]Lamie :
+Tu me le paieras !
+Ne l’oublie pas ![ENDN][STRT=87,1]Bien, bats-toi ![ENDN][STRT=119,3][ZDNE] :
+Attends ?! Qu’est-ce
+que ça veut dire ?[ENDN][STRT=246,3][TAIL=UPLF]Le Rouge :
+Je l’ai dit[SPED=2]...[SPED=-1] Je ne suis pas venu vous aider.
+Je veux juste un combat loyal.[ENDN][STRT=135,3][TAIL=UPLF]Le Rouge :
+Si tu veux cette pierre,
+il faudra te battre[SPED=2]...[SPED=-1]![ENDN][STRT=117,2][ZDNE] :
+D’accord, j’arrive...[ENDN][STRT=9,1][TAIL=LORF][OFFT=10,50,0][WDTH=0,9,16,-1][ZDNE] ![ENDN][STRT=88,1]T’inquiète pas ![ENDN][STRT=150,3][ZDNE] :
+Je crois qu’il a juste
+besoin d’une bonne leçon ![ENDN][STRT=81,1]J’ai[SPED=2]...[SPED=-1] perdu[SPED=2]...[SPED=-1][ENDN][STRT=145,2]Le Rouge :
+Pourquoi[SPED=2]...[SPED=-1]? Achève-moi ![ENDN][STRT=112,1][TAIL=UPL]Tu peux te lever[SPED=2]...[SPED=-1]?[ENDN][STRT=115,2][TAIL=UPL][ZDNE] :
+Donne-moi la pierre.[ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=56,2][TAIL=UPL][WDTH=0,8,16,-1,0,56,22,-1][ZDNE] :
+[EIKO] ! Je l’ai ![ENDN][STRT=122,2]Le Rouge :
+Ca suffit[SPED=2]...[SPED=-1]! Tue-moi ![ENDN][STRT=161,4][TAIL=UPL][ZDNE] :
+T'es suicidaire, ou quoi ?
+Je t’épargne et c’est comme
+ça que tu me remercies ?[ENDN][STRT=121,2]Le Rouge :
+Tu me laisses partir ?[ENDN][STRT=147,2][TAIL=UPL][ZDNE] :
+Et reviens jamais par ici ![ENDN][STRT=145,2]Le Rouge :
+Qu’est-ce que tu veux[SPED=2]...[SPED=-1]?[ENDN][STRT=95,1][TAIL=UPL]Ce que je veux ?[ENDN][STRT=181,3]Le Rouge :
+Pourquoi me laisserais-tu partir
+alors que j’ai voulu te tuer ?[ENDN][STRT=117,3][TAIL=UPL][ZDNE] :
+Personne n’est mort,
+c’est le principal.[ENDN][STRT=113,3][TAIL=UPL][ZDNE] :
+Et puis, t’as rendu
+ce que t’avais volé.[ENDN][STRT=160,3]Le Rouge :
+Tu as peur de tuer ?
+J’ai perdu contre un faible ![ENDN][STRT=125,2][TAIL=UPL][ZDNE] :
+Je tue pas inutilement.[ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=44,2][WDTH=0,8,22,-1,0,44,16,-1][EIKO] :
+Merci [ZDNE] ![ENDN][STRT=98,2][ZDNE] :
+On va la ranger ?[ENDN][STRT=86,3][WDTH=0,44,16,-1][EIKO] :
+Hum ! J’y vais !
+Merci [ZDNE] ![ENDN][STRT=128,4][EIKO] :
+Au fait !
+Vous allez me laisser
+toute seule après ça ?[ENDN][STRT=33,1]Hein ?[ENDN][STRT=53,1]J’y vais ![ENDN][STRT=12,1][TAIL=UPR][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=52,1]On y va ?[ENDN][STRT=133,3]Chimomo :
+On dirait que Moug veut
+se faire pardonner[SPED=2]...[SPED=-1][ENDN][STRT=110,3]Chimomo :
+Ca n’a pas l’air
+de marcher, coubo.[ENDN][STRT=177,3][WDTH=0,177,22,-1,0,134,22,-1]Chimomo :
+[EIKO] et Moug sont nés le même jour,
+mais [EIKO] a grandi plus vite.[ENDN][STRT=173,3]Chimomo :
+Alors, elle est
+un peu comme la grande soeur.[ENDN][STRT=117,2][WDTH=0,117,21,-1]Chimomo :
+[QUIN] n’a fait que pêcher.[ENDN][STRT=148,4]Chimomo :
+Elle arrêtait pas de dire :
+”Ils sont partis, miam !”
+”Ils m’ont laissé, miam !”[SPED=2]...[SPED=-1][ENDN][STRT=205,3]Chimomo :
+Et puis elle a dit :
+”Je rentre, miam !” et elle a plongé.[ENDN][STRT=116,3][OFFT=0,-64,0][TAIL=UPLF][VIVI] :
+Elle a rien dit depuis
+tout à l’heure[SPED=2]...[SPED=-1][ENDN][STRT=188,2][WDTH=0,188,16,-1][EIKO] :
+[ZDNE], je peux te poser une question ?[ENDN][STRT=174,4][EIKO] :
+Grand-père m’a dit que
+je devais pas partir avant
+d’être une grande de 16 ans[SPED=2]...[SPED=-1][ENDN][STRT=197,2][EIKO] :
+Mais je veux venir avec vous, moi ![ENDN][STRT=161,4][PCHC=2,1][IMME][EIKO] :
+Tu veux bien que je vienne ?
+[CHOO][MOVE=18,0]Bien sûr !
+[MOVE=18,0]Sûrement pas ![ENDN][STRT=127,3][ZDNE] :
+Qu’est-ce que tu veux
+que je te dise ?[ENDN][STRT=210,3][ZDNE] :
+”Viens avec nous [EIKO] !”
+”T’occupe pas de ton Grand-père !”[ENDN][STRT=110,3][ZDNE] :
+Tu peux pas venir !
+Rappelle-toi ![ENDN][STRT=261,3][ZDNE] :
+”Tu dois attendre d’avoir 16 ans !”
+”Tu as fait une promesse à ton Grand-père !”[ENDN][STRT=216,3][ZDNE] :
+Je peux dire ce que je veux, de toute
+façon t’es déjà décidée, pas vrai ?[ENDN][STRT=143,3][WDTH=0,116,17,-1,0,143,22,-1][ZDNE] :
+Au fait, [VIVI], t’avais pas
+quelque chose à dire à [EIKO] ?[ENDN][STRT=38,1]Hein ?![ENDN][STRT=103,3][WDTH=0,102,22,-1][VIVI] :
+[EIKO], tu te rappelles ?
+A l’Ifa tu m’as dit :[ENDN][STRT=111,3][VIVI] :
+”Il ne faut pas se
+mentir à soi-même.”[ENDN][STRT=119,4][VIVI] :
+Je vais essayer
+de plus me mentir[SPED=2]...[SPED=-1]
+Alors, fais-le aussi[SPED=2]...[SPED=-1][ENDN][STRT=29,1][TAIL=UPL]Hum ![ENDN][STRT=132,3][TAIL=UPL][EIKO] :
+Je te l’ai dit, mais
+j’avais oublié[SPED=2]...[SPED=-1] Merci ![ENDN][STRT=127,3][TAIL=UPL][EIKO] :
+Si j’accroche la perle
+à mes oreilles, c'est joli ?[ENDN][STRT=10,1][OFFT=-10,80,0][WDTH=0,10,22,-1][EIKO] ?[ENDN][STRT=102,3][OFFT=-10,80,0][DGGR] :
+Je crois que Moug
+veut te parler.[ENDN][STRT=79,1]Cou... Coubo ![ENDN][STRT=60,1]Coubooo...[ENDN][STRT=159,2][TAIL=UPL][EIKO] :
+Non, je suis pas en colère...[ENDN][STRT=225,4][TAIL=UPL][EIKO] :
+Pourquoi je serais en colère, d’abord ?
+T’es encore parti toute seule devant !
+T’avais promis pourtant ![ENDN][STRT=211,3][TAIL=UPL][EIKO] :
+Et si tu es en danger et que je peux
+pas te voir, qu’est-ce que tu feras ?[ENDN][STRT=46,1]Coubo[SPED=2]...[SPED=-1][ENDN][STRT=117,3][TAIL=UPL][EIKO] :
+On a rien, toutes les deux,
+alors ça va ![ENDN][STRT=121,3][VIVI] :
+[EIKO][SPED=2]...[SPED=-1]
+T’es gentille avec lui.[ENDN][STRT=99,3][TAIL=UPL][EIKO] :
+Bah, c’est ma
+meilleure copine ![ENDN][STRT=162,3][TAIL=UPL][EIKO] :
+On est né le même jour et
+on a toujours été ensemble ![ENDN][STRT=256,3][TAIL=UPL][EIKO] :
+Ce ruban c’est pour dire qu’on sera toujours
+ensemble ! C’est Moug qui me l’a donné ![ENDN][STRT=160,3][TAIL=UPL][EIKO] :
+Moug, t’as toujours le ruban
+que je t’ai donné ?[ENDN][STRT=43,1]Coubo ![ENDN][STRT=89,3][TAIL=UPL][EIKO] :
+Et moi, je lui ai
+donné celui-là ![ENDN][STRT=151,4][TAIL=UPL][EIKO] :
+Il est encore un peu large,
+mais quand on aura grandi,
+on sera très jolies avec ![ENDN][STRT=43,1]Coubo ![ENDN][STRT=166,3][TAIL=UPL][EIKO] :
+Et moi, je pourrais peut-être
+danser avec [ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=10,1][TAIL=UPL][WDTH=0,10,16,-1][ZDNE] ?[ENDN][STRT=62,3][TAIL=UPRF][WDTH=0,8,16,-1][ZDNE] :
+Moug est[SPED=2]...[SPED=-1]
+une fille[SPED=2]...[SPED=-1][ENDN][STRT=157,3][VIVI] :
+Je[SPED=2]...[SPED=-1]
+Je dois vraiment rester là ?[ENDN][STRT=237,4][EIKO] :
+Je veux réfléchir encore un peu[WAIT=10]
+et retourner prier au mur des Invokations
+et après on fera à manger pour ce soir ![ENDN][STRT=101,2][WDTH=0,101,18,-1][ZDNE] :
+Où est passée [DGGR][SPED=2]...[SPED=-1]?[ENDN][STRT=132,2][ZDNE] :
+On dirait une chanson[SPED=2]...[SPED=-1][ENDN][STRT=18,2][WDTH=0,8,16,-1,0,18,18,-1][ZDNE] :
+[DGGR][SPED=2]...[SPED=-1]?[ENDN][STRT=110,2][ZDNE] :
+Ca vient d’en bas[SPED=2]...[SPED=-1][ENDN][STRT=62,2][WDTH=0,8,16,-1,0,62,18,-1][ZDNE] :
+[DGGR] ? T’es là ?[ENDN][STRT=12,1][WDTH=0,12,16,-1][ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=117,3][ZDNE] :
+T’occupe ! Chante !
+C’est notre chanson.[ENDN][STRT=143,2][ZDNE] :
+Comment t’es arrivée là ?[ENDN][STRT=231,4][ZDNE] :
+[DGGR], t’as tout d’une voleuse !
+Et si on faisait équipe ?!
+On s’appellerait ”Les Amants terribles” ![ENDN][STRT=170,3][DGGR] :
+Faire équipe[SPED=2]...[SPED=-1] Pourquoi pas ?
+Mais il faut un autre nom[SPED=2]...[SPED=-1]![ENDN][STRT=111,3][ZDNE] :
+On dirait que tu vas
+bien en ce moment.[ENDN][STRT=101,3][DGGR] :
+C’est grâce à toi,
+[ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=187,3][ZDNE] :
+J’ai rien fait[SPED=2]...[SPED=-1]!
+C’est parce que tu le veux bien ![ENDN][STRT=141,3][DGGR] :
+Hum[SPED=2]...[SPED=-1]
+C’est parce que tu es là.[ENDN][STRT=251,3][DGGR] :
+Sans toi, je ne serais pas allée à Lindblum
+et encore moins sur le Continent Extérieur[SPED=2]...[SPED=-1][ENDN][STRT=132,4][DGGR] :
+Je n’ai fait que tourner
+en rond[SPED=2]...[SPED=-1] sans pouvoir
+arrêter Mère[SPED=2]...[SPED=-1][ENDN][STRT=158,2][DGGR] :
+J’ai même été désespérée[SPED=2]...[SPED=-1][ENDN][STRT=152,3][DGGR] :
+Mais tu étais là[SPED=2]...[SPED=-1]
+Enfin, il n’y a pas que toi...[SIGL=1][ENDN][STRT=147,4][WDTH=0,119,17,22,-1,0,147,21,-1][ZDNE] :
+C’est vrai[SPED=2]...[SPED=-1]
+A l’Ifa, il y avait [VIVI] et [EIKO].
+[QUIN] nous a aidés à venir ici[SPED=2]...[SPED=-1][ENDN][STRT=247,3][WDTH=0,158,20,19,-1][ZDNE] :
+Et puis il y a [FRYA] et ce vieux [STNR][SPED=2]...[SPED=-1]
+et Béatrix qui aurait dû être notre ennemie[SPED=2]...[SPED=-1][ENDN][STRT=171,4][DGGR] :
+Je ne les oublie pas[SPED=2]...[SPED=-1]
+Je pense qu’ils vont tous bien,
+mais[SPED=2]...[SPED=-1] j’ai peur, des fois[SPED=2]...[SPED=-1][ENDN][STRT=120,1][IMME][CENT=120]Château d’Alexandrie[ENDN][STRT=62,1][IMME][CENT=62]En travaux[ENDN][STRT=98,4][DGGR] :
+Vous[SPED=2]...[SPED=-1] Vous êtes
+tous là quand j’ai
+besoin de vous[SPED=2]...[SPED=-1][ENDN][STRT=190,2][ZDNE] :
+Tu devrais pas y penser autant[SPED=2]...[SPED=-1][ENDN][STRT=46,1]Mais si ![ENDN][STRT=177,3][ZDNE] :
+Je pense pas qu’ils veulent
+que tu te sentes responsable[SPED=2]...[SPED=-1][ENDN][STRT=134,3][ZDNE] :
+Ils font pas ça pour toi,
+c’est aussi leur choix ![ENDN][STRT=71,2][WDTH=0,8,18,-1][DGGR] :
+Leur choix[SPED=2]...[SPED=-1][ENDN][STRT=57,2][WDTH=0,8,18,-1,0,57,16,-1][DGGR] :
+Et toi[SPED=2]...[SPED=-1] [ZDNE] ?[ENDN][STRT=33,1]Hein ?[ENDN][STRT=108,3][DGGR] :
+Pourquoi restes-tu
+avec moi ?[ENDN][STRT=132,3][ZDNE] :
+Ca[SPED=2]...[SPED=-1] C’est une réplique
+d’Ypsen ![ENDN][STRT=51,2][WDTH=0,8,18,-1][DGGR] :
+Ypsen[SPED=2]...[SPED=-1]?[ENDN][STRT=174,4][ZDNE] :
+C’était un aventurier.
+On a transformé ses aventures
+en pièce de théâtre[SPED=2]...[SPED=-1][ENDN][STRT=167,2][ZDNE] :
+Il y a une histoire comme ça[SPED=2]...[SPED=-1][ENDN][STRT=198,2][IMME][CENT=198]Ypsen travaille dans une résidence
+[CENT=165]de Tréno avec son ami, Colin.[TIME=-1][STRT=243,2][IMME][CENT=243]Un jour, on apporte une lettre pour Ypsen,
+[CENT=232]mais la pluie l’a rendue quasiment illisible.[CENT=2553][ENDN][STRT=234,4][IMME][CENT=234]Tout ce qu’on pouvait lire c’est : ”rentre !”
+[CENT=0]
+[CENT=215]A l’époque, il n’y avait pas d’aéronef,
+[CENT=205]c’était plus difficile de se déplacer.[TIME=-1][STRT=200,3][IMME][CENT=152]Sans trop savoir pourquoi,
+[CENT=200]Ypsen prend un congé, se prépare,
+[CENT=61]et s’en va.[TIME=-1][STRT=262,3][IMME][CENT=240]Il traverse des rivières et des montagnes.
+[CENT=262]Il traverse la Brume, affronte des monstres et
+[CENT=174]Colin est toujours à ses côtés.[TIME=-1][STRT=146,1][IMME]Le temps passe et un jour[TIME=-1][STRT=197,1][IMME]Ypsen demande subitement à Colin :[TIME=-1][STRT=138,1][IMME]”Pourquoi es-tu venu ?”[TIME=-1][STRT=128,2][DGGR] :
+Et que répond Colin[SPED=2]...[SPED=-1]?[ENDN][STRT=185,2][ZDNE] :
+”Parce que tu me l’as demandé.”[ENDN][STRT=12,2][WDTH=0,8,18,-1,0,12,16,-1][DGGR] :
+[ZDNE][SPED=2]...[SPED=-1][ENDN][STRT=12,2][WDTH=0,8,16,-1,0,12,18,-1][ZDNE] :
+[DGGR][SPED=2]...[SPED=-1][ENDN][STRT=25,2][WDTH=0,8,18,-1][DGGR] :
+Je[SPED=2]...[SPED=-1][ENDN][STRT=12,1][CENT=12][SPED=2]...[SPED=-1][ENDN][STRT=18,2][WDTH=0,8,16,-1,0,18,18,-1][ZDNE] :
+[DGGR][SPED=2]...[SPED=-1]?[ENDN][STRT=125,3][DGGR] :
+Tu n’entends pas[SPED=2]...[SPED=-1]
+comme une chanson[SPED=2]...[SPED=-1]?[ENDN][STRT=38,1]Hein ?![ENDN][STRT=95,3][ZDNE] :
+On dirait[SPED=2]...[SPED=-1]
+notre chanson ?![ENDN][STRT=82,3][DGGR] :
+Comment[SPED=2]...[SPED=-1]?
+Qui chante[SPED=2]...[SPED=-1]?![ENDN][STRT=10,1][CENT=10]!![ENDN][STRT=170,3][DGGR] :
+Regarde[SPED=2]...[SPED=-1] On dirait que
+le mur des Invokations brûle[SPED=2]...[SPED=-1][ENDN][STRT=78,3][WDTH=0,8,18,-1][DGGR] :
+J’ai déjà vu
+ce paysage[SPED=2]...[SPED=-1][ENDN][STRT=65,2][WDTH=0,8,16,-1][ZDNE] :
+C’est pas[SPED=2]...[SPED=-1][ENDN][STRT=9,2][WDTH=0,8,16,-1,0,9,18,-1][ZDNE] :
+[DGGR] ![ENDN][STRT=80,3][WDTH=0,15,18,-1][ZDNE] :
+[DGGR] ?!
+Réveille-toi !![ENDN][STRT=121,2][WDTH=0,121,22,-1]Momnol :
+Merci d’avoir sauvé [EIKO].[ENDN][STRT=57,2][WDTH=0,8,16,-1,0,57,17,-1][ZDNE] :
+Où est [VIVI][SPED=2]...[SPED=-1]?[ENDN][STRT=108,3][EIKO] :
+Il dormait, alors
+je l’ai pas réveillé.[ENDN][STRT=119,2][ZDNE] :
+Tu veux en parler[SPED=2]...[SPED=-1]?[ENDN][STRT=124,3][TAIL=UPLF][OFFT=-96,64,0][DGGR] :
+Je ne me souvenais pas
+de mon enfance.[ENDN][STRT=167,3][TAIL=UPLF][OFFT=-96,64,0][DGGR] :
+Je pensais l’avoir oubliée,
+alors je ne m’en souciais pas.[ENDN][STRT=133,3][TAIL=UPLF][OFFT=-96,64,0][DGGR] :
+Autour de moi,
+personne n’en parlait[SPED=2]...[SPED=-1][ENDN][STRT=159,4][TAIL=UPLF][OFFT=-96,64,0][DGGR] :
+J’ai vraiment grandi
+à Alexandrie, mais[SPED=2]...[SPED=-1]
+[WAIT=10]seulement à partir de 6 ans.[ENDN][STRT=107,3][ZDNE] :
+A partir de 6 ans ?
+Et avant, alors[SPED=2]...[SPED=-1]?[ENDN][STRT=102,3][TAIL=UPLF][OFFT=-96,64,0][DGGR] :
+Avant[SPED=2]...[SPED=-1]
+Avant mes 6 ans[SPED=2]...[SPED=-1][ENDN][STRT=166,2][TAIL=UPLF][OFFT=-96,64,0][DGGR] :
+J’étais ici, à Madahine-salee.[ENDN][STRT=224,3][DGGR] :
+Mais je ne me souviens de rien[SPED=2]...[SPED=-1]
+C’est comme si tout était dans la Brume.[ENDN][STRT=67,1]Seulement[SPED=2]...[SPED=-1][ENDN][STRT=216,4][DGGR] :
+Je me souviens du jour où une terrible
+tornade a ravagé le village. C’était
+il y a environ 10 ans.[ENDN][STRT=149,4][DGGR] :
+Je pense que ce jour-là[SPED=2]...[SPED=-1]
+ma mère et moi sommes
+parties sur une barque[SPED=2]...[SPED=-1][ENDN][STRT=184,5][WDTH=0,129,22,-1][DGGR] :
+Tu as vu la petite crique
+derrière la maison de [EIKO].
+[WAIT=10]Je pense que notre barque était
+comme celle qu’il y a là-bas.[ENDN][STRT=204,4][DGGR] :
+Tout à l’heure, sur la barque, quand
+j’ai entendu la chanson du village,
+mes souvenirs sont revenus[SPED=2]...[SPED=-1][ENDN][STRT=229,3][TAIL=UPL][ZDNE] :
+C’est une chanson d’ici[SPED=2]...[SPED=-1]
+[WAIT=10]C’est pour ça que personne la connaît ![ENDN][STRT=143,3][TAIL=UPL][EIKO] :
+[DGGR], pourquoi
+t’habites à Alexandrie[SPED=2]...[SPED=-1]?[ENDN][STRT=175,2][TAIL=UPL][EIKO] :
+Pourquoi t’es une princesse[SPED=2]...[SPED=-1]?[ENDN][STRT=172,2][TAIL=UPL][EIKO] :
+Pourquoi t’as pas de corne[SPED=2]...[SPED=-1]?[ENDN][STRT=75,2][TAIL=UPR][WDTH=0,8,18,-1][DGGR] :
+Je ne sais pas[SPED=2]...[SPED=-1][ENDN][STRT=105,3][TAIL=UPR][DGGR] :
+Mais Maître Totto
+le sait peut-être ![ENDN][STRT=168,3][TAIL=UPR][DGGR] :
+Il pourra peut-être me parler
+de ma vraie mère[SPED=2]...[SPED=-1][ENDN][STRT=156,4][TAIL=UPR][DGGR] :
+Celle qui est morte sur
+le bateau en me protégeant
+de la tempête[SPED=2]...[SPED=-1][ENDN][STRT=154,3][TAIL=UPR][ZDNE] :
+(Branet n'est pas sa mère.[WAIT=10]
+Sa vraie mère[WAIT=10] est morte[SPED=2]...[SPED=-1])[ENDN][STRT=123,3][TAIL=UPR][ZDNE] :
+([DGGR] vient
+de perdre deux mères[SPED=2]...[SPED=-1])[ENDN][STRT=191,3][TAIL=UPL][DGGR] :
+Le mur des Invokations[SPED=2]...[SPED=-1]
+Je venais y prier tous les jours[SPED=2]...[SPED=-1][ENDN][STRT=59,1][TAIL=UPR]Toi aussi ?[ENDN][STRT=67,1][TAIL=UPL][WDTH=0,67,22,-1]Toi aussi, [EIKO] ?[ENDN][STRT=106,3][TAIL=UPL][DGGR] :
+Je suis heureuse
+de m’en souvenir[SPED=2]...[SPED=-1][ENDN][STRT=9,1][TAIL=UPR][WDTH=0,9,18,-1][DGGR] ![ENDN][STRT=130,1][TAIL=UPR]Bienvenue à la maison ![ENDN][STRT=43,1][TAIL=UPL]Merci[SPED=2]...[SPED=-1][ENDN][STRT=40,1][TAIL=UPR]Héhéhé[ENDN][STRT=116,1][TAIL=UPL]Qu’est-ce qu’il y a ?[ENDN][STRT=140,2][TAIL=UPR][EIKO] :
+Je suis plus toute seule ![ENDN][STRT=80,1][TAIL=UPR]C’est décidé ![ENDN][STRT=117,2][EIKO] :
+Je viens avec vous ![ENDN][STRT=205,3][EIKO] :
+J’avais promis à Grand-père, mais[SPED=2]...[SPED=-1]
+Je veux venir avec vous ![ENDN][STRT=229,3][EIKO] :
+Et puis Grand-père disait tout le temps :
+”Sois toujours franche !”[ENDN][STRT=120,3][DGGR] :
+Je ne sais pas ce qui
+va nous arriver, mais[ENDN][STRT=117,4][WDTH=0,80,16,-1][DGGR] :
+je veux faire ce que
+nous avions prévu
+de faire ici, [ZDNE] ![ENDN][STRT=59,2][WDTH=0,8,16,-1][ZDNE] :
+Moi aussi ![ENDN][STRT=109,2][ZDNE] :
+On va tous y aller ![ENDN][STRT=64,3][WDTH=0,8,22,-1,0,52,18,-1][EIKO] :
+[DGGR], tu pries
+avec moi ?![ENDN][STRT=67,1]Bien sûr[SPED=2]...[SPED=-1]!![ENDN][STRT=155,3][DGGR] :
+(Je ne sais toujours pas ce
+que je dois faire[SPED=2]...[SPED=-1])[ENDN][STRT=213,3][DGGR] :
+(Quand nous en aurons fini avec Kuja,
+je rentrerai à Alexandrie[SPED=2]...[SPED=-1])[ENDN][STRT=137,2][EIKO] :
+Au revoir, Grand-père ![ENDN][STRT=122,2][VIVI] :
+Tu viens avec nous ?![ENDN][STRT=96,3][EIKO] :
+Quoi ?!
+Ca te dérange ?![ENDN][STRT=104,3][VIVI] :
+Je...[SPED=2]...[SPED=-1]
+Non, pas du tout[SPED=2]...[SPED=-1][ENDN][STRT=101,2][EIKO] :
+Moug vient aussi ![ENDN][STRT=45,1]MOUUG ![ENDN][STRT=9,1][WDTH=0,9,22,-1][EIKO] ![ENDN][STRT=161,3]Moriçone :
+N’oubliez pas votre
+demeure de Madahine-salee.[ENDN][STRT=189,3]Moriçone :
+Ne vous souciez pas de nous.
+Et revenez quand il vous plaira[SPED=2]...[SPED=-1][ENDN][STRT=187,3]Moriçone :
+Les esprits du mur des
+Invokations vous accompagnent ![ENDN][STRT=155,3][ZDNE] :
+Quoi encore ?!
+Tu veux encore te battre ?[ENDN][STRT=196,3][TAIL=UPRF]Le Rouge :
+Le vainqueur vit, le vaincu meurt[SPED=2]...[SPED=-1]
+C’est la règle, tu dois l’accepter.[ENDN][STRT=147,3][TAIL=UPRF]Le Rouge :
+Je n’ai toujours pas
+compris ton geste d’hier ![ENDN][STRT=170,3][TAIL=UPRF]Le Rouge :
+Pourquoi tu ne m’as pas tué ?!
+Dis-le moi[SPED=2]...[SPED=-1]![ENDN][STRT=111,2][ZDNE] :
+Ca s’explique pas[SPED=2]...[SPED=-1][ENDN][STRT=142,3][ZDNE] :
+Tu regrettes tant que ça
+d’être toujours vivant ?[ENDN][STRT=177,3][TAIL=UPRF]Le Rouge :
+Je préfère mourir que de vivre
+sans savoir pourquoi[SPED=2]...[SPED=-1][ENDN][STRT=85,3][ZDNE] :
+T’as qu’à venir
+avec nous ![ENDN][STRT=15,1][WDTH=0,15,16,-1][NFOC][ZDNE] ?![TIME=30][STRT=39,1][OFFT=0,96,0][NFOC]Quoi ?![TIME=30][STRT=69,2][TAIL=UPRF]Le Rouge :
+Comment[SPED=2]...[SPED=-1]?![ENDN][STRT=120,3][ZDNE] :
+Peut-être que comme
+ça tu comprendras ![ENDN][STRT=118,3][ZDNE] :
+Et puis, ça nous fera
+un ennemi de moins ![ENDN][STRT=152,2][ZDNE] :
+Tu feras un allié de poids ![ENDN][STRT=133,3][TAIL=UPRF]Le Rouge :
+(Je n’arrive pas à
+deviner ses pensées[SPED=2]...[SPED=-1])[ENDN][STRT=174,2][ZDNE] :
+Hein ? T’as dit quelque chose ?[ENDN][STRT=146,3][TAIL=UPRF]Le Rouge :
+Bien[SPED=2]...[SPED=-1]
+Voyons quel homme tu es ![ENDN][STRT=113,3][TAIL=UPLF][ZDNE] :
+Au fait, on doit
+t’appeler comment ?[ENDN][STRT=118,2][TAIL=UPRF]Le Rouge :
+Comme vous voulez[SPED=2]...[SPED=-1][ENDN][STRT=190,3][TAIL=UPLF][ZDNE] :
+Comment Lamie t’a appelé déjà[SPED=2]...[SPED=-1]?
+”Le Rouquin”, c’est ça ?[ENDN][STRT=69,3][TAIL=UPRF][WDTH=0,63,23,-1]Le Rouge :
+On m’appelle
+[AMRT], Le Rouge.[ENDN][STRT=80,3][TAIL=UPLF][WDTH=0,9,23,-1][ZDNE] :
+On t’appellera
+[AMRT] ![ENDN][STRT=188,3][TAIL=UPLF][ZDNE] :
+On commence à être nombreux,
+il faut désigner les combattants ![ENDN][STRT=173,2][TAIL=UPLF][ZDNE] :
+C’est bon, ça se passera bien.[ENDN][STRT=127,2][TAIL=UPLF][ZDNE] :
+Faites-moi confiance ![ENDN][STRT=153,2][ZDNE] :
+Allez ! En route pour l’Ifa ![ENDN][STRT=175,3][TAIL=UPLF][OFFT=0,-96,0]Moriçone :
+Ce n’est pas grand chose, mais
+cela peut vous être utile.[ENDN][STRT=252,5][TAIL=UPLF][OFFT=0,-96,0]Moriçone :
+Je suis vraiment désolé mais nous
+ne sommes pas très riches et cela nous
+aiderait si vous aviez un peu d’argent
+ou quelque chose à nous donner en échange.[ENDN][STRT=137,5][TAIL=UPLF][OFFT=0,-96,0][PCHM=3,2][WDTH=1,141,-1,2,141,-1][IMME]Moriçone :
+Cela vous convient-il[SPED=2]...[SPED=-1]?
+[CHOO][MOVE=18,0]Acheter et Echanger.
+[MOVE=18,0]Réorganiser l’équipe.
+[MOVE=18,0]Annuler.[ENDN][STRT=35,1][TAIL=UPLF][OFFT=0,-96,0]Bien[SPED=2]...[SPED=-1][ENDN][STRT=136,3][TAIL=UPLF][OFFT=0,-96,0]Moriçone :
+Vous êtes sûr de ne pas
+en avoir l’usage[SPED=2]...[SPED=-1][ENDN][STRT=65,5][TAIL=UPLF][OFFT=0,-96,0][PCHM=3,2][WDTH=1,142,-1,2,141,-1][IMME]Moriçone :
+Bienvenue !
+[CHOO][MOVE=18,0]Acheter ou Echanger.
+[MOVE=18,0]Réorganiser l’équipe.
+[MOVE=18,0]Annuler.[ENDN][STRT=103,1]Tiens, un graffiti ![ENDN][STRT=62,3][WDTH=0,34,22,-1][CENT=34,22][EIKO] 3 ans
+[CENT=62]Moug 3 ans
+[CENT=42]Pareil ![ENDN][STRT=220,5][MPOS=80,20][WDTH=0,98,64,6,64,7,-1][IMME]Alors[SPED=2]...[SPED=-1] On est combien, coubo ?
+[MOVE=18,0][MOVE=18,0][NUMB=6][NUMB=7] Personnes
+[DBTN=UP][MOBI=276][DBTN=DOWN][MOBI=275] : Modifie le nombre de personnes.
+[DBTN=LEFT][MOBI=267][DBTN=RIGHT][MOBI=269] : Passe des unités aux dizaines.
+[CBTN=CROSS][MOBI=260] : Confirmer[MOVE=18,0][CBTN=CIRCLE][MOBI=261] : Redemander[SIGL=1][TIME=-1][STRT=0,1][MPOS=116,34][NANI][WDTH=0,0,64,6,-1][IMME][B880E0][HSHD][NUMB=6][TIME=-1][STRT=0,1][MPOS=123,34][NANI][WDTH=0,0,64,7,-1][IMME][B880E0][HSHD][NUMB=7][TIME=-1][STRT=255,4]Chimomo :
+Cette Lamie était épuisée, nous l’avons aidée
+et depuis elle s’est installée ici. Je pense
+qu’elle ne fera plus rien de mal[SPED=2]...[SPED=-1][ENDN]
